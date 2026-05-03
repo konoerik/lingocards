@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" content="#1a3a6b" />
+  <title>Μαθαίνω</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <select id="language-select" aria-label="Select language">
+        <option value="greek">🇬🇷 Ελληνικά</option>
+        <option value="spanish" disabled>🇪🇸 Español</option>
+      </select>
+    </div>
+    <div class="topbar-right">
+      <button id="shuffle-btn" class="icon-btn" aria-label="Shuffle cards" aria-pressed="false">🔀</button>
+      <button id="settings-btn" class="icon-btn" aria-label="Settings">⚙️</button>
+    </div>
+  </header>
+
+  <!-- Category tabs -->
+  <nav class="category-tabs" id="category-tabs" role="tablist" aria-label="Categories">
+    <!-- Populated by app.js -->
+  </nav>
+
+  <!-- Main content -->
+  <main class="main">
+
+    <!-- Flashcard -->
+    <div class="card-wrapper">
+      <div class="card" id="card">
+        <button class="audio-btn" id="audio-btn" aria-label="Play pronunciation">🔊</button>
+        <div class="card-image-wrap" id="card-image-wrap">
+          <img class="card-image" id="card-image" src="" alt="" />
+          <span class="card-emoji" id="card-emoji" aria-hidden="true"></span>
+        </div>
+        <div class="card-word" id="card-word" lang="el"></div>
+        <div class="card-romanized" id="card-romanized"></div>
+        <div class="card-english" id="card-english"></div>
+      </div>
+    </div>
+
+    <!-- Progress -->
+    <div class="progress-wrap" aria-label="Progress">
+      <div class="progress-bar" id="progress-bar"></div>
+      <span class="progress-label" id="progress-label"></span>
+    </div>
+
+    <!-- Navigation arrows -->
+    <div class="nav-btns">
+      <button class="nav-btn" id="btn-prev" aria-label="Previous card">&#8592;</button>
+      <button class="nav-btn" id="btn-next" aria-label="Next card">&#8594;</button>
+    </div>
+
+  </main>
+
+  <!-- Settings overlay -->
+  <div class="settings-overlay hidden" id="settings-overlay" role="dialog" aria-modal="true" aria-label="Settings">
+    <div class="settings-panel">
+      <div class="settings-title">Settings</div>
+
+      <label class="settings-row">
+        <span>Auto-play audio</span>
+        <input type="checkbox" id="setting-autoplay" checked />
+      </label>
+
+      <button class="settings-close" id="settings-close">Close</button>
+    </div>
+  </div>
+
+  <script src="src/app.js"></script>
+</body>
+</html>
