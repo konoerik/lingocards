@@ -24,6 +24,9 @@ const CATEGORY_META = {
   shapes:      { label: 'Shapes',       emoji: '🔷' },
   weather:     { label: 'Weather',      emoji: '🌤️' },
   alphabet:    { label: 'Alphabet',     emoji: 'Αα' },
+  music:       { label: 'Music',        emoji: '🎵' },
+  verbs:       { label: 'Verbs',        emoji: '🏃' },
+  greetings:   { label: 'Greetings',    emoji: '👋' },
 };
 
 // ── State ──────────────────────────────────────────────────────────────────
@@ -35,7 +38,7 @@ let position  = 0;        // index into queue
 let language  = 'greek';
 let category  = 'all';
 let shuffled  = false;
-let settings  = { autoplay: true };
+let settings  = { autoplay: true, enabledCategories: null };
 let currentAudio = null;
 
 // Swipe tracking
@@ -57,17 +60,21 @@ const elCardColorSwatch = document.getElementById('card-color-swatch');
 const elCardEmoji       = document.getElementById('card-emoji');
 const elCardWord        = document.getElementById('card-word');
 const elCardRomanized   = document.getElementById('card-romanized');
-const elCardEnglish     = document.getElementById('card-english');
+const elCardTranslation = document.getElementById('card-translation');
 const elAudioBtn        = document.getElementById('audio-btn');
 const elProgressBar     = document.getElementById('progress-bar');
 const elProgressLabel   = document.getElementById('progress-label');
 const elBtnPrev         = document.getElementById('btn-prev');
 const elBtnNext         = document.getElementById('btn-next');
 const elShuffleBtn      = document.getElementById('shuffle-btn');
-const elSettingsBtn     = document.getElementById('settings-btn');
-const elSettingsOverlay = document.getElementById('settings-overlay');
-const elSettingAutoplay = document.getElementById('setting-autoplay');
-const elSettingsClose   = document.getElementById('settings-close');
+const elSettingsBtn          = document.getElementById('settings-btn');
+const elSettingsOverlay      = document.getElementById('settings-overlay');
+const elSettingAutoplay      = document.getElementById('setting-autoplay');
+const elSettingsClose        = document.getElementById('settings-close');
+const elSettingsCategoryList = document.getElementById('settings-category-list');
+const elSettingsDone         = document.getElementById('settings-done');
+const elSettingsSelectAll    = document.getElementById('settings-select-all');
+const elSettingsSelectNone   = document.getElementById('settings-select-none');
 
 // ── Bootstrap ──────────────────────────────────────────────────────────────
 
@@ -109,9 +116,15 @@ function switchCategory(cat) {
 
 // ── Deck & queue ───────────────────────────────────────────────────────────
 
-function buildDeck() {
+function getActiveCards() {
   const all = allDecks[language] || [];
-  deck = category === 'all' ? all : all.filter(c => c.category === category);
+  const enabled = settings.enabledCategories;
+  return enabled ? all.filter(c => enabled.includes(c.category)) : all;
+}
+
+function buildDeck() {
+  const active = getActiveCards();
+  deck = category === 'all' ? active : active.filter(c => c.category === category);
 }
 
 function buildQueue(keepPosition = false) {
@@ -152,7 +165,7 @@ function renderCard(direction = 'next') {
   } else if (card.image) {
     elCardImageWrap.classList.add('has-image');
     elCardImage.src = card.image;
-    elCardImage.alt = card.english;
+    elCardImage.alt = card.translation;
   } else if (card.numeral) {
     elCardEmoji.textContent = card.numeral;
     elCardEmoji.className = 'card-emoji letter number';
@@ -163,7 +176,7 @@ function renderCard(direction = 'next') {
 
   elCardWord.textContent = card[language] || card.greek;
   elCardRomanized.textContent = card.romanized || '';
-  elCardEnglish.textContent = card.english;
+  elCardTranslation.textContent = card.translation;
 
   // Progress
   const pct = queue.length > 1
@@ -207,7 +220,7 @@ function toggleShuffle() {
 function renderCategoryTabs() {
   elCategoryTabs.innerHTML = '';
 
-  const categories = ['all', ...new Set((allDecks[language] || []).map(c => c.category))];
+  const categories = ['all', ...new Set(getActiveCards().map(c => c.category))];
 
   categories.forEach(cat => {
     const meta = CATEGORY_META[cat];
@@ -215,9 +228,11 @@ function renderCategoryTabs() {
     btn.className = 'tab-btn';
     btn.setAttribute('role', 'tab');
     btn.dataset.category = cat;
-    btn.textContent = cat === 'all'
-      ? '⭐ All'
-      : (meta ? `${meta.emoji} ${meta.label}` : cat);
+    const emoji = cat === 'all' ? '⭐' : (meta ? meta.emoji : '');
+    const label = cat === 'all' ? 'All' : (meta ? meta.label : cat);
+    const labelClass = cat === 'all' ? 'tab-label tab-label--always' : 'tab-label';
+    btn.innerHTML = `<span class="tab-emoji">${emoji}</span><span class="${labelClass}">${label}</span>`;
+    btn.setAttribute('title', label);
     btn.setAttribute('aria-selected', cat === category ? 'true' : 'false');
     btn.addEventListener('click', () => switchCategory(cat));
     elCategoryTabs.appendChild(btn);
@@ -265,9 +280,56 @@ function handleSettingsTap() {
   }
 }
 
+function updateDoneBtn() {
+  const anyChecked = [...elSettingsCategoryList.querySelectorAll('input[type="checkbox"]')]
+    .some(cb => cb.checked);
+  elSettingsDone.disabled = !anyChecked;
+}
+
 function openSettings() {
+  const all = allDecks[language] || [];
+  const availableCats = [...new Set(all.map(c => c.category))];
+  const enabled = settings.enabledCategories ?? availableCats;
+
+  elSettingsCategoryList.innerHTML = '';
+  availableCats.forEach(cat => {
+    const meta = CATEGORY_META[cat];
+    const row = document.createElement('label');
+    row.className = 'settings-category-row';
+    row.innerHTML = `
+      <span class="settings-cat-info">
+        <span class="settings-cat-emoji">${meta ? meta.emoji : ''}</span>
+        <span>${meta ? meta.label : cat}</span>
+      </span>
+      <input type="checkbox" data-cat="${cat}" ${enabled.includes(cat) ? 'checked' : ''} />`;
+    elSettingsCategoryList.appendChild(row);
+  });
+
+  elSettingsCategoryList.addEventListener('change', updateDoneBtn);
+  updateDoneBtn();
+
   elSettingAutoplay.checked = settings.autoplay;
   elSettingsOverlay.classList.remove('hidden');
+}
+
+function applySettings() {
+  const all = allDecks[language] || [];
+  const availableCats = [...new Set(all.map(c => c.category))];
+  const checked = [...elSettingsCategoryList.querySelectorAll('input[type="checkbox"]')]
+    .filter(cb => cb.checked)
+    .map(cb => cb.dataset.cat);
+
+  settings.enabledCategories = checked.length === availableCats.length ? null : checked;
+  saveSettings();
+
+  if (settings.enabledCategories && !settings.enabledCategories.includes(category)) {
+    category = 'all';
+  }
+
+  buildDeck();
+  renderCategoryTabs();
+  buildQueue();
+  renderCard();
 }
 
 function closeSettings() {
@@ -330,8 +392,14 @@ function attachListeners() {
   });
 
   elSettingsClose.addEventListener('click', closeSettings);
-  elSettingsOverlay.addEventListener('click', e => {
-    if (e.target === elSettingsOverlay) closeSettings();
+  elSettingsDone.addEventListener('click', () => { applySettings(); closeSettings(); });
+  elSettingsSelectAll.addEventListener('click', () => {
+    elSettingsCategoryList.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = true);
+    updateDoneBtn();
+  });
+  elSettingsSelectNone.addEventListener('click', () => {
+    elSettingsCategoryList.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+    updateDoneBtn();
   });
 }
 

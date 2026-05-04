@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Μαθαίνω ("I learn") is a Progressive Web App (PWA) flashcard app for a young child (age 3.5) learning Greek. Cards show an image or emoji, the Greek word, romanized pronunciation, and English translation. A simple Leitner spaced-repetition system tracks progress per session. Greek is the primary deck; the architecture supports adding other languages (Spanish, etc.) via `data/words.json` without code changes.
+Μαθαίνω ("I learn") is a Progressive Web App (PWA) flashcard app for young children learning a new language. Cards show an image or emoji, the target-language word, a romanized pronunciation guide, and a translation in the learner's base language. Greek is the primary deck; the architecture supports adding other languages (Spanish, etc.) via `data/words.json` without code changes.
 
 ## Tech Stack
 - **Languages:** HTML, CSS, vanilla JavaScript

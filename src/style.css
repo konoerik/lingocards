@@ -22,6 +22,7 @@ html, body {
   color: var(--text);
   -webkit-tap-highlight-color: transparent;
   overscroll-behavior: none;
+  touch-action: manipulation;
 }
 
 body {
@@ -105,16 +106,22 @@ body {
   color: rgba(255,255,255,.8);
   border: none;
   border-radius: 40px;
-  padding: 10px 18px;
+  padding: 8px 12px;
   font-family: 'Nunito', sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 700;
   white-space: nowrap;
   cursor: pointer;
   min-height: var(--tap-min);
+  display: flex;
+  align-items: center;
+  gap: 5px;
   transition: background 0.15s, color 0.15s;
   flex-shrink: 0;
 }
+
+.tab-label { display: none; }
+.tab-label--always { display: inline; }
 
 .tab-btn[aria-selected="true"] {
   background: var(--tab-active);
@@ -267,7 +274,7 @@ body {
   text-align: center;
 }
 
-.card-english {
+.card-translation {
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--muted);
@@ -347,42 +354,72 @@ body {
   pointer-events: none;
 }
 
-/* ── Settings overlay ── */
+/* ── Settings overlay (parent console) ── */
 .settings-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,.45);
+  background: rgba(0,0,0,.5);
   display: flex;
-  align-items: flex-end;
+  align-items: stretch;
   justify-content: center;
   z-index: 100;
-  padding-bottom: env(safe-area-inset-bottom);
 }
 
 .settings-panel {
   background: #fff;
-  border-radius: var(--radius) var(--radius) 0 0;
-  padding: 28px 24px 32px;
   width: 100%;
-  max-width: 480px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  overflow: hidden;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.settings-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px 0 20px;
+  height: 64px;
+  background: var(--navy);
+  flex-shrink: 0;
 }
 
 .settings-title {
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: 900;
+  color: #fff;
 }
+
+.settings-x {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  min-width: var(--tap-min);
+  min-height: var(--tap-min);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.15s;
+}
+
+.settings-x:active { background: rgba(255,255,255,.15); }
 
 .settings-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 20px;
   font-size: 1rem;
   font-weight: 700;
   min-height: var(--tap-min);
   cursor: pointer;
+  flex-shrink: 0;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .settings-row input[type="checkbox"] {
@@ -391,22 +428,111 @@ body {
   cursor: pointer;
 }
 
-.settings-close {
+.settings-section-label {
+  padding: 14px 20px 6px;
+  font-size: 0.75rem;
+  font-weight: 900;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  flex-shrink: 0;
+}
+
+.settings-category-list {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.settings-category-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  min-height: var(--tap-min);
+  cursor: pointer;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.settings-category-row:active { background: #f8f8f8; }
+
+.settings-cat-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.settings-cat-emoji { font-size: 1.4rem; }
+
+.settings-category-row input[type="checkbox"] {
+  width: 44px;
+  height: 28px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.settings-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-top: 1px solid #f0f0f0;
+  flex-shrink: 0;
+}
+
+.settings-chip-btn {
+  background: #f0f0f0;
+  color: var(--text);
+  border: none;
+  border-radius: 40px;
+  padding: 10px 18px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  min-height: 44px;
+  transition: background 0.15s;
+}
+
+.settings-chip-btn:active { background: #ddd; }
+
+.settings-done-btn {
+  margin-left: auto;
   background: var(--navy);
   color: #fff;
   border: none;
   border-radius: 12px;
-  padding: 16px;
+  padding: 12px 28px;
   font-family: 'Nunito', sans-serif;
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
-  min-height: var(--tap-min);
-  margin-top: 8px;
+  min-height: 44px;
+  transition: background 0.15s;
 }
+
+.settings-done-btn:active { background: var(--navy-light); }
+.settings-done-btn:disabled { opacity: 0.35; pointer-events: none; }
 
 /* ── Responsive — larger screens ── */
 @media (min-width: 520px) {
   .card-word { font-size: 60px; }
   .card-image-wrap { width: 200px; height: 200px; }
+}
+
+@media (min-width: 700px) {
+  .tab-label { display: inline; }
+  .tab-btn { padding: 10px 18px; font-size: 0.95rem; }
+
+  .card-wrapper { max-width: 600px; }
+  .card-image-wrap { width: 260px; height: 260px; }
+  .card-word { font-size: 72px; }
+  .card-romanized { font-size: 1.4rem; }
+  .card-translation { font-size: 1.25rem; }
+
+  .progress-wrap { max-width: 600px; }
+  .nav-btns { max-width: 600px; }
+  .nav-btn { font-size: 2.4rem; min-height: 80px; }
 }
