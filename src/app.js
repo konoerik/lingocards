@@ -5,13 +5,25 @@
 const SETTINGS_KEY = 'mathaino_settings';
 
 const CATEGORY_META = {
-  dinosaurs: { label: 'Dinosaurs', emoji: '🦕' },
-  animals:   { label: 'Animals',   emoji: '🐘' },
-  colors:    { label: 'Colors',    emoji: '🌈' },
-  numbers:   { label: 'Numbers',   emoji: '🔢' },
-  food:      { label: 'Food',      emoji: '🍎' },
-  vehicles:  { label: 'Vehicles',  emoji: '🚛' },
-  alphabet:  { label: 'Alphabet',  emoji: 'Αα' },
+  dinosaurs:   { label: 'Dinosaurs',    emoji: '🦕' },
+  animals:     { label: 'Animals',      emoji: '🐘' },
+  colors:      { label: 'Colors',       emoji: '🌈' },
+  numbers:     { label: 'Numbers',      emoji: '🔢' },
+  fruits:      { label: 'Fruits',       emoji: '🍓' },
+  food:        { label: 'Food',         emoji: '🍕' },
+  vehicles:    { label: 'Vehicles',     emoji: '🚛' },
+  kitchen:     { label: 'Kitchen',      emoji: '🍳' },
+  living_room: { label: 'Living Room',  emoji: '🛋️' },
+  bedroom:     { label: 'Bedroom',      emoji: '🛏️' },
+  bathroom:    { label: 'Bathroom',     emoji: '🚿' },
+  clothes:     { label: 'Clothes',      emoji: '👕' },
+  holidays:    { label: 'Holidays',     emoji: '🎄' },
+  body_parts:  { label: 'Body Parts',   emoji: '🫀' },
+  family:      { label: 'Family',       emoji: '👨‍👩‍👧‍👦' },
+  nature:      { label: 'Nature',       emoji: '🌳' },
+  shapes:      { label: 'Shapes',       emoji: '🔷' },
+  weather:     { label: 'Weather',      emoji: '🌤️' },
+  alphabet:    { label: 'Alphabet',     emoji: 'Αα' },
 };
 
 // ── State ──────────────────────────────────────────────────────────────────
@@ -41,6 +53,7 @@ const elCategoryTabs    = document.getElementById('category-tabs');
 const elCard            = document.getElementById('card');
 const elCardImageWrap   = document.getElementById('card-image-wrap');
 const elCardImage       = document.getElementById('card-image');
+const elCardColorSwatch = document.getElementById('card-color-swatch');
 const elCardEmoji       = document.getElementById('card-emoji');
 const elCardWord        = document.getElementById('card-word');
 const elCardRomanized   = document.getElementById('card-romanized');
@@ -130,15 +143,22 @@ function renderCard(direction = 'next') {
   void elCard.offsetHeight;
   if (direction === 'prev') elCard.classList.add('from-prev');
 
-  // Image vs emoji
-  if (card.image) {
+  // Image / color swatch / emoji
+  elCardImageWrap.classList.remove('has-image', 'has-swatch');
+  elCardColorSwatch.style.background = '';
+  if (card.color) {
+    elCardImageWrap.classList.add('has-swatch');
+    elCardColorSwatch.style.background = card.color;
+  } else if (card.image) {
     elCardImageWrap.classList.add('has-image');
     elCardImage.src = card.image;
     elCardImage.alt = card.english;
+  } else if (card.numeral) {
+    elCardEmoji.textContent = card.numeral;
+    elCardEmoji.className = 'card-emoji letter number';
   } else {
-    elCardImageWrap.classList.remove('has-image');
     elCardEmoji.textContent = card.emoji;
-    elCardEmoji.classList.toggle('letter', card.category === 'alphabet');
+    elCardEmoji.className = 'card-emoji' + (card.category === 'alphabet' ? ' letter' : '');
   }
 
   elCardWord.textContent = card[language] || card.greek;

@@ -201,11 +201,25 @@ body {
   height: 160px;
 }
 
+.card-image-wrap.has-image,
+.card-image-wrap.has-swatch {
+  background: #f7f7f7;
+  border-radius: 16px;
+  border: 2px solid #e8e8e8;
+  padding: 10px;
+}
+
+.card-image-wrap.has-swatch {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
 .card-image {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
 .card-emoji {
@@ -220,9 +234,23 @@ body {
   color: var(--navy);
 }
 
-/* Hide emoji when image is present */
-.card-image-wrap.has-image .card-emoji { display: none; }
-.card-image-wrap:not(.has-image) .card-image { display: none; }
+.card-emoji.number {
+  font-size: 120px;
+}
+
+.card-color-swatch {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* Visibility: show only the active visual element */
+.card-image-wrap.has-image .card-emoji  { display: none; }
+.card-image-wrap.has-image .card-color-swatch { display: none; }
+.card-image-wrap:not(.has-image) .card-image  { display: none; }
+.card-image-wrap.has-swatch .card-emoji { display: none; }
+.card-image-wrap.has-swatch .card-image { display: none; }
+.card-image-wrap:not(.has-swatch) .card-color-swatch { display: none; }
 
 /* Text */
 .card-word {

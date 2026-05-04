@@ -1,10 +1,14 @@
 # Plan
 
 ## Active
+- [ ] Verify all cards in words.json are correct (Greek spelling, romanization, English translation, category) — recurring task after any content addition
+- [ ] Review UI — layout, colors, typography, interaction feel; check on mobile and desktop
 
 ## Backlog
-- Source/generate card images (illustrations for dinosaurs/numbers/food/vehicles, photos for animals, SVG swatches for colors)
-- Run generate_audio.py with ElevenLabs API key to produce voice files
+- Generate images for new categories (fruits, food, kitchen, living_room, bedroom, bathroom, clothes, holidays, body_parts, family, nature, weather) — shapes may use CSS rendering instead
+- Add audio paths and run generate_audio.py for gr_059–gr_175
+- Decide on shapes category: CSS-rendered shapes (like colors) vs illustrations
+- Replace belly emoji 🫃 with something better
 - Deploy to GitHub Pages (create repo, push, enable Pages)
 - Add GitHub Actions workflow for auto-deploy on push to main
 
