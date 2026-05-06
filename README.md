@@ -40,6 +40,16 @@ Greek is the first deck (250 cards). The architecture supports adding additional
 | Bedroom | 6 |
 | Dinosaurs | 5 |
 
+## Installing on mobile
+
+The app will show a small banner on first visit prompting installation.
+
+**Android (Chrome):** Tap **Install** in the banner, or use the browser menu → *Add to Home Screen*. The app installs with a home screen icon and runs full-screen, offline-capable.
+
+**iOS (Safari):** Tap the **Share** button (box with arrow), then *Add to Home Screen*. Once installed it launches full-screen like a native app.
+
+Once installed, the app works offline after the first visit. Updates are delivered silently in the background — close and reopen the app to pick them up.
+
 ## Tech stack
 
 - Vanilla HTML / CSS / JavaScript — no build step, no framework

@@ -100,6 +100,7 @@ async function init() {
     switchCategory(pick.category);
   }
   attachListeners();
+  initInstallPrompt();
 }
 
 // ── Language & category ────────────────────────────────────────────────────
@@ -429,6 +430,51 @@ function attachListeners() {
   elSettingsSelectNone.addEventListener('click', () => {
     elSettingsCategoryList.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
     updateDoneBtn();
+  });
+}
+
+// ── Install prompt ─────────────────────────────────────────────────────────
+
+function initInstallPrompt() {
+  const isInstalled = window.matchMedia('(display-mode: standalone)').matches
+    || window.matchMedia('(display-mode: fullscreen)').matches
+    || navigator.standalone === true;
+  if (isInstalled || localStorage.getItem('install-dismissed')) return;
+
+  const banner   = document.getElementById('install-banner');
+  const msgEl    = document.getElementById('install-msg');
+  const installBtn = document.getElementById('install-btn');
+  const dismissBtn = document.getElementById('install-dismiss');
+
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+
+  if (isIOS) {
+    msgEl.textContent = "Tap the Share button then 'Add to Home Screen'";
+    installBtn.classList.add('hidden');
+    banner.classList.remove('hidden');
+  }
+
+  window.addEventListener('beforeinstallprompt', e => {
+    e.preventDefault();
+    const prompt = e;
+    msgEl.textContent = 'Install LingoCards for offline use';
+    banner.classList.remove('hidden');
+    installBtn.addEventListener('click', async () => {
+      prompt.prompt();
+      const { outcome } = await prompt.userChoice;
+      banner.classList.add('hidden');
+      if (outcome === 'accepted') localStorage.setItem('install-dismissed', '1');
+    }, { once: true });
+  });
+
+  window.addEventListener('appinstalled', () => {
+    banner.classList.add('hidden');
+    localStorage.setItem('install-dismissed', '1');
+  });
+
+  dismissBtn.addEventListener('click', () => {
+    banner.classList.add('hidden');
+    localStorage.setItem('install-dismissed', '1');
   });
 }
 
