@@ -204,7 +204,10 @@ function renderCard(direction = 'next') {
   }
 
   elAudioBtn.classList.toggle('hidden', !card.audio);
-  elCardWord.textContent = card[language] || card.greek;
+  const wordText = card[language] || card.greek;
+  elCardWord.textContent = wordText;
+  elCardWord.classList.toggle('word-long',      wordText.length >= 10 && wordText.length < 13);
+  elCardWord.classList.toggle('word-very-long', wordText.length >= 13);
   elCardRomanized.textContent = card.romanized || '';
   elCardTranslation.textContent = card.translation;
 
@@ -481,7 +484,7 @@ function initInstallPrompt() {
 // ── Service worker ─────────────────────────────────────────────────────────
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').catch(() => {});
+  navigator.serviceWorker.register('./sw.js').catch(() => {});
 }
 
 // ── Go ─────────────────────────────────────────────────────────────────────

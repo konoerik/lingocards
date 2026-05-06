@@ -32,7 +32,7 @@ OPENAI_URL     = 'https://api.openai.com/v1/images/generations'
 OPENAI_MODELS  = {'gpt-image-1', 'dall-e-3', 'dall-e-2'}
 
 # Categories that don't need generated images (handled by CSS or letter display)
-SKIP_CATEGORIES = {'alphabet', 'colors', 'numbers', 'shapes', 'greetings'}
+SKIP_CATEGORIES = {'alphabet', 'colors', 'numbers', 'shapes'}
 
 # Locked style applied to every prompt — tune here, nowhere else
 STYLE = (
@@ -264,8 +264,11 @@ def main():
 
             description = card.get('description', '')
 
-            name = word.lower().replace(' ', '_')
-            image_path = f'images/{category}/{name}.png'
+            if card.get('image'):
+                image_path = card['image']
+            else:
+                name = ''.join(c if c.isalnum() else '_' for c in word.lower()).strip('_')
+                image_path = f'images/{category}/{name}.png'
             out_file = ROOT / image_path
 
             if out_file.exists() and not args.force:

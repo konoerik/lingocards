@@ -46,6 +46,13 @@ flashcards/
 - **Service worker cache versioning** — `sw.js` uses a cache-first strategy with a named cache (`lingocards-v1`, etc.). A regular browser refresh serves all precached files (app.js, style.css, words.json) from cache — the network is never hit. To force users onto new files after a deploy, bump the cache name constant in `sw.js`; the old cache is then evicted on activation. Shift+Refresh bypasses the service worker entirely and is the easiest way to test changes locally. The `/prep` checklist includes a reminder to bump the version.
 - **Parent console (settings overlay)** — the gear icon is gated behind 5 taps to prevent accidental child access; opens a full-screen panel where parents enable/disable categories. Selection is stored in `settings.enabledCategories` (array of category keys, or `null` meaning all enabled) via `localStorage`. Both the category tab row and the "All" deck are filtered to only enabled categories. Done applies; ✕ discards. Done is disabled when no categories are checked.
 
+### ADR-1: Responsive images via separate offline resizer script
+**Date:** 2026-05-06
+**Context:** Images are currently generated at 512px and served at a single size. Mobile screens don't need 512px — the wasted bandwidth is significant for a PWA where offline caching is a goal.
+**Decision:** Add a standalone `scripts/resize_images.py` script (Pillow, already in the stack) that reads existing PNGs from `images/` and writes 512px and 256px derivatives alongside the 1024px originals. `app.js` is updated to use `srcset` so the browser picks the appropriate size. API generation (`generate_images.py`) is not modified — it remains the source-of-truth image producer at 1024px (gpt-image-1 default); resizing is a separate, offline, idempotent step.
+**Alternatives considered:** Generating multiple sizes at API call time (rejected — triples API cost and complicates the generation script); serving a single size for all screens (current state — acceptable short-term but wasteful on mobile); CSS `image-set()` (less browser support than `srcset`).
+**Consequences:** Adds `resize_images.py` to the scripts directory; `app.js` `<img>` tags gain `srcset` and `sizes` attributes; service worker cache size triples for images (250 cards × 3 sizes) — cache strategy should be reviewed at implementation time (lazy caching or user-initiated prefetch preferred over eager precache). Deferred until after Greek V1 sign-off.
+
 ## Detail
 
 ### Page structure

@@ -1,0 +1,46 @@
+{
+        "_description": "Linguistic notes, romanization conventions, and editorial decisions. Organized by language deck. Complements the per-card 'notes' field in words.json.",
+
+        "greek": {
+                "romanization": {
+                        "system": "Phonetic — reflects Modern Greek pronunciation, not letter-by-letter transliteration.",
+                        "conventions": [
+                                "χ → 'ch' (as in German 'Bach', not English 'church'). Readable stand-in for IPA /x/ or /ç/. Equivalent to 'kh' in stricter systems.",
+                                "μπ → 'b' (word-initial or mid-word). E.g. μπαλκόνι → balkóni, σαμπουάν → samboúan.",
+                                "ντ → 'd' (word-initial), 'nd' or 'd' (mid-word). E.g. ντομάτα → domáta.",
+                                "γκ → 'g'. E.g. αγκώνας → agónas.",
+                                "τσ → 'ts'. E.g. κάλτσες → káltses.",
+                                "τζ → 'dz'. E.g. πυτζάμες → pidzámes.",
+                                "υ → 'i'. Same phonetic value as η, ι, ει, οι in Modern Greek. E.g. τυρί → tirí.",
+                                "γ before front vowels (ε, η, ι, υ, ει, αι) → 'y'. E.g. γεια → yia, γελάω → yeláo, γενέθλια → yenéthlia.",
+                                "γι + vowel → 'y' + vowel (γι acts as a palatal glide). E.g. γιαούρτι → yaoúrti, κουκουβάγια → koukouváya.",
+                                "ει → 'i'. Same as η, ι, υ. E.g. κροκόδειλος → krokódilos.",
+                                "αι, αί → 'e'. Same as ε. E.g. μαχαίρι → machaéri.",
+                                "ου → 'ou'. E.g. ουρανός → ouranós.",
+                                "αυ → 'av' (before voiced sounds) or 'af' (before voiceless). E.g. αύριο → ávrio, αυτοκίνητο → aftokínito.",
+                                "ευ → 'ev' (before voiced) or 'ef' (before voiceless). E.g. ευχαριστώ → efcharistó.",
+                                "Stress marked with a single acute accent (´) on the stressed vowel only."
+                        ],
+                        "known_ambiguities": [
+                                "Ψυγείο (Fridge): romanized 'Psiyío' — the double-i results from υ=i + γεί=yi. Unusual visually but phonetically accurate."
+                        ],
+                        "resolved": [
+                                "γεια σου (Hello): 'Yia sou' chosen over 'Yeiá sou'. Letter-preserving Greeklish style (Yeiá) is not useful for pronunciation learning."
+                        ]
+                },
+                "spelling": {
+                        "policy": "Standard dictionary forms used throughout, not colloquial spoken variants.",
+                        "examples": [
+                                "Αδελφή / Αδελφός (not spoken Αδερφή / Αδερφός)",
+                                "Επτά (not spoken Εφτά) — note: gr_025 retains Εφτά as a recognized variant; see card notes",
+                                "Greek is rich in such pairs; the dictionary form is used for consistency and literacy alignment"
+                        ]
+                },
+                "translation": {
+                        "notes": [
+                                "Παρακαλώ (gr_245) means both 'Please' and 'You're welcome'. Translated as 'Please' on the card; dual meaning noted in card notes.",
+                                "Γιορτή (gr_128) translated as 'Name Day' — reflects dominant cultural usage rather than literal meaning ('celebration/holiday/feast')."
+                        ]
+                }
+        }
+}

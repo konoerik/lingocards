@@ -1,8 +1,9 @@
 # Plan
 
 ## Active
-- [ ] Verify all cards in words.json are correct (Greek spelling, romanization, translation, category) — recurring task after any content addition; priority: new animals, food, verbs, greetings (gr_188–gr_250)
+- [ ] Verify all cards in words.json are correct (Greek spelling, romanization, translation, category) — recurring task after any content addition; priority: new animals, food, verbs, greetings (gr_188–gr_261)
 - [ ] Review UI — layout, colors, typography, interaction feel; check on mobile and desktop
+- [ ] Review alphabet cards (gr_035–gr_058) — currently shows uppercase letter as the icon and "Α α" as the translation; decide whether to split into separate upper/lowercase cards, show both forms in the visual, or change the translation field
 
 ## Backlog
 - Add audio paths and run generate_audio.py for gr_059–gr_250
@@ -15,6 +16,7 @@
 - Define and document an image generation style guide — prompt template is now consistent but not yet written up formally
 
 ### Optimization
+- Image prefetch: prefetch active category images on load (A), then add explicit "Download for offline" to parent settings once audio is ready (C) — pending more testing on real mobile connection
 - Convert generated PNGs to WebP at quality 85 for serving; images are already generated at 512px
 - Self-host Nunito font to enable true offline-from-first-launch (low priority — current CDN load is only a first-visit concern)
 - Audit service worker cache strategy once audio is added — 175 cards × 3 voices could be ~50MB if cached eagerly; consider lazy-only or user-initiated prefetch

@@ -329,6 +329,9 @@ body {
   text-align: center;
 }
 
+.card-word.word-long      { font-size: 40px; }
+.card-word.word-very-long { font-size: 32px; }
+
 .card-romanized {
   font-size: 1.2rem;
   font-style: italic;
@@ -620,7 +623,9 @@ body {
 
 /* ── Responsive — larger screens ── */
 @media (min-width: 520px) {
-  .card-word { font-size: 60px; }
+  .card-word            { font-size: 60px; }
+  .card-word.word-long      { font-size: 46px; }
+  .card-word.word-very-long { font-size: 36px; }
   .card-image-wrap { width: 200px; height: 200px; }
 }
 

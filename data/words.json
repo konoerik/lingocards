@@ -6,7 +6,8 @@
                 "romanized": "Pronunciation guide in Latin characters",
                 "translation": "Translation in the learner's base language (e.g. English for an English speaker)",
                 "emoji": "Fallback visual — always shown if image is missing",
-                "image": "Optional. Relative path to image file, e.g. images/animals/elephant.jpg"
+                "image": "Optional. Relative path to image file, e.g. images/animals/elephant.jpg",
+                "notes": "Optional. Linguistic annotation, variant forms, or editorial decision notes."
         },
         "decks": {
                 "greek": [
@@ -24,7 +25,7 @@
                                 "id": "gr_002",
                                 "category": "dinosaurs",
                                 "greek": "Τυραννόσαυρος",
-                                "romanized": "Tyrannósavros",
+                                "romanized": "Tirannósavros",
                                 "emoji": "🦖",
                                 "translation": "Tyrannosaurus",
                                 "image": "images/dinosaurs/tyrannosaurus.png",
@@ -54,7 +55,7 @@
                                 "id": "gr_005",
                                 "category": "dinosaurs",
                                 "greek": "Πτερόδακτυλος",
-                                "romanized": "Pteródaktylos",
+                                "romanized": "Pteródaktilos",
                                 "emoji": "🦅",
                                 "translation": "Pterodactyl",
                                 "description": "a pterodactyl with large wings spread wide, side view",
@@ -114,7 +115,7 @@
                                 "id": "gr_011",
                                 "category": "animals",
                                 "greek": "Σκύλος",
-                                "romanized": "Skýlos",
+                                "romanized": "Skílos",
                                 "emoji": "🐶",
                                 "translation": "Dog",
                                 "description": "a golden labrador sitting, full body, front-facing, tongue out",
@@ -198,7 +199,7 @@
                                 "id": "gr_020",
                                 "category": "numbers",
                                 "greek": "Δύο",
-                                "romanized": "Dýo",
+                                "romanized": "Dío",
                                 "emoji": "2️⃣",
                                 "numeral": "2",
                                 "translation": "Two"
@@ -246,7 +247,8 @@
                                 "romanized": "Eftá",
                                 "emoji": "7️⃣",
                                 "numeral": "7",
-                                "translation": "Seven"
+                                "translation": "Seven",
+                                "notes": "Εφτά is a common colloquial variant; standard dictionary form is Επτά."
                         },
                         {
                                 "id": "gr_026",
@@ -355,7 +357,7 @@
                                 "id": "gr_037",
                                 "category": "alphabet",
                                 "greek": "Γ γ",
-                                "romanized": "Gáma",
+                                "romanized": "Gámma",
                                 "emoji": "Γ",
                                 "translation": "Gamma"
                         },
@@ -661,7 +663,7 @@
                                 "id": "gr_072",
                                 "category": "food",
                                 "greek": "Τυρί",
-                                "romanized": "Tyrí",
+                                "romanized": "Tirí",
                                 "emoji": "🧀",
                                 "translation": "Cheese",
                                 "description": "a triangular wedge of yellow cheese with holes",
@@ -761,7 +763,7 @@
                                 "id": "gr_082",
                                 "category": "kitchen",
                                 "greek": "Μαχαίρι",
-                                "romanized": "Machaíri",
+                                "romanized": "Machaéri",
                                 "emoji": "🔪",
                                 "translation": "Knife",
                                 "description": "a kitchen knife with a silver blade and wooden handle, side view",
@@ -791,7 +793,7 @@
                                 "id": "gr_085",
                                 "category": "kitchen",
                                 "greek": "Ψυγείο",
-                                "romanized": "Psygeío",
+                                "romanized": "Psiyío",
                                 "emoji": "🧊",
                                 "translation": "Fridge",
                                 "description": "a white refrigerator with two doors, front view",
@@ -861,7 +863,7 @@
                                 "id": "gr_092",
                                 "category": "living_room",
                                 "greek": "Λάμπα",
-                                "romanized": "Lámpa",
+                                "romanized": "Lámba",
                                 "emoji": "💡",
                                 "translation": "Lamp",
                                 "description": "a floor lamp with a round shade, side view",
@@ -871,7 +873,7 @@
                                 "id": "gr_093",
                                 "category": "living_room",
                                 "greek": "Παράθυρο",
-                                "romanized": "Paráthyro",
+                                "romanized": "Paráthiro",
                                 "emoji": "🪟",
                                 "translation": "Window",
                                 "description": "a window with four panes and blue curtains on each side",
@@ -961,7 +963,7 @@
                                 "id": "gr_102",
                                 "category": "bedroom",
                                 "greek": "Πυτζάμες",
-                                "romanized": "Pytzámes",
+                                "romanized": "Pidzámes",
                                 "emoji": "👕",
                                 "translation": "Pajamas",
                                 "description": "a pair of pajamas laid flat, top and bottoms",
@@ -1041,7 +1043,7 @@
                                 "id": "gr_110",
                                 "category": "bathroom",
                                 "greek": "Σαμπουάν",
-                                "romanized": "Sampoúan",
+                                "romanized": "Samboúan",
                                 "emoji": "🧴",
                                 "translation": "Shampoo",
                                 "description": "a tall white shampoo bottle with a blue flip cap and a simple label",
@@ -1101,7 +1103,7 @@
                                 "id": "gr_116",
                                 "category": "clothes",
                                 "greek": "Κάλτσες",
-                                "romanized": "Káltes",
+                                "romanized": "Káltses",
                                 "emoji": "🧦",
                                 "translation": "Socks",
                                 "description": "a pair of striped socks, side by side",
@@ -1191,7 +1193,7 @@
                                 "id": "gr_125",
                                 "category": "holidays",
                                 "greek": "Γενέθλια",
-                                "romanized": "Genéthlia",
+                                "romanized": "Yenéthlia",
                                 "emoji": "🎂",
                                 "translation": "Birthday",
                                 "description": "a birthday cake with lit candles",
@@ -1201,7 +1203,7 @@
                                 "id": "gr_126",
                                 "category": "holidays",
                                 "greek": "Πρωτοχρονιά",
-                                "romanized": "Protochroníá",
+                                "romanized": "Protochroniá",
                                 "emoji": "🎆",
                                 "translation": "New Year",
                                 "description": "colorful fireworks bursting in a starburst pattern",
@@ -1211,7 +1213,7 @@
                                 "id": "gr_127",
                                 "category": "holidays",
                                 "greek": "Αποκριές",
-                                "romanized": "Apokrés",
+                                "romanized": "Apokriés",
                                 "emoji": "🎭",
                                 "translation": "Carnival",
                                 "description": "a colorful carnival mask with feathers",
@@ -1225,7 +1227,8 @@
                                 "emoji": "🎉",
                                 "translation": "Name Day",
                                 "description": "a bouquet of flowers tied with a ribbon",
-                                "image": "images/holidays/name_day.png"
+                                "image": "images/holidays/name_day.png",
+                                "notes": "Γιορτή means \"celebration/holiday/feast.\" \"Name Day\" reflects the dominant cultural usage — in everyday Greek, η γιορτή μου = my name day."
                         },
                         {
                                 "id": "gr_129",
@@ -1390,22 +1393,24 @@
                         {
                                 "id": "gr_145",
                                 "category": "family",
-                                "greek": "Αδερφή",
-                                "romanized": "Aderfí",
+                                "greek": "Αδελφή",
+                                "romanized": "Adelfí",
                                 "emoji": "👧",
                                 "translation": "Sister",
                                 "description": "a friendly cartoon young girl, full body, front-facing, pigtails, smiling",
-                                "image": "images/family/sister.png"
+                                "image": "images/family/sister.png",
+                                "notes": "Standard spelling Αδελφή used; colloquial spoken form is Αδερφή. Greek has many such pairs (cf. Εφτά/Επτά)."
                         },
                         {
                                 "id": "gr_146",
                                 "category": "family",
-                                "greek": "Αδερφός",
-                                "romanized": "Aderfós",
+                                "greek": "Αδελφός",
+                                "romanized": "Adelfós",
                                 "emoji": "👦",
                                 "translation": "Brother",
                                 "description": "a friendly cartoon young boy, full body, front-facing, short hair, smiling",
-                                "image": "images/family/brother.png"
+                                "image": "images/family/brother.png",
+                                "notes": "Standard spelling Αδελφός used; colloquial spoken form is Αδερφός."
                         },
                         {
                                 "id": "gr_147",
@@ -1441,7 +1446,7 @@
                                 "id": "gr_150",
                                 "category": "family",
                                 "greek": "Οικογένεια",
-                                "romanized": "Ikogénia",
+                                "romanized": "Ikoyénia",
                                 "emoji": "👨‍👩‍👧‍👦",
                                 "translation": "Family",
                                 "description": "two parents and two children standing together smiling",
@@ -1727,7 +1732,7 @@
                                 "id": "gr_180",
                                 "category": "music",
                                 "greek": "Τύμπανο",
-                                "romanized": "Týmpano",
+                                "romanized": "Tímbano",
                                 "translation": "Drum",
                                 "emoji": "🥁",
                                 "description": "a red snare drum with drumsticks resting on top",
@@ -1807,7 +1812,7 @@
                                 "id": "gr_188",
                                 "category": "animals",
                                 "greek": "Αγελάδα",
-                                "romanized": "Ageláda",
+                                "romanized": "Ayeláda",
                                 "translation": "Cow",
                                 "emoji": "🐄",
                                 "subcategory": "farm",
@@ -1884,12 +1889,13 @@
                                 "id": "gr_195",
                                 "category": "animals",
                                 "greek": "Μαϊμού",
-                                "romanized": "Maimoú",
+                                "romanized": "Maïmoú",
                                 "translation": "Monkey",
                                 "emoji": "🐒",
                                 "subcategory": "wild",
                                 "description": "a brown monkey sitting, full body, front view, long tail curling beside it",
-                                "image": "images/animals/monkey.png"
+                                "image": "images/animals/monkey.png",
+                                "notes": "ϊ (iota with diaeresis) signals that α and ι are separate syllables: ma-ï-MOU, not mai-MOU."
                         },
                         {
                                 "id": "gr_196",
@@ -1917,7 +1923,7 @@
                                 "id": "gr_198",
                                 "category": "animals",
                                 "greek": "Λύκος",
-                                "romanized": "Lýkos",
+                                "romanized": "Líkos",
                                 "translation": "Wolf",
                                 "emoji": "🐺",
                                 "subcategory": "wild",
@@ -1928,7 +1934,7 @@
                                 "id": "gr_199",
                                 "category": "animals",
                                 "greek": "Κροκόδειλος",
-                                "romanized": "Krokódeilos",
+                                "romanized": "Krokódilos",
                                 "translation": "Crocodile",
                                 "emoji": "🐊",
                                 "subcategory": "wild",
@@ -1961,7 +1967,7 @@
                                 "id": "gr_202",
                                 "category": "animals",
                                 "greek": "Κουκουβάγια",
-                                "romanized": "Koukouvágia",
+                                "romanized": "Koukouváya",
                                 "translation": "Owl",
                                 "emoji": "🦉",
                                 "subcategory": "bird",
@@ -2030,9 +2036,10 @@
                                 "romanized": "Vátrachos",
                                 "translation": "Frog",
                                 "emoji": "🐸",
-                                "subcategory": "insect",
+                                "subcategory": "amphibian",
                                 "description": "a green frog sitting, full body, front view, big round eyes",
-                                "image": "images/animals/frog.png"
+                                "image": "images/animals/frog.png",
+                                "notes": "Βάτραχος is an amphibian (αμφίβιο), not an insect. Subcategory corrected to amphibian."
                         },
                         {
                                 "id": "gr_209",
@@ -2070,7 +2077,7 @@
                                 "id": "gr_212",
                                 "category": "food",
                                 "greek": "Ντομάτα",
-                                "romanized": "Domatá",
+                                "romanized": "Domáta",
                                 "translation": "Tomato",
                                 "emoji": "🍅",
                                 "description": "a whole round red tomato",
@@ -2120,7 +2127,7 @@
                                 "id": "gr_217",
                                 "category": "food",
                                 "greek": "Χυμός",
-                                "romanized": "Chymós",
+                                "romanized": "Chimós",
                                 "translation": "Juice",
                                 "emoji": "🧃",
                                 "description": "a glass of orange juice",
@@ -2160,7 +2167,7 @@
                                 "id": "gr_221",
                                 "category": "food",
                                 "greek": "Βούτυρο",
-                                "romanized": "Voútyro",
+                                "romanized": "Voútiro",
                                 "translation": "Butter",
                                 "emoji": "🧈",
                                 "description": "a stick of butter on a small plate",
@@ -2170,7 +2177,7 @@
                                 "id": "gr_222",
                                 "category": "food",
                                 "greek": "Γιαούρτι",
-                                "romanized": "Giaoúrti",
+                                "romanized": "Yaoúrti",
                                 "translation": "Yogurt",
                                 "emoji": "🫙",
                                 "description": "a small cup of yogurt with a spoon",
@@ -2280,7 +2287,7 @@
                                 "id": "gr_233",
                                 "category": "verbs",
                                 "greek": "Κολυμπάω",
-                                "romanized": "Kolympáo",
+                                "romanized": "Kolimbáo",
                                 "translation": "Swim",
                                 "emoji": "🏊",
                                 "description": "a cartoon child doing a swimming stroke, horizontal, side view",
@@ -2300,7 +2307,7 @@
                                 "id": "gr_235",
                                 "category": "verbs",
                                 "greek": "Γελάω",
-                                "romanized": "Geláo",
+                                "romanized": "Yeláo",
                                 "translation": "Laugh",
                                 "emoji": "😄",
                                 "description": "a cartoon child laughing with mouth wide open",
@@ -2340,9 +2347,11 @@
                                 "id": "gr_239",
                                 "category": "greetings",
                                 "greek": "Γεια σου",
-                                "romanized": "Yeiá sou",
+                                "romanized": "Yia sou",
                                 "translation": "Hello",
-                                "emoji": "👋"
+                                "emoji": "👋",
+                                "image": "images/greetings/hello.png",
+                                "description": "two children facing each other, one waving hello with a big smile, the other smiling back, cheerful and friendly, full body, white background, coloring-book style with simple outlines"
                         },
                         {
                                 "id": "gr_240",
@@ -2350,7 +2359,9 @@
                                 "greek": "Αντίο",
                                 "romanized": "Andío",
                                 "translation": "Goodbye",
-                                "emoji": "🙋"
+                                "emoji": "🙋",
+                                "image": "images/greetings/goodbye.png",
+                                "description": "two children: one standing at an open doorway waving, the other walking away and looking back over their shoulder with a wave and a smile, full body, white background, coloring-book style with simple outlines"
                         },
                         {
                                 "id": "gr_241",
@@ -2358,7 +2369,9 @@
                                 "greek": "Καλημέρα",
                                 "romanized": "Kaliméra",
                                 "translation": "Good Morning",
-                                "emoji": "🌅"
+                                "emoji": "🌅",
+                                "image": "images/greetings/good_morning.png",
+                                "description": "a child stretching with both arms raised and yawning, a bright sun rising through a bedroom window behind them, full body, white background, coloring-book style with simple outlines"
                         },
                         {
                                 "id": "gr_242",
@@ -2366,7 +2379,9 @@
                                 "greek": "Καλησπέρα",
                                 "romanized": "Kalispéra",
                                 "translation": "Good Evening",
-                                "emoji": "🌇"
+                                "emoji": "🌇",
+                                "image": "images/greetings/good_evening.png",
+                                "description": "two children standing side by side outdoors, a warm orange and pink sunset sky behind them, one waving gently, full body, white background, coloring-book style with simple outlines"
                         },
                         {
                                 "id": "gr_243",
@@ -2374,7 +2389,9 @@
                                 "greek": "Καληνύχτα",
                                 "romanized": "Kaliníchta",
                                 "translation": "Good Night",
-                                "emoji": "🌙"
+                                "emoji": "🌙",
+                                "image": "images/greetings/good_night.png",
+                                "description": "a young child tucked snugly in bed with a blanket, eyes drooping, a moon and stars visible through the bedroom window, a tall adult parent standing at the doorway waving goodnight, white background, coloring-book style with simple outlines"
                         },
                         {
                                 "id": "gr_244",
@@ -2382,7 +2399,9 @@
                                 "greek": "Ευχαριστώ",
                                 "romanized": "Efcharistó",
                                 "translation": "Thank You",
-                                "emoji": "🙏"
+                                "emoji": "🙏",
+                                "image": "images/greetings/thank_you.png",
+                                "description": "two children: one handing a small wrapped gift to the other, the receiving child smiling warmly and holding the gift with both hands, full body, white background, coloring-book style with simple outlines"
                         },
                         {
                                 "id": "gr_245",
@@ -2390,7 +2409,10 @@
                                 "greek": "Παρακαλώ",
                                 "romanized": "Parakaló",
                                 "translation": "Please",
-                                "emoji": "🤲"
+                                "emoji": "🤲",
+                                "notes": "Παρακαλώ means both \"Please\" (request) and \"You're welcome\" (response to Ευχαριστώ).",
+                                "image": "images/greetings/please.png",
+                                "description": "two children: one child reaching toward something on a shelf and looking at the other child with a polite hopeful expression, the other child smiling and about to help, full body, white background, coloring-book style with simple outlines"
                         },
                         {
                                 "id": "gr_246",
@@ -2398,7 +2420,9 @@
                                 "greek": "Ναι",
                                 "romanized": "Ne",
                                 "translation": "Yes",
-                                "emoji": "✅"
+                                "emoji": "✅",
+                                "image": "images/greetings/yes.png",
+                                "description": "a child giving a clear enthusiastic thumbs up, smiling and nodding confidently, full body, white background, coloring-book style with simple outlines"
                         },
                         {
                                 "id": "gr_247",
@@ -2406,15 +2430,19 @@
                                 "greek": "Όχι",
                                 "romanized": "Óchi",
                                 "translation": "No",
-                                "emoji": "❌"
+                                "emoji": "❌",
+                                "image": "images/greetings/no.png",
+                                "description": "a child shaking their head with both arms crossed in front of them in the universal no gesture, firm but gentle expression, full body, white background, coloring-book style with simple outlines"
                         },
                         {
                                 "id": "gr_248",
                                 "category": "greetings",
                                 "greek": "Συγγνώμη",
-                                "romanized": "Syngnómi",
+                                "romanized": "Singnómi",
                                 "translation": "Sorry",
-                                "emoji": "😔"
+                                "emoji": "😔",
+                                "image": "images/greetings/sorry.png",
+                                "description": "two children: one looking apologetic and contrite with hands clasped, the other looking slightly surprised, a small toy knocked over on the floor between them, full body, white background, coloring-book style with simple outlines"
                         },
                         {
                                 "id": "gr_249",
@@ -2422,15 +2450,120 @@
                                 "greek": "Σ'αγαπώ",
                                 "romanized": "S'agapó",
                                 "translation": "I Love You",
-                                "emoji": "❤️"
+                                "emoji": "❤️",
+                                "image": "images/greetings/i_love_you.png",
+                                "description": "a child hugging a large fluffy teddy bear tightly with eyes closed and a happy smile, full body, white background, coloring-book style with simple outlines"
                         },
                         {
                                 "id": "gr_250",
                                 "category": "greetings",
                                 "greek": "Βοήθεια",
-                                "romanized": "Voítheia",
+                                "romanized": "Voíthia",
                                 "translation": "Help",
-                                "emoji": "🆘"
+                                "emoji": "🆘",
+                                "image": "images/greetings/help.png",
+                                "description": "a child looking dismayed as a scoop of ice cream falls off their cone, arms reaching out, mouth open in surprise, slightly comic and child-relatable, full body, white background, coloring-book style with simple outlines"
+                        },
+                        {
+                                "id": "gr_251",
+                                "category": "greetings",
+                                "greek": "Παρακαλώ",
+                                "romanized": "Parakaló",
+                                "emoji": "🤗",
+                                "translation": "You're welcome",
+                                "notes": "Second Παρακαλώ card. 'Please' (gr_245) and 'You're welcome' (gr_251) share the same Greek word — differentiated by context and image.",
+                                "image": "images/greetings/youre_welcome.png",
+                                "description": "two children: one handing a ball or book to the other with an open-handed warm gesture, both smiling, the giving child relaxed and generous, full body, white background, coloring-book style with simple outlines"
+                        },
+                        {
+                                "id": "gr_252",
+                                "category": "numbers",
+                                "greek": "Έντεκα",
+                                "romanized": "Éndeka",
+                                "emoji": "1️⃣1️⃣",
+                                "translation": "Eleven",
+                                "numeral": "11"
+                        },
+                        {
+                                "id": "gr_253",
+                                "category": "numbers",
+                                "greek": "Δώδεκα",
+                                "romanized": "Dódeka",
+                                "emoji": "1️⃣2️⃣",
+                                "translation": "Twelve",
+                                "numeral": "12"
+                        },
+                        {
+                                "id": "gr_254",
+                                "category": "numbers",
+                                "greek": "Δεκατρία",
+                                "romanized": "Dekatría",
+                                "emoji": "1️⃣3️⃣",
+                                "translation": "Thirteen",
+                                "numeral": "13"
+                        },
+                        {
+                                "id": "gr_255",
+                                "category": "numbers",
+                                "greek": "Δεκατέσσερα",
+                                "romanized": "Dekatéssera",
+                                "emoji": "1️⃣4️⃣",
+                                "translation": "Fourteen",
+                                "numeral": "14"
+                        },
+                        {
+                                "id": "gr_256",
+                                "category": "numbers",
+                                "greek": "Δεκαπέντε",
+                                "romanized": "Dekapénte",
+                                "emoji": "1️⃣5️⃣",
+                                "translation": "Fifteen",
+                                "numeral": "15"
+                        },
+                        {
+                                "id": "gr_257",
+                                "category": "numbers",
+                                "greek": "Δεκαέξι",
+                                "romanized": "Dekaéxi",
+                                "emoji": "1️⃣6️⃣",
+                                "translation": "Sixteen",
+                                "numeral": "16"
+                        },
+                        {
+                                "id": "gr_258",
+                                "category": "numbers",
+                                "greek": "Δεκαεπτά",
+                                "romanized": "Dekaeptá",
+                                "emoji": "1️⃣7️⃣",
+                                "translation": "Seventeen",
+                                "numeral": "17"
+                        },
+                        {
+                                "id": "gr_259",
+                                "category": "numbers",
+                                "greek": "Δεκαοκτώ",
+                                "romanized": "Dekaoktó",
+                                "emoji": "1️⃣8️⃣",
+                                "translation": "Eighteen",
+                                "numeral": "18"
+                        },
+                        {
+                                "id": "gr_260",
+                                "category": "numbers",
+                                "greek": "Δεκαεννέα",
+                                "romanized": "Dekaennéa",
+                                "emoji": "1️⃣9️⃣",
+                                "translation": "Nineteen",
+                                "numeral": "19"
+                        },
+                        {
+                                "id": "gr_261",
+                                "category": "numbers",
+                                "greek": "Είκοσι",
+                                "romanized": "Íkosi",
+                                "emoji": "2️⃣0️⃣",
+                                "translation": "Twenty",
+                                "numeral": "20"
                         }
                 ],
                 "spanish": []
