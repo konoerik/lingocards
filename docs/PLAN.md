@@ -6,12 +6,9 @@
 
 ## Backlog
 - Add audio paths and run generate_audio.py for gr_059–gr_250
-- Decide on shapes category: CSS-rendered shapes (like colors) vs illustrations
 - Deploy to GitHub Pages (create repo, push, enable Pages)
-- Add GitHub Actions workflow for auto-deploy on push to main
 
 ### Identity & architecture
-- Rename the app — current name Μαθαίνω is descriptive but not catchy or brandable; evaluate options (e.g. LexiCards, KidsCards, or a Greek-rooted name) considering PWA home-screen icon label, manifest name, domain availability
 - Evaluate language bundle model — what we've built is implicitly an en-el (English→Greek) bundle; consider adopting an open-source localization pattern (e.g. `bundles/en-el/`, `bundles/en-es/`) so the data layer is explicit about base+target language pair, enabling community contributions of new bundles without touching core app code
 
 ### Content & visuals
@@ -23,6 +20,10 @@
 - Audit service worker cache strategy once audio is added — 175 cards × 3 voices could be ~50MB if cached eagerly; consider lazy-only or user-initiated prefetch
 
 ## Done
+- Rename app to LingoCards; new logo/icons from provided jpegs; full brand update across manifest, sw.js, index.html, CLAUDE.md, ARCHITECTURE.md
+- Add GitHub Actions workflow for auto-deploy on push to main
+- Add docs/RELEASE_CHECKLIST.md for infra and Greek package sign-off
+- Hide audio button when card has no audio; hide language select when only one deck populated
 - Generate images for all categories with gpt-image-1; all approved
 - Add localStorage persistence for selected category tab
 - Switch image filenames to translation-based (apple.png vs gr_059.png); language-agnostic

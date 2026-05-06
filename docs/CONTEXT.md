@@ -1,8 +1,8 @@
 # Context
 <!-- Updated by /wrap at session end. Edit manually if needed. Keep it under 8 lines. -->
 
-**Current focus:** Audio generation — all images are now complete and approved
-**Last session:** Switched to gpt-image-1 (DALL-E 3 via API produced poor style); reviewed and fixed all 191 image descriptions; generated images for all categories; switched image filenames to translation-based (e.g. apple.png); replaced gr_001 Dinosaur with Stegosaurus; added localStorage category persistence; minor description fixes (pterodactyl, rug, shampoo).
-**Blocking:** shapes category still undecided
-**Next action:** Run generate_audio.py for gr_059–gr_250; decide on shapes (CSS vs illustrations)
+**Current focus:** Deploy to GitHub Pages and complete Greek package sign-off
+**Last session:** Renamed app to LingoCards; created new logo/icons from provided jpegs; added GitHub Actions deploy workflow; added docs/RELEASE_CHECKLIST.md; hid audio button and language select when unused; committed all changes (661f876).
+**Blocking:** GitHub repo must be created manually; shapes category still undecided
+**Next action:** Create GitHub repo, push main, enable Pages (Settings → Pages → GitHub Actions); then run through RELEASE_CHECKLIST.md
 <!-- wrapped: 2026-05-05 -->

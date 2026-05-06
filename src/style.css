@@ -247,9 +247,31 @@ body {
   border-radius: 50%;
 }
 
+/* CSS-rendered shapes */
+.card-image-wrap.has-shape {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.card-shape {
+  width: 120px;
+  height: 120px;
+  background: var(--accent);
+}
+
+.card-shape.shape-circle    { border-radius: 50%; background: #FF6B6B; }
+.card-shape.shape-square    { border-radius: 6px; background: #3d7fcc; }
+.card-shape.shape-rectangle { width: 150px; height: 90px; border-radius: 6px; background: #FF8C00; }
+.card-shape.shape-triangle  { clip-path: polygon(50% 0%, 0% 100%, 100% 100%); border-radius: 0; background: #2ECC71; }
+.card-shape.shape-diamond   { clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); background: #9B59B6; }
+.card-shape.shape-star      { clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); background: #FFD700; }
+.card-shape.shape-heart     { clip-path: path('M 60 102 C 24 78 0 54 0 36 A 30 30 0 0 1 60 36 A 30 30 0 0 1 120 36 C 120 54 96 78 60 102 Z'); background: #FF69B4; }
+
 /* Visibility: show only the active visual element */
 .card-image-wrap:not(.has-image)  .card-image        { display: none; }
 .card-image-wrap:not(.has-swatch) .card-color-swatch { display: none; }
+.card-image-wrap:not(.has-shape)  .card-shape        { display: none; }
 .card-image-wrap:not(.has-letter) .card-letter       { display: none; }
 
 /* Speech bubble — greetings category */

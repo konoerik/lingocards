@@ -57,6 +57,7 @@ const elCard            = document.getElementById('card');
 const elCardImageWrap   = document.getElementById('card-image-wrap');
 const elCardImage       = document.getElementById('card-image');
 const elCardColorSwatch = document.getElementById('card-color-swatch');
+const elCardShape       = document.getElementById('card-shape');
 const elCardLetter      = document.getElementById('card-letter');
 const elCardWord        = document.getElementById('card-word');
 const elCardRomanized   = document.getElementById('card-romanized');
@@ -170,13 +171,17 @@ function renderCard(direction = 'next') {
   if (direction === 'prev') elCard.classList.add('from-prev');
 
   // Image / color swatch / letter / placeholder
-  elCardImageWrap.classList.remove('has-image', 'has-swatch', 'has-letter', 'has-speech', 'no-image');
+  elCardImageWrap.classList.remove('has-image', 'has-swatch', 'has-shape', 'has-letter', 'has-speech', 'no-image');
   elCardColorSwatch.style.background = '';
+  elCardShape.className = 'card-shape';
   elCardLetter.textContent = '';
   elCardLetter.className = 'card-letter';
   if (card.color) {
     elCardImageWrap.classList.add('has-swatch');
     elCardColorSwatch.style.background = card.color;
+  } else if (card.shape) {
+    elCardImageWrap.classList.add('has-shape');
+    elCardShape.className = 'card-shape shape-' + card.shape;
   } else if (card.image) {
     elCardImageWrap.classList.add('has-image');
     elCardImage.src = card.image;

@@ -1843,7 +1843,7 @@
         "category": "shapes",
         "greek": "Κύκλος",
         "romanized": "Kíklos",
-        "emoji": "⭕",
+        "shape": "circle",
         "translation": "Circle"
       },
       {
@@ -1851,7 +1851,7 @@
         "category": "shapes",
         "greek": "Τετράγωνο",
         "romanized": "Tetrágono",
-        "emoji": "🟥",
+        "shape": "square",
         "translation": "Square"
       },
       {
@@ -1859,7 +1859,7 @@
         "category": "shapes",
         "greek": "Τρίγωνο",
         "romanized": "Trígono",
-        "emoji": "🔺",
+        "shape": "triangle",
         "translation": "Triangle"
       },
       {
@@ -1867,7 +1867,7 @@
         "category": "shapes",
         "greek": "Καρδιά",
         "romanized": "Kardiá",
-        "emoji": "❤️",
+        "shape": "heart",
         "translation": "Heart"
       },
       {
@@ -1875,7 +1875,7 @@
         "category": "shapes",
         "greek": "Αστέρι",
         "romanized": "Astéri",
-        "emoji": "⭐",
+        "shape": "star",
         "translation": "Star"
       },
       {
@@ -1883,7 +1883,7 @@
         "category": "shapes",
         "greek": "Ορθογώνιο",
         "romanized": "Orthogónio",
-        "emoji": "🟦",
+        "shape": "rectangle",
         "translation": "Rectangle"
       },
       {
@@ -1891,7 +1891,7 @@
         "category": "shapes",
         "greek": "Ρόμβος",
         "romanized": "Rómbos",
-        "emoji": "💎",
+        "shape": "diamond",
         "translation": "Diamond"
       },
       {
