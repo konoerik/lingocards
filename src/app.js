@@ -38,7 +38,7 @@ let position  = 0;        // index into queue
 let language  = 'greek';
 let category  = 'all';
 let shuffled  = false;
-let settings  = { autoplay: true, enabledCategories: null };
+let settings  = { autoplay: true, enabledCategories: null, category: 'all' };
 let currentAudio = null;
 
 // Swipe tracking
@@ -57,7 +57,7 @@ const elCard            = document.getElementById('card');
 const elCardImageWrap   = document.getElementById('card-image-wrap');
 const elCardImage       = document.getElementById('card-image');
 const elCardColorSwatch = document.getElementById('card-color-swatch');
-const elCardEmoji       = document.getElementById('card-emoji');
+const elCardLetter      = document.getElementById('card-letter');
 const elCardWord        = document.getElementById('card-word');
 const elCardRomanized   = document.getElementById('card-romanized');
 const elCardTranslation = document.getElementById('card-translation');
@@ -92,6 +92,9 @@ async function init() {
 
   elLanguageSelect.value = language;
   switchLanguage(language);
+  if (settings.category && settings.category !== 'all') {
+    switchCategory(settings.category);
+  }
   attachListeners();
 }
 
@@ -108,6 +111,8 @@ function switchLanguage(lang) {
 
 function switchCategory(cat) {
   category = cat;
+  settings.category = cat;
+  saveSettings();
   buildDeck();
   buildQueue();
   renderCard();
@@ -156,9 +161,11 @@ function renderCard(direction = 'next') {
   void elCard.offsetHeight;
   if (direction === 'prev') elCard.classList.add('from-prev');
 
-  // Image / color swatch / emoji
-  elCardImageWrap.classList.remove('has-image', 'has-swatch');
+  // Image / color swatch / letter / placeholder
+  elCardImageWrap.classList.remove('has-image', 'has-swatch', 'has-letter', 'has-speech', 'no-image');
   elCardColorSwatch.style.background = '';
+  elCardLetter.textContent = '';
+  elCardLetter.className = 'card-letter';
   if (card.color) {
     elCardImageWrap.classList.add('has-swatch');
     elCardColorSwatch.style.background = card.color;
@@ -167,11 +174,17 @@ function renderCard(direction = 'next') {
     elCardImage.src = card.image;
     elCardImage.alt = card.translation;
   } else if (card.numeral) {
-    elCardEmoji.textContent = card.numeral;
-    elCardEmoji.className = 'card-emoji letter number';
+    elCardImageWrap.classList.add('has-letter');
+    elCardLetter.textContent = card.numeral;
+    elCardLetter.className = 'card-letter number';
+  } else if (card.category === 'alphabet') {
+    elCardImageWrap.classList.add('has-letter');
+    elCardLetter.textContent = card.emoji;
+    elCardLetter.className = 'card-letter letter';
+  } else if (card.category === 'greetings') {
+    elCardImageWrap.classList.add('has-speech');
   } else {
-    elCardEmoji.textContent = card.emoji;
-    elCardEmoji.className = 'card-emoji' + (card.category === 'alphabet' ? ' letter' : '');
+    elCardImageWrap.classList.add('no-image');
   }
 
   elCardWord.textContent = card[language] || card.greek;

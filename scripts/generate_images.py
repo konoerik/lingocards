@@ -1,19 +1,20 @@
 #!/usr/bin/env python3
 """
-Generate PNG illustrations for flashcard words via OpenRouter image generation.
+Generate PNG illustrations for flashcard words via OpenRouter or OpenAI.
 
 Usage:
-  export OPENROUTER_API_KEY=sk-or-...
   .venv/bin/python scripts/generate_images.py
+  .venv/bin/python scripts/generate_images.py --category fruits
+  .venv/bin/python scripts/generate_images.py --category animals --subcategory farm
+  .venv/bin/python scripts/generate_images.py --model dall-e-3
+  .venv/bin/python scripts/generate_images.py --model dall-e-3 --quality hd
 
-Options (env vars):
-  MODEL      Override model (default: black-forest-labs/flux-1.1-pro)
-  CATEGORY   Only process one category, e.g. CATEGORY=dinosaurs
-
+Requires OPENROUTER_API_KEY or OPENAI_API_KEY in .env or environment.
 Safe to re-run — skips cards that already have image files on disk.
 Updates data/words.json with image paths after generation.
 """
 
+import argparse
 import base64
 import json
 import os
@@ -25,42 +26,60 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 WORDS_FILE = ROOT / 'data' / 'words.json'
 
-DEFAULT_MODEL = 'google/gemini-2.5-flash-image'
+DEFAULT_MODEL = 'gpt-image-1'
 OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions'
+OPENAI_URL     = 'https://api.openai.com/v1/images/generations'
+OPENAI_MODELS  = {'gpt-image-1', 'dall-e-3', 'dall-e-2'}
 
-SKIP_CATEGORIES = {'alphabet'}
+# Categories that don't need generated images (handled by CSS or letter display)
+SKIP_CATEGORIES = {'alphabet', 'colors', 'numbers', 'shapes', 'greetings'}
 
+# Locked style applied to every prompt — tune here, nowhere else
+STYLE = (
+    "Children's coloring book style, simple clean outlines filled with flat bright colors. "
+    "Pure white background. Single subject centered and filling 80% of the frame. "
+    "No frame, no border, no decorative elements. No text, no labels. Square format."
+)
+
+# Subject description per category — keep adjectives out, those belong in STYLE
 CATEGORY_HINTS = {
-    'colors':    'a large filled circle in the color {english}, solid color, no other elements',
-    'numbers':   'the digit {english} in a bold playful rounded font, with that many small stars scattered around it',
-    'animals':   'a cute friendly cartoon {english}, full body, side view',
-    'dinosaurs': 'a cute friendly cartoon {english} dinosaur, full body, side view',
-    'vehicles':  'a simple cartoon {english}, side view, full vehicle visible',
-    'food':      'a cute cartoon {english}, whole item, appetising',
-    'fruits':    'a cute cartoon {english} fruit, whole item',
-    'kitchen':   'a simple cartoon {english} kitchen item',
-    'living room': 'a simple cartoon {english} living room item',
-    'bedroom':   'a simple cartoon {english} bedroom item',
-    'bathroom':  'a simple cartoon {english} bathroom item',
+    'animals':    '{word}, full body, side view, friendly face',
+    'dinosaurs':  '{word} dinosaur, full body, side view, friendly face',
+    'vehicles':   '{word}, side view, full vehicle in frame',
+    'food':       '{word}, whole item, no face',
+    'fruits':     '{word} fruit, whole, no face',
+    'kitchen':    '{word} kitchen utensil or appliance',
+    'living_room': '{word} as a living room furniture or object',
+    'bedroom':    '{word} as a bedroom furniture or object',
+    'bathroom':   '{word} as a bathroom item',
+    'clothes':    '{word} clothing item, front view, flat lay, no body',
+    'body_parts': 'isolated human {word}, no full body shown',
+    'family':     '{word} as a cartoon person, full body, front-facing',
+    'nature':     '{word} from nature',
+    'weather':    'weather icon representing {word}',
+    'holidays':   'symbol or icon for {word}',
+    'music':      '{word} musical instrument or music item',
+    'verbs':      'cartoon child performing the action: {word}',
 }
 
 
-def build_prompt(english, category):
-    template = CATEGORY_HINTS.get(category, 'a simple cartoon {english}')
-    subject = template.format(english=english)
-    return (
-        f"Children's flashcard illustration: {subject}. "
-        "Style: bright cheerful colors, thick black outlines, flat cartoon, white background, "
-        "single centered object, no text or labels, suitable for a 3-year-old. "
-        "Square composition."
-    )
+def build_prompt(word, category, description=None):
+    if description:
+        subject = description
+    else:
+        template = CATEGORY_HINTS.get(category, '{word}')
+        subject = template.format(word=word)
+    return f"Children's language flashcard: {subject}. {STYLE}"
 
 
-def call_openrouter(prompt, api_key, model):
+# ── OpenRouter ─────────────────────────────────────────────────────────────────
+
+def call_openrouter(prompt, api_key, model, size='512'):
     payload = json.dumps({
         'model': model,
         'messages': [{'role': 'user', 'content': prompt}],
         'modalities': ['image'],
+        'image_generation_config': {'image_size': size},
     }).encode('utf-8')
 
     req = urllib.request.Request(OPENROUTER_URL, data=payload, method='POST')
@@ -81,12 +100,10 @@ def call_openrouter(prompt, api_key, model):
         return None
 
 
-def extract_image_bytes(response):
-    """Pull PNG bytes out of the OpenRouter image response."""
+def extract_openrouter_bytes(response):
     try:
         msg = response['choices'][0]['message']
 
-        # Multimodal response: images list on the message
         images = msg.get('images') or []
         for img in images:
             url = img.get('image_url', {}).get('url', '')
@@ -94,7 +111,6 @@ def extract_image_bytes(response):
                 _, b64 = url.split(',', 1)
                 return base64.b64decode(b64)
 
-        # Some models return content as a list of blocks
         content = msg.get('content', '')
         if isinstance(content, list):
             for block in content:
@@ -110,18 +126,111 @@ def extract_image_bytes(response):
     return None
 
 
+# ── OpenAI ─────────────────────────────────────────────────────────────────────
+
+def call_openai(prompt, api_key, model, quality='medium'):
+    params = {
+        'model': model,
+        'prompt': prompt,
+        'n': 1,
+        'size': '1024x1024',
+        'quality': quality,
+    }
+    if model in {'dall-e-3', 'dall-e-2'}:
+        params['response_format'] = 'b64_json'
+    else:
+        params['output_format'] = 'png'
+
+    payload = json.dumps(params).encode('utf-8')
+
+    req = urllib.request.Request(OPENAI_URL, data=payload, method='POST')
+    req.add_header('Authorization', f'Bearer {api_key}')
+    req.add_header('Content-Type', 'application/json')
+
+    try:
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            return json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        body = e.read().decode()
+        print(f'  OpenAI error {e.code}: {body}', file=sys.stderr)
+        return None
+    except Exception as e:
+        print(f'  Request error: {e}', file=sys.stderr)
+        return None
+
+
+def extract_openai_bytes(response):
+    try:
+        b64 = response['data'][0]['b64_json']
+        return base64.b64decode(b64)
+    except (KeyError, IndexError, ValueError) as e:
+        print(f'  Parse error: {e}', file=sys.stderr)
+    return None
+
+
+# ── Shared entry point ─────────────────────────────────────────────────────────
+
+def generate(prompt, args, openrouter_key, openai_key):
+    if args.model in OPENAI_MODELS:
+        response = call_openai(prompt, openai_key, args.model, args.quality)
+        return extract_openai_bytes(response) if response else None
+    else:
+        response = call_openrouter(prompt, openrouter_key, args.model, args.size)
+        return extract_openrouter_bytes(response) if response else None
+
+
+# ── CLI & main ─────────────────────────────────────────────────────────────────
+
+def load_dotenv():
+    env_file = ROOT / '.env'
+    if not env_file.exists():
+        return
+    for line in env_file.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith('#') or '=' not in line:
+            continue
+        key, _, val = line.partition('=')
+        val = val.strip().strip('"').strip("'")
+        os.environ.setdefault(key.strip(), val)
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='Generate flashcard illustrations via OpenRouter or OpenAI.')
+    parser.add_argument('-c', '--category', help='Only generate images for this category')
+    parser.add_argument('-s', '--subcategory', help='Only generate images for this subcategory')
+    parser.add_argument('-w', '--word', nargs='+', help='Only generate images for these words (matches translation, case-insensitive)')
+    parser.add_argument('-m', '--model', default=DEFAULT_MODEL, help=f'Model to use (default: {DEFAULT_MODEL})')
+    parser.add_argument('-f', '--force', action='store_true', help='Overwrite existing images')
+    parser.add_argument('--size', default='512', choices=['512', '1K', '2K', '4K'], help='Output resolution for OpenRouter models (default: 512)')
+    parser.add_argument('--quality', default='medium', choices=['low', 'medium', 'high', 'auto', 'standard', 'hd'], help='Quality: low/medium/high/auto for gpt-image-1; standard/hd for DALL-E 3 (default: medium)')
+    return parser.parse_args()
+
+
 def main():
-    api_key = os.environ.get('OPENROUTER_API_KEY', '')
-    if not api_key:
-        print('Error: OPENROUTER_API_KEY not set.', file=sys.stderr)
-        sys.exit(1)
+    load_dotenv()
+    args = parse_args()
 
-    model = os.environ.get('MODEL', DEFAULT_MODEL)
-    only_category = os.environ.get('CATEGORY', '').strip().lower()
+    openrouter_key = os.environ.get('OPENROUTER_API_KEY', '')
+    openai_key     = os.environ.get('OPENAI_API_KEY', '')
 
-    print(f'Model: {model}')
-    if only_category:
-        print(f'Category filter: {only_category}')
+    if args.model in OPENAI_MODELS:
+        if not openai_key:
+            print('Error: OPENAI_API_KEY not set in .env or environment.', file=sys.stderr)
+            sys.exit(1)
+    else:
+        if not openrouter_key:
+            print('Error: OPENROUTER_API_KEY not set in .env or environment.', file=sys.stderr)
+            sys.exit(1)
+
+    print(f'Model:   {args.model}')
+    if args.model in OPENAI_MODELS:
+        print(f'Quality: {args.quality}')
+    else:
+        print(f'Size:    {args.size}')
+    if args.category:
+        print(f'Category: {args.category}')
+    if args.subcategory:
+        print(f'Subcategory: {args.subcategory}')
 
     data = json.loads(WORDS_FILE.read_text(encoding='utf-8'))
     decks = data.get('decks', {})
@@ -137,36 +246,38 @@ def main():
                 skipped += 1
                 continue
 
-            if only_category and category != only_category:
+            if args.category and category != args.category:
                 skipped += 1
                 continue
 
-            english = card.get('english', '')
-            if not english:
+            if args.subcategory and card.get('subcategory') != args.subcategory:
+                skipped += 1
                 continue
 
-            card_id = card['id']
-            image_path = card.get('image') or f'images/{category}/{card_id}.png'
+            word = card.get('translation', '')
+            if not word:
+                continue
+
+            if args.word and word.lower() not in [w.lower() for w in args.word]:
+                skipped += 1
+                continue
+
+            description = card.get('description', '')
+
+            name = word.lower().replace(' ', '_')
+            image_path = f'images/{category}/{name}.png'
             out_file = ROOT / image_path
 
-            if out_file.exists():
+            if out_file.exists() and not args.force:
                 skipped += 1
                 continue
 
             out_file.parent.mkdir(parents=True, exist_ok=True)
-            print(f'Generating {image_path} ({english}) ...', end=' ', flush=True)
+            print(f'Generating {image_path} ({word}) ...', end=' ', flush=True)
 
-            response = call_openrouter(build_prompt(english, category), api_key, model)
-            if not response:
-                print('FAILED (no response)')
-                failed += 1
-                continue
-
-            img_bytes = extract_image_bytes(response)
+            img_bytes = generate(build_prompt(word, category, description), args, openrouter_key, openai_key)
             if not img_bytes:
-                print('FAILED (no image in response)')
-                # Dump raw response for debugging
-                print(f'  Raw keys: {list(response.get("choices", [{}])[0].get("message", {}).keys())}', file=sys.stderr)
+                print('FAILED')
                 failed += 1
                 continue
 

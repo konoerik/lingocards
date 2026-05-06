@@ -1,2 +1,6 @@
 .claude/archive/
 .venv/
+.env
+prompts.txt
+prompts_hard.txt
+flashcard_pwa_handoff.md

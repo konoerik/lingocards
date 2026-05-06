@@ -229,19 +229,15 @@ body {
   border-radius: 8px;
 }
 
-.card-emoji {
-  font-size: 96px;
+.card-letter {
+  font-size: 140px;
+  font-weight: 900;
   line-height: 1;
+  color: var(--navy);
   user-select: none;
 }
 
-.card-emoji.letter {
-  font-size: 140px;
-  font-weight: 900;
-  color: var(--navy);
-}
-
-.card-emoji.number {
+.card-letter.number {
   font-size: 120px;
 }
 
@@ -252,12 +248,56 @@ body {
 }
 
 /* Visibility: show only the active visual element */
-.card-image-wrap.has-image .card-emoji  { display: none; }
-.card-image-wrap.has-image .card-color-swatch { display: none; }
-.card-image-wrap:not(.has-image) .card-image  { display: none; }
-.card-image-wrap.has-swatch .card-emoji { display: none; }
-.card-image-wrap.has-swatch .card-image { display: none; }
+.card-image-wrap:not(.has-image)  .card-image        { display: none; }
 .card-image-wrap:not(.has-swatch) .card-color-swatch { display: none; }
+.card-image-wrap:not(.has-letter) .card-letter       { display: none; }
+
+/* Speech bubble — greetings category */
+.card-image-wrap.has-speech {
+  background: #fffbe6;
+  border-radius: 20px;
+  border: 2.5px solid #e8c840;
+  position: relative;
+  overflow: visible;
+}
+
+/* Tail border (drawn behind fill) */
+.card-image-wrap.has-speech::before {
+  content: '';
+  position: absolute;
+  bottom: -16px;
+  left: 28px;
+  width: 0; height: 0;
+  border-right: 15px solid transparent;
+  border-top: 17px solid #e8c840;
+}
+
+/* Tail fill */
+.card-image-wrap.has-speech::after {
+  content: '';
+  position: absolute;
+  bottom: -13px;
+  left: 30px;
+  width: 0; height: 0;
+  border-right: 12px solid transparent;
+  border-top: 14px solid #fffbe6;
+}
+
+/* No-image placeholder */
+.card-image-wrap.no-image {
+  background: #f0f2f5;
+  border-radius: 16px;
+  border: 2px dashed #cdd2db;
+}
+
+.card-image-wrap.no-image::before {
+  content: '';
+  width: 52px;
+  height: 52px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23b0b8c4' stroke-width='1.5'%3E%3Crect x='3' y='3' width='18' height='18' rx='2'/%3E%3Ccircle cx='8.5' cy='8.5' r='1.5'/%3E%3Cpath d='M21 15l-5-5L5 21'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 /* Text */
 .card-word {
