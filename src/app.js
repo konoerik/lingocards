@@ -115,7 +115,7 @@ function switchLanguage(lang) {
 
 function updateLanguageSelect() {
   const populated = Object.keys(allDecks).filter(k => (allDecks[k] || []).length > 0);
-  elLanguageSelect.classList.toggle('hidden', populated.length < 2);
+  elLanguageSelect.classList.toggle('hidden', populated.length < 1);
 }
 
 function switchCategory(cat) {
