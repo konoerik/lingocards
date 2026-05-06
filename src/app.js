@@ -91,6 +91,7 @@ async function init() {
   }
 
   elLanguageSelect.value = language;
+  updateLanguageSelect();
   switchLanguage(language);
   if (settings.category && settings.category !== 'all') {
     switchCategory(settings.category);
@@ -103,10 +104,17 @@ async function init() {
 function switchLanguage(lang) {
   language = lang;
   category = 'all';
+  settings.category = 'all';
+  saveSettings();
   buildDeck();
   renderCategoryTabs();
   buildQueue();
   renderCard();
+}
+
+function updateLanguageSelect() {
+  const populated = Object.keys(allDecks).filter(k => (allDecks[k] || []).length > 0);
+  elLanguageSelect.classList.toggle('hidden', populated.length < 2);
 }
 
 function switchCategory(cat) {
@@ -187,6 +195,7 @@ function renderCard(direction = 'next') {
     elCardImageWrap.classList.add('no-image');
   }
 
+  elAudioBtn.classList.toggle('hidden', !card.audio);
   elCardWord.textContent = card[language] || card.greek;
   elCardRomanized.textContent = card.romanized || '';
   elCardTranslation.textContent = card.translation;

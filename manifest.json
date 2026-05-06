@@ -1,8 +1,8 @@
 {
-  "name": "Μαθαίνω",
-  "short_name": "Μαθαίνω",
-  "description": "Greek flashcards for young children",
-  "start_url": "/",
+  "name": "LingoCards",
+  "short_name": "LingoCards",
+  "description": "Language flashcards for young children",
+  "start_url": ".",
   "display": "fullscreen",
   "orientation": "portrait",
   "background_color": "#fdf6ec",

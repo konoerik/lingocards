@@ -1,14 +1,15 @@
-const CACHE = 'mathaino-v1';
+const CACHE = 'lingocards-v1';
+const SCOPE = self.registration.scope; // works at root or subpath (e.g. /flashcards/)
 
 const PRECACHE = [
-  '/',
-  '/index.html',
-  '/src/app.js',
-  '/src/style.css',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/data/words.json',
+  SCOPE,
+  SCOPE + 'index.html',
+  SCOPE + 'src/app.js',
+  SCOPE + 'src/style.css',
+  SCOPE + 'manifest.json',
+  SCOPE + 'icon-192.png',
+  SCOPE + 'icon-512.png',
+  SCOPE + 'data/words.json',
 ];
 
 self.addEventListener('install', event => {
@@ -28,7 +29,6 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-  // Only handle same-origin GETs
   const url = new URL(event.request.url);
   if (event.request.method !== 'GET' || url.origin !== location.origin) return;
 
@@ -38,12 +38,13 @@ self.addEventListener('fetch', event => {
 
       return fetch(event.request).then(response => {
         // Cache audio and images as they are fetched
-        if (url.pathname.startsWith('/audio/') || url.pathname.startsWith('/images/')) {
+        if (event.request.url.startsWith(SCOPE) &&
+            (url.pathname.includes('/audio/') || url.pathname.includes('/images/'))) {
           const clone = response.clone();
           caches.open(CACHE).then(cache => cache.put(event.request, clone));
         }
         return response;
-      }).catch(() => cached); // offline fallback
+      }).catch(() => cached);
     })
   );
 });
