@@ -1,4 +1,4 @@
-const CACHE = 'lingocards-v1';
+const CACHE = 'lingocards-v2';
 const SCOPE = self.registration.scope; // works at root or subpath (e.g. /flashcards/)
 
 const PRECACHE = [

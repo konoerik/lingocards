@@ -36,7 +36,7 @@ Complete this section before marking a deck release-ready. Copy and fill in one 
 - [ ] All category tabs load and filter correctly
 - [ ] Shuffle produces a different order
 - [ ] Prev/next arrows and swipe both navigate correctly
-- [ ] Selected category persists across page refresh
+- [ ] App opens on a random image category each load (not dinosaurs / not "All")
 - [ ] Parent settings open on 5-tap, category toggles apply correctly
 - [ ] App works offline after first visit (service worker active)
 

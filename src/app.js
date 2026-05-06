@@ -94,8 +94,10 @@ async function init() {
   elLanguageSelect.value = language;
   updateLanguageSelect();
   switchLanguage(language);
-  if (settings.category && settings.category !== 'all') {
-    switchCategory(settings.category);
+  const cardsWithImages = getActiveCards().filter(c => c.image);
+  if (cardsWithImages.length > 0) {
+    const pick = cardsWithImages[Math.floor(Math.random() * cardsWithImages.length)];
+    switchCategory(pick.category);
   }
   attachListeners();
 }

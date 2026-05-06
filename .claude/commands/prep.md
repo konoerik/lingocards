@@ -6,6 +6,7 @@ Work through each item and report pass/fail/skip with a brief reason:
 - [ ] All tests pass
 - [ ] No leftover debug logs, commented-out code, or TODOs in changed files
 - [ ] No hardcoded secrets or environment-specific values
+- [ ] If `app.js`, `style.css`, or `words.json` changed: bump the cache version string in `sw.js` (e.g. `lingocards-v1` → `lingocards-v2`) so existing users get fresh files on next visit
 
 **Docs**
 - [ ] docs/PLAN.md ## Active updated — completed items moved to ## Done
