@@ -32,6 +32,7 @@ const CATEGORY_META = {
 // ── State ──────────────────────────────────────────────────────────────────
 
 let allDecks  = {};
+let allMeta   = {};
 let deck      = [];       // full card list for current language + category
 let queue     = [];       // ordered or shuffled indices into deck
 let position  = 0;        // index into queue
@@ -68,6 +69,13 @@ const elProgressLabel   = document.getElementById('progress-label');
 const elBtnPrev         = document.getElementById('btn-prev');
 const elBtnNext         = document.getElementById('btn-next');
 const elShuffleBtn      = document.getElementById('shuffle-btn');
+const elNotesBtn             = document.getElementById('notes-btn');
+const elNotesOverlay         = document.getElementById('notes-overlay');
+const elNotesTitle           = document.getElementById('notes-title');
+const elNotesBody            = document.getElementById('notes-body');
+const elNotesClose           = document.getElementById('notes-close');
+const elWelcomeOverlay       = document.getElementById('welcome-overlay');
+const elWelcomeStart         = document.getElementById('welcome-start');
 const elSettingsBtn          = document.getElementById('settings-btn');
 const elSettingsOverlay      = document.getElementById('settings-overlay');
 const elSettingAutoplay      = document.getElementById('setting-autoplay');
@@ -86,6 +94,7 @@ async function init() {
     const res = await fetch('data/words.json');
     const data = await res.json();
     allDecks = data.decks;
+    allMeta  = data.deck_meta || {};
   } catch (e) {
     console.error('Failed to load words.json', e);
     return;
@@ -101,6 +110,7 @@ async function init() {
   }
   attachListeners();
   initInstallPrompt();
+  showWelcomeIfNeeded();
 }
 
 // ── Language & category ────────────────────────────────────────────────────
@@ -399,6 +409,38 @@ function onTouchEnd(e) {
   }
 }
 
+// ── Welcome ────────────────────────────────────────────────────────────────
+
+function showWelcomeIfNeeded() {
+  if (!localStorage.getItem('lingocards_welcomed')) {
+    elWelcomeOverlay.classList.remove('hidden');
+  }
+}
+
+function closeWelcome() {
+  localStorage.setItem('lingocards_welcomed', '1');
+  elWelcomeOverlay.classList.add('hidden');
+}
+
+// ── Language notes ─────────────────────────────────────────────────────────
+
+function openNotes() {
+  const meta  = allMeta[language] || {};
+  const notes = meta.user_notes   || [];
+  elNotesTitle.textContent = (meta.label || language) + ' — Notes';
+  elNotesBody.innerHTML = notes.map(n =>
+    `<div class="note-card">
+      <div class="note-card-title">${n.title}</div>
+      <div class="note-card-body">${n.body}</div>
+    </div>`
+  ).join('');
+  elNotesOverlay.classList.remove('hidden');
+}
+
+function closeNotes() {
+  elNotesOverlay.classList.add('hidden');
+}
+
 // ── Event listeners ────────────────────────────────────────────────────────
 
 function attachListeners() {
@@ -407,8 +449,19 @@ function attachListeners() {
   elBtnPrev.addEventListener('click', goPrev);
   elBtnNext.addEventListener('click', goNext);
 
+  elNotesBtn.addEventListener('click', openNotes);
+  elNotesClose.addEventListener('click', closeNotes);
+  elWelcomeStart.addEventListener('click', closeWelcome);
+
   document.addEventListener('keydown', e => {
-    if (elSettingsOverlay && !elSettingsOverlay.classList.contains('hidden')) return;
+    if (e.key === 'Escape') {
+      if (!elWelcomeOverlay.classList.contains('hidden')) { closeWelcome(); return; }
+      if (!elNotesOverlay.classList.contains('hidden'))   { closeNotes();   return; }
+      if (!elSettingsOverlay.classList.contains('hidden')){ closeSettings(); return; }
+    }
+    if (!elWelcomeOverlay.classList.contains('hidden')) return;
+    if (!elSettingsOverlay.classList.contains('hidden')) return;
+    if (!elNotesOverlay.classList.contains('hidden')) return;
     if (e.key === 'ArrowLeft')  { e.preventDefault(); goPrev(); }
     if (e.key === 'ArrowRight') { e.preventDefault(); goNext(); }
   });

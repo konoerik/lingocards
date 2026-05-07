@@ -26,6 +26,7 @@
     </div>
     <div class="topbar-right">
       <button id="shuffle-btn" class="icon-btn" aria-label="Shuffle cards" aria-pressed="false">🔀</button>
+      <button id="notes-btn" class="icon-btn" aria-label="Language notes">ℹ️</button>
       <button id="settings-btn" class="icon-btn" aria-label="Settings">⚙️</button>
     </div>
   </header>
@@ -73,6 +74,33 @@
     <span class="install-msg" id="install-msg"></span>
     <button class="install-btn" id="install-btn">Install</button>
     <button class="install-dismiss" id="install-dismiss" aria-label="Dismiss">✕</button>
+  </div>
+
+  <!-- Welcome overlay (first visit) -->
+  <div class="welcome-overlay hidden" id="welcome-overlay" role="dialog" aria-modal="true" aria-label="Welcome to LingoCards">
+    <div class="welcome-card">
+      <h1 class="welcome-title">Welcome to LingoCards</h1>
+      <p class="welcome-body">Illustrated flashcards to help young children build vocabulary in a new language.</p>
+      <ul class="welcome-hints">
+        <li>Use the arrow buttons, arrow keys, or swipe to move between cards</li>
+        <li>Tap the category tabs to explore topics like animals, food, or numbers</li>
+        <li>Tap the settings gear (5 quick taps) to access parent options</li>
+      </ul>
+      <button class="welcome-start-btn" id="welcome-start">Start exploring</button>
+    </div>
+  </div>
+
+  <!-- Language notes overlay -->
+  <div class="notes-overlay hidden" id="notes-overlay" role="dialog" aria-modal="true" aria-label="Language notes">
+    <div class="notes-panel">
+      <div class="notes-header">
+        <span class="notes-title" id="notes-title">About this deck</span>
+        <button class="settings-x" id="notes-close" aria-label="Close">✕</button>
+      </div>
+      <div class="notes-body" id="notes-body">
+        <!-- Populated by JS -->
+      </div>
+    </div>
   </div>
 
   <!-- Parent settings overlay -->
