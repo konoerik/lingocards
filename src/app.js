@@ -407,6 +407,12 @@ function attachListeners() {
   elBtnPrev.addEventListener('click', goPrev);
   elBtnNext.addEventListener('click', goNext);
 
+  document.addEventListener('keydown', e => {
+    if (elSettingsOverlay && !elSettingsOverlay.classList.contains('hidden')) return;
+    if (e.key === 'ArrowLeft')  { e.preventDefault(); goPrev(); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); goNext(); }
+  });
+
   elShuffleBtn.addEventListener('click', toggleShuffle);
 
   elAudioBtn.addEventListener('click', () => {
