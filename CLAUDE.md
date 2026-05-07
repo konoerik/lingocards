@@ -20,20 +20,33 @@ LingoCards is a Progressive Web App (PWA) flashcard app for young children learn
 
 ## Development Workflow
 ```bash
+# First-time setup
+make install        # creates .venv and installs requirements.txt (Pillow, gtts)
+
 # Serve locally (required — fetch('data/words.json') needs HTTP)
-python3 -m http.server 8080
-# or
-npx serve
+make serve          # python3 -m http.server 8080
 
-# Generate icons (one-time)
-python3 -m venv .venv && .venv/bin/pip install Pillow
-.venv/bin/python scripts/generate_icons.py
-
-# Generate audio
-.venv/bin/pip install gtts elevenlabs
-export ELEVENLABS_API_KEY=your_key   # optional, falls back to gTTS
-.venv/bin/python scripts/generate_audio.py
+# Generate assets
+make icons          # generate icon-192.png / icon-512.png (one-time)
+make images         # generate card illustrations (requires OPENAI_API_KEY in .env)
+make audio          # generate audio files (set ELEVENLABS_API_KEY in .env; falls back to gTTS)
 ```
+
+## Testing & Visual QA
+```bash
+# One-time: install Playwright and download browser engines (~200 MB)
+make install-dev
+
+# Capture screenshots across all device viewports (no separate server needed)
+make screenshots
+```
+
+Produces `screenshots/chromium/<device>.png` and `screenshots/webkit/<device>.png` for:
+- **iPhone:** SE 3rd gen (375×667), iPhone 14 (390×844), iPhone 17 Pro Max (430×956)
+- **Android:** Pixel 7 (412×915), Galaxy S24 (360×780), Galaxy A54 (360×800)
+- **Tablet/desktop:** iPad 10th gen (820×1180), MacBook Air 13" (1280×800), Desktop 1440p
+
+`webkit` uses Safari's rendering engine; `chromium` approximates Chrome. The script starts its own HTTP server on port 8765 so it can run standalone. `screenshots/` is gitignored.
 
 ## Behavior Rules
 - No build step — if a library isn't available via CDN, discuss before adding a bundler

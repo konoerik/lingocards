@@ -1,6 +1,7 @@
 .claude/archive/
 .venv/
 .env
+screenshots/
 prompts.txt
 prompts_hard.txt
 flashcard_pwa_handoff.md
