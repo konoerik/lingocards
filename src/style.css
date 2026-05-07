@@ -208,19 +208,6 @@ body {
   height: 160px;
 }
 
-.card-image-wrap.has-image,
-.card-image-wrap.has-swatch {
-  background: #f7f7f7;
-  border-radius: 16px;
-  border: 2px solid #e8e8e8;
-  padding: 10px;
-}
-
-.card-image-wrap.has-swatch {
-  background: none;
-  border: none;
-  padding: 0;
-}
 
 .card-image {
   width: 100%;

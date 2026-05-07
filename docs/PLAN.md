@@ -2,7 +2,6 @@
 
 ## Active
 - [ ] Verify all cards in words.json are correct (Greek spelling, romanization, translation, category) — recurring task after any content addition; priority: new animals, food, verbs, greetings (gr_188–gr_261)
-- [ ] Review UI — layout, colors, typography, interaction feel; check on mobile and desktop
 - [ ] Review alphabet cards (gr_035–gr_058) — currently shows uppercase letter as the icon and "Α α" as the translation; decide whether to split into separate upper/lowercase cards, show both forms in the visual, or change the translation field
 
 ## Backlog
@@ -22,6 +21,7 @@
 - Audit service worker cache strategy once audio is added — 175 cards × 3 voices could be ~50MB if cached eagerly; consider lazy-only or user-initiated prefetch
 
 ## Done
+- Review UI — layout, colors, typography, interaction feel: fixed nav clipping on short viewports (max-height breakpoints); removed image frame; visual QA infra (Playwright screenshots, scorecard)
 - Rename app to LingoCards; new logo/icons from provided jpegs; full brand update across manifest, sw.js, index.html, CLAUDE.md, ARCHITECTURE.md
 - Add GitHub Actions workflow for auto-deploy on push to main
 - Add docs/RELEASE_CHECKLIST.md for infra and Greek package sign-off

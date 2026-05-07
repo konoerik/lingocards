@@ -1,6 +1,6 @@
 PYTHON = .venv/bin/python3
 
-.PHONY: serve install install-dev screenshots images audio icons
+.PHONY: serve install install-dev screenshots images audio icons normalize-images
 
 .venv:
 	python3 -m venv .venv
@@ -20,6 +20,9 @@ screenshots:
 
 images:
 	$(PYTHON) scripts/generate_images.py
+
+normalize-images:
+	$(PYTHON) scripts/normalize_images.py
 
 audio:
 	$(PYTHON) scripts/generate_audio.py

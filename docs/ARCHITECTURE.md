@@ -6,6 +6,8 @@
 **Styles:** `src/style.css`
 **Logic:** `src/app.js`
 **Libraries:** Nunito font (Google Fonts CDN only)
+**Script deps (requirements.txt):** Pillow, numpy, gtts
+**Dev deps (requirements-dev.txt):** playwright (Chromium + WebKit for visual QA screenshots)
 **Data:** `data/words.json` fetched at runtime; no persistent progress state
 **Key constraint:** Must be served over HTTP (not file://) — use `python3 -m http.server 8080`
 
@@ -53,6 +55,18 @@ flashcards/
 - **Base language / target language split** — each card has a `translation` field (the learner's native-language gloss) and a `romanized` field (Latin-script pronunciation aid for scripts like Greek or Japanese). The deck key (`greek`, `spanish`) is the target language; `translation` is intentionally generic so a French-speaking family can fork the data and replace English translations with French without code changes. The base language is currently always English by convention; making it runtime-configurable is future work.
 - **Service worker cache versioning** — `sw.js` uses a cache-first strategy with a named cache (`lingocards-v1`, etc.). A regular browser refresh serves all precached files (app.js, style.css, words.json) from cache — the network is never hit. To force users onto new files after a deploy, bump the cache name constant in `sw.js`; the old cache is then evicted on activation. Shift+Refresh bypasses the service worker entirely and is the easiest way to test changes locally. The `/prep` checklist includes a reminder to bump the version.
 - **Parent console (settings overlay)** — the gear icon is gated behind 5 taps to prevent accidental child access; opens a full-screen panel where parents enable/disable categories. Selection is stored in `settings.enabledCategories` (array of category keys, or `null` meaning all enabled) via `localStorage`. Both the category tab row and the "All" deck are filtered to only enabled categories. Done applies; ✕ discards. Done is disabled when no categories are checked.
+
+### ADR-2: No image frame on cards
+**Date:** 2026-05-07
+**Decision:** Removed the rounded border + grey background + padding from `.card-image-wrap.has-image`. Images are coloring-book style on white and sit naturally on the white card background. The frame was shrinking the usable image area by ~15% (10px padding + 2px border per side) and adding visual noise.
+**Alternatives considered:** Keeping frame with larger image sizes (rejected — would reintroduce viewport overflow); `mix-blend-mode: multiply` to hide off-white backgrounds (rejected — CSS trick that could cause color shifts if card background ever changes).
+**Consequences:** Off-white AI-generated image backgrounds are now visible against the card. Mitigated by `scripts/normalize_images.py` (flood-fill background normalizer, run as a post-processing step).
+
+### ADR-3: Background normalizer as a separate post-processing script
+**Date:** 2026-05-07
+**Decision:** `scripts/normalize_images.py` flood-fills from the four image corners, replacing near-white pixels (within a configurable tolerance, default 30) with pure white. Runs offline, in-place. Interior details (shadows, brush strokes) are preserved because they are unreachable from the corners without crossing illustration linework.
+**Alternatives considered:** `mix-blend-mode: multiply` in CSS (rejected — papers over the problem and breaks if card background changes); regenerating images with stricter prompts (rejected — AI generation is not reliably consistent); `PIL.ImageDraw.floodfill` (rejected — exact match only, no tolerance).
+**Consequences:** Adds `normalize_images.py` to scripts; adds `numpy` to `requirements.txt`. Should be run after any batch image generation.
 
 ### ADR-1: Responsive images via separate offline resizer script
 **Date:** 2026-05-06
