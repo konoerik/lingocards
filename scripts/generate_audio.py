@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate audio files for all words in data/words.json.
+Generate audio files for all words in data/decks/<lang>.json.
 
 Primary:  ElevenLabs API (multiple voices per word, high quality)
 Fallback: gTTS (free, single voice per word)
@@ -22,7 +22,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
-WORDS_FILE = ROOT / 'data' / 'words.json'
+MANIFEST_FILE = ROOT / 'data' / 'manifest.json'
+DECKS_DIR = ROOT / 'data' / 'decks'
 AUDIO_DIR = ROOT / 'audio'
 AUDIO_DIR.mkdir(exist_ok=True)
 
@@ -144,12 +145,16 @@ def main():
     else:
         print('ELEVENLABS_API_KEY not set — using gTTS fallback (voice_1 only)')
 
-    data = json.loads(WORDS_FILE.read_text(encoding='utf-8'))
-    decks = data.get('decks', {})
+    manifest = json.loads(MANIFEST_FILE.read_text(encoding='utf-8'))
 
     total_gen = total_skip = total_fail = 0
 
-    for lang, cards in decks.items():
+    for deck_meta in manifest.get('decks', []):
+        lang = deck_meta['key']
+        deck_file = DECKS_DIR / f'{lang}.json'
+        if not deck_file.exists():
+            continue
+        cards = json.loads(deck_file.read_text(encoding='utf-8'))
         if not cards:
             continue
         print(f'\n── {lang.capitalize()} deck ({len(cards)} cards) ──')

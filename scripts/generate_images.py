@@ -11,7 +11,7 @@ Usage:
 
 Requires OPENROUTER_API_KEY or OPENAI_API_KEY in .env or environment.
 Safe to re-run — skips cards that already have image files on disk.
-Updates data/words.json with image paths after generation.
+Updates data/decks/<lang>.json with image paths after generation.
 """
 
 import argparse
@@ -24,7 +24,8 @@ import urllib.error
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
-WORDS_FILE = ROOT / 'data' / 'words.json'
+MANIFEST_FILE = ROOT / 'data' / 'manifest.json'
+DECKS_DIR = ROOT / 'data' / 'decks'
 
 DEFAULT_MODEL = 'gpt-image-1'
 OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions'
@@ -232,13 +233,21 @@ def main():
     if args.subcategory:
         print(f'Subcategory: {args.subcategory}')
 
-    data = json.loads(WORDS_FILE.read_text(encoding='utf-8'))
-    decks = data.get('decks', {})
+    manifest = json.loads(MANIFEST_FILE.read_text(encoding='utf-8'))
 
     generated = skipped = failed = 0
-    changed = False
 
-    for lang, cards in decks.items():
+    for deck_meta in manifest.get('decks', []):
+        lang = deck_meta['key']
+        deck_file = DECKS_DIR / f'{lang}.json'
+        if not deck_file.exists():
+            continue
+        cards = json.loads(deck_file.read_text(encoding='utf-8'))
+        if not cards:
+            continue
+
+        changed = False
+
         for card in cards:
             category = card.get('category', '')
 
@@ -290,12 +299,12 @@ def main():
             print('ok')
             generated += 1
 
-    if changed:
-        WORDS_FILE.write_text(
-            json.dumps(data, ensure_ascii=False, indent=2),
-            encoding='utf-8'
-        )
-        print('\nUpdated data/words.json with new image paths.')
+        if changed:
+            deck_file.write_text(
+                json.dumps(cards, ensure_ascii=False, indent=2),
+                encoding='utf-8'
+            )
+            print(f'\nUpdated data/decks/{lang}.json with new image paths.')
 
     print(f'\nDone. Generated: {generated}  Skipped: {skipped}  Failed: {failed}')
     if failed:

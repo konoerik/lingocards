@@ -8,7 +8,7 @@
 **Libraries:** Nunito font (Google Fonts CDN only)
 **Script deps (requirements.txt):** Pillow, numpy, gtts
 **Dev deps (requirements-dev.txt):** playwright (Chromium + WebKit for visual QA screenshots)
-**Data:** `data/words.json` fetched at runtime; no persistent progress state
+**Data:** `data/manifest.json` + `data/decks/<lang>.json` fetched at runtime; no persistent progress state
 **Key constraint:** Must be served over HTTP (not file://) — use `python3 -m http.server 8080`
 
 ## File Structure
@@ -23,7 +23,10 @@ flashcards/
 ├── requirements.txt        # script deps: Pillow, gtts
 ├── requirements-dev.txt    # dev/testing deps: playwright
 ├── data/
-│   ├── words.json          # all card content
+│   ├── manifest.json       # deck registry: key, label, flag, enabled, user_notes per deck
+│   ├── decks/
+│   │   ├── greek.json      # Greek card array (261 cards)
+│   │   └── spanish.json    # Spanish card array (empty; placeholder)
 │   └── notes.json          # romanization conventions and editorial notes
 ├── src/
 │   ├── app.js              # all runtime JS
@@ -45,18 +48,19 @@ flashcards/
 ## Decisions (ADRs)
 <!-- Append new ADRs with /log -->
 - **No framework** — vanilla JS sufficient for this scope; eliminates build step and maintenance overhead
-- **Greek-first, multi-language ready** — Spanish deck is empty array in words.json; language dropdown is in the UI but Spanish option is disabled until content is ready
+- **Greek-first, multi-language ready** — Spanish deck is an empty array in `data/decks/spanish.json`; language dropdown renders from `manifest.json` but Spanish option is disabled (`"enabled": false`) until content is ready
 - **Visual hierarchy per category** — colors use CSS-rendered circles (`color` hex field + `.card-color-swatch`); numbers display as large bold numerals (`numeral` field, reuses `.card-emoji.letter` style); alphabet displays as large bold Greek letters; all other categories use PNG illustrations with emoji fallback
 - **Image-optional** — every card has an emoji fallback; `image` field is optional; `.has-image` / `.has-swatch` CSS classes control which visual is shown
-- **Image generation via gpt-image-1** — `scripts/generate_images.py` calls `gpt-image-1` (default) via OpenAI `/v1/images/generations`; also supports DALL-E 3/2 and OpenRouter/Gemini via `--model` flag. Saves base64-decoded PNG; skips existing files; updates words.json with image paths. Switched from Gemini (OpenRouter) → DALL-E 3 → gpt-image-1 after quality comparison; gpt-image-1 matches duck.ai output without prompt rewriting.
-- **Translation-based image filenames** — images are named after the English `translation` field (e.g. `images/fruits/apple.png`) rather than card IDs (e.g. `gr_059.png`). Images are concept-level assets shared across any future language deck; the `gr_` prefix was card-ID leakage. English is the fixed base language of the app — UI, translation field, and filenames are all English; only the target language (Greek, Spanish, etc.) varies by deck.
+- **Image generation via gpt-image-1** — `scripts/generate_images.py` calls `gpt-image-1` (default) via OpenAI `/v1/images/generations`; also supports DALL-E 3/2 and OpenRouter/Gemini via `--model` flag. Saves base64-decoded PNG; skips existing files; updates the deck JSON with image paths. Switched from Gemini (OpenRouter) → DALL-E 3 → gpt-image-1 after quality comparison; gpt-image-1 matches duck.ai output without prompt rewriting.
+- **Translation-based image filenames** — images are named after the English `translation` field (e.g. `images/fruits/apple.png`). Images are concept-level assets shared across any future language deck. English is the fixed base language of the app — UI, translation field, and filenames are all English; only the target language (Greek, Spanish, etc.) varies by deck.
+- **Category-slug card IDs** — card IDs use the pattern `category_translation-slug` (e.g. `dinosaurs_stegosaurus`, `fruits_apple`). Self-documenting and language-agnostic; the old `gr_` prefix was deck-specific leakage. Audio files follow the same pattern: `audio/dinosaurs_stegosaurus_v1.mp3`.
 - **No SRS / no backend** — navigation is simple prev/next with optional shuffle; no spaced-repetition or progress tracking; keeps the app simple and child-friendly while eliminating backend complexity
 - **Settings behind 5-tap** — prevents child from opening settings accidentally
 - **Base language / target language split** — each card has a `translation` field (the learner's native-language gloss) and a `romanized` field (Latin-script pronunciation aid for scripts like Greek or Japanese). The deck key (`greek`, `spanish`) is the target language; `translation` is intentionally generic so a French-speaking family can fork the data and replace English translations with French without code changes. The base language is currently always English by convention; making it runtime-configurable is future work.
-- **Service worker cache versioning** — `sw.js` uses a cache-first strategy with a named cache (`lingocards-v1`, etc.). A regular browser refresh serves all precached files (app.js, style.css, words.json) from cache — the network is never hit. To force users onto new files after a deploy, bump the cache name constant in `sw.js`; the old cache is then evicted on activation. Shift+Refresh bypasses the service worker entirely and is the easiest way to test changes locally. The `/prep` checklist includes a reminder to bump the version.
+- **Service worker cache versioning** — `sw.js` uses a cache-first strategy with a named cache (`lingocards-v1`, etc.). A regular browser refresh serves all precached files (app.js, style.css, manifest.json, greek.json) from cache — the network is never hit. To force users onto new files after a deploy, bump the cache name constant in `sw.js`; the old cache is then evicted on activation. Shift+Refresh bypasses the service worker entirely and is the easiest way to test changes locally. The `/prep` checklist includes a reminder to bump the version.
 - **Parent console (settings overlay)** — the gear icon is gated behind 5 taps to prevent accidental child access; opens a full-screen panel where parents enable/disable categories. Selection is stored in `settings.enabledCategories` (array of category keys, or `null` meaning all enabled) via `localStorage`. Both the category tab row and the "All" deck are filtered to only enabled categories. Done applies; ✕ discards. Done is disabled when no categories are checked.
 - **Welcome popup** — shown on first visit only, gated by `localStorage` key `lingocards_welcomed`. Explains the app and basic controls to new users. Dismissed via button or Escape; state persists across sessions and PWA installs.
-- **Language notes panel** — ℹ️ button in the topbar opens a parent-facing overlay with deck-specific notes (pronunciation guide, linguistic quirks, etc.). Content lives in `deck_meta.<lang>.user_notes` in `words.json` — an array of `{title, body}` objects rendered dynamically. Adding notes for a new deck requires no code changes.
+- **Language notes panel** — ℹ️ button in the topbar opens a parent-facing overlay with deck-specific notes (pronunciation guide, linguistic quirks, etc.). Content lives in `user_notes` on the deck's manifest entry — an array of `{title, body}` objects rendered dynamically. Adding notes for a new deck requires no code changes.
 - **Keyboard navigation** — left/right arrow keys call `goPrev`/`goNext`; Escape closes whichever overlay is open (welcome → notes → settings, in that priority). Keys are suppressed when any overlay is visible.
 
 ### ADR-2: No image frame on cards
@@ -70,6 +74,12 @@ flashcards/
 **Decision:** `scripts/normalize_images.py` flood-fills from the four image corners, replacing near-white pixels (within a configurable tolerance, default 30) with pure white. Runs offline, in-place. Interior details (shadows, brush strokes) are preserved because they are unreachable from the corners without crossing illustration linework.
 **Alternatives considered:** `mix-blend-mode: multiply` in CSS (rejected — papers over the problem and breaks if card background changes); regenerating images with stricter prompts (rejected — AI generation is not reliably consistent); `PIL.ImageDraw.floodfill` (rejected — exact match only, no tolerance).
 **Consequences:** Adds `normalize_images.py` to scripts; adds `numpy` to `requirements.txt`. Should be run after any batch image generation.
+
+### ADR-4: Split words.json into manifest + per-deck files
+**Date:** 2026-05-07
+**Decision:** Replaced the monolithic `data/words.json` with `data/manifest.json` (deck registry) and `data/decks/<lang>.json` (card arrays loaded on demand). `app.js` fetches the manifest first, populates the language select from it, then lazy-loads the chosen deck. The `emoji` field was removed from all non-alphabet cards (it was an unused fallback); alphabet cards had their `emoji` field renamed to `letter` to clarify its display purpose.
+**Alternatives considered:** Keeping a single file (rejected — file grows linearly with each new language, and the monolith conflates registry metadata with card data); splitting at build time only (rejected — no build step in this stack).
+**Consequences:** `app.js` gains `loadDeck(lang)` async loader and `renderLanguageSelect()` from manifest data. `generate_images.py` and `generate_audio.py` updated to iterate manifest decks. Service worker PRECACHE updated to `data/manifest.json` + `data/decks/greek.json` (lazy-loaded decks are cached on first fetch). Adding a new language requires: add entry to manifest, add `data/decks/<lang>.json`, no code changes.
 
 ### ADR-1: Responsive images via separate offline resizer script
 **Date:** 2026-05-06
@@ -88,7 +98,8 @@ flashcards/
 
 ### JS organisation (`src/app.js`)
 - **State** — `allDecks`, `deck`, `queue`, `position`, `language`, `category`, `shuffled`, `settings`
-- **`init()`** — fetches words.json, wires listeners, renders first card
+- **`init()`** — fetches manifest.json, calls `renderLanguageSelect()`, awaits `loadDeck(lang)`, then renders first card
+- **`loadDeck(lang)`** — lazy-fetches `data/decks/<lang>.json`; caches result in `allDecks` so switching back doesn't refetch
 - **`switchLanguage()` / `switchCategory()`** — update state, rebuild queue, re-render
 - **`buildQueue()`** — filters deck by category; returns indices in order or shuffled
 - **`renderCard()`** — populates card DOM; dispatches to color swatch / image / numeral / emoji based on card fields
@@ -96,31 +107,35 @@ flashcards/
 - **Audio** — `playAudio()` plays voice_1 on card change when autoplay on; button tap plays a random voice
 
 ### Data
-`data/words.json` shape:
+`data/manifest.json` shape:
 ```json
 {
-  "_schema": { ... },
-  "decks": {
-    "greek": [
-      {
-        "id": "gr_001",
-        "category": "dinosaurs",
-        "subcategory": "wild",                    // optional — for future parent-filter drill-down
-        "greek": "Δεινόσαυρος",
-        "romanized": "Deinósavros",
-        "translation": "Dinosaur",                // learner's native-language gloss (not hardcoded to English)
-        "emoji": "🦕",
-        "image": "images/dinosaurs/stegosaurus.png",  // optional — generated by generate_images.py
-        "color": "#FF4040",                       // optional — colors category only, drives CSS swatch
-        "numeral": "1",                           // optional — numbers category only, drives large text
-        "audio": {
-          "voice_1": "audio/gr_001_v1.mp3",       // optional — generated by generate_audio.py
-          "voice_2": "audio/gr_001_v2.mp3",
-          "voice_3": "audio/gr_001_v3.mp3"
-        }
-      }
-    ],
-    "spanish": []
-  }
+  "decks": [
+    { "key": "greek", "label": "Greek (Ελληνικά)", "flag": "🇬🇷", "enabled": true, "user_notes": [...] },
+    { "key": "spanish", "label": "Español", "flag": "🇪🇸", "enabled": false, "user_notes": [] }
+  ]
 }
+```
+
+`data/decks/<lang>.json` shape (array of cards):
+```json
+[
+  {
+    "id": "dinosaurs_stegosaurus",            // category_translation-slug
+    "category": "dinosaurs",
+    "subcategory": "wild",                    // optional — for future parent-filter drill-down
+    "greek": "Στεγόσαυρος",
+    "romanized": "Stegósavros",
+    "translation": "Stegosaurus",             // learner's native-language gloss (not hardcoded to English)
+    "image": "images/dinosaurs/stegosaurus.png",  // optional — generated by generate_images.py
+    "color": "#FF4040",                       // optional — colors category only, drives CSS swatch
+    "numeral": "1",                           // optional — numbers category only, drives large text
+    "letter": "Α",                            // optional — alphabet category only, drives large letter display
+    "audio": {
+      "voice_1": "audio/dinosaurs_stegosaurus_v1.mp3",  // optional — generated by generate_audio.py
+      "voice_2": "audio/dinosaurs_stegosaurus_v2.mp3",
+      "voice_3": "audio/dinosaurs_stegosaurus_v3.mp3"
+    }
+  }
+]
 ```

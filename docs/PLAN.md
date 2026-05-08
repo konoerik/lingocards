@@ -1,9 +1,9 @@
 # Plan
 
 ## Active
-- [ ] Review alphabet cards (gr_035–gr_058) — currently shows uppercase letter as the icon and "Α α" as the translation; decide whether to split into separate upper/lowercase cards, show both forms in the visual, or change the translation field
+- [ ] Review alphabet cards (alphabet_alpha–alphabet_omega) — currently shows uppercase letter as the icon and "Α α" as the translation; decide whether to split into separate upper/lowercase cards, show both forms in the visual, or change the translation field
 ## Backlog
-- Add audio paths and run generate_audio.py for gr_059–gr_250
+- Add audio paths to greek.json and run generate_audio.py (naming: audio/<card-id>_v1.mp3)
 - ~~Deploy to GitHub Pages (create repo, push, enable Pages)~~ — live at konoerik.github.io/lingocards
 
 ### Identity & architecture

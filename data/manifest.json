@@ -1,0 +1,42 @@
+{
+  "_schema": {
+    "key": "deck identifier, used in filenames and app state",
+    "label": "display name",
+    "flag": "flag emoji for UI",
+    "enabled": "whether this deck is selectable in the UI",
+    "user_notes": "array of {title, body} shown in the ℹ️ panel"
+  },
+  "decks": [
+    {
+      "key": "greek",
+      "label": "Greek (Ελληνικά)",
+      "flag": "🇬🇷",
+      "enabled": true,
+      "user_notes": [
+        {
+          "title": "Reading the pronunciation guide",
+          "body": "The italicised line beneath each Greek word is a phonetic guide written with familiar letters. The accent mark (´) shows which syllable to stress — say it slightly louder and longer than the others."
+        },
+        {
+          "title": "Two sounds that may be unfamiliar",
+          "body": "'ch' (e.g. Chaetós) sounds like the 'ch' in Scottish 'loch' — a soft rasp at the back of the throat, not as in 'church'. 'th' is always the gentle sound in 'thin', never the harder sound in 'the'."
+        },
+        {
+          "title": "Two ways to say nine",
+          "body": "Greeks say 'enniá' for nine on its own, but 'ennéa' in compound numbers such as nineteen (dekaennéa). Both forms are correct — the everyday spoken form is used on the standalone nine card."
+        },
+        {
+          "title": "About the alphabet cards",
+          "body": "The Alphabet section shows each Greek letter in its upper and lowercase forms. Some look like English letters but sound different — Ρ ρ is 'r', Ν ν is 'n', and Χ χ makes the raspy 'ch' sound described above."
+        }
+      ]
+    },
+    {
+      "key": "spanish",
+      "label": "Español",
+      "flag": "🇪🇸",
+      "enabled": false,
+      "user_notes": []
+    }
+  ]
+}

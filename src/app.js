@@ -31,8 +31,8 @@ const CATEGORY_META = {
 
 // ── State ──────────────────────────────────────────────────────────────────
 
-let allDecks  = {};
-let allMeta   = {};
+let allDecks      = {};
+let deckManifest  = [];
 let deck      = [];       // full card list for current language + category
 let queue     = [];       // ordered or shuffled indices into deck
 let position  = 0;        // index into queue
@@ -87,21 +87,31 @@ const elSettingsSelectNone   = document.getElementById('settings-select-none');
 
 // ── Bootstrap ──────────────────────────────────────────────────────────────
 
+async function loadDeck(lang) {
+  if (allDecks[lang]) return;
+  try {
+    const res = await fetch(`data/decks/${lang}.json`);
+    allDecks[lang] = await res.json();
+  } catch (e) {
+    console.error(`Failed to load deck: ${lang}`, e);
+    allDecks[lang] = [];
+  }
+}
+
 async function init() {
   loadSettings();
 
   try {
-    const res = await fetch('data/words.json');
-    const data = await res.json();
-    allDecks = data.decks;
-    allMeta  = data.deck_meta || {};
+    const res = await fetch('data/manifest.json');
+    const manifest = await res.json();
+    deckManifest = manifest.decks || [];
   } catch (e) {
-    console.error('Failed to load words.json', e);
+    console.error('Failed to load manifest.json', e);
     return;
   }
 
-  elLanguageSelect.value = language;
-  updateLanguageSelect();
+  renderLanguageSelect();
+  await loadDeck(language);
   switchLanguage(language);
   const cardsWithImages = getActiveCards().filter(c => c.image);
   if (cardsWithImages.length > 0) {
@@ -126,9 +136,18 @@ function switchLanguage(lang) {
   renderCard();
 }
 
-function updateLanguageSelect() {
-  const populated = Object.keys(allDecks).filter(k => (allDecks[k] || []).length > 0);
-  elLanguageSelect.classList.toggle('hidden', populated.length < 1);
+function renderLanguageSelect() {
+  elLanguageSelect.innerHTML = '';
+  deckManifest.forEach(d => {
+    const opt = document.createElement('option');
+    opt.value = d.key;
+    opt.textContent = `${d.flag} ${d.label}`;
+    opt.disabled = !d.enabled;
+    elLanguageSelect.appendChild(opt);
+  });
+  elLanguageSelect.value = language;
+  const enabled = deckManifest.filter(d => d.enabled);
+  elLanguageSelect.classList.toggle('hidden', enabled.length < 2);
 }
 
 function switchCategory(cat) {
@@ -205,7 +224,7 @@ function renderCard(direction = 'next') {
     elCardLetter.className = 'card-letter number';
   } else if (card.category === 'alphabet') {
     elCardImageWrap.classList.add('has-letter');
-    elCardLetter.textContent = card.emoji;
+    elCardLetter.textContent = card.letter;
     elCardLetter.className = 'card-letter letter';
   } else if (card.category === 'greetings') {
     elCardImageWrap.classList.add('has-speech');
@@ -425,8 +444,8 @@ function closeWelcome() {
 // ── Language notes ─────────────────────────────────────────────────────────
 
 function openNotes() {
-  const meta  = allMeta[language] || {};
-  const notes = meta.user_notes   || [];
+  const meta  = deckManifest.find(d => d.key === language) || {};
+  const notes = meta.user_notes || [];
   elNotesTitle.textContent = (meta.label || language) + ' — Notes';
   elNotesBody.innerHTML = notes.map(n =>
     `<div class="note-card">
@@ -444,7 +463,10 @@ function closeNotes() {
 // ── Event listeners ────────────────────────────────────────────────────────
 
 function attachListeners() {
-  elLanguageSelect.addEventListener('change', e => switchLanguage(e.target.value));
+  elLanguageSelect.addEventListener('change', async e => {
+    await loadDeck(e.target.value);
+    switchLanguage(e.target.value);
+  });
 
   elBtnPrev.addEventListener('click', goPrev);
   elBtnNext.addEventListener('click', goNext);
