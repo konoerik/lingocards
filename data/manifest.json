@@ -9,7 +9,7 @@
   "decks": [
     {
       "key": "greek",
-      "label": "Greek (Ελληνικά)",
+      "label": "Ελληνικά",
       "flag": "🇬🇷",
       "enabled": true,
       "user_notes": [

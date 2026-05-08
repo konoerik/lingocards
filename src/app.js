@@ -146,8 +146,7 @@ function renderLanguageSelect() {
     elLanguageSelect.appendChild(opt);
   });
   elLanguageSelect.value = language;
-  const enabled = deckManifest.filter(d => d.enabled);
-  elLanguageSelect.classList.toggle('hidden', enabled.length < 2);
+  elLanguageSelect.classList.toggle('hidden', deckManifest.length < 2);
 }
 
 function switchCategory(cat) {

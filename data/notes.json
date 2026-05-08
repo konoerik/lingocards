@@ -23,7 +23,7 @@
                         ],
                         "known_ambiguities": [
                                 "Ψυγείο (Fridge): romanized 'Psiyío' — the double-i results from υ=i + γεί=yi. Unusual visually but phonetically accurate.",
-                                "Εννιά (Nine, gr_019) vs Δεκαεννέα (Nineteen, gr_257): standalone 'nine' uses the colloquial modern form εννιά (Enniá); compound numbers use the classical form εννέα (e.g. Dekaennéa). Both are correct Greek — εννιά is heard in everyday speech, εννέα appears in all compound numerals (19, 29, 39…)."
+                                "Εννιά (Nine, numbers_nine) vs Δεκαεννέα (Nineteen, numbers_nineteen): standalone 'nine' uses the colloquial modern form εννιά (Enniá); compound numbers use the classical form εννέα (e.g. Dekaennéa). Both are correct Greek — εννιά is heard in everyday speech, εννέα appears in all compound numerals (19, 29, 39…)."
                         ],
                         "resolved": [
                                 "γεια σου (Hello): 'Yia sou' chosen over 'Yeiá sou'. Letter-preserving Greeklish style (Yeiá) is not useful for pronunciation learning."
@@ -33,14 +33,14 @@
                         "policy": "Standard dictionary forms used throughout, not colloquial spoken variants.",
                         "examples": [
                                 "Αδελφή / Αδελφός (not spoken Αδερφή / Αδερφός)",
-                                "Επτά (not spoken Εφτά) — note: gr_025 retains Εφτά as a recognized variant; see card notes",
+                                "Επτά (not spoken Εφτά) — note: numbers_seven retains Εφτά as a recognized variant; see card notes",
                                 "Greek is rich in such pairs; the dictionary form is used for consistency and literacy alignment"
                         ]
                 },
                 "translation": {
                         "notes": [
-                                "Παρακαλώ (gr_245) means both 'Please' and 'You're welcome'. Translated as 'Please' on the card; dual meaning noted in card notes.",
-                                "Γιορτή (gr_128) translated as 'Name Day' — reflects dominant cultural usage rather than literal meaning ('celebration/holiday/feast')."
+                                "Παρακαλώ (greetings_please) means both 'Please' and 'You're welcome'. Translated as 'Please' on the card; dual meaning noted in card notes.",
+                                "Γιορτή (holidays_name_day) translated as 'Name Day' — reflects dominant cultural usage rather than literal meaning ('celebration/holiday/feast')."
                         ]
                 }
         }
