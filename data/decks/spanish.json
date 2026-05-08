@@ -485,7 +485,7 @@
     "spanish": "Estegosaurio",
     "romanized": "Es-teh-go-saú-ryo",
     "translation": "Stegosaurus",
-    "image": "images/dinosaurs/stegosaurus.png"
+    "image": "images/dinosaurs/stegosaurus.webp"
   },
   {
     "id": "dinosaurs_tyrannosaurus",
@@ -493,7 +493,7 @@
     "spanish": "Tiranosaurio",
     "romanized": "Ti-ra-no-saú-ryo",
     "translation": "Tyrannosaurus",
-    "image": "images/dinosaurs/tyrannosaurus.png"
+    "image": "images/dinosaurs/tyrannosaurus.webp"
   },
   {
     "id": "dinosaurs_triceratops",
@@ -501,7 +501,7 @@
     "spanish": "Triceratops",
     "romanized": "Tri-seh-ra-tóps",
     "translation": "Triceratops",
-    "image": "images/dinosaurs/triceratops.png"
+    "image": "images/dinosaurs/triceratops.webp"
   },
   {
     "id": "dinosaurs_brontosaurus",
@@ -509,7 +509,7 @@
     "spanish": "Brontosaurio",
     "romanized": "Bron-to-saú-ryo",
     "translation": "Brontosaurus",
-    "image": "images/dinosaurs/brontosaurus.png"
+    "image": "images/dinosaurs/brontosaurus.webp"
   },
   {
     "id": "dinosaurs_pterodactyl",
@@ -517,7 +517,7 @@
     "spanish": "Pterodáctilo",
     "romanized": "Pte-ro-dák-ti-lo",
     "translation": "Pterodactyl",
-    "image": "images/dinosaurs/pterodactyl.png"
+    "image": "images/dinosaurs/pterodactyl.webp"
   },
   {
     "id": "animals_elephant",
@@ -525,7 +525,7 @@
     "spanish": "Elefante",
     "romanized": "E-le-fán-teh",
     "translation": "Elephant",
-    "image": "images/animals/elephant.png"
+    "image": "images/animals/elephant.webp"
   },
   {
     "id": "animals_lion",
@@ -533,7 +533,7 @@
     "spanish": "León",
     "romanized": "Le-ón",
     "translation": "Lion",
-    "image": "images/animals/lion.png"
+    "image": "images/animals/lion.webp"
   },
   {
     "id": "animals_giraffe",
@@ -541,7 +541,7 @@
     "spanish": "Jirafa",
     "romanized": "Hi-rá-fa",
     "translation": "Giraffe",
-    "image": "images/animals/giraffe.png"
+    "image": "images/animals/giraffe.webp"
   },
   {
     "id": "animals_dolphin",
@@ -549,7 +549,7 @@
     "spanish": "Delfín",
     "romanized": "Del-fín",
     "translation": "Dolphin",
-    "image": "images/animals/dolphin.png"
+    "image": "images/animals/dolphin.webp"
   },
   {
     "id": "animals_fox",
@@ -557,7 +557,7 @@
     "spanish": "Zorro",
     "romanized": "Só-rro",
     "translation": "Fox",
-    "image": "images/animals/fox.png"
+    "image": "images/animals/fox.webp"
   },
   {
     "id": "animals_dog",
@@ -565,7 +565,7 @@
     "spanish": "Perro",
     "romanized": "Pé-rro",
     "translation": "Dog",
-    "image": "images/animals/dog.png"
+    "image": "images/animals/dog.webp"
   },
   {
     "id": "animals_cat",
@@ -573,7 +573,7 @@
     "spanish": "Gato",
     "romanized": "Gá-to",
     "translation": "Cat",
-    "image": "images/animals/cat.png"
+    "image": "images/animals/cat.webp"
   },
   {
     "id": "animals_cow",
@@ -581,7 +581,7 @@
     "spanish": "Vaca",
     "romanized": "Bá-ka",
     "translation": "Cow",
-    "image": "images/animals/cow.png"
+    "image": "images/animals/cow.webp"
   },
   {
     "id": "animals_pig",
@@ -589,7 +589,7 @@
     "spanish": "Cerdo",
     "romanized": "Sér-do",
     "translation": "Pig",
-    "image": "images/animals/pig.png"
+    "image": "images/animals/pig.webp"
   },
   {
     "id": "animals_horse",
@@ -597,7 +597,7 @@
     "spanish": "Caballo",
     "romanized": "Ka-bá-yo",
     "translation": "Horse",
-    "image": "images/animals/horse.png"
+    "image": "images/animals/horse.webp"
   },
   {
     "id": "animals_chicken",
@@ -605,7 +605,7 @@
     "spanish": "Pollo",
     "romanized": "Pó-yo",
     "translation": "Chicken",
-    "image": "images/animals/chicken.png"
+    "image": "images/animals/chicken.webp"
   },
   {
     "id": "animals_sheep",
@@ -613,7 +613,7 @@
     "spanish": "Oveja",
     "romanized": "O-bé-ha",
     "translation": "Sheep",
-    "image": "images/animals/sheep.png"
+    "image": "images/animals/sheep.webp"
   },
   {
     "id": "animals_rabbit",
@@ -621,7 +621,7 @@
     "spanish": "Conejo",
     "romanized": "Ko-né-ho",
     "translation": "Rabbit",
-    "image": "images/animals/rabbit.png"
+    "image": "images/animals/rabbit.webp"
   },
   {
     "id": "animals_bear",
@@ -629,7 +629,7 @@
     "spanish": "Oso",
     "romanized": "Ó-so",
     "translation": "Bear",
-    "image": "images/animals/bear.png"
+    "image": "images/animals/bear.webp"
   },
   {
     "id": "animals_monkey",
@@ -637,7 +637,7 @@
     "spanish": "Mono",
     "romanized": "Mó-no",
     "translation": "Monkey",
-    "image": "images/animals/monkey.png"
+    "image": "images/animals/monkey.webp"
   },
   {
     "id": "animals_zebra",
@@ -645,7 +645,7 @@
     "spanish": "Cebra",
     "romanized": "Sé-bra",
     "translation": "Zebra",
-    "image": "images/animals/zebra.png"
+    "image": "images/animals/zebra.webp"
   },
   {
     "id": "animals_tiger",
@@ -653,7 +653,7 @@
     "spanish": "Tigre",
     "romanized": "Tí-greh",
     "translation": "Tiger",
-    "image": "images/animals/tiger.png"
+    "image": "images/animals/tiger.webp"
   },
   {
     "id": "animals_wolf",
@@ -661,7 +661,7 @@
     "spanish": "Lobo",
     "romanized": "Ló-bo",
     "translation": "Wolf",
-    "image": "images/animals/wolf.png"
+    "image": "images/animals/wolf.webp"
   },
   {
     "id": "animals_crocodile",
@@ -669,7 +669,7 @@
     "spanish": "Cocodrilo",
     "romanized": "Ko-ko-drí-lo",
     "translation": "Crocodile",
-    "image": "images/animals/crocodile.png"
+    "image": "images/animals/crocodile.webp"
   },
   {
     "id": "animals_hippo",
@@ -677,7 +677,7 @@
     "spanish": "Hipopótamo",
     "romanized": "Hi-po-pó-ta-mo",
     "translation": "Hippo",
-    "image": "images/animals/hippo.png"
+    "image": "images/animals/hippo.webp"
   },
   {
     "id": "animals_penguin",
@@ -685,7 +685,7 @@
     "spanish": "Pingüino",
     "romanized": "Pin-gwí-no",
     "translation": "Penguin",
-    "image": "images/animals/penguin.png"
+    "image": "images/animals/penguin.webp"
   },
   {
     "id": "animals_owl",
@@ -693,7 +693,7 @@
     "spanish": "Búho",
     "romanized": "Bú-o",
     "translation": "Owl",
-    "image": "images/animals/owl.png"
+    "image": "images/animals/owl.webp"
   },
   {
     "id": "animals_parrot",
@@ -701,7 +701,7 @@
     "spanish": "Loro",
     "romanized": "Ló-ro",
     "translation": "Parrot",
-    "image": "images/animals/parrot.png"
+    "image": "images/animals/parrot.webp"
   },
   {
     "id": "animals_flamingo",
@@ -709,7 +709,7 @@
     "spanish": "Flamenco",
     "romanized": "Fla-mén-ko",
     "translation": "Flamingo",
-    "image": "images/animals/flamingo.png"
+    "image": "images/animals/flamingo.webp"
   },
   {
     "id": "animals_shark",
@@ -717,7 +717,7 @@
     "spanish": "Tiburón",
     "romanized": "Ti-bu-rón",
     "translation": "Shark",
-    "image": "images/animals/shark.png"
+    "image": "images/animals/shark.webp"
   },
   {
     "id": "animals_whale",
@@ -725,7 +725,7 @@
     "spanish": "Ballena",
     "romanized": "Ba-yé-na",
     "translation": "Whale",
-    "image": "images/animals/whale.png"
+    "image": "images/animals/whale.webp"
   },
   {
     "id": "animals_turtle",
@@ -733,7 +733,7 @@
     "spanish": "Tortuga",
     "romanized": "Tor-tú-ga",
     "translation": "Turtle",
-    "image": "images/animals/turtle.png"
+    "image": "images/animals/turtle.webp"
   },
   {
     "id": "animals_frog",
@@ -741,7 +741,7 @@
     "spanish": "Rana",
     "romanized": "Rá-na",
     "translation": "Frog",
-    "image": "images/animals/frog.png"
+    "image": "images/animals/frog.webp"
   },
   {
     "id": "animals_butterfly",
@@ -749,7 +749,7 @@
     "spanish": "Mariposa",
     "romanized": "Ma-ri-pó-sa",
     "translation": "Butterfly",
-    "image": "images/animals/butterfly.png"
+    "image": "images/animals/butterfly.webp"
   },
   {
     "id": "animals_bee",
@@ -757,7 +757,7 @@
     "spanish": "Abeja",
     "romanized": "A-bé-ha",
     "translation": "Bee",
-    "image": "images/animals/bee.png"
+    "image": "images/animals/bee.webp"
   },
   {
     "id": "family_mom",
@@ -765,7 +765,7 @@
     "spanish": "Mamá",
     "romanized": "Ma-má",
     "translation": "Mom",
-    "image": "images/family/mom.png"
+    "image": "images/family/mom.webp"
   },
   {
     "id": "family_dad",
@@ -773,7 +773,7 @@
     "spanish": "Papá",
     "romanized": "Pa-pá",
     "translation": "Dad",
-    "image": "images/family/dad.png"
+    "image": "images/family/dad.webp"
   },
   {
     "id": "family_grandma",
@@ -781,7 +781,7 @@
     "spanish": "Abuela",
     "romanized": "A-bwé-la",
     "translation": "Grandma",
-    "image": "images/family/grandma.png"
+    "image": "images/family/grandma.webp"
   },
   {
     "id": "family_grandpa",
@@ -789,7 +789,7 @@
     "spanish": "Abuelo",
     "romanized": "A-bwé-lo",
     "translation": "Grandpa",
-    "image": "images/family/grandpa.png"
+    "image": "images/family/grandpa.webp"
   },
   {
     "id": "family_sister",
@@ -797,7 +797,7 @@
     "spanish": "Hermana",
     "romanized": "Er-má-na",
     "translation": "Sister",
-    "image": "images/family/sister.png"
+    "image": "images/family/sister.webp"
   },
   {
     "id": "family_brother",
@@ -805,7 +805,7 @@
     "spanish": "Hermano",
     "romanized": "Er-má-no",
     "translation": "Brother",
-    "image": "images/family/brother.png"
+    "image": "images/family/brother.webp"
   },
   {
     "id": "family_baby",
@@ -813,7 +813,7 @@
     "spanish": "Bebé",
     "romanized": "Beh-bé",
     "translation": "Baby",
-    "image": "images/family/baby.png"
+    "image": "images/family/baby.webp"
   },
   {
     "id": "family_aunt",
@@ -821,7 +821,7 @@
     "spanish": "Tía",
     "romanized": "Tí-a",
     "translation": "Aunt",
-    "image": "images/family/aunt.png"
+    "image": "images/family/aunt.webp"
   },
   {
     "id": "family_uncle",
@@ -829,7 +829,7 @@
     "spanish": "Tío",
     "romanized": "Tí-o",
     "translation": "Uncle",
-    "image": "images/family/uncle.png"
+    "image": "images/family/uncle.webp"
   },
   {
     "id": "family_family",
@@ -837,7 +837,7 @@
     "spanish": "Familia",
     "romanized": "Fa-mí-lya",
     "translation": "Family",
-    "image": "images/family/family.png"
+    "image": "images/family/family.webp"
   },
   {
     "id": "body_parts_head",
@@ -845,7 +845,7 @@
     "spanish": "Cabeza",
     "romanized": "Ka-bé-sa",
     "translation": "Head",
-    "image": "images/body_parts/head.png"
+    "image": "images/body_parts/head.webp"
   },
   {
     "id": "body_parts_eyes",
@@ -853,7 +853,7 @@
     "spanish": "Ojos",
     "romanized": "Ó-hos",
     "translation": "Eyes",
-    "image": "images/body_parts/eyes.png"
+    "image": "images/body_parts/eyes.webp"
   },
   {
     "id": "body_parts_nose",
@@ -861,7 +861,7 @@
     "spanish": "Nariz",
     "romanized": "Na-rís",
     "translation": "Nose",
-    "image": "images/body_parts/nose.png"
+    "image": "images/body_parts/nose.webp"
   },
   {
     "id": "body_parts_mouth",
@@ -869,7 +869,7 @@
     "spanish": "Boca",
     "romanized": "Bó-ka",
     "translation": "Mouth",
-    "image": "images/body_parts/mouth.png"
+    "image": "images/body_parts/mouth.webp"
   },
   {
     "id": "body_parts_ears",
@@ -877,7 +877,7 @@
     "spanish": "Orejas",
     "romanized": "O-ré-has",
     "translation": "Ears",
-    "image": "images/body_parts/ears.png"
+    "image": "images/body_parts/ears.webp"
   },
   {
     "id": "body_parts_hair",
@@ -885,7 +885,7 @@
     "spanish": "Pelo",
     "romanized": "Pé-lo",
     "translation": "Hair",
-    "image": "images/body_parts/hair.png"
+    "image": "images/body_parts/hair.webp"
   },
   {
     "id": "body_parts_hands",
@@ -893,7 +893,7 @@
     "spanish": "Manos",
     "romanized": "Má-nos",
     "translation": "Hands",
-    "image": "images/body_parts/hands.png"
+    "image": "images/body_parts/hands.webp"
   },
   {
     "id": "body_parts_feet",
@@ -901,7 +901,7 @@
     "spanish": "Pies",
     "romanized": "Pyés",
     "translation": "Feet",
-    "image": "images/body_parts/feet.png"
+    "image": "images/body_parts/feet.webp"
   },
   {
     "id": "body_parts_belly",
@@ -909,7 +909,7 @@
     "spanish": "Barriga",
     "romanized": "Ba-rrí-ga",
     "translation": "Belly",
-    "image": "images/body_parts/belly.png"
+    "image": "images/body_parts/belly.webp"
   },
   {
     "id": "body_parts_knees",
@@ -917,7 +917,7 @@
     "spanish": "Rodillas",
     "romanized": "Ro-dí-yas",
     "translation": "Knees",
-    "image": "images/body_parts/knees.png"
+    "image": "images/body_parts/knees.webp"
   },
   {
     "id": "greetings_hello",
@@ -925,7 +925,7 @@
     "spanish": "Hola",
     "romanized": "Ó-la",
     "translation": "Hello",
-    "image": "images/greetings/hello.png"
+    "image": "images/greetings/hello.webp"
   },
   {
     "id": "greetings_goodbye",
@@ -933,7 +933,7 @@
     "spanish": "Adiós",
     "romanized": "A-dyós",
     "translation": "Goodbye",
-    "image": "images/greetings/goodbye.png"
+    "image": "images/greetings/goodbye.webp"
   },
   {
     "id": "greetings_good_morning",
@@ -941,7 +941,7 @@
     "spanish": "Buenos días",
     "romanized": "Bwé-nos Dí-as",
     "translation": "Good Morning",
-    "image": "images/greetings/good_morning.png"
+    "image": "images/greetings/good_morning.webp"
   },
   {
     "id": "greetings_good_evening",
@@ -949,7 +949,7 @@
     "spanish": "Buenas tardes",
     "romanized": "Bwé-nas Tár-des",
     "translation": "Good Evening",
-    "image": "images/greetings/good_evening.png"
+    "image": "images/greetings/good_evening.webp"
   },
   {
     "id": "greetings_good_night",
@@ -957,7 +957,7 @@
     "spanish": "Buenas noches",
     "romanized": "Bwé-nas Nó-ches",
     "translation": "Good Night",
-    "image": "images/greetings/good_night.png"
+    "image": "images/greetings/good_night.webp"
   },
   {
     "id": "greetings_thank_you",
@@ -965,7 +965,7 @@
     "spanish": "Gracias",
     "romanized": "Grá-syas",
     "translation": "Thank You",
-    "image": "images/greetings/thank_you.png"
+    "image": "images/greetings/thank_you.webp"
   },
   {
     "id": "greetings_please",
@@ -973,7 +973,7 @@
     "spanish": "Por favor",
     "romanized": "Por Fa-bór",
     "translation": "Please",
-    "image": "images/greetings/please.png"
+    "image": "images/greetings/please.webp"
   },
   {
     "id": "greetings_yes",
@@ -981,7 +981,7 @@
     "spanish": "Sí",
     "romanized": "Sí",
     "translation": "Yes",
-    "image": "images/greetings/yes.png"
+    "image": "images/greetings/yes.webp"
   },
   {
     "id": "greetings_no",
@@ -989,7 +989,7 @@
     "spanish": "No",
     "romanized": "No",
     "translation": "No",
-    "image": "images/greetings/no.png"
+    "image": "images/greetings/no.webp"
   },
   {
     "id": "greetings_sorry",
@@ -997,7 +997,7 @@
     "spanish": "Lo siento",
     "romanized": "Lo Syén-to",
     "translation": "Sorry",
-    "image": "images/greetings/sorry.png"
+    "image": "images/greetings/sorry.webp"
   },
   {
     "id": "greetings_i_love_you",
@@ -1005,7 +1005,7 @@
     "spanish": "Te quiero",
     "romanized": "Teh Kyé-ro",
     "translation": "I Love You",
-    "image": "images/greetings/i_love_you.png"
+    "image": "images/greetings/i_love_you.webp"
   },
   {
     "id": "greetings_help",
@@ -1013,7 +1013,7 @@
     "spanish": "Ayuda",
     "romanized": "A-yú-da",
     "translation": "Help",
-    "image": "images/greetings/help.png"
+    "image": "images/greetings/help.webp"
   },
   {
     "id": "greetings_you_re_welcome",
@@ -1021,7 +1021,7 @@
     "spanish": "De nada",
     "romanized": "Deh Ná-da",
     "translation": "You're Welcome",
-    "image": "images/greetings/youre_welcome.png"
+    "image": "images/greetings/youre_welcome.webp"
   },
   {
     "id": "verbs_run",
@@ -1029,7 +1029,7 @@
     "spanish": "Correr",
     "romanized": "Ko-rrér",
     "translation": "Run",
-    "image": "images/verbs/run.png"
+    "image": "images/verbs/run.webp"
   },
   {
     "id": "verbs_jump",
@@ -1037,7 +1037,7 @@
     "spanish": "Saltar",
     "romanized": "Sal-tár",
     "translation": "Jump",
-    "image": "images/verbs/jump.png"
+    "image": "images/verbs/jump.webp"
   },
   {
     "id": "verbs_sleep",
@@ -1045,7 +1045,7 @@
     "spanish": "Dormir",
     "romanized": "Dor-mír",
     "translation": "Sleep",
-    "image": "images/verbs/sleep.png"
+    "image": "images/verbs/sleep.webp"
   },
   {
     "id": "verbs_eat",
@@ -1053,7 +1053,7 @@
     "spanish": "Comer",
     "romanized": "Ko-mér",
     "translation": "Eat",
-    "image": "images/verbs/eat.png"
+    "image": "images/verbs/eat.webp"
   },
   {
     "id": "verbs_drink",
@@ -1061,7 +1061,7 @@
     "spanish": "Beber",
     "romanized": "Be-bér",
     "translation": "Drink",
-    "image": "images/verbs/drink.png"
+    "image": "images/verbs/drink.webp"
   },
   {
     "id": "verbs_play",
@@ -1069,7 +1069,7 @@
     "spanish": "Jugar",
     "romanized": "Hu-gár",
     "translation": "Play",
-    "image": "images/verbs/play.png"
+    "image": "images/verbs/play.webp"
   },
   {
     "id": "verbs_sing",
@@ -1077,7 +1077,7 @@
     "spanish": "Cantar",
     "romanized": "Kan-tár",
     "translation": "Sing",
-    "image": "images/verbs/sing.png"
+    "image": "images/verbs/sing.webp"
   },
   {
     "id": "verbs_dance",
@@ -1085,7 +1085,7 @@
     "spanish": "Bailar",
     "romanized": "Bay-lár",
     "translation": "Dance",
-    "image": "images/verbs/dance.png"
+    "image": "images/verbs/dance.webp"
   },
   {
     "id": "verbs_read",
@@ -1093,7 +1093,7 @@
     "spanish": "Leer",
     "romanized": "Leh-ér",
     "translation": "Read",
-    "image": "images/verbs/read.png"
+    "image": "images/verbs/read.webp"
   },
   {
     "id": "verbs_draw",
@@ -1101,7 +1101,7 @@
     "spanish": "Dibujar",
     "romanized": "Di-bu-hár",
     "translation": "Draw",
-    "image": "images/verbs/draw.png"
+    "image": "images/verbs/draw.webp"
   },
   {
     "id": "verbs_swim",
@@ -1109,7 +1109,7 @@
     "spanish": "Nadar",
     "romanized": "Na-dár",
     "translation": "Swim",
-    "image": "images/verbs/swim.png"
+    "image": "images/verbs/swim.webp"
   },
   {
     "id": "verbs_fly",
@@ -1117,7 +1117,7 @@
     "spanish": "Volar",
     "romanized": "Bo-lár",
     "translation": "Fly",
-    "image": "images/verbs/fly.png"
+    "image": "images/verbs/fly.webp"
   },
   {
     "id": "verbs_laugh",
@@ -1125,7 +1125,7 @@
     "spanish": "Reír",
     "romanized": "Re-ír",
     "translation": "Laugh",
-    "image": "images/verbs/laugh.png"
+    "image": "images/verbs/laugh.webp"
   },
   {
     "id": "verbs_cry",
@@ -1133,7 +1133,7 @@
     "spanish": "Llorar",
     "romanized": "Yo-rár",
     "translation": "Cry",
-    "image": "images/verbs/cry.png"
+    "image": "images/verbs/cry.webp"
   },
   {
     "id": "verbs_hug",
@@ -1141,7 +1141,7 @@
     "spanish": "Abrazar",
     "romanized": "A-bra-sár",
     "translation": "Hug",
-    "image": "images/verbs/hug.png"
+    "image": "images/verbs/hug.webp"
   },
   {
     "id": "verbs_listen",
@@ -1149,7 +1149,7 @@
     "spanish": "Escuchar",
     "romanized": "Es-ku-chár",
     "translation": "Listen",
-    "image": "images/verbs/listen.png"
+    "image": "images/verbs/listen.webp"
   },
   {
     "id": "food_bread",
@@ -1157,7 +1157,7 @@
     "spanish": "Pan",
     "romanized": "Pan",
     "translation": "Bread",
-    "image": "images/food/bread.png"
+    "image": "images/food/bread.webp"
   },
   {
     "id": "food_milk",
@@ -1165,7 +1165,7 @@
     "spanish": "Leche",
     "romanized": "Lé-cheh",
     "translation": "Milk",
-    "image": "images/food/milk.png"
+    "image": "images/food/milk.webp"
   },
   {
     "id": "food_egg",
@@ -1173,7 +1173,7 @@
     "spanish": "Huevo",
     "romanized": "Wé-bo",
     "translation": "Egg",
-    "image": "images/food/egg.png"
+    "image": "images/food/egg.webp"
   },
   {
     "id": "food_cheese",
@@ -1181,7 +1181,7 @@
     "spanish": "Queso",
     "romanized": "Ké-so",
     "translation": "Cheese",
-    "image": "images/food/cheese.png"
+    "image": "images/food/cheese.webp"
   },
   {
     "id": "food_honey",
@@ -1189,7 +1189,7 @@
     "spanish": "Miel",
     "romanized": "Myél",
     "translation": "Honey",
-    "image": "images/food/honey.png"
+    "image": "images/food/honey.webp"
   },
   {
     "id": "food_pizza",
@@ -1197,7 +1197,7 @@
     "spanish": "Pizza",
     "romanized": "Pí-sa",
     "translation": "Pizza",
-    "image": "images/food/pizza.png"
+    "image": "images/food/pizza.webp"
   },
   {
     "id": "food_ice_cream",
@@ -1205,7 +1205,7 @@
     "spanish": "Helado",
     "romanized": "E-lá-do",
     "translation": "Ice Cream",
-    "image": "images/food/ice_cream.png"
+    "image": "images/food/ice_cream.webp"
   },
   {
     "id": "food_cookie",
@@ -1213,7 +1213,7 @@
     "spanish": "Galleta",
     "romanized": "Ga-yé-ta",
     "translation": "Cookie",
-    "image": "images/food/cookie.png"
+    "image": "images/food/cookie.webp"
   },
   {
     "id": "food_chocolate",
@@ -1221,7 +1221,7 @@
     "spanish": "Chocolate",
     "romanized": "Cho-ko-lá-teh",
     "translation": "Chocolate",
-    "image": "images/food/chocolate.png"
+    "image": "images/food/chocolate.webp"
   },
   {
     "id": "food_soup",
@@ -1229,7 +1229,7 @@
     "spanish": "Sopa",
     "romanized": "Só-pa",
     "translation": "Soup",
-    "image": "images/food/soup.png"
+    "image": "images/food/soup.webp"
   },
   {
     "id": "food_carrot",
@@ -1237,7 +1237,7 @@
     "spanish": "Zanahoria",
     "romanized": "Sa-na-ó-rya",
     "translation": "Carrot",
-    "image": "images/food/carrot.png"
+    "image": "images/food/carrot.webp"
   },
   {
     "id": "food_tomato",
@@ -1245,7 +1245,7 @@
     "spanish": "Tomate",
     "romanized": "To-má-teh",
     "translation": "Tomato",
-    "image": "images/food/tomato.png"
+    "image": "images/food/tomato.webp"
   },
   {
     "id": "food_potato",
@@ -1253,7 +1253,7 @@
     "spanish": "Papa",
     "romanized": "Pá-pa",
     "translation": "Potato",
-    "image": "images/food/potato.png"
+    "image": "images/food/potato.webp"
   },
   {
     "id": "food_corn",
@@ -1261,7 +1261,7 @@
     "spanish": "Maíz",
     "romanized": "Ma-ís",
     "translation": "Corn",
-    "image": "images/food/corn.png"
+    "image": "images/food/corn.webp"
   },
   {
     "id": "food_salad",
@@ -1269,7 +1269,7 @@
     "spanish": "Ensalada",
     "romanized": "En-sa-lá-da",
     "translation": "Salad",
-    "image": "images/food/salad.png"
+    "image": "images/food/salad.webp"
   },
   {
     "id": "food_water",
@@ -1277,7 +1277,7 @@
     "spanish": "Agua",
     "romanized": "Á-gwa",
     "translation": "Water",
-    "image": "images/food/water.png"
+    "image": "images/food/water.webp"
   },
   {
     "id": "food_juice",
@@ -1285,7 +1285,7 @@
     "spanish": "Jugo",
     "romanized": "Hú-go",
     "translation": "Juice",
-    "image": "images/food/juice.png"
+    "image": "images/food/juice.webp"
   },
   {
     "id": "food_rice",
@@ -1293,7 +1293,7 @@
     "spanish": "Arroz",
     "romanized": "A-rrós",
     "translation": "Rice",
-    "image": "images/food/rice.png"
+    "image": "images/food/rice.webp"
   },
   {
     "id": "food_pasta",
@@ -1301,7 +1301,7 @@
     "spanish": "Pasta",
     "romanized": "Pás-ta",
     "translation": "Pasta",
-    "image": "images/food/pasta.png"
+    "image": "images/food/pasta.webp"
   },
   {
     "id": "food_fish",
@@ -1309,7 +1309,7 @@
     "spanish": "Pescado",
     "romanized": "Pes-ká-do",
     "translation": "Fish",
-    "image": "images/food/fish.png"
+    "image": "images/food/fish.webp"
   },
   {
     "id": "food_butter",
@@ -1317,7 +1317,7 @@
     "spanish": "Mantequilla",
     "romanized": "Man-te-kí-ya",
     "translation": "Butter",
-    "image": "images/food/butter.png"
+    "image": "images/food/butter.webp"
   },
   {
     "id": "food_yogurt",
@@ -1325,7 +1325,7 @@
     "spanish": "Yogur",
     "romanized": "Yo-gúr",
     "translation": "Yogurt",
-    "image": "images/food/yogurt.png"
+    "image": "images/food/yogurt.webp"
   },
   {
     "id": "fruits_apple",
@@ -1333,7 +1333,7 @@
     "spanish": "Manzana",
     "romanized": "Man-sá-na",
     "translation": "Apple",
-    "image": "images/fruits/apple.png"
+    "image": "images/fruits/apple.webp"
   },
   {
     "id": "fruits_banana",
@@ -1341,7 +1341,7 @@
     "spanish": "Plátano",
     "romanized": "Plá-ta-no",
     "translation": "Banana",
-    "image": "images/fruits/banana.png"
+    "image": "images/fruits/banana.webp"
   },
   {
     "id": "fruits_orange",
@@ -1349,7 +1349,7 @@
     "spanish": "Naranja",
     "romanized": "Na-rán-ha",
     "translation": "Orange",
-    "image": "images/fruits/orange.png"
+    "image": "images/fruits/orange.webp"
   },
   {
     "id": "fruits_strawberry",
@@ -1357,7 +1357,7 @@
     "spanish": "Fresa",
     "romanized": "Fré-sa",
     "translation": "Strawberry",
-    "image": "images/fruits/strawberry.png"
+    "image": "images/fruits/strawberry.webp"
   },
   {
     "id": "fruits_grapes",
@@ -1365,7 +1365,7 @@
     "spanish": "Uvas",
     "romanized": "Ú-bas",
     "translation": "Grapes",
-    "image": "images/fruits/grapes.png"
+    "image": "images/fruits/grapes.webp"
   },
   {
     "id": "fruits_watermelon",
@@ -1373,7 +1373,7 @@
     "spanish": "Sandía",
     "romanized": "San-dí-a",
     "translation": "Watermelon",
-    "image": "images/fruits/watermelon.png"
+    "image": "images/fruits/watermelon.webp"
   },
   {
     "id": "fruits_lemon",
@@ -1381,7 +1381,7 @@
     "spanish": "Limón",
     "romanized": "Li-món",
     "translation": "Lemon",
-    "image": "images/fruits/lemon.png"
+    "image": "images/fruits/lemon.webp"
   },
   {
     "id": "fruits_peach",
@@ -1389,7 +1389,7 @@
     "spanish": "Durazno",
     "romanized": "Du-rás-no",
     "translation": "Peach",
-    "image": "images/fruits/peach.png"
+    "image": "images/fruits/peach.webp"
   },
   {
     "id": "fruits_cherry",
@@ -1397,7 +1397,7 @@
     "spanish": "Cereza",
     "romanized": "Se-ré-sa",
     "translation": "Cherry",
-    "image": "images/fruits/cherry.png"
+    "image": "images/fruits/cherry.webp"
   },
   {
     "id": "fruits_pear",
@@ -1405,7 +1405,7 @@
     "spanish": "Pera",
     "romanized": "Pé-ra",
     "translation": "Pear",
-    "image": "images/fruits/pear.png"
+    "image": "images/fruits/pear.webp"
   },
   {
     "id": "nature_sun",
@@ -1413,7 +1413,7 @@
     "spanish": "Sol",
     "romanized": "Sol",
     "translation": "Sun",
-    "image": "images/nature/sun.png"
+    "image": "images/nature/sun.webp"
   },
   {
     "id": "nature_moon",
@@ -1421,7 +1421,7 @@
     "spanish": "Luna",
     "romanized": "Lú-na",
     "translation": "Moon",
-    "image": "images/nature/moon.png"
+    "image": "images/nature/moon.webp"
   },
   {
     "id": "nature_stars",
@@ -1429,7 +1429,7 @@
     "spanish": "Estrellas",
     "romanized": "Es-tré-yas",
     "translation": "Stars",
-    "image": "images/nature/stars.png"
+    "image": "images/nature/stars.webp"
   },
   {
     "id": "nature_tree",
@@ -1437,7 +1437,7 @@
     "spanish": "Árbol",
     "romanized": "Ár-bol",
     "translation": "Tree",
-    "image": "images/nature/tree.png"
+    "image": "images/nature/tree.webp"
   },
   {
     "id": "nature_flower",
@@ -1445,7 +1445,7 @@
     "spanish": "Flor",
     "romanized": "Flor",
     "translation": "Flower",
-    "image": "images/nature/flower.png"
+    "image": "images/nature/flower.webp"
   },
   {
     "id": "nature_sea",
@@ -1453,7 +1453,7 @@
     "spanish": "Mar",
     "romanized": "Mar",
     "translation": "Sea",
-    "image": "images/nature/sea.png"
+    "image": "images/nature/sea.webp"
   },
   {
     "id": "nature_mountain",
@@ -1461,7 +1461,7 @@
     "spanish": "Montaña",
     "romanized": "Mon-tá-nya",
     "translation": "Mountain",
-    "image": "images/nature/mountain.png"
+    "image": "images/nature/mountain.webp"
   },
   {
     "id": "nature_river",
@@ -1469,7 +1469,7 @@
     "spanish": "Río",
     "romanized": "Rí-o",
     "translation": "River",
-    "image": "images/nature/river.png"
+    "image": "images/nature/river.webp"
   },
   {
     "id": "nature_sand",
@@ -1477,7 +1477,7 @@
     "spanish": "Arena",
     "romanized": "A-ré-na",
     "translation": "Sand",
-    "image": "images/nature/sand.png"
+    "image": "images/nature/sand.webp"
   },
   {
     "id": "nature_rock",
@@ -1485,7 +1485,7 @@
     "spanish": "Roca",
     "romanized": "Ró-ka",
     "translation": "Rock",
-    "image": "images/nature/rock.png"
+    "image": "images/nature/rock.webp"
   },
   {
     "id": "weather_rain",
@@ -1493,7 +1493,7 @@
     "spanish": "Lluvia",
     "romanized": "Yú-bya",
     "translation": "Rain",
-    "image": "images/weather/rain.png"
+    "image": "images/weather/rain.webp"
   },
   {
     "id": "weather_snow",
@@ -1501,7 +1501,7 @@
     "spanish": "Nieve",
     "romanized": "Nyé-beh",
     "translation": "Snow",
-    "image": "images/weather/snow.png"
+    "image": "images/weather/snow.webp"
   },
   {
     "id": "weather_cloud",
@@ -1509,7 +1509,7 @@
     "spanish": "Nube",
     "romanized": "Nú-beh",
     "translation": "Cloud",
-    "image": "images/weather/cloud.png"
+    "image": "images/weather/cloud.webp"
   },
   {
     "id": "weather_wind",
@@ -1517,7 +1517,7 @@
     "spanish": "Viento",
     "romanized": "Byén-to",
     "translation": "Wind",
-    "image": "images/weather/wind.png"
+    "image": "images/weather/wind.webp"
   },
   {
     "id": "weather_rainbow",
@@ -1525,7 +1525,7 @@
     "spanish": "Arco iris",
     "romanized": "Ár-ko Í-ris",
     "translation": "Rainbow",
-    "image": "images/weather/rainbow.png"
+    "image": "images/weather/rainbow.webp"
   },
   {
     "id": "weather_heat",
@@ -1533,7 +1533,7 @@
     "spanish": "Calor",
     "romanized": "Ka-lór",
     "translation": "Heat",
-    "image": "images/weather/heat.png"
+    "image": "images/weather/heat.webp"
   },
   {
     "id": "weather_cold",
@@ -1541,7 +1541,7 @@
     "spanish": "Frío",
     "romanized": "Frí-o",
     "translation": "Cold",
-    "image": "images/weather/cold.png"
+    "image": "images/weather/cold.webp"
   },
   {
     "id": "weather_storm",
@@ -1549,7 +1549,7 @@
     "spanish": "Tormenta",
     "romanized": "Tor-mén-ta",
     "translation": "Storm",
-    "image": "images/weather/storm.png"
+    "image": "images/weather/storm.webp"
   },
   {
     "id": "vehicles_car",
@@ -1557,7 +1557,7 @@
     "spanish": "Carro",
     "romanized": "Ká-rro",
     "translation": "Car",
-    "image": "images/vehicles/car.png"
+    "image": "images/vehicles/car.webp"
   },
   {
     "id": "vehicles_truck",
@@ -1565,7 +1565,7 @@
     "spanish": "Camión",
     "romanized": "Ka-myón",
     "translation": "Truck",
-    "image": "images/vehicles/truck.png"
+    "image": "images/vehicles/truck.webp"
   },
   {
     "id": "vehicles_train",
@@ -1573,7 +1573,7 @@
     "spanish": "Tren",
     "romanized": "Tren",
     "translation": "Train",
-    "image": "images/vehicles/train.png"
+    "image": "images/vehicles/train.webp"
   },
   {
     "id": "vehicles_airplane",
@@ -1581,7 +1581,7 @@
     "spanish": "Avión",
     "romanized": "A-byón",
     "translation": "Airplane",
-    "image": "images/vehicles/airplane.png"
+    "image": "images/vehicles/airplane.webp"
   },
   {
     "id": "vehicles_ship",
@@ -1589,7 +1589,7 @@
     "spanish": "Barco",
     "romanized": "Bár-ko",
     "translation": "Ship",
-    "image": "images/vehicles/ship.png"
+    "image": "images/vehicles/ship.webp"
   },
   {
     "id": "vehicles_bicycle",
@@ -1597,7 +1597,7 @@
     "spanish": "Bicicleta",
     "romanized": "Bi-si-klé-ta",
     "translation": "Bicycle",
-    "image": "images/vehicles/bicycle.png"
+    "image": "images/vehicles/bicycle.webp"
   },
   {
     "id": "bathroom_soap",
@@ -1605,7 +1605,7 @@
     "spanish": "Jabón",
     "romanized": "Ha-bón",
     "translation": "Soap",
-    "image": "images/bathroom/soap.png"
+    "image": "images/bathroom/soap.webp"
   },
   {
     "id": "bathroom_toothbrush",
@@ -1613,7 +1613,7 @@
     "spanish": "Cepillo de dientes",
     "romanized": "Se-pí-yo deh Dyén-tes",
     "translation": "Toothbrush",
-    "image": "images/bathroom/toothbrush.png"
+    "image": "images/bathroom/toothbrush.webp"
   },
   {
     "id": "bathroom_towel",
@@ -1621,7 +1621,7 @@
     "spanish": "Toalla",
     "romanized": "To-á-ya",
     "translation": "Towel",
-    "image": "images/bathroom/towel.png"
+    "image": "images/bathroom/towel.webp"
   },
   {
     "id": "bathroom_mirror",
@@ -1629,7 +1629,7 @@
     "spanish": "Espejo",
     "romanized": "Es-pé-ho",
     "translation": "Mirror",
-    "image": "images/bathroom/mirror.png"
+    "image": "images/bathroom/mirror.webp"
   },
   {
     "id": "bathroom_bathtub",
@@ -1637,7 +1637,7 @@
     "spanish": "Bañera",
     "romanized": "Ba-nyé-ra",
     "translation": "Bathtub",
-    "image": "images/bathroom/bathtub.png"
+    "image": "images/bathroom/bathtub.webp"
   },
   {
     "id": "bathroom_shower",
@@ -1645,7 +1645,7 @@
     "spanish": "Ducha",
     "romanized": "Dú-cha",
     "translation": "Shower",
-    "image": "images/bathroom/shower.png"
+    "image": "images/bathroom/shower.webp"
   },
   {
     "id": "bathroom_toilet",
@@ -1653,7 +1653,7 @@
     "spanish": "Inodoro",
     "romanized": "I-no-dó-ro",
     "translation": "Toilet",
-    "image": "images/bathroom/toilet.png"
+    "image": "images/bathroom/toilet.webp"
   },
   {
     "id": "bathroom_shampoo",
@@ -1661,7 +1661,7 @@
     "spanish": "Champú",
     "romanized": "Cham-pú",
     "translation": "Shampoo",
-    "image": "images/bathroom/shampoo.png"
+    "image": "images/bathroom/shampoo.webp"
   },
   {
     "id": "bedroom_bed",
@@ -1669,7 +1669,7 @@
     "spanish": "Cama",
     "romanized": "Ká-ma",
     "translation": "Bed",
-    "image": "images/bedroom/bed.png"
+    "image": "images/bedroom/bed.webp"
   },
   {
     "id": "bedroom_pillow",
@@ -1677,7 +1677,7 @@
     "spanish": "Almohada",
     "romanized": "Al-mo-á-da",
     "translation": "Pillow",
-    "image": "images/bedroom/pillow.png"
+    "image": "images/bedroom/pillow.webp"
   },
   {
     "id": "bedroom_blanket",
@@ -1685,7 +1685,7 @@
     "spanish": "Manta",
     "romanized": "Mán-ta",
     "translation": "Blanket",
-    "image": "images/bedroom/blanket.png"
+    "image": "images/bedroom/blanket.webp"
   },
   {
     "id": "bedroom_wardrobe",
@@ -1693,7 +1693,7 @@
     "spanish": "Armario",
     "romanized": "Ar-má-ryo",
     "translation": "Wardrobe",
-    "image": "images/bedroom/wardrobe.png"
+    "image": "images/bedroom/wardrobe.webp"
   },
   {
     "id": "bedroom_teddy_bear",
@@ -1701,7 +1701,7 @@
     "spanish": "Osito de peluche",
     "romanized": "O-sí-to deh Pe-lú-cheh",
     "translation": "Teddy Bear",
-    "image": "images/bedroom/teddy_bear.png"
+    "image": "images/bedroom/teddy_bear.webp"
   },
   {
     "id": "bedroom_pajamas",
@@ -1709,7 +1709,7 @@
     "spanish": "Pijama",
     "romanized": "Pi-há-ma",
     "translation": "Pajamas",
-    "image": "images/bedroom/pajamas.png"
+    "image": "images/bedroom/pajamas.webp"
   },
   {
     "id": "kitchen_plate",
@@ -1717,7 +1717,7 @@
     "spanish": "Plato",
     "romanized": "Plá-to",
     "translation": "Plate",
-    "image": "images/kitchen/plate.png"
+    "image": "images/kitchen/plate.webp"
   },
   {
     "id": "kitchen_spoon",
@@ -1725,7 +1725,7 @@
     "spanish": "Cuchara",
     "romanized": "Ku-chá-ra",
     "translation": "Spoon",
-    "image": "images/kitchen/spoon.png"
+    "image": "images/kitchen/spoon.webp"
   },
   {
     "id": "kitchen_fork",
@@ -1733,7 +1733,7 @@
     "spanish": "Tenedor",
     "romanized": "Te-ne-dór",
     "translation": "Fork",
-    "image": "images/kitchen/fork.png"
+    "image": "images/kitchen/fork.webp"
   },
   {
     "id": "kitchen_knife",
@@ -1741,7 +1741,7 @@
     "spanish": "Cuchillo",
     "romanized": "Ku-chí-yo",
     "translation": "Knife",
-    "image": "images/kitchen/knife.png"
+    "image": "images/kitchen/knife.webp"
   },
   {
     "id": "kitchen_glass",
@@ -1749,7 +1749,7 @@
     "spanish": "Vaso",
     "romanized": "Bá-so",
     "translation": "Glass",
-    "image": "images/kitchen/glass.png"
+    "image": "images/kitchen/glass.webp"
   },
   {
     "id": "kitchen_pot",
@@ -1757,7 +1757,7 @@
     "spanish": "Olla",
     "romanized": "Ó-ya",
     "translation": "Pot",
-    "image": "images/kitchen/pot.png"
+    "image": "images/kitchen/pot.webp"
   },
   {
     "id": "kitchen_fridge",
@@ -1765,7 +1765,7 @@
     "spanish": "Nevera",
     "romanized": "Ne-bé-ra",
     "translation": "Fridge",
-    "image": "images/kitchen/fridge.png"
+    "image": "images/kitchen/fridge.webp"
   },
   {
     "id": "kitchen_frying_pan",
@@ -1773,7 +1773,7 @@
     "spanish": "Sartén",
     "romanized": "Sar-tén",
     "translation": "Frying Pan",
-    "image": "images/kitchen/frying_pan.png"
+    "image": "images/kitchen/frying_pan.webp"
   },
   {
     "id": "kitchen_table",
@@ -1781,7 +1781,7 @@
     "spanish": "Mesa",
     "romanized": "Mé-sa",
     "translation": "Table",
-    "image": "images/kitchen/table.png"
+    "image": "images/kitchen/table.webp"
   },
   {
     "id": "kitchen_chair",
@@ -1789,7 +1789,7 @@
     "spanish": "Silla",
     "romanized": "Sí-ya",
     "translation": "Chair",
-    "image": "images/kitchen/chair.png"
+    "image": "images/kitchen/chair.webp"
   },
   {
     "id": "living_room_sofa",
@@ -1797,7 +1797,7 @@
     "spanish": "Sofá",
     "romanized": "So-fá",
     "translation": "Sofa",
-    "image": "images/living_room/sofa.png"
+    "image": "images/living_room/sofa.webp"
   },
   {
     "id": "living_room_television",
@@ -1805,7 +1805,7 @@
     "spanish": "Televisión",
     "romanized": "Te-le-bi-syón",
     "translation": "Television",
-    "image": "images/living_room/television.png"
+    "image": "images/living_room/television.webp"
   },
   {
     "id": "living_room_book",
@@ -1813,7 +1813,7 @@
     "spanish": "Libro",
     "romanized": "Lí-bro",
     "translation": "Book",
-    "image": "images/living_room/book.png"
+    "image": "images/living_room/book.webp"
   },
   {
     "id": "living_room_lamp",
@@ -1821,7 +1821,7 @@
     "spanish": "Lámpara",
     "romanized": "Lám-pa-ra",
     "translation": "Lamp",
-    "image": "images/living_room/lamp.png"
+    "image": "images/living_room/lamp.webp"
   },
   {
     "id": "living_room_window",
@@ -1829,7 +1829,7 @@
     "spanish": "Ventana",
     "romanized": "Ben-tá-na",
     "translation": "Window",
-    "image": "images/living_room/window.png"
+    "image": "images/living_room/window.webp"
   },
   {
     "id": "living_room_door",
@@ -1837,7 +1837,7 @@
     "spanish": "Puerta",
     "romanized": "Pwér-ta",
     "translation": "Door",
-    "image": "images/living_room/door.png"
+    "image": "images/living_room/door.webp"
   },
   {
     "id": "living_room_ball",
@@ -1845,7 +1845,7 @@
     "spanish": "Pelota",
     "romanized": "Pe-ló-ta",
     "translation": "Ball",
-    "image": "images/living_room/ball.png"
+    "image": "images/living_room/ball.webp"
   },
   {
     "id": "living_room_rug",
@@ -1853,7 +1853,7 @@
     "spanish": "Alfombra",
     "romanized": "Al-fóm-bra",
     "translation": "Rug",
-    "image": "images/living_room/rug.png"
+    "image": "images/living_room/rug.webp"
   },
   {
     "id": "clothes_t_shirt",
@@ -1861,7 +1861,7 @@
     "spanish": "Camiseta",
     "romanized": "Ka-mi-sé-ta",
     "translation": "T-shirt",
-    "image": "images/clothes/t-shirt.png"
+    "image": "images/clothes/t-shirt.webp"
   },
   {
     "id": "clothes_pants",
@@ -1869,7 +1869,7 @@
     "spanish": "Pantalón",
     "romanized": "Pan-ta-lón",
     "translation": "Pants",
-    "image": "images/clothes/pants.png"
+    "image": "images/clothes/pants.webp"
   },
   {
     "id": "clothes_dress",
@@ -1877,7 +1877,7 @@
     "spanish": "Vestido",
     "romanized": "Bes-tí-do",
     "translation": "Dress",
-    "image": "images/clothes/dress.png"
+    "image": "images/clothes/dress.webp"
   },
   {
     "id": "clothes_skirt",
@@ -1885,7 +1885,7 @@
     "spanish": "Falda",
     "romanized": "Fál-da",
     "translation": "Skirt",
-    "image": "images/clothes/skirt.png"
+    "image": "images/clothes/skirt.webp"
   },
   {
     "id": "clothes_shoes",
@@ -1893,7 +1893,7 @@
     "spanish": "Zapatos",
     "romanized": "Sa-pá-tos",
     "translation": "Shoes",
-    "image": "images/clothes/shoes.png"
+    "image": "images/clothes/shoes.webp"
   },
   {
     "id": "clothes_socks",
@@ -1901,7 +1901,7 @@
     "spanish": "Calcetines",
     "romanized": "Kal-se-tí-nes",
     "translation": "Socks",
-    "image": "images/clothes/socks.png"
+    "image": "images/clothes/socks.webp"
   },
   {
     "id": "clothes_hat",
@@ -1909,7 +1909,7 @@
     "spanish": "Sombrero",
     "romanized": "Som-bré-ro",
     "translation": "Hat",
-    "image": "images/clothes/hat.png"
+    "image": "images/clothes/hat.webp"
   },
   {
     "id": "clothes_jacket",
@@ -1917,7 +1917,7 @@
     "spanish": "Chaqueta",
     "romanized": "Cha-ké-ta",
     "translation": "Jacket",
-    "image": "images/clothes/jacket.png"
+    "image": "images/clothes/jacket.webp"
   },
   {
     "id": "clothes_sweater",
@@ -1925,7 +1925,7 @@
     "spanish": "Suéter",
     "romanized": "Swé-ter",
     "translation": "Sweater",
-    "image": "images/clothes/sweater.png"
+    "image": "images/clothes/sweater.webp"
   },
   {
     "id": "clothes_scarf",
@@ -1933,7 +1933,7 @@
     "spanish": "Bufanda",
     "romanized": "Bu-fán-da",
     "translation": "Scarf",
-    "image": "images/clothes/scarf.png"
+    "image": "images/clothes/scarf.webp"
   },
   {
     "id": "clothes_gloves",
@@ -1941,7 +1941,7 @@
     "spanish": "Guantes",
     "romanized": "Gwán-tes",
     "translation": "Gloves",
-    "image": "images/clothes/gloves.png"
+    "image": "images/clothes/gloves.webp"
   },
   {
     "id": "clothes_underwear",
@@ -1949,7 +1949,7 @@
     "spanish": "Ropa interior",
     "romanized": "Ró-pa In-te-ryór",
     "translation": "Underwear",
-    "image": "images/clothes/underwear.png"
+    "image": "images/clothes/underwear.webp"
   },
   {
     "id": "music_music",
@@ -1957,7 +1957,7 @@
     "spanish": "Música",
     "romanized": "Mú-si-ka",
     "translation": "Music",
-    "image": "images/music/music.png"
+    "image": "images/music/music.webp"
   },
   {
     "id": "music_song",
@@ -1965,7 +1965,7 @@
     "spanish": "Canción",
     "romanized": "Kan-syón",
     "translation": "Song",
-    "image": "images/music/song.png"
+    "image": "images/music/song.webp"
   },
   {
     "id": "music_guitar",
@@ -1973,7 +1973,7 @@
     "spanish": "Guitarra",
     "romanized": "Gi-tá-rra",
     "translation": "Guitar",
-    "image": "images/music/guitar.png"
+    "image": "images/music/guitar.webp"
   },
   {
     "id": "music_piano",
@@ -1981,7 +1981,7 @@
     "spanish": "Piano",
     "romanized": "Pyá-no",
     "translation": "Piano",
-    "image": "images/music/piano.png"
+    "image": "images/music/piano.webp"
   },
   {
     "id": "music_drum",
@@ -1989,7 +1989,7 @@
     "spanish": "Tambor",
     "romanized": "Tam-bór",
     "translation": "Drum",
-    "image": "images/music/drum.png"
+    "image": "images/music/drum.webp"
   },
   {
     "id": "music_violin",
@@ -1997,7 +1997,7 @@
     "spanish": "Violín",
     "romanized": "Byo-lín",
     "translation": "Violin",
-    "image": "images/music/violin.png"
+    "image": "images/music/violin.webp"
   },
   {
     "id": "music_trumpet",
@@ -2005,7 +2005,7 @@
     "spanish": "Trompeta",
     "romanized": "Trom-pé-ta",
     "translation": "Trumpet",
-    "image": "images/music/trumpet.png"
+    "image": "images/music/trumpet.webp"
   },
   {
     "id": "music_flute",
@@ -2013,7 +2013,7 @@
     "spanish": "Flauta",
     "romanized": "Fláu-ta",
     "translation": "Flute",
-    "image": "images/music/flute.png"
+    "image": "images/music/flute.webp"
   },
   {
     "id": "music_microphone",
@@ -2021,7 +2021,7 @@
     "spanish": "Micrófono",
     "romanized": "Mi-kró-fo-no",
     "translation": "Microphone",
-    "image": "images/music/microphone.png"
+    "image": "images/music/microphone.webp"
   },
   {
     "id": "music_headphones",
@@ -2029,7 +2029,7 @@
     "spanish": "Audífonos",
     "romanized": "Au-dí-fo-nos",
     "translation": "Headphones",
-    "image": "images/music/headphones.png"
+    "image": "images/music/headphones.webp"
   },
   {
     "id": "music_dance",
@@ -2037,7 +2037,7 @@
     "spanish": "Baile",
     "romanized": "Báy-leh",
     "translation": "Dance",
-    "image": "images/music/dance.png"
+    "image": "images/music/dance.webp"
   },
   {
     "id": "music_note",
@@ -2045,7 +2045,7 @@
     "spanish": "Nota",
     "romanized": "Nó-ta",
     "translation": "Note",
-    "image": "images/music/note.png"
+    "image": "images/music/note.webp"
   },
   {
     "id": "holidays_christmas",
@@ -2053,7 +2053,7 @@
     "spanish": "Navidad",
     "romanized": "Na-bi-dád",
     "translation": "Christmas",
-    "image": "images/holidays/christmas.png"
+    "image": "images/holidays/christmas.webp"
   },
   {
     "id": "holidays_easter",
@@ -2061,7 +2061,7 @@
     "spanish": "Pascua",
     "romanized": "Pás-kwa",
     "translation": "Easter",
-    "image": "images/holidays/easter.png"
+    "image": "images/holidays/easter.webp"
   },
   {
     "id": "holidays_birthday",
@@ -2069,7 +2069,7 @@
     "spanish": "Cumpleaños",
     "romanized": "Kum-ple-á-nyos",
     "translation": "Birthday",
-    "image": "images/holidays/birthday.png"
+    "image": "images/holidays/birthday.webp"
   },
   {
     "id": "holidays_new_year",
@@ -2077,7 +2077,7 @@
     "spanish": "Año Nuevo",
     "romanized": "Á-nyo Nwé-bo",
     "translation": "New Year",
-    "image": "images/holidays/new_year.png"
+    "image": "images/holidays/new_year.webp"
   },
   {
     "id": "holidays_carnival",
@@ -2085,7 +2085,7 @@
     "spanish": "Carnaval",
     "romanized": "Kar-na-bál",
     "translation": "Carnival",
-    "image": "images/holidays/carnival.png"
+    "image": "images/holidays/carnival.webp"
   },
   {
     "id": "holidays_name_day",
@@ -2093,7 +2093,7 @@
     "spanish": "Día del santo",
     "romanized": "Dí-a del Sán-to",
     "translation": "Name Day",
-    "image": "images/holidays/name_day.png"
+    "image": "images/holidays/name_day.webp"
   },
   {
     "id": "holidays_gift",
@@ -2101,7 +2101,7 @@
     "spanish": "Regalo",
     "romanized": "Re-gá-lo",
     "translation": "Gift",
-    "image": "images/holidays/gift.png"
+    "image": "images/holidays/gift.webp"
   },
   {
     "id": "holidays_vacation",
@@ -2109,6 +2109,6 @@
     "spanish": "Vacaciones",
     "romanized": "Ba-ka-syó-nes",
     "translation": "Vacation",
-    "image": "images/holidays/vacation.png"
+    "image": "images/holidays/vacation.webp"
   }
 ]

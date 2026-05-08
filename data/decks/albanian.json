@@ -557,7 +557,7 @@
     "albanian": "Stegosaur",
     "romanized": "Ste-go-saúr",
     "translation": "Stegosaurus",
-    "image": "images/dinosaurs/stegosaurus.png"
+    "image": "images/dinosaurs/stegosaurus.webp"
   },
   {
     "id": "dinosaurs_tyrannosaurus",
@@ -565,7 +565,7 @@
     "albanian": "Tiranosaur",
     "romanized": "Ti-ra-no-saúr",
     "translation": "Tyrannosaurus",
-    "image": "images/dinosaurs/tyrannosaurus.png"
+    "image": "images/dinosaurs/tyrannosaurus.webp"
   },
   {
     "id": "dinosaurs_triceratops",
@@ -573,7 +573,7 @@
     "albanian": "Triceratops",
     "romanized": "Tri-tse-rá-tops",
     "translation": "Triceratops",
-    "image": "images/dinosaurs/triceratops.png"
+    "image": "images/dinosaurs/triceratops.webp"
   },
   {
     "id": "dinosaurs_brontosaurus",
@@ -581,7 +581,7 @@
     "albanian": "Brontosaur",
     "romanized": "Bron-to-saúr",
     "translation": "Brontosaurus",
-    "image": "images/dinosaurs/brontosaurus.png"
+    "image": "images/dinosaurs/brontosaurus.webp"
   },
   {
     "id": "dinosaurs_pterodactyl",
@@ -589,7 +589,7 @@
     "albanian": "Pterodaktil",
     "romanized": "Pte-ro-dák-til",
     "translation": "Pterodactyl",
-    "image": "images/dinosaurs/pterodactyl.png"
+    "image": "images/dinosaurs/pterodactyl.webp"
   },
   {
     "id": "animals_elephant",
@@ -597,7 +597,7 @@
     "albanian": "Elefant",
     "romanized": "E-le-fánt",
     "translation": "Elephant",
-    "image": "images/animals/elephant.png"
+    "image": "images/animals/elephant.webp"
   },
   {
     "id": "animals_lion",
@@ -605,7 +605,7 @@
     "albanian": "Luan",
     "romanized": "Lu-án",
     "translation": "Lion",
-    "image": "images/animals/lion.png"
+    "image": "images/animals/lion.webp"
   },
   {
     "id": "animals_giraffe",
@@ -613,7 +613,7 @@
     "albanian": "Gjirafë",
     "romanized": "Gyi-rá-fuh",
     "translation": "Giraffe",
-    "image": "images/animals/giraffe.png"
+    "image": "images/animals/giraffe.webp"
   },
   {
     "id": "animals_dolphin",
@@ -621,7 +621,7 @@
     "albanian": "Delfin",
     "romanized": "Del-fín",
     "translation": "Dolphin",
-    "image": "images/animals/dolphin.png"
+    "image": "images/animals/dolphin.webp"
   },
   {
     "id": "animals_fox",
@@ -629,7 +629,7 @@
     "albanian": "Dhelpër",
     "romanized": "Dhél-puhr",
     "translation": "Fox",
-    "image": "images/animals/fox.png"
+    "image": "images/animals/fox.webp"
   },
   {
     "id": "animals_dog",
@@ -637,7 +637,7 @@
     "albanian": "Qen",
     "romanized": "Kyen",
     "translation": "Dog",
-    "image": "images/animals/dog.png"
+    "image": "images/animals/dog.webp"
   },
   {
     "id": "animals_cat",
@@ -645,7 +645,7 @@
     "albanian": "Mace",
     "romanized": "Má-tse",
     "translation": "Cat",
-    "image": "images/animals/cat.png"
+    "image": "images/animals/cat.webp"
   },
   {
     "id": "animals_cow",
@@ -653,7 +653,7 @@
     "albanian": "Lopë",
     "romanized": "Ló-puh",
     "translation": "Cow",
-    "image": "images/animals/cow.png"
+    "image": "images/animals/cow.webp"
   },
   {
     "id": "animals_pig",
@@ -661,7 +661,7 @@
     "albanian": "Derr",
     "romanized": "Derr",
     "translation": "Pig",
-    "image": "images/animals/pig.png"
+    "image": "images/animals/pig.webp"
   },
   {
     "id": "animals_horse",
@@ -669,7 +669,7 @@
     "albanian": "Kalë",
     "romanized": "Ká-luh",
     "translation": "Horse",
-    "image": "images/animals/horse.png"
+    "image": "images/animals/horse.webp"
   },
   {
     "id": "animals_chicken",
@@ -677,7 +677,7 @@
     "albanian": "Pulë",
     "romanized": "Pú-luh",
     "translation": "Chicken",
-    "image": "images/animals/chicken.png"
+    "image": "images/animals/chicken.webp"
   },
   {
     "id": "animals_sheep",
@@ -685,7 +685,7 @@
     "albanian": "Dele",
     "romanized": "Dé-leh",
     "translation": "Sheep",
-    "image": "images/animals/sheep.png"
+    "image": "images/animals/sheep.webp"
   },
   {
     "id": "animals_rabbit",
@@ -693,7 +693,7 @@
     "albanian": "Lepur",
     "romanized": "Lé-pur",
     "translation": "Rabbit",
-    "image": "images/animals/rabbit.png"
+    "image": "images/animals/rabbit.webp"
   },
   {
     "id": "animals_bear",
@@ -701,7 +701,7 @@
     "albanian": "Ari",
     "romanized": "Á-ri",
     "translation": "Bear",
-    "image": "images/animals/bear.png"
+    "image": "images/animals/bear.webp"
   },
   {
     "id": "animals_monkey",
@@ -709,7 +709,7 @@
     "albanian": "Majmun",
     "romanized": "Máy-mun",
     "translation": "Monkey",
-    "image": "images/animals/monkey.png"
+    "image": "images/animals/monkey.webp"
   },
   {
     "id": "animals_zebra",
@@ -717,7 +717,7 @@
     "albanian": "Zebër",
     "romanized": "Zé-buhr",
     "translation": "Zebra",
-    "image": "images/animals/zebra.png"
+    "image": "images/animals/zebra.webp"
   },
   {
     "id": "animals_tiger",
@@ -725,7 +725,7 @@
     "albanian": "Tigër",
     "romanized": "Tí-guhr",
     "translation": "Tiger",
-    "image": "images/animals/tiger.png"
+    "image": "images/animals/tiger.webp"
   },
   {
     "id": "animals_wolf",
@@ -733,7 +733,7 @@
     "albanian": "Ujk",
     "romanized": "Uyk",
     "translation": "Wolf",
-    "image": "images/animals/wolf.png"
+    "image": "images/animals/wolf.webp"
   },
   {
     "id": "animals_crocodile",
@@ -741,7 +741,7 @@
     "albanian": "Krokodil",
     "romanized": "Kro-ko-díl",
     "translation": "Crocodile",
-    "image": "images/animals/crocodile.png"
+    "image": "images/animals/crocodile.webp"
   },
   {
     "id": "animals_hippo",
@@ -749,7 +749,7 @@
     "albanian": "Hipopotam",
     "romanized": "Hi-po-po-tám",
     "translation": "Hippo",
-    "image": "images/animals/hippo.png"
+    "image": "images/animals/hippo.webp"
   },
   {
     "id": "animals_penguin",
@@ -757,7 +757,7 @@
     "albanian": "Pinguin",
     "romanized": "Pin-gu-ín",
     "translation": "Penguin",
-    "image": "images/animals/penguin.png"
+    "image": "images/animals/penguin.webp"
   },
   {
     "id": "animals_owl",
@@ -765,7 +765,7 @@
     "albanian": "Buf",
     "romanized": "Buf",
     "translation": "Owl",
-    "image": "images/animals/owl.png"
+    "image": "images/animals/owl.webp"
   },
   {
     "id": "animals_parrot",
@@ -773,7 +773,7 @@
     "albanian": "Papagall",
     "romanized": "Pa-pa-gáll",
     "translation": "Parrot",
-    "image": "images/animals/parrot.png"
+    "image": "images/animals/parrot.webp"
   },
   {
     "id": "animals_flamingo",
@@ -781,7 +781,7 @@
     "albanian": "Flamingo",
     "romanized": "Fla-mín-go",
     "translation": "Flamingo",
-    "image": "images/animals/flamingo.png"
+    "image": "images/animals/flamingo.webp"
   },
   {
     "id": "animals_shark",
@@ -789,7 +789,7 @@
     "albanian": "Peshkaqen",
     "romanized": "Pesh-ka-kyen",
     "translation": "Shark",
-    "image": "images/animals/shark.png"
+    "image": "images/animals/shark.webp"
   },
   {
     "id": "animals_whale",
@@ -797,7 +797,7 @@
     "albanian": "Balenë",
     "romanized": "Ba-lé-nuh",
     "translation": "Whale",
-    "image": "images/animals/whale.png"
+    "image": "images/animals/whale.webp"
   },
   {
     "id": "animals_turtle",
@@ -805,7 +805,7 @@
     "albanian": "Breshkë",
     "romanized": "Brésh-kuh",
     "translation": "Turtle",
-    "image": "images/animals/turtle.png"
+    "image": "images/animals/turtle.webp"
   },
   {
     "id": "animals_frog",
@@ -813,7 +813,7 @@
     "albanian": "Bretkosë",
     "romanized": "Bret-kó-suh",
     "translation": "Frog",
-    "image": "images/animals/frog.png"
+    "image": "images/animals/frog.webp"
   },
   {
     "id": "animals_butterfly",
@@ -821,7 +821,7 @@
     "albanian": "Flutur",
     "romanized": "Flú-tur",
     "translation": "Butterfly",
-    "image": "images/animals/butterfly.png"
+    "image": "images/animals/butterfly.webp"
   },
   {
     "id": "animals_bee",
@@ -829,7 +829,7 @@
     "albanian": "Bletë",
     "romanized": "Blé-tuh",
     "translation": "Bee",
-    "image": "images/animals/bee.png"
+    "image": "images/animals/bee.webp"
   },
   {
     "id": "family_mom",
@@ -837,7 +837,7 @@
     "albanian": "Mama",
     "romanized": "Má-ma",
     "translation": "Mom",
-    "image": "images/family/mom.png"
+    "image": "images/family/mom.webp"
   },
   {
     "id": "family_dad",
@@ -845,7 +845,7 @@
     "albanian": "Baba",
     "romanized": "Bá-ba",
     "translation": "Dad",
-    "image": "images/family/dad.png"
+    "image": "images/family/dad.webp"
   },
   {
     "id": "family_grandma",
@@ -853,7 +853,7 @@
     "albanian": "Gjyshe",
     "romanized": "Gyü-sheh",
     "translation": "Grandma",
-    "image": "images/family/grandma.png"
+    "image": "images/family/grandma.webp"
   },
   {
     "id": "family_grandpa",
@@ -861,7 +861,7 @@
     "albanian": "Gjysh",
     "romanized": "Gyüsh",
     "translation": "Grandpa",
-    "image": "images/family/grandpa.png"
+    "image": "images/family/grandpa.webp"
   },
   {
     "id": "family_sister",
@@ -869,7 +869,7 @@
     "albanian": "Motër",
     "romanized": "Mó-tuhr",
     "translation": "Sister",
-    "image": "images/family/sister.png"
+    "image": "images/family/sister.webp"
   },
   {
     "id": "family_brother",
@@ -877,7 +877,7 @@
     "albanian": "Vëlla",
     "romanized": "Vúl-la",
     "translation": "Brother",
-    "image": "images/family/brother.png"
+    "image": "images/family/brother.webp"
   },
   {
     "id": "family_baby",
@@ -885,7 +885,7 @@
     "albanian": "Foshnjë",
     "romanized": "Fósh-nyuh",
     "translation": "Baby",
-    "image": "images/family/baby.png"
+    "image": "images/family/baby.webp"
   },
   {
     "id": "family_aunt",
@@ -893,7 +893,7 @@
     "albanian": "Hallë",
     "romanized": "Hál-luh",
     "translation": "Aunt",
-    "image": "images/family/aunt.png"
+    "image": "images/family/aunt.webp"
   },
   {
     "id": "family_uncle",
@@ -901,7 +901,7 @@
     "albanian": "Xhaxha",
     "romanized": "Já-ja",
     "translation": "Uncle",
-    "image": "images/family/uncle.png"
+    "image": "images/family/uncle.webp"
   },
   {
     "id": "family_family",
@@ -909,7 +909,7 @@
     "albanian": "Familje",
     "romanized": "Fa-míl-yeh",
     "translation": "Family",
-    "image": "images/family/family.png"
+    "image": "images/family/family.webp"
   },
   {
     "id": "body_parts_head",
@@ -917,7 +917,7 @@
     "albanian": "Kokë",
     "romanized": "Kó-kuh",
     "translation": "Head",
-    "image": "images/body_parts/head.png"
+    "image": "images/body_parts/head.webp"
   },
   {
     "id": "body_parts_eyes",
@@ -925,7 +925,7 @@
     "albanian": "Sy",
     "romanized": "Sü",
     "translation": "Eyes",
-    "image": "images/body_parts/eyes.png"
+    "image": "images/body_parts/eyes.webp"
   },
   {
     "id": "body_parts_nose",
@@ -933,7 +933,7 @@
     "albanian": "Hundë",
     "romanized": "Hún-duh",
     "translation": "Nose",
-    "image": "images/body_parts/nose.png"
+    "image": "images/body_parts/nose.webp"
   },
   {
     "id": "body_parts_mouth",
@@ -941,7 +941,7 @@
     "albanian": "Gojë",
     "romanized": "Gó-yuh",
     "translation": "Mouth",
-    "image": "images/body_parts/mouth.png"
+    "image": "images/body_parts/mouth.webp"
   },
   {
     "id": "body_parts_ears",
@@ -949,7 +949,7 @@
     "albanian": "Veshë",
     "romanized": "Vé-shuh",
     "translation": "Ears",
-    "image": "images/body_parts/ears.png"
+    "image": "images/body_parts/ears.webp"
   },
   {
     "id": "body_parts_hair",
@@ -957,7 +957,7 @@
     "albanian": "Flokë",
     "romanized": "Fló-kuh",
     "translation": "Hair",
-    "image": "images/body_parts/hair.png"
+    "image": "images/body_parts/hair.webp"
   },
   {
     "id": "body_parts_hands",
@@ -965,7 +965,7 @@
     "albanian": "Duar",
     "romanized": "Du-ár",
     "translation": "Hands",
-    "image": "images/body_parts/hands.png"
+    "image": "images/body_parts/hands.webp"
   },
   {
     "id": "body_parts_feet",
@@ -973,7 +973,7 @@
     "albanian": "Këmbë",
     "romanized": "Kúm-buh",
     "translation": "Feet",
-    "image": "images/body_parts/feet.png"
+    "image": "images/body_parts/feet.webp"
   },
   {
     "id": "body_parts_belly",
@@ -981,7 +981,7 @@
     "albanian": "Bark",
     "romanized": "Bark",
     "translation": "Belly",
-    "image": "images/body_parts/belly.png"
+    "image": "images/body_parts/belly.webp"
   },
   {
     "id": "body_parts_knees",
@@ -989,7 +989,7 @@
     "albanian": "Gjunjë",
     "romanized": "Gyún-yuh",
     "translation": "Knees",
-    "image": "images/body_parts/knees.png"
+    "image": "images/body_parts/knees.webp"
   },
   {
     "id": "greetings_hello",
@@ -997,7 +997,7 @@
     "albanian": "Përshëndetje",
     "romanized": "Puhr-shun-dét-yeh",
     "translation": "Hello",
-    "image": "images/greetings/hello.png"
+    "image": "images/greetings/hello.webp"
   },
   {
     "id": "greetings_goodbye",
@@ -1005,7 +1005,7 @@
     "albanian": "Mirupafshim",
     "romanized": "Mi-ru-páf-shim",
     "translation": "Goodbye",
-    "image": "images/greetings/goodbye.png"
+    "image": "images/greetings/goodbye.webp"
   },
   {
     "id": "greetings_good_morning",
@@ -1013,7 +1013,7 @@
     "albanian": "Mirëmëngjes",
     "romanized": "Mi-ruh-mun-gyés",
     "translation": "Good Morning",
-    "image": "images/greetings/good_morning.png"
+    "image": "images/greetings/good_morning.webp"
   },
   {
     "id": "greetings_good_evening",
@@ -1021,7 +1021,7 @@
     "albanian": "Mirëmbrëma",
     "romanized": "Mi-rum-brú-ma",
     "translation": "Good Evening",
-    "image": "images/greetings/good_evening.png"
+    "image": "images/greetings/good_evening.webp"
   },
   {
     "id": "greetings_good_night",
@@ -1029,7 +1029,7 @@
     "albanian": "Natën e mirë",
     "romanized": "Ná-tun eh mí-ruh",
     "translation": "Good Night",
-    "image": "images/greetings/good_night.png"
+    "image": "images/greetings/good_night.webp"
   },
   {
     "id": "greetings_thank_you",
@@ -1037,7 +1037,7 @@
     "albanian": "Faleminderit",
     "romanized": "Fa-le-min-de-rít",
     "translation": "Thank You",
-    "image": "images/greetings/thank_you.png"
+    "image": "images/greetings/thank_you.webp"
   },
   {
     "id": "greetings_please",
@@ -1045,7 +1045,7 @@
     "albanian": "Të lutem",
     "romanized": "Tuh lú-tem",
     "translation": "Please",
-    "image": "images/greetings/please.png"
+    "image": "images/greetings/please.webp"
   },
   {
     "id": "greetings_yes",
@@ -1053,7 +1053,7 @@
     "albanian": "Po",
     "romanized": "Po",
     "translation": "Yes",
-    "image": "images/greetings/yes.png"
+    "image": "images/greetings/yes.webp"
   },
   {
     "id": "greetings_no",
@@ -1061,7 +1061,7 @@
     "albanian": "Jo",
     "romanized": "Yo",
     "translation": "No",
-    "image": "images/greetings/no.png"
+    "image": "images/greetings/no.webp"
   },
   {
     "id": "greetings_sorry",
@@ -1069,7 +1069,7 @@
     "albanian": "Më fal",
     "romanized": "Muh fal",
     "translation": "Sorry",
-    "image": "images/greetings/sorry.png"
+    "image": "images/greetings/sorry.webp"
   },
   {
     "id": "greetings_i_love_you",
@@ -1077,7 +1077,7 @@
     "albanian": "Të dua",
     "romanized": "Tuh dú-a",
     "translation": "I Love You",
-    "image": "images/greetings/i_love_you.png"
+    "image": "images/greetings/i_love_you.webp"
   },
   {
     "id": "greetings_help",
@@ -1085,7 +1085,7 @@
     "albanian": "Ndihmë",
     "romanized": "Ndíh-muh",
     "translation": "Help",
-    "image": "images/greetings/help.png"
+    "image": "images/greetings/help.webp"
   },
   {
     "id": "greetings_you_re_welcome",
@@ -1093,7 +1093,7 @@
     "albanian": "S'ka gjë",
     "romanized": "Ska gyuh",
     "translation": "You're welcome",
-    "image": "images/greetings/youre_welcome.png"
+    "image": "images/greetings/youre_welcome.webp"
   },
   {
     "id": "verbs_run",
@@ -1101,7 +1101,7 @@
     "albanian": "Vrapoj",
     "romanized": "Vra-póy",
     "translation": "Run",
-    "image": "images/verbs/run.png"
+    "image": "images/verbs/run.webp"
   },
   {
     "id": "verbs_jump",
@@ -1109,7 +1109,7 @@
     "albanian": "Hidhem",
     "romanized": "Híd-hem",
     "translation": "Jump",
-    "image": "images/verbs/jump.png"
+    "image": "images/verbs/jump.webp"
   },
   {
     "id": "verbs_sleep",
@@ -1117,7 +1117,7 @@
     "albanian": "Fle",
     "romanized": "Fleh",
     "translation": "Sleep",
-    "image": "images/verbs/sleep.png"
+    "image": "images/verbs/sleep.webp"
   },
   {
     "id": "verbs_eat",
@@ -1125,7 +1125,7 @@
     "albanian": "Ha",
     "romanized": "Ha",
     "translation": "Eat",
-    "image": "images/verbs/eat.png"
+    "image": "images/verbs/eat.webp"
   },
   {
     "id": "verbs_drink",
@@ -1133,7 +1133,7 @@
     "albanian": "Pi",
     "romanized": "Pi",
     "translation": "Drink",
-    "image": "images/verbs/drink.png"
+    "image": "images/verbs/drink.webp"
   },
   {
     "id": "verbs_play",
@@ -1141,7 +1141,7 @@
     "albanian": "Luaj",
     "romanized": "Lú-ay",
     "translation": "Play",
-    "image": "images/verbs/play.png"
+    "image": "images/verbs/play.webp"
   },
   {
     "id": "verbs_sing",
@@ -1149,7 +1149,7 @@
     "albanian": "Këndoj",
     "romanized": "Kun-dóy",
     "translation": "Sing",
-    "image": "images/verbs/sing.png"
+    "image": "images/verbs/sing.webp"
   },
   {
     "id": "verbs_dance",
@@ -1157,7 +1157,7 @@
     "albanian": "Vallëzoj",
     "romanized": "Val-luh-zóy",
     "translation": "Dance",
-    "image": "images/verbs/dance.png"
+    "image": "images/verbs/dance.webp"
   },
   {
     "id": "verbs_read",
@@ -1165,7 +1165,7 @@
     "albanian": "Lexoj",
     "romanized": "Le-dzóy",
     "translation": "Read",
-    "image": "images/verbs/read.png"
+    "image": "images/verbs/read.webp"
   },
   {
     "id": "verbs_draw",
@@ -1173,7 +1173,7 @@
     "albanian": "Vizatoj",
     "romanized": "Vi-za-tóy",
     "translation": "Draw",
-    "image": "images/verbs/draw.png"
+    "image": "images/verbs/draw.webp"
   },
   {
     "id": "verbs_swim",
@@ -1181,7 +1181,7 @@
     "albanian": "Notoj",
     "romanized": "No-tóy",
     "translation": "Swim",
-    "image": "images/verbs/swim.png"
+    "image": "images/verbs/swim.webp"
   },
   {
     "id": "verbs_fly",
@@ -1189,7 +1189,7 @@
     "albanian": "Fluturoj",
     "romanized": "Flu-tu-róy",
     "translation": "Fly",
-    "image": "images/verbs/fly.png"
+    "image": "images/verbs/fly.webp"
   },
   {
     "id": "verbs_laugh",
@@ -1197,7 +1197,7 @@
     "albanian": "Qesh",
     "romanized": "Kyesh",
     "translation": "Laugh",
-    "image": "images/verbs/laugh.png"
+    "image": "images/verbs/laugh.webp"
   },
   {
     "id": "verbs_cry",
@@ -1205,7 +1205,7 @@
     "albanian": "Qaj",
     "romanized": "Kyay",
     "translation": "Cry",
-    "image": "images/verbs/cry.png"
+    "image": "images/verbs/cry.webp"
   },
   {
     "id": "verbs_hug",
@@ -1213,7 +1213,7 @@
     "albanian": "Përqafoj",
     "romanized": "Pur-kya-fóy",
     "translation": "Hug",
-    "image": "images/verbs/hug.png"
+    "image": "images/verbs/hug.webp"
   },
   {
     "id": "verbs_listen",
@@ -1221,7 +1221,7 @@
     "albanian": "Dëgjoj",
     "romanized": "Duh-gyóy",
     "translation": "Listen",
-    "image": "images/verbs/listen.png"
+    "image": "images/verbs/listen.webp"
   },
   {
     "id": "food_bread",
@@ -1229,7 +1229,7 @@
     "albanian": "Bukë",
     "romanized": "Bú-kuh",
     "translation": "Bread",
-    "image": "images/food/bread.png"
+    "image": "images/food/bread.webp"
   },
   {
     "id": "food_milk",
@@ -1237,7 +1237,7 @@
     "albanian": "Qumësht",
     "romanized": "Kyúm-esht",
     "translation": "Milk",
-    "image": "images/food/milk.png"
+    "image": "images/food/milk.webp"
   },
   {
     "id": "food_egg",
@@ -1245,7 +1245,7 @@
     "albanian": "Vezë",
     "romanized": "Vé-zuh",
     "translation": "Egg",
-    "image": "images/food/egg.png"
+    "image": "images/food/egg.webp"
   },
   {
     "id": "food_cheese",
@@ -1253,7 +1253,7 @@
     "albanian": "Djathë",
     "romanized": "Dyá-thuh",
     "translation": "Cheese",
-    "image": "images/food/cheese.png"
+    "image": "images/food/cheese.webp"
   },
   {
     "id": "food_honey",
@@ -1261,7 +1261,7 @@
     "albanian": "Mjaltë",
     "romanized": "Myál-tuh",
     "translation": "Honey",
-    "image": "images/food/honey.png"
+    "image": "images/food/honey.webp"
   },
   {
     "id": "food_pizza",
@@ -1269,7 +1269,7 @@
     "albanian": "Picë",
     "romanized": "Pí-tsuh",
     "translation": "Pizza",
-    "image": "images/food/pizza.png"
+    "image": "images/food/pizza.webp"
   },
   {
     "id": "food_ice_cream",
@@ -1277,7 +1277,7 @@
     "albanian": "Akullore",
     "romanized": "A-kul-ló-reh",
     "translation": "Ice Cream",
-    "image": "images/food/ice_cream.png"
+    "image": "images/food/ice_cream.webp"
   },
   {
     "id": "food_cookie",
@@ -1285,7 +1285,7 @@
     "albanian": "Biskotë",
     "romanized": "Bis-kó-tuh",
     "translation": "Cookie",
-    "image": "images/food/cookie.png"
+    "image": "images/food/cookie.webp"
   },
   {
     "id": "food_chocolate",
@@ -1293,7 +1293,7 @@
     "albanian": "Çokollatë",
     "romanized": "Cho-kol-lá-tuh",
     "translation": "Chocolate",
-    "image": "images/food/chocolate.png"
+    "image": "images/food/chocolate.webp"
   },
   {
     "id": "food_soup",
@@ -1301,7 +1301,7 @@
     "albanian": "Supë",
     "romanized": "Sú-puh",
     "translation": "Soup",
-    "image": "images/food/soup.png"
+    "image": "images/food/soup.webp"
   },
   {
     "id": "food_carrot",
@@ -1309,7 +1309,7 @@
     "albanian": "Karotë",
     "romanized": "Ka-ró-tuh",
     "translation": "Carrot",
-    "image": "images/food/carrot.png"
+    "image": "images/food/carrot.webp"
   },
   {
     "id": "food_tomato",
@@ -1317,7 +1317,7 @@
     "albanian": "Domate",
     "romanized": "Do-má-teh",
     "translation": "Tomato",
-    "image": "images/food/tomato.png"
+    "image": "images/food/tomato.webp"
   },
   {
     "id": "food_potato",
@@ -1325,7 +1325,7 @@
     "albanian": "Patate",
     "romanized": "Pa-tá-teh",
     "translation": "Potato",
-    "image": "images/food/potato.png"
+    "image": "images/food/potato.webp"
   },
   {
     "id": "food_corn",
@@ -1333,7 +1333,7 @@
     "albanian": "Misër",
     "romanized": "Mí-suhr",
     "translation": "Corn",
-    "image": "images/food/corn.png"
+    "image": "images/food/corn.webp"
   },
   {
     "id": "food_salad",
@@ -1341,7 +1341,7 @@
     "albanian": "Sallatë",
     "romanized": "Sal-lá-tuh",
     "translation": "Salad",
-    "image": "images/food/salad.png"
+    "image": "images/food/salad.webp"
   },
   {
     "id": "food_water",
@@ -1349,7 +1349,7 @@
     "albanian": "Ujë",
     "romanized": "Ú-yuh",
     "translation": "Water",
-    "image": "images/food/water.png"
+    "image": "images/food/water.webp"
   },
   {
     "id": "food_juice",
@@ -1357,7 +1357,7 @@
     "albanian": "Lëng",
     "romanized": "Lung",
     "translation": "Juice",
-    "image": "images/food/juice.png"
+    "image": "images/food/juice.webp"
   },
   {
     "id": "food_rice",
@@ -1365,7 +1365,7 @@
     "albanian": "Oriz",
     "romanized": "O-rís",
     "translation": "Rice",
-    "image": "images/food/rice.png"
+    "image": "images/food/rice.webp"
   },
   {
     "id": "food_pasta",
@@ -1373,7 +1373,7 @@
     "albanian": "Makarona",
     "romanized": "Ma-ka-ró-na",
     "translation": "Pasta",
-    "image": "images/food/pasta.png"
+    "image": "images/food/pasta.webp"
   },
   {
     "id": "food_fish",
@@ -1381,7 +1381,7 @@
     "albanian": "Peshk",
     "romanized": "Peshk",
     "translation": "Fish",
-    "image": "images/food/fish.png"
+    "image": "images/food/fish.webp"
   },
   {
     "id": "food_butter",
@@ -1389,7 +1389,7 @@
     "albanian": "Gjalpë",
     "romanized": "Gyál-puh",
     "translation": "Butter",
-    "image": "images/food/butter.png"
+    "image": "images/food/butter.webp"
   },
   {
     "id": "food_yogurt",
@@ -1397,7 +1397,7 @@
     "albanian": "Kos",
     "romanized": "Kos",
     "translation": "Yogurt",
-    "image": "images/food/yogurt.png"
+    "image": "images/food/yogurt.webp"
   },
   {
     "id": "fruits_apple",
@@ -1405,7 +1405,7 @@
     "albanian": "Mollë",
     "romanized": "Mól-luh",
     "translation": "Apple",
-    "image": "images/fruits/apple.png"
+    "image": "images/fruits/apple.webp"
   },
   {
     "id": "fruits_banana",
@@ -1413,7 +1413,7 @@
     "albanian": "Banane",
     "romanized": "Ba-ná-neh",
     "translation": "Banana",
-    "image": "images/fruits/banana.png"
+    "image": "images/fruits/banana.webp"
   },
   {
     "id": "fruits_orange",
@@ -1421,7 +1421,7 @@
     "albanian": "Portokall",
     "romanized": "Por-to-kál",
     "translation": "Orange",
-    "image": "images/fruits/orange.png"
+    "image": "images/fruits/orange.webp"
   },
   {
     "id": "fruits_strawberry",
@@ -1429,7 +1429,7 @@
     "albanian": "Luleshtrydhe",
     "romanized": "Lu-lesh-trü-dheh",
     "translation": "Strawberry",
-    "image": "images/fruits/strawberry.png"
+    "image": "images/fruits/strawberry.webp"
   },
   {
     "id": "fruits_grapes",
@@ -1437,7 +1437,7 @@
     "albanian": "Rrush",
     "romanized": "Rrush",
     "translation": "Grapes",
-    "image": "images/fruits/grapes.png"
+    "image": "images/fruits/grapes.webp"
   },
   {
     "id": "fruits_watermelon",
@@ -1445,7 +1445,7 @@
     "albanian": "Shalqi",
     "romanized": "Shál-kyi",
     "translation": "Watermelon",
-    "image": "images/fruits/watermelon.png"
+    "image": "images/fruits/watermelon.webp"
   },
   {
     "id": "fruits_lemon",
@@ -1453,7 +1453,7 @@
     "albanian": "Limon",
     "romanized": "Li-món",
     "translation": "Lemon",
-    "image": "images/fruits/lemon.png"
+    "image": "images/fruits/lemon.webp"
   },
   {
     "id": "fruits_peach",
@@ -1461,7 +1461,7 @@
     "albanian": "Pjeshkë",
     "romanized": "Pyésh-kuh",
     "translation": "Peach",
-    "image": "images/fruits/peach.png"
+    "image": "images/fruits/peach.webp"
   },
   {
     "id": "fruits_cherry",
@@ -1469,7 +1469,7 @@
     "albanian": "Qershi",
     "romanized": "Kyér-shi",
     "translation": "Cherry",
-    "image": "images/fruits/cherry.png"
+    "image": "images/fruits/cherry.webp"
   },
   {
     "id": "fruits_pear",
@@ -1477,7 +1477,7 @@
     "albanian": "Dardhë",
     "romanized": "Dár-dhuh",
     "translation": "Pear",
-    "image": "images/fruits/pear.png"
+    "image": "images/fruits/pear.webp"
   },
   {
     "id": "nature_sun",
@@ -1485,7 +1485,7 @@
     "albanian": "Diell",
     "romanized": "Dyéll",
     "translation": "Sun",
-    "image": "images/nature/sun.png"
+    "image": "images/nature/sun.webp"
   },
   {
     "id": "nature_moon",
@@ -1493,7 +1493,7 @@
     "albanian": "Hënë",
     "romanized": "Hú-nuh",
     "translation": "Moon",
-    "image": "images/nature/moon.png"
+    "image": "images/nature/moon.webp"
   },
   {
     "id": "nature_stars",
@@ -1501,7 +1501,7 @@
     "albanian": "Yje",
     "romanized": "Ü-yeh",
     "translation": "Stars",
-    "image": "images/nature/stars.png"
+    "image": "images/nature/stars.webp"
   },
   {
     "id": "nature_tree",
@@ -1509,7 +1509,7 @@
     "albanian": "Pemë",
     "romanized": "Pé-muh",
     "translation": "Tree",
-    "image": "images/nature/tree.png"
+    "image": "images/nature/tree.webp"
   },
   {
     "id": "nature_flower",
@@ -1517,7 +1517,7 @@
     "albanian": "Lule",
     "romanized": "Lú-leh",
     "translation": "Flower",
-    "image": "images/nature/flower.png"
+    "image": "images/nature/flower.webp"
   },
   {
     "id": "nature_sea",
@@ -1525,7 +1525,7 @@
     "albanian": "Det",
     "romanized": "Det",
     "translation": "Sea",
-    "image": "images/nature/sea.png"
+    "image": "images/nature/sea.webp"
   },
   {
     "id": "nature_mountain",
@@ -1533,7 +1533,7 @@
     "albanian": "Mal",
     "romanized": "Mal",
     "translation": "Mountain",
-    "image": "images/nature/mountain.png"
+    "image": "images/nature/mountain.webp"
   },
   {
     "id": "nature_river",
@@ -1541,7 +1541,7 @@
     "albanian": "Lum",
     "romanized": "Lum",
     "translation": "River",
-    "image": "images/nature/river.png"
+    "image": "images/nature/river.webp"
   },
   {
     "id": "nature_sand",
@@ -1549,7 +1549,7 @@
     "albanian": "Rërë",
     "romanized": "Rú-ruh",
     "translation": "Sand",
-    "image": "images/nature/sand.png"
+    "image": "images/nature/sand.webp"
   },
   {
     "id": "nature_rock",
@@ -1557,7 +1557,7 @@
     "albanian": "Gur",
     "romanized": "Gur",
     "translation": "Rock",
-    "image": "images/nature/rock.png"
+    "image": "images/nature/rock.webp"
   },
   {
     "id": "weather_rain",
@@ -1565,7 +1565,7 @@
     "albanian": "Shi",
     "romanized": "Shi",
     "translation": "Rain",
-    "image": "images/weather/rain.png"
+    "image": "images/weather/rain.webp"
   },
   {
     "id": "weather_snow",
@@ -1573,7 +1573,7 @@
     "albanian": "Borë",
     "romanized": "Bó-ruh",
     "translation": "Snow",
-    "image": "images/weather/snow.png"
+    "image": "images/weather/snow.webp"
   },
   {
     "id": "weather_cloud",
@@ -1581,7 +1581,7 @@
     "albanian": "Re",
     "romanized": "Reh",
     "translation": "Cloud",
-    "image": "images/weather/cloud.png"
+    "image": "images/weather/cloud.webp"
   },
   {
     "id": "weather_wind",
@@ -1589,7 +1589,7 @@
     "albanian": "Erë",
     "romanized": "É-ruh",
     "translation": "Wind",
-    "image": "images/weather/wind.png"
+    "image": "images/weather/wind.webp"
   },
   {
     "id": "weather_rainbow",
@@ -1597,7 +1597,7 @@
     "albanian": "Ylber",
     "romanized": "Ül-bér",
     "translation": "Rainbow",
-    "image": "images/weather/rainbow.png"
+    "image": "images/weather/rainbow.webp"
   },
   {
     "id": "weather_heat",
@@ -1605,7 +1605,7 @@
     "albanian": "Nxehtësi",
     "romanized": "Ndzeh-tuh-sí",
     "translation": "Heat",
-    "image": "images/weather/heat.png"
+    "image": "images/weather/heat.webp"
   },
   {
     "id": "weather_cold",
@@ -1613,7 +1613,7 @@
     "albanian": "Ftohtësi",
     "romanized": "Ftoh-tuh-sí",
     "translation": "Cold",
-    "image": "images/weather/cold.png"
+    "image": "images/weather/cold.webp"
   },
   {
     "id": "weather_storm",
@@ -1621,7 +1621,7 @@
     "albanian": "Stuhi",
     "romanized": "Stu-hí",
     "translation": "Storm",
-    "image": "images/weather/storm.png"
+    "image": "images/weather/storm.webp"
   },
   {
     "id": "vehicles_car",
@@ -1629,7 +1629,7 @@
     "albanian": "Makinë",
     "romanized": "Ma-kí-nuh",
     "translation": "Car",
-    "image": "images/vehicles/car.png"
+    "image": "images/vehicles/car.webp"
   },
   {
     "id": "vehicles_truck",
@@ -1637,7 +1637,7 @@
     "albanian": "Kamion",
     "romanized": "Ka-mi-ón",
     "translation": "Truck",
-    "image": "images/vehicles/truck.png"
+    "image": "images/vehicles/truck.webp"
   },
   {
     "id": "vehicles_train",
@@ -1645,7 +1645,7 @@
     "albanian": "Tren",
     "romanized": "Tren",
     "translation": "Train",
-    "image": "images/vehicles/train.png"
+    "image": "images/vehicles/train.webp"
   },
   {
     "id": "vehicles_airplane",
@@ -1653,7 +1653,7 @@
     "albanian": "Aeroplan",
     "romanized": "A-e-ro-plán",
     "translation": "Airplane",
-    "image": "images/vehicles/airplane.png"
+    "image": "images/vehicles/airplane.webp"
   },
   {
     "id": "vehicles_ship",
@@ -1661,7 +1661,7 @@
     "albanian": "Anije",
     "romanized": "Á-ni-yeh",
     "translation": "Ship",
-    "image": "images/vehicles/ship.png"
+    "image": "images/vehicles/ship.webp"
   },
   {
     "id": "vehicles_bicycle",
@@ -1669,7 +1669,7 @@
     "albanian": "Biçikletë",
     "romanized": "Bi-chi-klé-tuh",
     "translation": "Bicycle",
-    "image": "images/vehicles/bicycle.png"
+    "image": "images/vehicles/bicycle.webp"
   },
   {
     "id": "bathroom_soap",
@@ -1677,7 +1677,7 @@
     "albanian": "Sapun",
     "romanized": "Sa-pún",
     "translation": "Soap",
-    "image": "images/bathroom/soap.png"
+    "image": "images/bathroom/soap.webp"
   },
   {
     "id": "bathroom_toothbrush",
@@ -1685,7 +1685,7 @@
     "albanian": "Furçë dhëmbësh",
     "romanized": "Fúr-chuh dhum-bush",
     "translation": "Toothbrush",
-    "image": "images/bathroom/toothbrush.png"
+    "image": "images/bathroom/toothbrush.webp"
   },
   {
     "id": "bathroom_towel",
@@ -1693,7 +1693,7 @@
     "albanian": "Peshqir",
     "romanized": "Pesh-kyír",
     "translation": "Towel",
-    "image": "images/bathroom/towel.png"
+    "image": "images/bathroom/towel.webp"
   },
   {
     "id": "bathroom_mirror",
@@ -1701,7 +1701,7 @@
     "albanian": "Pasqyrë",
     "romanized": "Pas-kyü-ruh",
     "translation": "Mirror",
-    "image": "images/bathroom/mirror.png"
+    "image": "images/bathroom/mirror.webp"
   },
   {
     "id": "bathroom_bathtub",
@@ -1709,7 +1709,7 @@
     "albanian": "Vaskë",
     "romanized": "Vás-kuh",
     "translation": "Bathtub",
-    "image": "images/bathroom/bathtub.png"
+    "image": "images/bathroom/bathtub.webp"
   },
   {
     "id": "bathroom_shower",
@@ -1717,7 +1717,7 @@
     "albanian": "Dush",
     "romanized": "Dush",
     "translation": "Shower",
-    "image": "images/bathroom/shower.png"
+    "image": "images/bathroom/shower.webp"
   },
   {
     "id": "bathroom_toilet",
@@ -1725,7 +1725,7 @@
     "albanian": "Tualet",
     "romanized": "Tu-a-lét",
     "translation": "Toilet",
-    "image": "images/bathroom/toilet.png"
+    "image": "images/bathroom/toilet.webp"
   },
   {
     "id": "bathroom_shampoo",
@@ -1733,7 +1733,7 @@
     "albanian": "Shampo",
     "romanized": "Shám-po",
     "translation": "Shampoo",
-    "image": "images/bathroom/shampoo.png"
+    "image": "images/bathroom/shampoo.webp"
   },
   {
     "id": "bedroom_bed",
@@ -1741,7 +1741,7 @@
     "albanian": "Krevat",
     "romanized": "Kre-vát",
     "translation": "Bed",
-    "image": "images/bedroom/bed.png"
+    "image": "images/bedroom/bed.webp"
   },
   {
     "id": "bedroom_pillow",
@@ -1749,7 +1749,7 @@
     "albanian": "Jastëk",
     "romanized": "Yás-tuk",
     "translation": "Pillow",
-    "image": "images/bedroom/pillow.png"
+    "image": "images/bedroom/pillow.webp"
   },
   {
     "id": "bedroom_blanket",
@@ -1757,7 +1757,7 @@
     "albanian": "Batanije",
     "romanized": "Ba-ta-ní-yeh",
     "translation": "Blanket",
-    "image": "images/bedroom/blanket.png"
+    "image": "images/bedroom/blanket.webp"
   },
   {
     "id": "bedroom_wardrobe",
@@ -1765,7 +1765,7 @@
     "albanian": "Dollap",
     "romanized": "Dól-lap",
     "translation": "Wardrobe",
-    "image": "images/bedroom/wardrobe.png"
+    "image": "images/bedroom/wardrobe.webp"
   },
   {
     "id": "bedroom_teddy_bear",
@@ -1773,7 +1773,7 @@
     "albanian": "Arushkë",
     "romanized": "A-rúsh-kuh",
     "translation": "Teddy Bear",
-    "image": "images/bedroom/teddy_bear.png"
+    "image": "images/bedroom/teddy_bear.webp"
   },
   {
     "id": "bedroom_pajamas",
@@ -1781,7 +1781,7 @@
     "albanian": "Pizhamë",
     "romanized": "Pi-zhá-muh",
     "translation": "Pajamas",
-    "image": "images/bedroom/pajamas.png"
+    "image": "images/bedroom/pajamas.webp"
   },
   {
     "id": "kitchen_plate",
@@ -1789,7 +1789,7 @@
     "albanian": "Pjatë",
     "romanized": "Pyá-tuh",
     "translation": "Plate",
-    "image": "images/kitchen/plate.png"
+    "image": "images/kitchen/plate.webp"
   },
   {
     "id": "kitchen_spoon",
@@ -1797,7 +1797,7 @@
     "albanian": "Lugë",
     "romanized": "Lú-guh",
     "translation": "Spoon",
-    "image": "images/kitchen/spoon.png"
+    "image": "images/kitchen/spoon.webp"
   },
   {
     "id": "kitchen_fork",
@@ -1805,7 +1805,7 @@
     "albanian": "Pirun",
     "romanized": "Pi-rún",
     "translation": "Fork",
-    "image": "images/kitchen/fork.png"
+    "image": "images/kitchen/fork.webp"
   },
   {
     "id": "kitchen_knife",
@@ -1813,7 +1813,7 @@
     "albanian": "Thikë",
     "romanized": "Thí-kuh",
     "translation": "Knife",
-    "image": "images/kitchen/knife.png"
+    "image": "images/kitchen/knife.webp"
   },
   {
     "id": "kitchen_glass",
@@ -1821,7 +1821,7 @@
     "albanian": "Gotë",
     "romanized": "Gó-tuh",
     "translation": "Glass",
-    "image": "images/kitchen/glass.png"
+    "image": "images/kitchen/glass.webp"
   },
   {
     "id": "kitchen_pot",
@@ -1829,7 +1829,7 @@
     "albanian": "Tenxhere",
     "romanized": "Ten-jé-reh",
     "translation": "Pot",
-    "image": "images/kitchen/pot.png"
+    "image": "images/kitchen/pot.webp"
   },
   {
     "id": "kitchen_fridge",
@@ -1837,7 +1837,7 @@
     "albanian": "Frigorifer",
     "romanized": "Fri-go-rí-fer",
     "translation": "Fridge",
-    "image": "images/kitchen/fridge.png"
+    "image": "images/kitchen/fridge.webp"
   },
   {
     "id": "kitchen_frying_pan",
@@ -1845,7 +1845,7 @@
     "albanian": "Tigan",
     "romanized": "Ti-gán",
     "translation": "Frying Pan",
-    "image": "images/kitchen/frying_pan.png"
+    "image": "images/kitchen/frying_pan.webp"
   },
   {
     "id": "kitchen_table",
@@ -1853,7 +1853,7 @@
     "albanian": "Tryezë",
     "romanized": "Trye-zuh",
     "translation": "Table",
-    "image": "images/kitchen/table.png"
+    "image": "images/kitchen/table.webp"
   },
   {
     "id": "kitchen_chair",
@@ -1861,7 +1861,7 @@
     "albanian": "Karrige",
     "romanized": "Ka-rí-geh",
     "translation": "Chair",
-    "image": "images/kitchen/chair.png"
+    "image": "images/kitchen/chair.webp"
   },
   {
     "id": "living_room_sofa",
@@ -1869,7 +1869,7 @@
     "albanian": "Divan",
     "romanized": "Di-ván",
     "translation": "Sofa",
-    "image": "images/living_room/sofa.png"
+    "image": "images/living_room/sofa.webp"
   },
   {
     "id": "living_room_television",
@@ -1877,7 +1877,7 @@
     "albanian": "Televizor",
     "romanized": "Te-le-vi-zór",
     "translation": "Television",
-    "image": "images/living_room/television.png"
+    "image": "images/living_room/television.webp"
   },
   {
     "id": "living_room_book",
@@ -1885,7 +1885,7 @@
     "albanian": "Libër",
     "romanized": "Lí-buhr",
     "translation": "Book",
-    "image": "images/living_room/book.png"
+    "image": "images/living_room/book.webp"
   },
   {
     "id": "living_room_lamp",
@@ -1893,7 +1893,7 @@
     "albanian": "Llambë",
     "romanized": "Llám-buh",
     "translation": "Lamp",
-    "image": "images/living_room/lamp.png"
+    "image": "images/living_room/lamp.webp"
   },
   {
     "id": "living_room_window",
@@ -1901,7 +1901,7 @@
     "albanian": "Dritare",
     "romanized": "Dri-tá-reh",
     "translation": "Window",
-    "image": "images/living_room/window.png"
+    "image": "images/living_room/window.webp"
   },
   {
     "id": "living_room_door",
@@ -1909,7 +1909,7 @@
     "albanian": "Derë",
     "romanized": "Dé-ruh",
     "translation": "Door",
-    "image": "images/living_room/door.png"
+    "image": "images/living_room/door.webp"
   },
   {
     "id": "living_room_ball",
@@ -1917,7 +1917,7 @@
     "albanian": "Top",
     "romanized": "Top",
     "translation": "Ball",
-    "image": "images/living_room/ball.png"
+    "image": "images/living_room/ball.webp"
   },
   {
     "id": "living_room_rug",
@@ -1925,7 +1925,7 @@
     "albanian": "Qilim",
     "romanized": "Kyi-lím",
     "translation": "Rug",
-    "image": "images/living_room/rug.png"
+    "image": "images/living_room/rug.webp"
   },
   {
     "id": "clothes_t_shirt",
@@ -1933,7 +1933,7 @@
     "albanian": "Bluzë",
     "romanized": "Blú-zuh",
     "translation": "T-shirt",
-    "image": "images/clothes/t-shirt.png"
+    "image": "images/clothes/t-shirt.webp"
   },
   {
     "id": "clothes_pants",
@@ -1941,7 +1941,7 @@
     "albanian": "Pantallona",
     "romanized": "Pan-tal-ló-na",
     "translation": "Pants",
-    "image": "images/clothes/pants.png"
+    "image": "images/clothes/pants.webp"
   },
   {
     "id": "clothes_dress",
@@ -1949,7 +1949,7 @@
     "albanian": "Fustan",
     "romanized": "Fus-tán",
     "translation": "Dress",
-    "image": "images/clothes/dress.png"
+    "image": "images/clothes/dress.webp"
   },
   {
     "id": "clothes_skirt",
@@ -1957,7 +1957,7 @@
     "albanian": "Fund",
     "romanized": "Fund",
     "translation": "Skirt",
-    "image": "images/clothes/skirt.png"
+    "image": "images/clothes/skirt.webp"
   },
   {
     "id": "clothes_shoes",
@@ -1965,7 +1965,7 @@
     "albanian": "Këpucë",
     "romanized": "Kuh-pú-tsuh",
     "translation": "Shoes",
-    "image": "images/clothes/shoes.png"
+    "image": "images/clothes/shoes.webp"
   },
   {
     "id": "clothes_socks",
@@ -1973,7 +1973,7 @@
     "albanian": "Çorape",
     "romanized": "Cho-rá-peh",
     "translation": "Socks",
-    "image": "images/clothes/socks.png"
+    "image": "images/clothes/socks.webp"
   },
   {
     "id": "clothes_hat",
@@ -1981,7 +1981,7 @@
     "albanian": "Kapelë",
     "romanized": "Ka-pé-luh",
     "translation": "Hat",
-    "image": "images/clothes/hat.png"
+    "image": "images/clothes/hat.webp"
   },
   {
     "id": "clothes_jacket",
@@ -1989,7 +1989,7 @@
     "albanian": "Xhaketë",
     "romanized": "Ja-ké-tuh",
     "translation": "Jacket",
-    "image": "images/clothes/jacket.png"
+    "image": "images/clothes/jacket.webp"
   },
   {
     "id": "clothes_sweater",
@@ -1997,7 +1997,7 @@
     "albanian": "Triko",
     "romanized": "Trí-ko",
     "translation": "Sweater",
-    "image": "images/clothes/sweater.png"
+    "image": "images/clothes/sweater.webp"
   },
   {
     "id": "clothes_scarf",
@@ -2005,7 +2005,7 @@
     "albanian": "Shall",
     "romanized": "Shall",
     "translation": "Scarf",
-    "image": "images/clothes/scarf.png"
+    "image": "images/clothes/scarf.webp"
   },
   {
     "id": "clothes_gloves",
@@ -2013,7 +2013,7 @@
     "albanian": "Doreza",
     "romanized": "Do-ré-za",
     "translation": "Gloves",
-    "image": "images/clothes/gloves.png"
+    "image": "images/clothes/gloves.webp"
   },
   {
     "id": "clothes_underwear",
@@ -2021,7 +2021,7 @@
     "albanian": "Të brendshme",
     "romanized": "Tuh brén-dshme",
     "translation": "Underwear",
-    "image": "images/clothes/underwear.png"
+    "image": "images/clothes/underwear.webp"
   },
   {
     "id": "music_music",
@@ -2029,7 +2029,7 @@
     "albanian": "Muzikë",
     "romanized": "Mu-zí-kuh",
     "translation": "Music",
-    "image": "images/music/music.png"
+    "image": "images/music/music.webp"
   },
   {
     "id": "music_song",
@@ -2037,7 +2037,7 @@
     "albanian": "Këngë",
     "romanized": "Kún-guh",
     "translation": "Song",
-    "image": "images/music/song.png"
+    "image": "images/music/song.webp"
   },
   {
     "id": "music_guitar",
@@ -2045,7 +2045,7 @@
     "albanian": "Kitarë",
     "romanized": "Ki-tá-ruh",
     "translation": "Guitar",
-    "image": "images/music/guitar.png"
+    "image": "images/music/guitar.webp"
   },
   {
     "id": "music_piano",
@@ -2053,7 +2053,7 @@
     "albanian": "Piano",
     "romanized": "Pi-á-no",
     "translation": "Piano",
-    "image": "images/music/piano.png"
+    "image": "images/music/piano.webp"
   },
   {
     "id": "music_drum",
@@ -2061,7 +2061,7 @@
     "albanian": "Daulle",
     "romanized": "Daúl-leh",
     "translation": "Drum",
-    "image": "images/music/drum.png"
+    "image": "images/music/drum.webp"
   },
   {
     "id": "music_violin",
@@ -2069,7 +2069,7 @@
     "albanian": "Violinë",
     "romanized": "Vi-o-lí-nuh",
     "translation": "Violin",
-    "image": "images/music/violin.png"
+    "image": "images/music/violin.webp"
   },
   {
     "id": "music_trumpet",
@@ -2077,7 +2077,7 @@
     "albanian": "Trompetë",
     "romanized": "Trom-pé-tuh",
     "translation": "Trumpet",
-    "image": "images/music/trumpet.png"
+    "image": "images/music/trumpet.webp"
   },
   {
     "id": "music_flute",
@@ -2085,7 +2085,7 @@
     "albanian": "Flaut",
     "romanized": "Fla-út",
     "translation": "Flute",
-    "image": "images/music/flute.png"
+    "image": "images/music/flute.webp"
   },
   {
     "id": "music_microphone",
@@ -2093,7 +2093,7 @@
     "albanian": "Mikrofon",
     "romanized": "Mi-kro-fón",
     "translation": "Microphone",
-    "image": "images/music/microphone.png"
+    "image": "images/music/microphone.webp"
   },
   {
     "id": "music_headphones",
@@ -2101,7 +2101,7 @@
     "albanian": "Kufje",
     "romanized": "Kúf-yeh",
     "translation": "Headphones",
-    "image": "images/music/headphones.png"
+    "image": "images/music/headphones.webp"
   },
   {
     "id": "music_dance",
@@ -2109,7 +2109,7 @@
     "albanian": "Dans",
     "romanized": "Dans",
     "translation": "Dance",
-    "image": "images/music/dance.png"
+    "image": "images/music/dance.webp"
   },
   {
     "id": "music_note",
@@ -2117,7 +2117,7 @@
     "albanian": "Notë",
     "romanized": "Nó-tuh",
     "translation": "Note",
-    "image": "images/music/note.png"
+    "image": "images/music/note.webp"
   },
   {
     "id": "holidays_christmas",
@@ -2125,7 +2125,7 @@
     "albanian": "Krishtlindja",
     "romanized": "Krisht-lín-dya",
     "translation": "Christmas",
-    "image": "images/holidays/christmas.png"
+    "image": "images/holidays/christmas.webp"
   },
   {
     "id": "holidays_easter",
@@ -2133,7 +2133,7 @@
     "albanian": "Pashkë",
     "romanized": "Pásh-kuh",
     "translation": "Easter",
-    "image": "images/holidays/easter.png"
+    "image": "images/holidays/easter.webp"
   },
   {
     "id": "holidays_birthday",
@@ -2141,7 +2141,7 @@
     "albanian": "Ditëlindja",
     "romanized": "Di-tuh-lín-dya",
     "translation": "Birthday",
-    "image": "images/holidays/birthday.png"
+    "image": "images/holidays/birthday.webp"
   },
   {
     "id": "holidays_new_year",
@@ -2149,7 +2149,7 @@
     "albanian": "Viti i Ri",
     "romanized": "Ví-ti i Ri",
     "translation": "New Year",
-    "image": "images/holidays/new_year.png"
+    "image": "images/holidays/new_year.webp"
   },
   {
     "id": "holidays_carnival",
@@ -2157,7 +2157,7 @@
     "albanian": "Karnaval",
     "romanized": "Kar-na-vál",
     "translation": "Carnival",
-    "image": "images/holidays/carnival.png"
+    "image": "images/holidays/carnival.webp"
   },
   {
     "id": "holidays_name_day",
@@ -2165,7 +2165,7 @@
     "albanian": "Ditë emri",
     "romanized": "Dí-tuh em-ri",
     "translation": "Name Day",
-    "image": "images/holidays/name_day.png"
+    "image": "images/holidays/name_day.webp"
   },
   {
     "id": "holidays_gift",
@@ -2173,7 +2173,7 @@
     "albanian": "Dhuratë",
     "romanized": "Dhu-rá-tuh",
     "translation": "Gift",
-    "image": "images/holidays/gift.png"
+    "image": "images/holidays/gift.webp"
   },
   {
     "id": "holidays_vacation",
@@ -2181,6 +2181,6 @@
     "albanian": "Pushime",
     "romanized": "Pu-shí-meh",
     "translation": "Vacation",
-    "image": "images/holidays/vacation.png"
+    "image": "images/holidays/vacation.webp"
   }
 ]
