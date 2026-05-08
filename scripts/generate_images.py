@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate PNG illustrations for flashcard words via OpenRouter or OpenAI.
+Generate flashcard illustrations via OpenRouter or OpenAI.
+
+Images are fetched as PNG from the API, then immediately resized to 512px and
+saved as WebP quality 85. The deck JSON is updated with the .webp path.
 
 Usage:
   .venv/bin/python scripts/generate_images.py
@@ -16,12 +19,18 @@ Updates data/decks/<lang>.json with image paths after generation.
 
 import argparse
 import base64
+import io
 import json
 import os
 import sys
 import urllib.request
 import urllib.error
 from pathlib import Path
+
+try:
+    from PIL import Image as PilImage
+except ImportError:
+    sys.exit("Pillow not found — run: .venv/bin/python3 -m pip install Pillow")
 
 ROOT = Path(__file__).parent.parent
 MANIFEST_FILE = ROOT / 'data' / 'manifest.json'
@@ -277,7 +286,7 @@ def main():
                 image_path = card['image']
             else:
                 name = ''.join(c if c.isalnum() else '_' for c in word.lower()).strip('_')
-                image_path = f'images/{category}/{name}.png'
+                image_path = f'images/{category}/{name}.webp'
             out_file = ROOT / image_path
 
             if out_file.exists() and not args.force:
@@ -293,7 +302,10 @@ def main():
                 failed += 1
                 continue
 
-            out_file.write_bytes(img_bytes)
+            with PilImage.open(io.BytesIO(img_bytes)) as img:
+                img = img.convert("RGBA")
+                img = img.resize((512, 512), PilImage.LANCZOS)
+                img.save(out_file, "WEBP", quality=85, method=6)
             card['image'] = image_path
             changed = True
             print('ok')
