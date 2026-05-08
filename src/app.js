@@ -113,11 +113,6 @@ async function init() {
   renderLanguageSelect();
   await loadDeck(language);
   switchLanguage(language);
-  const cardsWithImages = getActiveCards().filter(c => c.image);
-  if (cardsWithImages.length > 0) {
-    const pick = cardsWithImages[Math.floor(Math.random() * cardsWithImages.length)];
-    switchCategory(pick.category);
-  }
   attachListeners();
   initInstallPrompt();
   showWelcomeIfNeeded();
@@ -132,6 +127,17 @@ function switchLanguage(lang) {
   saveSettings();
   buildDeck();
   renderCategoryTabs();
+
+  const cardsWithImages = deck.filter(c => c.image);
+  if (cardsWithImages.length > 0) {
+    const pick = cardsWithImages[Math.floor(Math.random() * cardsWithImages.length)];
+    category = pick.category;
+    settings.category = pick.category;
+    saveSettings();
+    buildDeck();
+    updateTabSelection();
+  }
+
   buildQueue();
   renderCard();
 }
