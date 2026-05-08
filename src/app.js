@@ -39,7 +39,7 @@ let position  = 0;        // index into queue
 let language  = 'greek';
 let category  = 'all';
 let shuffled  = false;
-let settings  = { autoplay: true, enabledCategories: null, category: 'all' };
+let settings  = { autoplay: true, enabledCategories: null, category: 'all', language: 'greek' };
 let currentAudio = null;
 
 // Swipe tracking
@@ -110,6 +110,7 @@ async function init() {
     return;
   }
 
+  language = settings.language;
   renderLanguageSelect();
   await loadDeck(language);
   switchLanguage(language);
@@ -123,6 +124,7 @@ async function init() {
 function switchLanguage(lang) {
   language = lang;
   category = 'all';
+  settings.language = lang;
   settings.category = 'all';
   saveSettings();
   buildDeck();
