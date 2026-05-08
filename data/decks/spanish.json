@@ -1,1 +1,2114 @@
-[]
+[
+  {
+    "id": "alphabet_a",
+    "category": "alphabet",
+    "spanish": "A a",
+    "romanized": "ah",
+    "translation": "A",
+    "letter": "A"
+  },
+  {
+    "id": "alphabet_b",
+    "category": "alphabet",
+    "spanish": "B b",
+    "romanized": "beh",
+    "translation": "B",
+    "letter": "B"
+  },
+  {
+    "id": "alphabet_c",
+    "category": "alphabet",
+    "spanish": "C c",
+    "romanized": "seh",
+    "translation": "C",
+    "letter": "C"
+  },
+  {
+    "id": "alphabet_d",
+    "category": "alphabet",
+    "spanish": "D d",
+    "romanized": "deh",
+    "translation": "D",
+    "letter": "D"
+  },
+  {
+    "id": "alphabet_e",
+    "category": "alphabet",
+    "spanish": "E e",
+    "romanized": "eh",
+    "translation": "E",
+    "letter": "E"
+  },
+  {
+    "id": "alphabet_f",
+    "category": "alphabet",
+    "spanish": "F f",
+    "romanized": "é-feh",
+    "translation": "F",
+    "letter": "F"
+  },
+  {
+    "id": "alphabet_g",
+    "category": "alphabet",
+    "spanish": "G g",
+    "romanized": "heh",
+    "translation": "G",
+    "letter": "G"
+  },
+  {
+    "id": "alphabet_h",
+    "category": "alphabet",
+    "spanish": "H h",
+    "romanized": "á-cheh",
+    "translation": "H",
+    "letter": "H"
+  },
+  {
+    "id": "alphabet_i",
+    "category": "alphabet",
+    "spanish": "I i",
+    "romanized": "ee",
+    "translation": "I",
+    "letter": "I"
+  },
+  {
+    "id": "alphabet_j",
+    "category": "alphabet",
+    "spanish": "J j",
+    "romanized": "hó-ta",
+    "translation": "J",
+    "letter": "J"
+  },
+  {
+    "id": "alphabet_k",
+    "category": "alphabet",
+    "spanish": "K k",
+    "romanized": "kah",
+    "translation": "K",
+    "letter": "K"
+  },
+  {
+    "id": "alphabet_l",
+    "category": "alphabet",
+    "spanish": "L l",
+    "romanized": "é-leh",
+    "translation": "L",
+    "letter": "L"
+  },
+  {
+    "id": "alphabet_m",
+    "category": "alphabet",
+    "spanish": "M m",
+    "romanized": "é-meh",
+    "translation": "M",
+    "letter": "M"
+  },
+  {
+    "id": "alphabet_n",
+    "category": "alphabet",
+    "spanish": "N n",
+    "romanized": "é-neh",
+    "translation": "N",
+    "letter": "N"
+  },
+  {
+    "id": "alphabet_ny",
+    "category": "alphabet",
+    "spanish": "Ñ ñ",
+    "romanized": "é-nyeh",
+    "translation": "Ñ",
+    "letter": "Ñ"
+  },
+  {
+    "id": "alphabet_o",
+    "category": "alphabet",
+    "spanish": "O o",
+    "romanized": "oh",
+    "translation": "O",
+    "letter": "O"
+  },
+  {
+    "id": "alphabet_p",
+    "category": "alphabet",
+    "spanish": "P p",
+    "romanized": "peh",
+    "translation": "P",
+    "letter": "P"
+  },
+  {
+    "id": "alphabet_q",
+    "category": "alphabet",
+    "spanish": "Q q",
+    "romanized": "koo",
+    "translation": "Q",
+    "letter": "Q"
+  },
+  {
+    "id": "alphabet_r",
+    "category": "alphabet",
+    "spanish": "R r",
+    "romanized": "é-rreh",
+    "translation": "R",
+    "letter": "R"
+  },
+  {
+    "id": "alphabet_s",
+    "category": "alphabet",
+    "spanish": "S s",
+    "romanized": "é-seh",
+    "translation": "S",
+    "letter": "S"
+  },
+  {
+    "id": "alphabet_t",
+    "category": "alphabet",
+    "spanish": "T t",
+    "romanized": "teh",
+    "translation": "T",
+    "letter": "T"
+  },
+  {
+    "id": "alphabet_u",
+    "category": "alphabet",
+    "spanish": "U u",
+    "romanized": "oo",
+    "translation": "U",
+    "letter": "U"
+  },
+  {
+    "id": "alphabet_v",
+    "category": "alphabet",
+    "spanish": "V v",
+    "romanized": "oo-beh",
+    "translation": "V",
+    "letter": "V"
+  },
+  {
+    "id": "alphabet_w",
+    "category": "alphabet",
+    "spanish": "W w",
+    "romanized": "dó-bleh oo",
+    "translation": "W",
+    "letter": "W"
+  },
+  {
+    "id": "alphabet_x",
+    "category": "alphabet",
+    "spanish": "X x",
+    "romanized": "é-kis",
+    "translation": "X",
+    "letter": "X"
+  },
+  {
+    "id": "alphabet_y",
+    "category": "alphabet",
+    "spanish": "Y y",
+    "romanized": "ee-grié-ga",
+    "translation": "Y",
+    "letter": "Y"
+  },
+  {
+    "id": "alphabet_z",
+    "category": "alphabet",
+    "spanish": "Z z",
+    "romanized": "seh-ta",
+    "translation": "Z",
+    "letter": "Z"
+  },
+  {
+    "id": "numbers_one",
+    "category": "numbers",
+    "spanish": "Uno",
+    "romanized": "Ú-no",
+    "numeral": "1",
+    "translation": "One"
+  },
+  {
+    "id": "numbers_two",
+    "category": "numbers",
+    "spanish": "Dos",
+    "romanized": "Dos",
+    "numeral": "2",
+    "translation": "Two"
+  },
+  {
+    "id": "numbers_three",
+    "category": "numbers",
+    "spanish": "Tres",
+    "romanized": "Tres",
+    "numeral": "3",
+    "translation": "Three"
+  },
+  {
+    "id": "numbers_four",
+    "category": "numbers",
+    "spanish": "Cuatro",
+    "romanized": "Kuá-tro",
+    "numeral": "4",
+    "translation": "Four"
+  },
+  {
+    "id": "numbers_five",
+    "category": "numbers",
+    "spanish": "Cinco",
+    "romanized": "Sín-ko",
+    "numeral": "5",
+    "translation": "Five"
+  },
+  {
+    "id": "numbers_six",
+    "category": "numbers",
+    "spanish": "Seis",
+    "romanized": "Séis",
+    "numeral": "6",
+    "translation": "Six"
+  },
+  {
+    "id": "numbers_seven",
+    "category": "numbers",
+    "spanish": "Siete",
+    "romanized": "Syé-teh",
+    "numeral": "7",
+    "translation": "Seven"
+  },
+  {
+    "id": "numbers_eight",
+    "category": "numbers",
+    "spanish": "Ocho",
+    "romanized": "Ó-cho",
+    "numeral": "8",
+    "translation": "Eight"
+  },
+  {
+    "id": "numbers_nine",
+    "category": "numbers",
+    "spanish": "Nueve",
+    "romanized": "Nwé-beh",
+    "numeral": "9",
+    "translation": "Nine"
+  },
+  {
+    "id": "numbers_ten",
+    "category": "numbers",
+    "spanish": "Diez",
+    "romanized": "Dyés",
+    "numeral": "10",
+    "translation": "Ten"
+  },
+  {
+    "id": "numbers_eleven",
+    "category": "numbers",
+    "spanish": "Once",
+    "romanized": "Ón-seh",
+    "numeral": "11",
+    "translation": "Eleven"
+  },
+  {
+    "id": "numbers_twelve",
+    "category": "numbers",
+    "spanish": "Doce",
+    "romanized": "Dó-seh",
+    "numeral": "12",
+    "translation": "Twelve"
+  },
+  {
+    "id": "numbers_thirteen",
+    "category": "numbers",
+    "spanish": "Trece",
+    "romanized": "Tré-seh",
+    "numeral": "13",
+    "translation": "Thirteen"
+  },
+  {
+    "id": "numbers_fourteen",
+    "category": "numbers",
+    "spanish": "Catorce",
+    "romanized": "Ka-tór-seh",
+    "numeral": "14",
+    "translation": "Fourteen"
+  },
+  {
+    "id": "numbers_fifteen",
+    "category": "numbers",
+    "spanish": "Quince",
+    "romanized": "Kín-seh",
+    "numeral": "15",
+    "translation": "Fifteen"
+  },
+  {
+    "id": "numbers_sixteen",
+    "category": "numbers",
+    "spanish": "Dieciséis",
+    "romanized": "Dyeh-si-séis",
+    "numeral": "16",
+    "translation": "Sixteen"
+  },
+  {
+    "id": "numbers_seventeen",
+    "category": "numbers",
+    "spanish": "Diecisiete",
+    "romanized": "Dyeh-si-syé-teh",
+    "numeral": "17",
+    "translation": "Seventeen"
+  },
+  {
+    "id": "numbers_eighteen",
+    "category": "numbers",
+    "spanish": "Dieciocho",
+    "romanized": "Dyeh-si-ó-cho",
+    "numeral": "18",
+    "translation": "Eighteen"
+  },
+  {
+    "id": "numbers_nineteen",
+    "category": "numbers",
+    "spanish": "Diecinueve",
+    "romanized": "Dyeh-si-nwé-beh",
+    "numeral": "19",
+    "translation": "Nineteen"
+  },
+  {
+    "id": "numbers_twenty",
+    "category": "numbers",
+    "spanish": "Veinte",
+    "romanized": "Béin-teh",
+    "numeral": "20",
+    "translation": "Twenty"
+  },
+  {
+    "id": "colors_red",
+    "category": "colors",
+    "spanish": "Rojo",
+    "romanized": "Ró-ho",
+    "color": "#FF4040",
+    "translation": "Red"
+  },
+  {
+    "id": "colors_blue",
+    "category": "colors",
+    "spanish": "Azul",
+    "romanized": "A-súl",
+    "color": "#4169E1",
+    "translation": "Blue"
+  },
+  {
+    "id": "colors_yellow",
+    "category": "colors",
+    "spanish": "Amarillo",
+    "romanized": "A-ma-rí-yo",
+    "color": "#FFD700",
+    "translation": "Yellow"
+  },
+  {
+    "id": "colors_green",
+    "category": "colors",
+    "spanish": "Verde",
+    "romanized": "Bér-deh",
+    "color": "#32CD32",
+    "translation": "Green"
+  },
+  {
+    "id": "colors_orange",
+    "category": "colors",
+    "spanish": "Naranja",
+    "romanized": "Na-rán-ha",
+    "color": "#FF8C00",
+    "translation": "Orange"
+  },
+  {
+    "id": "colors_purple",
+    "category": "colors",
+    "spanish": "Morado",
+    "romanized": "Mo-rá-do",
+    "color": "#9B59B6",
+    "translation": "Purple"
+  },
+  {
+    "id": "shapes_circle",
+    "category": "shapes",
+    "spanish": "Círculo",
+    "romanized": "Sír-ku-lo",
+    "shape": "circle",
+    "translation": "Circle"
+  },
+  {
+    "id": "shapes_square",
+    "category": "shapes",
+    "spanish": "Cuadrado",
+    "romanized": "Kwa-drá-do",
+    "shape": "square",
+    "translation": "Square"
+  },
+  {
+    "id": "shapes_triangle",
+    "category": "shapes",
+    "spanish": "Triángulo",
+    "romanized": "Trián-gu-lo",
+    "shape": "triangle",
+    "translation": "Triangle"
+  },
+  {
+    "id": "shapes_heart",
+    "category": "shapes",
+    "spanish": "Corazón",
+    "romanized": "Ko-ra-són",
+    "shape": "heart",
+    "translation": "Heart"
+  },
+  {
+    "id": "shapes_star",
+    "category": "shapes",
+    "spanish": "Estrella",
+    "romanized": "Es-tré-ya",
+    "shape": "star",
+    "translation": "Star"
+  },
+  {
+    "id": "shapes_rectangle",
+    "category": "shapes",
+    "spanish": "Rectángulo",
+    "romanized": "Rek-tán-gu-lo",
+    "shape": "rectangle",
+    "translation": "Rectangle"
+  },
+  {
+    "id": "shapes_diamond",
+    "category": "shapes",
+    "spanish": "Rombo",
+    "romanized": "Róm-bo",
+    "shape": "diamond",
+    "translation": "Diamond"
+  },
+  {
+    "id": "dinosaurs_stegosaurus",
+    "category": "dinosaurs",
+    "spanish": "Estegosaurio",
+    "romanized": "Es-teh-go-saú-ryo",
+    "translation": "Stegosaurus",
+    "image": "images/dinosaurs/stegosaurus.png"
+  },
+  {
+    "id": "dinosaurs_tyrannosaurus",
+    "category": "dinosaurs",
+    "spanish": "Tiranosaurio",
+    "romanized": "Ti-ra-no-saú-ryo",
+    "translation": "Tyrannosaurus",
+    "image": "images/dinosaurs/tyrannosaurus.png"
+  },
+  {
+    "id": "dinosaurs_triceratops",
+    "category": "dinosaurs",
+    "spanish": "Triceratops",
+    "romanized": "Tri-seh-ra-tóps",
+    "translation": "Triceratops",
+    "image": "images/dinosaurs/triceratops.png"
+  },
+  {
+    "id": "dinosaurs_brontosaurus",
+    "category": "dinosaurs",
+    "spanish": "Brontosaurio",
+    "romanized": "Bron-to-saú-ryo",
+    "translation": "Brontosaurus",
+    "image": "images/dinosaurs/brontosaurus.png"
+  },
+  {
+    "id": "dinosaurs_pterodactyl",
+    "category": "dinosaurs",
+    "spanish": "Pterodáctilo",
+    "romanized": "Pte-ro-dák-ti-lo",
+    "translation": "Pterodactyl",
+    "image": "images/dinosaurs/pterodactyl.png"
+  },
+  {
+    "id": "animals_elephant",
+    "category": "animals",
+    "spanish": "Elefante",
+    "romanized": "E-le-fán-teh",
+    "translation": "Elephant",
+    "image": "images/animals/elephant.png"
+  },
+  {
+    "id": "animals_lion",
+    "category": "animals",
+    "spanish": "León",
+    "romanized": "Le-ón",
+    "translation": "Lion",
+    "image": "images/animals/lion.png"
+  },
+  {
+    "id": "animals_giraffe",
+    "category": "animals",
+    "spanish": "Jirafa",
+    "romanized": "Hi-rá-fa",
+    "translation": "Giraffe",
+    "image": "images/animals/giraffe.png"
+  },
+  {
+    "id": "animals_dolphin",
+    "category": "animals",
+    "spanish": "Delfín",
+    "romanized": "Del-fín",
+    "translation": "Dolphin",
+    "image": "images/animals/dolphin.png"
+  },
+  {
+    "id": "animals_fox",
+    "category": "animals",
+    "spanish": "Zorro",
+    "romanized": "Só-rro",
+    "translation": "Fox",
+    "image": "images/animals/fox.png"
+  },
+  {
+    "id": "animals_dog",
+    "category": "animals",
+    "spanish": "Perro",
+    "romanized": "Pé-rro",
+    "translation": "Dog",
+    "image": "images/animals/dog.png"
+  },
+  {
+    "id": "animals_cat",
+    "category": "animals",
+    "spanish": "Gato",
+    "romanized": "Gá-to",
+    "translation": "Cat",
+    "image": "images/animals/cat.png"
+  },
+  {
+    "id": "animals_cow",
+    "category": "animals",
+    "spanish": "Vaca",
+    "romanized": "Bá-ka",
+    "translation": "Cow",
+    "image": "images/animals/cow.png"
+  },
+  {
+    "id": "animals_pig",
+    "category": "animals",
+    "spanish": "Cerdo",
+    "romanized": "Sér-do",
+    "translation": "Pig",
+    "image": "images/animals/pig.png"
+  },
+  {
+    "id": "animals_horse",
+    "category": "animals",
+    "spanish": "Caballo",
+    "romanized": "Ka-bá-yo",
+    "translation": "Horse",
+    "image": "images/animals/horse.png"
+  },
+  {
+    "id": "animals_chicken",
+    "category": "animals",
+    "spanish": "Pollo",
+    "romanized": "Pó-yo",
+    "translation": "Chicken",
+    "image": "images/animals/chicken.png"
+  },
+  {
+    "id": "animals_sheep",
+    "category": "animals",
+    "spanish": "Oveja",
+    "romanized": "O-bé-ha",
+    "translation": "Sheep",
+    "image": "images/animals/sheep.png"
+  },
+  {
+    "id": "animals_rabbit",
+    "category": "animals",
+    "spanish": "Conejo",
+    "romanized": "Ko-né-ho",
+    "translation": "Rabbit",
+    "image": "images/animals/rabbit.png"
+  },
+  {
+    "id": "animals_bear",
+    "category": "animals",
+    "spanish": "Oso",
+    "romanized": "Ó-so",
+    "translation": "Bear",
+    "image": "images/animals/bear.png"
+  },
+  {
+    "id": "animals_monkey",
+    "category": "animals",
+    "spanish": "Mono",
+    "romanized": "Mó-no",
+    "translation": "Monkey",
+    "image": "images/animals/monkey.png"
+  },
+  {
+    "id": "animals_zebra",
+    "category": "animals",
+    "spanish": "Cebra",
+    "romanized": "Sé-bra",
+    "translation": "Zebra",
+    "image": "images/animals/zebra.png"
+  },
+  {
+    "id": "animals_tiger",
+    "category": "animals",
+    "spanish": "Tigre",
+    "romanized": "Tí-greh",
+    "translation": "Tiger",
+    "image": "images/animals/tiger.png"
+  },
+  {
+    "id": "animals_wolf",
+    "category": "animals",
+    "spanish": "Lobo",
+    "romanized": "Ló-bo",
+    "translation": "Wolf",
+    "image": "images/animals/wolf.png"
+  },
+  {
+    "id": "animals_crocodile",
+    "category": "animals",
+    "spanish": "Cocodrilo",
+    "romanized": "Ko-ko-drí-lo",
+    "translation": "Crocodile",
+    "image": "images/animals/crocodile.png"
+  },
+  {
+    "id": "animals_hippo",
+    "category": "animals",
+    "spanish": "Hipopótamo",
+    "romanized": "Hi-po-pó-ta-mo",
+    "translation": "Hippo",
+    "image": "images/animals/hippo.png"
+  },
+  {
+    "id": "animals_penguin",
+    "category": "animals",
+    "spanish": "Pingüino",
+    "romanized": "Pin-gwí-no",
+    "translation": "Penguin",
+    "image": "images/animals/penguin.png"
+  },
+  {
+    "id": "animals_owl",
+    "category": "animals",
+    "spanish": "Búho",
+    "romanized": "Bú-o",
+    "translation": "Owl",
+    "image": "images/animals/owl.png"
+  },
+  {
+    "id": "animals_parrot",
+    "category": "animals",
+    "spanish": "Loro",
+    "romanized": "Ló-ro",
+    "translation": "Parrot",
+    "image": "images/animals/parrot.png"
+  },
+  {
+    "id": "animals_flamingo",
+    "category": "animals",
+    "spanish": "Flamenco",
+    "romanized": "Fla-mén-ko",
+    "translation": "Flamingo",
+    "image": "images/animals/flamingo.png"
+  },
+  {
+    "id": "animals_shark",
+    "category": "animals",
+    "spanish": "Tiburón",
+    "romanized": "Ti-bu-rón",
+    "translation": "Shark",
+    "image": "images/animals/shark.png"
+  },
+  {
+    "id": "animals_whale",
+    "category": "animals",
+    "spanish": "Ballena",
+    "romanized": "Ba-yé-na",
+    "translation": "Whale",
+    "image": "images/animals/whale.png"
+  },
+  {
+    "id": "animals_turtle",
+    "category": "animals",
+    "spanish": "Tortuga",
+    "romanized": "Tor-tú-ga",
+    "translation": "Turtle",
+    "image": "images/animals/turtle.png"
+  },
+  {
+    "id": "animals_frog",
+    "category": "animals",
+    "spanish": "Rana",
+    "romanized": "Rá-na",
+    "translation": "Frog",
+    "image": "images/animals/frog.png"
+  },
+  {
+    "id": "animals_butterfly",
+    "category": "animals",
+    "spanish": "Mariposa",
+    "romanized": "Ma-ri-pó-sa",
+    "translation": "Butterfly",
+    "image": "images/animals/butterfly.png"
+  },
+  {
+    "id": "animals_bee",
+    "category": "animals",
+    "spanish": "Abeja",
+    "romanized": "A-bé-ha",
+    "translation": "Bee",
+    "image": "images/animals/bee.png"
+  },
+  {
+    "id": "family_mom",
+    "category": "family",
+    "spanish": "Mamá",
+    "romanized": "Ma-má",
+    "translation": "Mom",
+    "image": "images/family/mom.png"
+  },
+  {
+    "id": "family_dad",
+    "category": "family",
+    "spanish": "Papá",
+    "romanized": "Pa-pá",
+    "translation": "Dad",
+    "image": "images/family/dad.png"
+  },
+  {
+    "id": "family_grandma",
+    "category": "family",
+    "spanish": "Abuela",
+    "romanized": "A-bwé-la",
+    "translation": "Grandma",
+    "image": "images/family/grandma.png"
+  },
+  {
+    "id": "family_grandpa",
+    "category": "family",
+    "spanish": "Abuelo",
+    "romanized": "A-bwé-lo",
+    "translation": "Grandpa",
+    "image": "images/family/grandpa.png"
+  },
+  {
+    "id": "family_sister",
+    "category": "family",
+    "spanish": "Hermana",
+    "romanized": "Er-má-na",
+    "translation": "Sister",
+    "image": "images/family/sister.png"
+  },
+  {
+    "id": "family_brother",
+    "category": "family",
+    "spanish": "Hermano",
+    "romanized": "Er-má-no",
+    "translation": "Brother",
+    "image": "images/family/brother.png"
+  },
+  {
+    "id": "family_baby",
+    "category": "family",
+    "spanish": "Bebé",
+    "romanized": "Beh-bé",
+    "translation": "Baby",
+    "image": "images/family/baby.png"
+  },
+  {
+    "id": "family_aunt",
+    "category": "family",
+    "spanish": "Tía",
+    "romanized": "Tí-a",
+    "translation": "Aunt",
+    "image": "images/family/aunt.png"
+  },
+  {
+    "id": "family_uncle",
+    "category": "family",
+    "spanish": "Tío",
+    "romanized": "Tí-o",
+    "translation": "Uncle",
+    "image": "images/family/uncle.png"
+  },
+  {
+    "id": "family_family",
+    "category": "family",
+    "spanish": "Familia",
+    "romanized": "Fa-mí-lya",
+    "translation": "Family",
+    "image": "images/family/family.png"
+  },
+  {
+    "id": "body_parts_head",
+    "category": "body_parts",
+    "spanish": "Cabeza",
+    "romanized": "Ka-bé-sa",
+    "translation": "Head",
+    "image": "images/body_parts/head.png"
+  },
+  {
+    "id": "body_parts_eyes",
+    "category": "body_parts",
+    "spanish": "Ojos",
+    "romanized": "Ó-hos",
+    "translation": "Eyes",
+    "image": "images/body_parts/eyes.png"
+  },
+  {
+    "id": "body_parts_nose",
+    "category": "body_parts",
+    "spanish": "Nariz",
+    "romanized": "Na-rís",
+    "translation": "Nose",
+    "image": "images/body_parts/nose.png"
+  },
+  {
+    "id": "body_parts_mouth",
+    "category": "body_parts",
+    "spanish": "Boca",
+    "romanized": "Bó-ka",
+    "translation": "Mouth",
+    "image": "images/body_parts/mouth.png"
+  },
+  {
+    "id": "body_parts_ears",
+    "category": "body_parts",
+    "spanish": "Orejas",
+    "romanized": "O-ré-has",
+    "translation": "Ears",
+    "image": "images/body_parts/ears.png"
+  },
+  {
+    "id": "body_parts_hair",
+    "category": "body_parts",
+    "spanish": "Pelo",
+    "romanized": "Pé-lo",
+    "translation": "Hair",
+    "image": "images/body_parts/hair.png"
+  },
+  {
+    "id": "body_parts_hands",
+    "category": "body_parts",
+    "spanish": "Manos",
+    "romanized": "Má-nos",
+    "translation": "Hands",
+    "image": "images/body_parts/hands.png"
+  },
+  {
+    "id": "body_parts_feet",
+    "category": "body_parts",
+    "spanish": "Pies",
+    "romanized": "Pyés",
+    "translation": "Feet",
+    "image": "images/body_parts/feet.png"
+  },
+  {
+    "id": "body_parts_belly",
+    "category": "body_parts",
+    "spanish": "Barriga",
+    "romanized": "Ba-rrí-ga",
+    "translation": "Belly",
+    "image": "images/body_parts/belly.png"
+  },
+  {
+    "id": "body_parts_knees",
+    "category": "body_parts",
+    "spanish": "Rodillas",
+    "romanized": "Ro-dí-yas",
+    "translation": "Knees",
+    "image": "images/body_parts/knees.png"
+  },
+  {
+    "id": "greetings_hello",
+    "category": "greetings",
+    "spanish": "Hola",
+    "romanized": "Ó-la",
+    "translation": "Hello",
+    "image": "images/greetings/hello.png"
+  },
+  {
+    "id": "greetings_goodbye",
+    "category": "greetings",
+    "spanish": "Adiós",
+    "romanized": "A-dyós",
+    "translation": "Goodbye",
+    "image": "images/greetings/goodbye.png"
+  },
+  {
+    "id": "greetings_good_morning",
+    "category": "greetings",
+    "spanish": "Buenos días",
+    "romanized": "Bwé-nos Dí-as",
+    "translation": "Good Morning",
+    "image": "images/greetings/good_morning.png"
+  },
+  {
+    "id": "greetings_good_evening",
+    "category": "greetings",
+    "spanish": "Buenas tardes",
+    "romanized": "Bwé-nas Tár-des",
+    "translation": "Good Evening",
+    "image": "images/greetings/good_evening.png"
+  },
+  {
+    "id": "greetings_good_night",
+    "category": "greetings",
+    "spanish": "Buenas noches",
+    "romanized": "Bwé-nas Nó-ches",
+    "translation": "Good Night",
+    "image": "images/greetings/good_night.png"
+  },
+  {
+    "id": "greetings_thank_you",
+    "category": "greetings",
+    "spanish": "Gracias",
+    "romanized": "Grá-syas",
+    "translation": "Thank You",
+    "image": "images/greetings/thank_you.png"
+  },
+  {
+    "id": "greetings_please",
+    "category": "greetings",
+    "spanish": "Por favor",
+    "romanized": "Por Fa-bór",
+    "translation": "Please",
+    "image": "images/greetings/please.png"
+  },
+  {
+    "id": "greetings_yes",
+    "category": "greetings",
+    "spanish": "Sí",
+    "romanized": "Sí",
+    "translation": "Yes",
+    "image": "images/greetings/yes.png"
+  },
+  {
+    "id": "greetings_no",
+    "category": "greetings",
+    "spanish": "No",
+    "romanized": "No",
+    "translation": "No",
+    "image": "images/greetings/no.png"
+  },
+  {
+    "id": "greetings_sorry",
+    "category": "greetings",
+    "spanish": "Lo siento",
+    "romanized": "Lo Syén-to",
+    "translation": "Sorry",
+    "image": "images/greetings/sorry.png"
+  },
+  {
+    "id": "greetings_i_love_you",
+    "category": "greetings",
+    "spanish": "Te quiero",
+    "romanized": "Teh Kyé-ro",
+    "translation": "I Love You",
+    "image": "images/greetings/i_love_you.png"
+  },
+  {
+    "id": "greetings_help",
+    "category": "greetings",
+    "spanish": "Ayuda",
+    "romanized": "A-yú-da",
+    "translation": "Help",
+    "image": "images/greetings/help.png"
+  },
+  {
+    "id": "greetings_you_re_welcome",
+    "category": "greetings",
+    "spanish": "De nada",
+    "romanized": "Deh Ná-da",
+    "translation": "You're Welcome",
+    "image": "images/greetings/youre_welcome.png"
+  },
+  {
+    "id": "verbs_run",
+    "category": "verbs",
+    "spanish": "Correr",
+    "romanized": "Ko-rrér",
+    "translation": "Run",
+    "image": "images/verbs/run.png"
+  },
+  {
+    "id": "verbs_jump",
+    "category": "verbs",
+    "spanish": "Saltar",
+    "romanized": "Sal-tár",
+    "translation": "Jump",
+    "image": "images/verbs/jump.png"
+  },
+  {
+    "id": "verbs_sleep",
+    "category": "verbs",
+    "spanish": "Dormir",
+    "romanized": "Dor-mír",
+    "translation": "Sleep",
+    "image": "images/verbs/sleep.png"
+  },
+  {
+    "id": "verbs_eat",
+    "category": "verbs",
+    "spanish": "Comer",
+    "romanized": "Ko-mér",
+    "translation": "Eat",
+    "image": "images/verbs/eat.png"
+  },
+  {
+    "id": "verbs_drink",
+    "category": "verbs",
+    "spanish": "Beber",
+    "romanized": "Be-bér",
+    "translation": "Drink",
+    "image": "images/verbs/drink.png"
+  },
+  {
+    "id": "verbs_play",
+    "category": "verbs",
+    "spanish": "Jugar",
+    "romanized": "Hu-gár",
+    "translation": "Play",
+    "image": "images/verbs/play.png"
+  },
+  {
+    "id": "verbs_sing",
+    "category": "verbs",
+    "spanish": "Cantar",
+    "romanized": "Kan-tár",
+    "translation": "Sing",
+    "image": "images/verbs/sing.png"
+  },
+  {
+    "id": "verbs_dance",
+    "category": "verbs",
+    "spanish": "Bailar",
+    "romanized": "Bay-lár",
+    "translation": "Dance",
+    "image": "images/verbs/dance.png"
+  },
+  {
+    "id": "verbs_read",
+    "category": "verbs",
+    "spanish": "Leer",
+    "romanized": "Leh-ér",
+    "translation": "Read",
+    "image": "images/verbs/read.png"
+  },
+  {
+    "id": "verbs_draw",
+    "category": "verbs",
+    "spanish": "Dibujar",
+    "romanized": "Di-bu-hár",
+    "translation": "Draw",
+    "image": "images/verbs/draw.png"
+  },
+  {
+    "id": "verbs_swim",
+    "category": "verbs",
+    "spanish": "Nadar",
+    "romanized": "Na-dár",
+    "translation": "Swim",
+    "image": "images/verbs/swim.png"
+  },
+  {
+    "id": "verbs_fly",
+    "category": "verbs",
+    "spanish": "Volar",
+    "romanized": "Bo-lár",
+    "translation": "Fly",
+    "image": "images/verbs/fly.png"
+  },
+  {
+    "id": "verbs_laugh",
+    "category": "verbs",
+    "spanish": "Reír",
+    "romanized": "Re-ír",
+    "translation": "Laugh",
+    "image": "images/verbs/laugh.png"
+  },
+  {
+    "id": "verbs_cry",
+    "category": "verbs",
+    "spanish": "Llorar",
+    "romanized": "Yo-rár",
+    "translation": "Cry",
+    "image": "images/verbs/cry.png"
+  },
+  {
+    "id": "verbs_hug",
+    "category": "verbs",
+    "spanish": "Abrazar",
+    "romanized": "A-bra-sár",
+    "translation": "Hug",
+    "image": "images/verbs/hug.png"
+  },
+  {
+    "id": "verbs_listen",
+    "category": "verbs",
+    "spanish": "Escuchar",
+    "romanized": "Es-ku-chár",
+    "translation": "Listen",
+    "image": "images/verbs/listen.png"
+  },
+  {
+    "id": "food_bread",
+    "category": "food",
+    "spanish": "Pan",
+    "romanized": "Pan",
+    "translation": "Bread",
+    "image": "images/food/bread.png"
+  },
+  {
+    "id": "food_milk",
+    "category": "food",
+    "spanish": "Leche",
+    "romanized": "Lé-cheh",
+    "translation": "Milk",
+    "image": "images/food/milk.png"
+  },
+  {
+    "id": "food_egg",
+    "category": "food",
+    "spanish": "Huevo",
+    "romanized": "Wé-bo",
+    "translation": "Egg",
+    "image": "images/food/egg.png"
+  },
+  {
+    "id": "food_cheese",
+    "category": "food",
+    "spanish": "Queso",
+    "romanized": "Ké-so",
+    "translation": "Cheese",
+    "image": "images/food/cheese.png"
+  },
+  {
+    "id": "food_honey",
+    "category": "food",
+    "spanish": "Miel",
+    "romanized": "Myél",
+    "translation": "Honey",
+    "image": "images/food/honey.png"
+  },
+  {
+    "id": "food_pizza",
+    "category": "food",
+    "spanish": "Pizza",
+    "romanized": "Pí-sa",
+    "translation": "Pizza",
+    "image": "images/food/pizza.png"
+  },
+  {
+    "id": "food_ice_cream",
+    "category": "food",
+    "spanish": "Helado",
+    "romanized": "E-lá-do",
+    "translation": "Ice Cream",
+    "image": "images/food/ice_cream.png"
+  },
+  {
+    "id": "food_cookie",
+    "category": "food",
+    "spanish": "Galleta",
+    "romanized": "Ga-yé-ta",
+    "translation": "Cookie",
+    "image": "images/food/cookie.png"
+  },
+  {
+    "id": "food_chocolate",
+    "category": "food",
+    "spanish": "Chocolate",
+    "romanized": "Cho-ko-lá-teh",
+    "translation": "Chocolate",
+    "image": "images/food/chocolate.png"
+  },
+  {
+    "id": "food_soup",
+    "category": "food",
+    "spanish": "Sopa",
+    "romanized": "Só-pa",
+    "translation": "Soup",
+    "image": "images/food/soup.png"
+  },
+  {
+    "id": "food_carrot",
+    "category": "food",
+    "spanish": "Zanahoria",
+    "romanized": "Sa-na-ó-rya",
+    "translation": "Carrot",
+    "image": "images/food/carrot.png"
+  },
+  {
+    "id": "food_tomato",
+    "category": "food",
+    "spanish": "Tomate",
+    "romanized": "To-má-teh",
+    "translation": "Tomato",
+    "image": "images/food/tomato.png"
+  },
+  {
+    "id": "food_potato",
+    "category": "food",
+    "spanish": "Papa",
+    "romanized": "Pá-pa",
+    "translation": "Potato",
+    "image": "images/food/potato.png"
+  },
+  {
+    "id": "food_corn",
+    "category": "food",
+    "spanish": "Maíz",
+    "romanized": "Ma-ís",
+    "translation": "Corn",
+    "image": "images/food/corn.png"
+  },
+  {
+    "id": "food_salad",
+    "category": "food",
+    "spanish": "Ensalada",
+    "romanized": "En-sa-lá-da",
+    "translation": "Salad",
+    "image": "images/food/salad.png"
+  },
+  {
+    "id": "food_water",
+    "category": "food",
+    "spanish": "Agua",
+    "romanized": "Á-gwa",
+    "translation": "Water",
+    "image": "images/food/water.png"
+  },
+  {
+    "id": "food_juice",
+    "category": "food",
+    "spanish": "Jugo",
+    "romanized": "Hú-go",
+    "translation": "Juice",
+    "image": "images/food/juice.png"
+  },
+  {
+    "id": "food_rice",
+    "category": "food",
+    "spanish": "Arroz",
+    "romanized": "A-rrós",
+    "translation": "Rice",
+    "image": "images/food/rice.png"
+  },
+  {
+    "id": "food_pasta",
+    "category": "food",
+    "spanish": "Pasta",
+    "romanized": "Pás-ta",
+    "translation": "Pasta",
+    "image": "images/food/pasta.png"
+  },
+  {
+    "id": "food_fish",
+    "category": "food",
+    "spanish": "Pescado",
+    "romanized": "Pes-ká-do",
+    "translation": "Fish",
+    "image": "images/food/fish.png"
+  },
+  {
+    "id": "food_butter",
+    "category": "food",
+    "spanish": "Mantequilla",
+    "romanized": "Man-te-kí-ya",
+    "translation": "Butter",
+    "image": "images/food/butter.png"
+  },
+  {
+    "id": "food_yogurt",
+    "category": "food",
+    "spanish": "Yogur",
+    "romanized": "Yo-gúr",
+    "translation": "Yogurt",
+    "image": "images/food/yogurt.png"
+  },
+  {
+    "id": "fruits_apple",
+    "category": "fruits",
+    "spanish": "Manzana",
+    "romanized": "Man-sá-na",
+    "translation": "Apple",
+    "image": "images/fruits/apple.png"
+  },
+  {
+    "id": "fruits_banana",
+    "category": "fruits",
+    "spanish": "Plátano",
+    "romanized": "Plá-ta-no",
+    "translation": "Banana",
+    "image": "images/fruits/banana.png"
+  },
+  {
+    "id": "fruits_orange",
+    "category": "fruits",
+    "spanish": "Naranja",
+    "romanized": "Na-rán-ha",
+    "translation": "Orange",
+    "image": "images/fruits/orange.png"
+  },
+  {
+    "id": "fruits_strawberry",
+    "category": "fruits",
+    "spanish": "Fresa",
+    "romanized": "Fré-sa",
+    "translation": "Strawberry",
+    "image": "images/fruits/strawberry.png"
+  },
+  {
+    "id": "fruits_grapes",
+    "category": "fruits",
+    "spanish": "Uvas",
+    "romanized": "Ú-bas",
+    "translation": "Grapes",
+    "image": "images/fruits/grapes.png"
+  },
+  {
+    "id": "fruits_watermelon",
+    "category": "fruits",
+    "spanish": "Sandía",
+    "romanized": "San-dí-a",
+    "translation": "Watermelon",
+    "image": "images/fruits/watermelon.png"
+  },
+  {
+    "id": "fruits_lemon",
+    "category": "fruits",
+    "spanish": "Limón",
+    "romanized": "Li-món",
+    "translation": "Lemon",
+    "image": "images/fruits/lemon.png"
+  },
+  {
+    "id": "fruits_peach",
+    "category": "fruits",
+    "spanish": "Durazno",
+    "romanized": "Du-rás-no",
+    "translation": "Peach",
+    "image": "images/fruits/peach.png"
+  },
+  {
+    "id": "fruits_cherry",
+    "category": "fruits",
+    "spanish": "Cereza",
+    "romanized": "Se-ré-sa",
+    "translation": "Cherry",
+    "image": "images/fruits/cherry.png"
+  },
+  {
+    "id": "fruits_pear",
+    "category": "fruits",
+    "spanish": "Pera",
+    "romanized": "Pé-ra",
+    "translation": "Pear",
+    "image": "images/fruits/pear.png"
+  },
+  {
+    "id": "nature_sun",
+    "category": "nature",
+    "spanish": "Sol",
+    "romanized": "Sol",
+    "translation": "Sun",
+    "image": "images/nature/sun.png"
+  },
+  {
+    "id": "nature_moon",
+    "category": "nature",
+    "spanish": "Luna",
+    "romanized": "Lú-na",
+    "translation": "Moon",
+    "image": "images/nature/moon.png"
+  },
+  {
+    "id": "nature_stars",
+    "category": "nature",
+    "spanish": "Estrellas",
+    "romanized": "Es-tré-yas",
+    "translation": "Stars",
+    "image": "images/nature/stars.png"
+  },
+  {
+    "id": "nature_tree",
+    "category": "nature",
+    "spanish": "Árbol",
+    "romanized": "Ár-bol",
+    "translation": "Tree",
+    "image": "images/nature/tree.png"
+  },
+  {
+    "id": "nature_flower",
+    "category": "nature",
+    "spanish": "Flor",
+    "romanized": "Flor",
+    "translation": "Flower",
+    "image": "images/nature/flower.png"
+  },
+  {
+    "id": "nature_sea",
+    "category": "nature",
+    "spanish": "Mar",
+    "romanized": "Mar",
+    "translation": "Sea",
+    "image": "images/nature/sea.png"
+  },
+  {
+    "id": "nature_mountain",
+    "category": "nature",
+    "spanish": "Montaña",
+    "romanized": "Mon-tá-nya",
+    "translation": "Mountain",
+    "image": "images/nature/mountain.png"
+  },
+  {
+    "id": "nature_river",
+    "category": "nature",
+    "spanish": "Río",
+    "romanized": "Rí-o",
+    "translation": "River",
+    "image": "images/nature/river.png"
+  },
+  {
+    "id": "nature_sand",
+    "category": "nature",
+    "spanish": "Arena",
+    "romanized": "A-ré-na",
+    "translation": "Sand",
+    "image": "images/nature/sand.png"
+  },
+  {
+    "id": "nature_rock",
+    "category": "nature",
+    "spanish": "Roca",
+    "romanized": "Ró-ka",
+    "translation": "Rock",
+    "image": "images/nature/rock.png"
+  },
+  {
+    "id": "weather_rain",
+    "category": "weather",
+    "spanish": "Lluvia",
+    "romanized": "Yú-bya",
+    "translation": "Rain",
+    "image": "images/weather/rain.png"
+  },
+  {
+    "id": "weather_snow",
+    "category": "weather",
+    "spanish": "Nieve",
+    "romanized": "Nyé-beh",
+    "translation": "Snow",
+    "image": "images/weather/snow.png"
+  },
+  {
+    "id": "weather_cloud",
+    "category": "weather",
+    "spanish": "Nube",
+    "romanized": "Nú-beh",
+    "translation": "Cloud",
+    "image": "images/weather/cloud.png"
+  },
+  {
+    "id": "weather_wind",
+    "category": "weather",
+    "spanish": "Viento",
+    "romanized": "Byén-to",
+    "translation": "Wind",
+    "image": "images/weather/wind.png"
+  },
+  {
+    "id": "weather_rainbow",
+    "category": "weather",
+    "spanish": "Arco iris",
+    "romanized": "Ár-ko Í-ris",
+    "translation": "Rainbow",
+    "image": "images/weather/rainbow.png"
+  },
+  {
+    "id": "weather_heat",
+    "category": "weather",
+    "spanish": "Calor",
+    "romanized": "Ka-lór",
+    "translation": "Heat",
+    "image": "images/weather/heat.png"
+  },
+  {
+    "id": "weather_cold",
+    "category": "weather",
+    "spanish": "Frío",
+    "romanized": "Frí-o",
+    "translation": "Cold",
+    "image": "images/weather/cold.png"
+  },
+  {
+    "id": "weather_storm",
+    "category": "weather",
+    "spanish": "Tormenta",
+    "romanized": "Tor-mén-ta",
+    "translation": "Storm",
+    "image": "images/weather/storm.png"
+  },
+  {
+    "id": "vehicles_car",
+    "category": "vehicles",
+    "spanish": "Carro",
+    "romanized": "Ká-rro",
+    "translation": "Car",
+    "image": "images/vehicles/car.png"
+  },
+  {
+    "id": "vehicles_truck",
+    "category": "vehicles",
+    "spanish": "Camión",
+    "romanized": "Ka-myón",
+    "translation": "Truck",
+    "image": "images/vehicles/truck.png"
+  },
+  {
+    "id": "vehicles_train",
+    "category": "vehicles",
+    "spanish": "Tren",
+    "romanized": "Tren",
+    "translation": "Train",
+    "image": "images/vehicles/train.png"
+  },
+  {
+    "id": "vehicles_airplane",
+    "category": "vehicles",
+    "spanish": "Avión",
+    "romanized": "A-byón",
+    "translation": "Airplane",
+    "image": "images/vehicles/airplane.png"
+  },
+  {
+    "id": "vehicles_ship",
+    "category": "vehicles",
+    "spanish": "Barco",
+    "romanized": "Bár-ko",
+    "translation": "Ship",
+    "image": "images/vehicles/ship.png"
+  },
+  {
+    "id": "vehicles_bicycle",
+    "category": "vehicles",
+    "spanish": "Bicicleta",
+    "romanized": "Bi-si-klé-ta",
+    "translation": "Bicycle",
+    "image": "images/vehicles/bicycle.png"
+  },
+  {
+    "id": "bathroom_soap",
+    "category": "bathroom",
+    "spanish": "Jabón",
+    "romanized": "Ha-bón",
+    "translation": "Soap",
+    "image": "images/bathroom/soap.png"
+  },
+  {
+    "id": "bathroom_toothbrush",
+    "category": "bathroom",
+    "spanish": "Cepillo de dientes",
+    "romanized": "Se-pí-yo deh Dyén-tes",
+    "translation": "Toothbrush",
+    "image": "images/bathroom/toothbrush.png"
+  },
+  {
+    "id": "bathroom_towel",
+    "category": "bathroom",
+    "spanish": "Toalla",
+    "romanized": "To-á-ya",
+    "translation": "Towel",
+    "image": "images/bathroom/towel.png"
+  },
+  {
+    "id": "bathroom_mirror",
+    "category": "bathroom",
+    "spanish": "Espejo",
+    "romanized": "Es-pé-ho",
+    "translation": "Mirror",
+    "image": "images/bathroom/mirror.png"
+  },
+  {
+    "id": "bathroom_bathtub",
+    "category": "bathroom",
+    "spanish": "Bañera",
+    "romanized": "Ba-nyé-ra",
+    "translation": "Bathtub",
+    "image": "images/bathroom/bathtub.png"
+  },
+  {
+    "id": "bathroom_shower",
+    "category": "bathroom",
+    "spanish": "Ducha",
+    "romanized": "Dú-cha",
+    "translation": "Shower",
+    "image": "images/bathroom/shower.png"
+  },
+  {
+    "id": "bathroom_toilet",
+    "category": "bathroom",
+    "spanish": "Inodoro",
+    "romanized": "I-no-dó-ro",
+    "translation": "Toilet",
+    "image": "images/bathroom/toilet.png"
+  },
+  {
+    "id": "bathroom_shampoo",
+    "category": "bathroom",
+    "spanish": "Champú",
+    "romanized": "Cham-pú",
+    "translation": "Shampoo",
+    "image": "images/bathroom/shampoo.png"
+  },
+  {
+    "id": "bedroom_bed",
+    "category": "bedroom",
+    "spanish": "Cama",
+    "romanized": "Ká-ma",
+    "translation": "Bed",
+    "image": "images/bedroom/bed.png"
+  },
+  {
+    "id": "bedroom_pillow",
+    "category": "bedroom",
+    "spanish": "Almohada",
+    "romanized": "Al-mo-á-da",
+    "translation": "Pillow",
+    "image": "images/bedroom/pillow.png"
+  },
+  {
+    "id": "bedroom_blanket",
+    "category": "bedroom",
+    "spanish": "Manta",
+    "romanized": "Mán-ta",
+    "translation": "Blanket",
+    "image": "images/bedroom/blanket.png"
+  },
+  {
+    "id": "bedroom_wardrobe",
+    "category": "bedroom",
+    "spanish": "Armario",
+    "romanized": "Ar-má-ryo",
+    "translation": "Wardrobe",
+    "image": "images/bedroom/wardrobe.png"
+  },
+  {
+    "id": "bedroom_teddy_bear",
+    "category": "bedroom",
+    "spanish": "Osito de peluche",
+    "romanized": "O-sí-to deh Pe-lú-cheh",
+    "translation": "Teddy Bear",
+    "image": "images/bedroom/teddy_bear.png"
+  },
+  {
+    "id": "bedroom_pajamas",
+    "category": "bedroom",
+    "spanish": "Pijama",
+    "romanized": "Pi-há-ma",
+    "translation": "Pajamas",
+    "image": "images/bedroom/pajamas.png"
+  },
+  {
+    "id": "kitchen_plate",
+    "category": "kitchen",
+    "spanish": "Plato",
+    "romanized": "Plá-to",
+    "translation": "Plate",
+    "image": "images/kitchen/plate.png"
+  },
+  {
+    "id": "kitchen_spoon",
+    "category": "kitchen",
+    "spanish": "Cuchara",
+    "romanized": "Ku-chá-ra",
+    "translation": "Spoon",
+    "image": "images/kitchen/spoon.png"
+  },
+  {
+    "id": "kitchen_fork",
+    "category": "kitchen",
+    "spanish": "Tenedor",
+    "romanized": "Te-ne-dór",
+    "translation": "Fork",
+    "image": "images/kitchen/fork.png"
+  },
+  {
+    "id": "kitchen_knife",
+    "category": "kitchen",
+    "spanish": "Cuchillo",
+    "romanized": "Ku-chí-yo",
+    "translation": "Knife",
+    "image": "images/kitchen/knife.png"
+  },
+  {
+    "id": "kitchen_glass",
+    "category": "kitchen",
+    "spanish": "Vaso",
+    "romanized": "Bá-so",
+    "translation": "Glass",
+    "image": "images/kitchen/glass.png"
+  },
+  {
+    "id": "kitchen_pot",
+    "category": "kitchen",
+    "spanish": "Olla",
+    "romanized": "Ó-ya",
+    "translation": "Pot",
+    "image": "images/kitchen/pot.png"
+  },
+  {
+    "id": "kitchen_fridge",
+    "category": "kitchen",
+    "spanish": "Nevera",
+    "romanized": "Ne-bé-ra",
+    "translation": "Fridge",
+    "image": "images/kitchen/fridge.png"
+  },
+  {
+    "id": "kitchen_frying_pan",
+    "category": "kitchen",
+    "spanish": "Sartén",
+    "romanized": "Sar-tén",
+    "translation": "Frying Pan",
+    "image": "images/kitchen/frying_pan.png"
+  },
+  {
+    "id": "kitchen_table",
+    "category": "kitchen",
+    "spanish": "Mesa",
+    "romanized": "Mé-sa",
+    "translation": "Table",
+    "image": "images/kitchen/table.png"
+  },
+  {
+    "id": "kitchen_chair",
+    "category": "kitchen",
+    "spanish": "Silla",
+    "romanized": "Sí-ya",
+    "translation": "Chair",
+    "image": "images/kitchen/chair.png"
+  },
+  {
+    "id": "living_room_sofa",
+    "category": "living_room",
+    "spanish": "Sofá",
+    "romanized": "So-fá",
+    "translation": "Sofa",
+    "image": "images/living_room/sofa.png"
+  },
+  {
+    "id": "living_room_television",
+    "category": "living_room",
+    "spanish": "Televisión",
+    "romanized": "Te-le-bi-syón",
+    "translation": "Television",
+    "image": "images/living_room/television.png"
+  },
+  {
+    "id": "living_room_book",
+    "category": "living_room",
+    "spanish": "Libro",
+    "romanized": "Lí-bro",
+    "translation": "Book",
+    "image": "images/living_room/book.png"
+  },
+  {
+    "id": "living_room_lamp",
+    "category": "living_room",
+    "spanish": "Lámpara",
+    "romanized": "Lám-pa-ra",
+    "translation": "Lamp",
+    "image": "images/living_room/lamp.png"
+  },
+  {
+    "id": "living_room_window",
+    "category": "living_room",
+    "spanish": "Ventana",
+    "romanized": "Ben-tá-na",
+    "translation": "Window",
+    "image": "images/living_room/window.png"
+  },
+  {
+    "id": "living_room_door",
+    "category": "living_room",
+    "spanish": "Puerta",
+    "romanized": "Pwér-ta",
+    "translation": "Door",
+    "image": "images/living_room/door.png"
+  },
+  {
+    "id": "living_room_ball",
+    "category": "living_room",
+    "spanish": "Pelota",
+    "romanized": "Pe-ló-ta",
+    "translation": "Ball",
+    "image": "images/living_room/ball.png"
+  },
+  {
+    "id": "living_room_rug",
+    "category": "living_room",
+    "spanish": "Alfombra",
+    "romanized": "Al-fóm-bra",
+    "translation": "Rug",
+    "image": "images/living_room/rug.png"
+  },
+  {
+    "id": "clothes_t_shirt",
+    "category": "clothes",
+    "spanish": "Camiseta",
+    "romanized": "Ka-mi-sé-ta",
+    "translation": "T-shirt",
+    "image": "images/clothes/t-shirt.png"
+  },
+  {
+    "id": "clothes_pants",
+    "category": "clothes",
+    "spanish": "Pantalón",
+    "romanized": "Pan-ta-lón",
+    "translation": "Pants",
+    "image": "images/clothes/pants.png"
+  },
+  {
+    "id": "clothes_dress",
+    "category": "clothes",
+    "spanish": "Vestido",
+    "romanized": "Bes-tí-do",
+    "translation": "Dress",
+    "image": "images/clothes/dress.png"
+  },
+  {
+    "id": "clothes_skirt",
+    "category": "clothes",
+    "spanish": "Falda",
+    "romanized": "Fál-da",
+    "translation": "Skirt",
+    "image": "images/clothes/skirt.png"
+  },
+  {
+    "id": "clothes_shoes",
+    "category": "clothes",
+    "spanish": "Zapatos",
+    "romanized": "Sa-pá-tos",
+    "translation": "Shoes",
+    "image": "images/clothes/shoes.png"
+  },
+  {
+    "id": "clothes_socks",
+    "category": "clothes",
+    "spanish": "Calcetines",
+    "romanized": "Kal-se-tí-nes",
+    "translation": "Socks",
+    "image": "images/clothes/socks.png"
+  },
+  {
+    "id": "clothes_hat",
+    "category": "clothes",
+    "spanish": "Sombrero",
+    "romanized": "Som-bré-ro",
+    "translation": "Hat",
+    "image": "images/clothes/hat.png"
+  },
+  {
+    "id": "clothes_jacket",
+    "category": "clothes",
+    "spanish": "Chaqueta",
+    "romanized": "Cha-ké-ta",
+    "translation": "Jacket",
+    "image": "images/clothes/jacket.png"
+  },
+  {
+    "id": "clothes_sweater",
+    "category": "clothes",
+    "spanish": "Suéter",
+    "romanized": "Swé-ter",
+    "translation": "Sweater",
+    "image": "images/clothes/sweater.png"
+  },
+  {
+    "id": "clothes_scarf",
+    "category": "clothes",
+    "spanish": "Bufanda",
+    "romanized": "Bu-fán-da",
+    "translation": "Scarf",
+    "image": "images/clothes/scarf.png"
+  },
+  {
+    "id": "clothes_gloves",
+    "category": "clothes",
+    "spanish": "Guantes",
+    "romanized": "Gwán-tes",
+    "translation": "Gloves",
+    "image": "images/clothes/gloves.png"
+  },
+  {
+    "id": "clothes_underwear",
+    "category": "clothes",
+    "spanish": "Ropa interior",
+    "romanized": "Ró-pa In-te-ryór",
+    "translation": "Underwear",
+    "image": "images/clothes/underwear.png"
+  },
+  {
+    "id": "music_music",
+    "category": "music",
+    "spanish": "Música",
+    "romanized": "Mú-si-ka",
+    "translation": "Music",
+    "image": "images/music/music.png"
+  },
+  {
+    "id": "music_song",
+    "category": "music",
+    "spanish": "Canción",
+    "romanized": "Kan-syón",
+    "translation": "Song",
+    "image": "images/music/song.png"
+  },
+  {
+    "id": "music_guitar",
+    "category": "music",
+    "spanish": "Guitarra",
+    "romanized": "Gi-tá-rra",
+    "translation": "Guitar",
+    "image": "images/music/guitar.png"
+  },
+  {
+    "id": "music_piano",
+    "category": "music",
+    "spanish": "Piano",
+    "romanized": "Pyá-no",
+    "translation": "Piano",
+    "image": "images/music/piano.png"
+  },
+  {
+    "id": "music_drum",
+    "category": "music",
+    "spanish": "Tambor",
+    "romanized": "Tam-bór",
+    "translation": "Drum",
+    "image": "images/music/drum.png"
+  },
+  {
+    "id": "music_violin",
+    "category": "music",
+    "spanish": "Violín",
+    "romanized": "Byo-lín",
+    "translation": "Violin",
+    "image": "images/music/violin.png"
+  },
+  {
+    "id": "music_trumpet",
+    "category": "music",
+    "spanish": "Trompeta",
+    "romanized": "Trom-pé-ta",
+    "translation": "Trumpet",
+    "image": "images/music/trumpet.png"
+  },
+  {
+    "id": "music_flute",
+    "category": "music",
+    "spanish": "Flauta",
+    "romanized": "Fláu-ta",
+    "translation": "Flute",
+    "image": "images/music/flute.png"
+  },
+  {
+    "id": "music_microphone",
+    "category": "music",
+    "spanish": "Micrófono",
+    "romanized": "Mi-kró-fo-no",
+    "translation": "Microphone",
+    "image": "images/music/microphone.png"
+  },
+  {
+    "id": "music_headphones",
+    "category": "music",
+    "spanish": "Audífonos",
+    "romanized": "Au-dí-fo-nos",
+    "translation": "Headphones",
+    "image": "images/music/headphones.png"
+  },
+  {
+    "id": "music_dance",
+    "category": "music",
+    "spanish": "Baile",
+    "romanized": "Báy-leh",
+    "translation": "Dance",
+    "image": "images/music/dance.png"
+  },
+  {
+    "id": "music_note",
+    "category": "music",
+    "spanish": "Nota",
+    "romanized": "Nó-ta",
+    "translation": "Note",
+    "image": "images/music/note.png"
+  },
+  {
+    "id": "holidays_christmas",
+    "category": "holidays",
+    "spanish": "Navidad",
+    "romanized": "Na-bi-dád",
+    "translation": "Christmas",
+    "image": "images/holidays/christmas.png"
+  },
+  {
+    "id": "holidays_easter",
+    "category": "holidays",
+    "spanish": "Pascua",
+    "romanized": "Pás-kwa",
+    "translation": "Easter",
+    "image": "images/holidays/easter.png"
+  },
+  {
+    "id": "holidays_birthday",
+    "category": "holidays",
+    "spanish": "Cumpleaños",
+    "romanized": "Kum-ple-á-nyos",
+    "translation": "Birthday",
+    "image": "images/holidays/birthday.png"
+  },
+  {
+    "id": "holidays_new_year",
+    "category": "holidays",
+    "spanish": "Año Nuevo",
+    "romanized": "Á-nyo Nwé-bo",
+    "translation": "New Year",
+    "image": "images/holidays/new_year.png"
+  },
+  {
+    "id": "holidays_carnival",
+    "category": "holidays",
+    "spanish": "Carnaval",
+    "romanized": "Kar-na-bál",
+    "translation": "Carnival",
+    "image": "images/holidays/carnival.png"
+  },
+  {
+    "id": "holidays_name_day",
+    "category": "holidays",
+    "spanish": "Día del santo",
+    "romanized": "Dí-a del Sán-to",
+    "translation": "Name Day",
+    "image": "images/holidays/name_day.png"
+  },
+  {
+    "id": "holidays_gift",
+    "category": "holidays",
+    "spanish": "Regalo",
+    "romanized": "Re-gá-lo",
+    "translation": "Gift",
+    "image": "images/holidays/gift.png"
+  },
+  {
+    "id": "holidays_vacation",
+    "category": "holidays",
+    "spanish": "Vacaciones",
+    "romanized": "Ba-ka-syó-nes",
+    "translation": "Vacation",
+    "image": "images/holidays/vacation.png"
+  }
+]

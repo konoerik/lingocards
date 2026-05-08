@@ -1,8 +1,8 @@
 # Context
 <!-- Updated by /wrap at session end. Edit manually if needed. Keep it under 8 lines. -->
 
-**Current focus:** Spanish deck next; then a major push to the live site
-**Last session:** Added Albanian deck (273 cards, 22 categories, 36-letter alphabet); fixed color/shape fields; standardized category ordering across both decks; Albanian enabled in manifest
-**Blocking:** Albanian needs native-speaker review pass before publishing (romanization, word forms, aunt/uncle variants)
-**Next action:** Add Spanish deck (one or two variants — Spain vs Mexico/LatAm decision pending), then deploy all three languages
-<!-- wrapped: 2026-05-07 -->
+**Current focus:** All three decks ready for native-speaker review; then deploy
+**Last session:** Added Spanish deck (264 cards, 22 categories, LatAm forms, enabled); refreshed goodbye image; Spain vs LatAm decision documented in user_notes
+**Blocking:** Albanian needs native-speaker review (romanization, word forms); Spanish needs native-speaker review pass before publishing
+**Next action:** Native-speaker sign-off on Albanian and Spanish, then deploy all three languages to GitHub Pages
+<!-- wrapped: 2026-05-08 -->

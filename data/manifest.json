@@ -59,8 +59,25 @@
       "key": "spanish",
       "label": "Español",
       "flag": "🇪🇸",
-      "enabled": false,
-      "user_notes": []
+      "enabled": true,
+      "user_notes": [
+        {
+          "title": "Reading the pronunciation guide",
+          "body": "The italicised line beneath each Spanish word is a phonetic guide written with familiar letters. The accent mark (´) shows which syllable to stress — say it slightly louder and longer than the others. Spanish vowels are pure and steady: a = 'ah', e = 'eh', i = 'ee', o = 'oh', u = 'oo'."
+        },
+        {
+          "title": "Key sounds to know",
+          "body": "'j' (and 'g' before e or i) sounds like a strong English 'h' — as in 'Jirafa' (Hi-rá-fa). 'll' and 'y' both sound like the 'y' in 'yes'. 'ñ' sounds like 'ny' in 'canyon'. 'rr' is a rolled r — shown as 'rr' in the guide. 'v' and 'b' make the same sound in Spanish. 'h' is always silent. 'qu' sounds like 'k'."
+        },
+        {
+          "title": "Latin American Spanish",
+          "body": "This deck uses Latin American Spanish forms for the handful of words that differ across dialects: 'papa' (potato), 'carro' (car), 'jugo' (juice), 'durazno' (peach), and 'nevera' (fridge). In Spain these are 'patata', 'coche', 'zumo', 'melocotón', and 'nevera' (same). All other words are the same across dialects."
+        },
+        {
+          "title": "About the alphabet cards",
+          "body": "The Spanish alphabet has 27 letters — the same as English plus Ñ. The pronunciation guide shows how each letter's name is said in Spanish. A few letter names may surprise you: 'j' is called 'hota', 'y' is 'i griega' (Greek i), and 'w' is 'doble u'."
+        }
+      ]
     }
   ]
 }
