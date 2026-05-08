@@ -1,297 +1,5 @@
 [
   {
-    "id": "dinosaurs_stegosaurus",
-    "category": "dinosaurs",
-    "greek": "Στεγόσαυρος",
-    "romanized": "Stegósavros",
-    "translation": "Stegosaurus",
-    "image": "images/dinosaurs/stegosaurus.png",
-    "description": "a brown stegosaurus with large diamond-shaped plates along its back and a spiked tail, full body, side view"
-  },
-  {
-    "id": "dinosaurs_tyrannosaurus",
-    "category": "dinosaurs",
-    "greek": "Τυραννόσαυρος",
-    "romanized": "Tirannósavros",
-    "translation": "Tyrannosaurus",
-    "image": "images/dinosaurs/tyrannosaurus.png",
-    "description": "an orange T-Rex standing upright with tiny arms, full body, side view"
-  },
-  {
-    "id": "dinosaurs_triceratops",
-    "category": "dinosaurs",
-    "greek": "Τρικεράτωψ",
-    "romanized": "Trikerátops",
-    "translation": "Triceratops",
-    "image": "images/dinosaurs/triceratops.png",
-    "description": "a green triceratops with three horns, full body, side view"
-  },
-  {
-    "id": "dinosaurs_brontosaurus",
-    "category": "dinosaurs",
-    "greek": "Βροντόσαυρος",
-    "romanized": "Vrontósavros",
-    "translation": "Brontosaurus",
-    "image": "images/dinosaurs/brontosaurus.png",
-    "description": "a green brontosaurus with a very long neck, full body, side view"
-  },
-  {
-    "id": "dinosaurs_pterodactyl",
-    "category": "dinosaurs",
-    "greek": "Πτεροδάκτυλος",
-    "romanized": "Pterodáktilos",
-    "translation": "Pterodactyl",
-    "description": "a pterodactyl with large wings spread wide, side view",
-    "image": "images/dinosaurs/pterodactyl.png"
-  },
-  {
-    "id": "animals_elephant",
-    "category": "animals",
-    "greek": "Ελέφαντας",
-    "romanized": "Eléfantas",
-    "translation": "Elephant",
-    "description": "a large grey elephant, full body, side view, trunk hanging down",
-    "image": "images/animals/elephant.png"
-  },
-  {
-    "id": "animals_lion",
-    "category": "animals",
-    "greek": "Λιοντάρι",
-    "romanized": "Liontári",
-    "translation": "Lion",
-    "description": "an orange lion with a full mane, sitting, full body, side view",
-    "image": "images/animals/lion.png"
-  },
-  {
-    "id": "animals_giraffe",
-    "category": "animals",
-    "greek": "Καμηλοπάρδαλη",
-    "romanized": "Kamilopárdali",
-    "translation": "Giraffe",
-    "description": "a tall giraffe with brown patches on yellow, full body, side view",
-    "image": "images/animals/giraffe.png"
-  },
-  {
-    "id": "animals_dolphin",
-    "category": "animals",
-    "greek": "Δελφίνι",
-    "romanized": "Delfíni",
-    "translation": "Dolphin",
-    "description": "a blue-grey dolphin arched mid-leap, full body, side view",
-    "image": "images/animals/dolphin.png"
-  },
-  {
-    "id": "animals_fox",
-    "category": "animals",
-    "greek": "Αλεπού",
-    "romanized": "Alepú",
-    "translation": "Fox",
-    "description": "an orange fox sitting upright, full body, side view, bushy tail visible",
-    "image": "images/animals/fox.png"
-  },
-  {
-    "id": "animals_dog",
-    "category": "animals",
-    "greek": "Σκύλος",
-    "romanized": "Skílos",
-    "translation": "Dog",
-    "description": "a golden labrador sitting, full body, front-facing, tongue out",
-    "image": "images/animals/dog.png"
-  },
-  {
-    "id": "animals_cat",
-    "category": "animals",
-    "greek": "Γάτα",
-    "romanized": "Gáta",
-    "translation": "Cat",
-    "description": "an orange tabby cat sitting, full body, side view, tail curled around paws",
-    "image": "images/animals/cat.png"
-  },
-  {
-    "id": "colors_red",
-    "category": "colors",
-    "greek": "Κόκκινο",
-    "romanized": "Kókkino",
-    "color": "#FF4040",
-    "translation": "Red"
-  },
-  {
-    "id": "colors_blue",
-    "category": "colors",
-    "greek": "Μπλε",
-    "romanized": "Ble",
-    "color": "#4169E1",
-    "translation": "Blue"
-  },
-  {
-    "id": "colors_yellow",
-    "category": "colors",
-    "greek": "Κίτρινο",
-    "romanized": "Kítrino",
-    "color": "#FFD700",
-    "translation": "Yellow"
-  },
-  {
-    "id": "colors_green",
-    "category": "colors",
-    "greek": "Πράσινο",
-    "romanized": "Prásino",
-    "color": "#32CD32",
-    "translation": "Green"
-  },
-  {
-    "id": "colors_orange",
-    "category": "colors",
-    "greek": "Πορτοκαλί",
-    "romanized": "Portokalí",
-    "color": "#FF8C00",
-    "translation": "Orange",
-    "description": "a whole orange fruit with a short stem and one leaf"
-  },
-  {
-    "id": "colors_purple",
-    "category": "colors",
-    "greek": "Μωβ",
-    "romanized": "Mov",
-    "color": "#9B59B6",
-    "translation": "Purple"
-  },
-  {
-    "id": "numbers_one",
-    "category": "numbers",
-    "greek": "Ένα",
-    "romanized": "Éna",
-    "numeral": "1",
-    "translation": "One"
-  },
-  {
-    "id": "numbers_two",
-    "category": "numbers",
-    "greek": "Δύο",
-    "romanized": "Dío",
-    "numeral": "2",
-    "translation": "Two"
-  },
-  {
-    "id": "numbers_three",
-    "category": "numbers",
-    "greek": "Τρία",
-    "romanized": "Tría",
-    "numeral": "3",
-    "translation": "Three"
-  },
-  {
-    "id": "numbers_four",
-    "category": "numbers",
-    "greek": "Τέσσερα",
-    "romanized": "Téssera",
-    "numeral": "4",
-    "translation": "Four"
-  },
-  {
-    "id": "numbers_five",
-    "category": "numbers",
-    "greek": "Πέντε",
-    "romanized": "Pénte",
-    "numeral": "5",
-    "translation": "Five"
-  },
-  {
-    "id": "numbers_six",
-    "category": "numbers",
-    "greek": "Έξι",
-    "romanized": "Éxi",
-    "numeral": "6",
-    "translation": "Six"
-  },
-  {
-    "id": "numbers_seven",
-    "category": "numbers",
-    "greek": "Εφτά",
-    "romanized": "Eftá",
-    "numeral": "7",
-    "translation": "Seven",
-    "notes": "Εφτά is a common colloquial variant; standard dictionary form is Επτά."
-  },
-  {
-    "id": "numbers_eight",
-    "category": "numbers",
-    "greek": "Οκτώ",
-    "romanized": "Októ",
-    "numeral": "8",
-    "translation": "Eight"
-  },
-  {
-    "id": "numbers_nine",
-    "category": "numbers",
-    "greek": "Εννιά",
-    "romanized": "Enniá",
-    "numeral": "9",
-    "translation": "Nine"
-  },
-  {
-    "id": "numbers_ten",
-    "category": "numbers",
-    "greek": "Δέκα",
-    "romanized": "Déka",
-    "numeral": "10",
-    "translation": "Ten"
-  },
-  {
-    "id": "vehicles_car",
-    "category": "vehicles",
-    "greek": "Αυτοκίνητο",
-    "romanized": "Aftokínito",
-    "translation": "Car",
-    "image": "images/vehicles/car.png",
-    "description": "a red hatchback car, full body, side view"
-  },
-  {
-    "id": "vehicles_truck",
-    "category": "vehicles",
-    "greek": "Φορτηγό",
-    "romanized": "Fortigó",
-    "translation": "Truck",
-    "image": "images/vehicles/truck.png",
-    "description": "a yellow dump truck, full body, side view"
-  },
-  {
-    "id": "vehicles_train",
-    "category": "vehicles",
-    "greek": "Τρένο",
-    "romanized": "Tréno",
-    "translation": "Train",
-    "image": "images/vehicles/train.png",
-    "description": "a red locomotive with two carriages, full body, side view"
-  },
-  {
-    "id": "vehicles_airplane",
-    "category": "vehicles",
-    "greek": "Αεροπλάνο",
-    "romanized": "Aeropláno",
-    "translation": "Airplane",
-    "image": "images/vehicles/airplane.png",
-    "description": "a white passenger airplane, full body, side view"
-  },
-  {
-    "id": "vehicles_ship",
-    "category": "vehicles",
-    "greek": "Πλοίο",
-    "romanized": "Plío",
-    "translation": "Ship",
-    "image": "images/vehicles/ship.png",
-    "description": "a blue cargo ship, full body, side view"
-  },
-  {
-    "id": "vehicles_bicycle",
-    "category": "vehicles",
-    "greek": "Ποδήλατο",
-    "romanized": "Podílato",
-    "translation": "Bicycle",
-    "image": "images/vehicles/bicycle.png",
-    "description": "a blue bicycle, full body, side view"
-  },
-  {
     "id": "alphabet_alpha",
     "category": "alphabet",
     "greek": "Α α",
@@ -484,925 +192,214 @@
     "letter": "Ω"
   },
   {
-    "id": "fruits_apple",
-    "category": "fruits",
-    "greek": "Μήλο",
-    "romanized": "Mílo",
-    "translation": "Apple",
-    "image": "images/fruits/apple.png",
-    "description": "a whole red apple with a short stem and one green leaf"
+    "id": "numbers_one",
+    "category": "numbers",
+    "greek": "Ένα",
+    "romanized": "Éna",
+    "numeral": "1",
+    "translation": "One"
   },
   {
-    "id": "fruits_banana",
-    "category": "fruits",
-    "greek": "Μπανάνα",
-    "romanized": "Banána",
-    "translation": "Banana",
-    "image": "images/fruits/banana.png",
-    "description": "a single yellow banana, slight curve"
+    "id": "numbers_two",
+    "category": "numbers",
+    "greek": "Δύο",
+    "romanized": "Dío",
+    "numeral": "2",
+    "translation": "Two"
   },
   {
-    "id": "fruits_orange",
-    "category": "fruits",
-    "greek": "Πορτοκάλι",
-    "romanized": "Portokáli",
+    "id": "numbers_three",
+    "category": "numbers",
+    "greek": "Τρία",
+    "romanized": "Tría",
+    "numeral": "3",
+    "translation": "Three"
+  },
+  {
+    "id": "numbers_four",
+    "category": "numbers",
+    "greek": "Τέσσερα",
+    "romanized": "Téssera",
+    "numeral": "4",
+    "translation": "Four"
+  },
+  {
+    "id": "numbers_five",
+    "category": "numbers",
+    "greek": "Πέντε",
+    "romanized": "Pénte",
+    "numeral": "5",
+    "translation": "Five"
+  },
+  {
+    "id": "numbers_six",
+    "category": "numbers",
+    "greek": "Έξι",
+    "romanized": "Éxi",
+    "numeral": "6",
+    "translation": "Six"
+  },
+  {
+    "id": "numbers_seven",
+    "category": "numbers",
+    "greek": "Εφτά",
+    "romanized": "Eftá",
+    "numeral": "7",
+    "translation": "Seven",
+    "notes": "Εφτά is a common colloquial variant; standard dictionary form is Επτά."
+  },
+  {
+    "id": "numbers_eight",
+    "category": "numbers",
+    "greek": "Οκτώ",
+    "romanized": "Októ",
+    "numeral": "8",
+    "translation": "Eight"
+  },
+  {
+    "id": "numbers_nine",
+    "category": "numbers",
+    "greek": "Εννιά",
+    "romanized": "Enniá",
+    "numeral": "9",
+    "translation": "Nine"
+  },
+  {
+    "id": "numbers_ten",
+    "category": "numbers",
+    "greek": "Δέκα",
+    "romanized": "Déka",
+    "numeral": "10",
+    "translation": "Ten"
+  },
+  {
+    "id": "numbers_eleven",
+    "category": "numbers",
+    "greek": "Έντεκα",
+    "romanized": "Éndeka",
+    "translation": "Eleven",
+    "numeral": "11"
+  },
+  {
+    "id": "numbers_twelve",
+    "category": "numbers",
+    "greek": "Δώδεκα",
+    "romanized": "Dódeka",
+    "translation": "Twelve",
+    "numeral": "12"
+  },
+  {
+    "id": "numbers_thirteen",
+    "category": "numbers",
+    "greek": "Δεκατρία",
+    "romanized": "Dekatría",
+    "translation": "Thirteen",
+    "numeral": "13"
+  },
+  {
+    "id": "numbers_fourteen",
+    "category": "numbers",
+    "greek": "Δεκατέσσερα",
+    "romanized": "Dekatéssera",
+    "translation": "Fourteen",
+    "numeral": "14"
+  },
+  {
+    "id": "numbers_fifteen",
+    "category": "numbers",
+    "greek": "Δεκαπέντε",
+    "romanized": "Dekapénte",
+    "translation": "Fifteen",
+    "numeral": "15"
+  },
+  {
+    "id": "numbers_sixteen",
+    "category": "numbers",
+    "greek": "Δεκαέξι",
+    "romanized": "Dekaéxi",
+    "translation": "Sixteen",
+    "numeral": "16"
+  },
+  {
+    "id": "numbers_seventeen",
+    "category": "numbers",
+    "greek": "Δεκαεπτά",
+    "romanized": "Dekaeptá",
+    "translation": "Seventeen",
+    "numeral": "17"
+  },
+  {
+    "id": "numbers_eighteen",
+    "category": "numbers",
+    "greek": "Δεκαοκτώ",
+    "romanized": "Dekaoktó",
+    "translation": "Eighteen",
+    "numeral": "18"
+  },
+  {
+    "id": "numbers_nineteen",
+    "category": "numbers",
+    "greek": "Δεκαεννέα",
+    "romanized": "Dekaennéa",
+    "translation": "Nineteen",
+    "numeral": "19"
+  },
+  {
+    "id": "numbers_twenty",
+    "category": "numbers",
+    "greek": "Είκοσι",
+    "romanized": "Íkosi",
+    "translation": "Twenty",
+    "numeral": "20"
+  },
+  {
+    "id": "colors_red",
+    "category": "colors",
+    "greek": "Κόκκινο",
+    "romanized": "Kókkino",
+    "color": "#FF4040",
+    "translation": "Red"
+  },
+  {
+    "id": "colors_blue",
+    "category": "colors",
+    "greek": "Μπλε",
+    "romanized": "Ble",
+    "color": "#4169E1",
+    "translation": "Blue"
+  },
+  {
+    "id": "colors_yellow",
+    "category": "colors",
+    "greek": "Κίτρινο",
+    "romanized": "Kítrino",
+    "color": "#FFD700",
+    "translation": "Yellow"
+  },
+  {
+    "id": "colors_green",
+    "category": "colors",
+    "greek": "Πράσινο",
+    "romanized": "Prásino",
+    "color": "#32CD32",
+    "translation": "Green"
+  },
+  {
+    "id": "colors_orange",
+    "category": "colors",
+    "greek": "Πορτοκαλί",
+    "romanized": "Portokalí",
+    "color": "#FF8C00",
     "translation": "Orange",
-    "image": "images/fruits/orange.png",
     "description": "a whole orange fruit with a short stem and one leaf"
   },
   {
-    "id": "fruits_strawberry",
-    "category": "fruits",
-    "greek": "Φράουλα",
-    "romanized": "Fráoula",
-    "translation": "Strawberry",
-    "image": "images/fruits/strawberry.png",
-    "description": "a whole red strawberry with green leafy top"
-  },
-  {
-    "id": "fruits_grapes",
-    "category": "fruits",
-    "greek": "Σταφύλι",
-    "romanized": "Stafíli",
-    "translation": "Grapes",
-    "description": "a bunch of purple grapes",
-    "image": "images/fruits/grapes.png"
-  },
-  {
-    "id": "fruits_watermelon",
-    "category": "fruits",
-    "greek": "Καρπούζι",
-    "romanized": "Karpoúzi",
-    "translation": "Watermelon",
-    "image": "images/fruits/watermelon.png",
-    "description": "a whole green watermelon with a small slice cut to show red inside"
-  },
-  {
-    "id": "fruits_lemon",
-    "category": "fruits",
-    "greek": "Λεμόνι",
-    "romanized": "Lemóni",
-    "translation": "Lemon",
-    "image": "images/fruits/lemon.png",
-    "description": "a whole yellow lemon with a short stem and one leaf"
-  },
-  {
-    "id": "fruits_peach",
-    "category": "fruits",
-    "greek": "Ροδάκινο",
-    "romanized": "Rodákino",
-    "translation": "Peach",
-    "image": "images/fruits/peach.png",
-    "description": "a whole orange-pink peach with a short stem and one leaf"
-  },
-  {
-    "id": "fruits_cherry",
-    "category": "fruits",
-    "greek": "Κεράσι",
-    "romanized": "Kerási",
-    "translation": "Cherry",
-    "image": "images/fruits/cherry.png",
-    "description": "two red cherries joined by a green stem"
-  },
-  {
-    "id": "fruits_pear",
-    "category": "fruits",
-    "greek": "Αχλάδι",
-    "romanized": "Achládi",
-    "translation": "Pear",
-    "image": "images/fruits/pear.png",
-    "description": "a whole green pear with a short stem"
-  },
-  {
-    "id": "food_bread",
-    "category": "food",
-    "greek": "Ψωμί",
-    "romanized": "Psomí",
-    "translation": "Bread",
-    "description": "a round golden loaf of bread, whole",
-    "image": "images/food/bread.png"
-  },
-  {
-    "id": "food_milk",
-    "category": "food",
-    "greek": "Γάλα",
-    "romanized": "Gála",
-    "translation": "Milk",
-    "description": "a glass of milk",
-    "image": "images/food/milk.png"
-  },
-  {
-    "id": "food_egg",
-    "category": "food",
-    "greek": "Αυγό",
-    "romanized": "Avgó",
-    "translation": "Egg",
-    "description": "a single white egg",
-    "image": "images/food/egg.png"
-  },
-  {
-    "id": "food_cheese",
-    "category": "food",
-    "greek": "Τυρί",
-    "romanized": "Tirí",
-    "translation": "Cheese",
-    "description": "a triangular wedge of yellow cheese with holes",
-    "image": "images/food/cheese.png"
-  },
-  {
-    "id": "food_honey",
-    "category": "food",
-    "greek": "Μέλι",
-    "romanized": "Méli",
-    "translation": "Honey",
-    "description": "a jar of honey with a honeycomb beside it",
-    "image": "images/food/honey.png"
-  },
-  {
-    "id": "food_pizza",
-    "category": "food",
-    "greek": "Πίτσα",
-    "romanized": "Pítsa",
-    "translation": "Pizza",
-    "description": "a whole round pizza with tomato and cheese toppings",
-    "image": "images/food/pizza.png"
-  },
-  {
-    "id": "food_ice_cream",
-    "category": "food",
-    "greek": "Παγωτό",
-    "romanized": "Pagotó",
-    "translation": "Ice Cream",
-    "description": "a single scoop of vanilla ice cream in a cone",
-    "image": "images/food/ice_cream.png"
-  },
-  {
-    "id": "food_cookie",
-    "category": "food",
-    "greek": "Μπισκότο",
-    "romanized": "Biskóto",
-    "translation": "Cookie",
-    "description": "a round chocolate chip cookie",
-    "image": "images/food/cookie.png"
-  },
-  {
-    "id": "food_chocolate",
-    "category": "food",
-    "greek": "Σοκολάτα",
-    "romanized": "Sokoláta",
-    "translation": "Chocolate",
-    "description": "a chocolate bar broken into squares",
-    "image": "images/food/chocolate.png"
-  },
-  {
-    "id": "food_soup",
-    "category": "food",
-    "greek": "Σούπα",
-    "romanized": "Soúpa",
-    "translation": "Soup",
-    "description": "a bowl of steaming soup",
-    "image": "images/food/soup.png"
-  },
-  {
-    "id": "kitchen_plate",
-    "category": "kitchen",
-    "greek": "Πιάτο",
-    "romanized": "Piáto",
-    "translation": "Plate",
-    "description": "a round white dinner plate, top-down view",
-    "image": "images/kitchen/plate.png"
-  },
-  {
-    "id": "kitchen_spoon",
-    "category": "kitchen",
-    "greek": "Κουτάλι",
-    "romanized": "Koutáli",
-    "translation": "Spoon",
-    "description": "a silver spoon, side view",
-    "image": "images/kitchen/spoon.png"
-  },
-  {
-    "id": "kitchen_fork",
-    "category": "kitchen",
-    "greek": "Πηρούνι",
-    "romanized": "Piroúni",
-    "translation": "Fork",
-    "description": "a silver fork, side view",
-    "image": "images/kitchen/fork.png"
-  },
-  {
-    "id": "kitchen_knife",
-    "category": "kitchen",
-    "greek": "Μαχαίρι",
-    "romanized": "Machaéri",
-    "translation": "Knife",
-    "description": "a kitchen knife with a silver blade and wooden handle, side view",
-    "image": "images/kitchen/knife.png"
-  },
-  {
-    "id": "kitchen_glass",
-    "category": "kitchen",
-    "greek": "Ποτήρι",
-    "romanized": "Potíri",
-    "translation": "Glass",
-    "description": "a clear drinking glass, half filled with water",
-    "image": "images/kitchen/glass.png"
-  },
-  {
-    "id": "kitchen_pot",
-    "category": "kitchen",
-    "greek": "Κατσαρόλα",
-    "romanized": "Katsaróla",
-    "translation": "Pot",
-    "description": "a silver cooking pot with two handles and a lid",
-    "image": "images/kitchen/pot.png"
-  },
-  {
-    "id": "kitchen_fridge",
-    "category": "kitchen",
-    "greek": "Ψυγείο",
-    "romanized": "Psiyío",
-    "translation": "Fridge",
-    "description": "a white refrigerator with two doors, front view",
-    "image": "images/kitchen/fridge.png"
-  },
-  {
-    "id": "kitchen_frying_pan",
-    "category": "kitchen",
-    "greek": "Τηγάνι",
-    "romanized": "Tigáni",
-    "translation": "Frying Pan",
-    "description": "a black frying pan with a long handle, top-down view",
-    "image": "images/kitchen/frying_pan.png"
-  },
-  {
-    "id": "kitchen_table",
-    "category": "kitchen",
-    "greek": "Τραπέζι",
-    "romanized": "Trapézi",
-    "translation": "Table",
-    "description": "a simple wooden table with four legs, side view",
-    "image": "images/kitchen/table.png"
-  },
-  {
-    "id": "kitchen_chair",
-    "category": "kitchen",
-    "greek": "Καρέκλα",
-    "romanized": "Karékla",
-    "translation": "Chair",
-    "description": "a simple wooden chair with a backrest, side view",
-    "image": "images/kitchen/chair.png"
-  },
-  {
-    "id": "living_room_sofa",
-    "category": "living_room",
-    "greek": "Καναπές",
-    "romanized": "Kanapés",
-    "translation": "Sofa",
-    "description": "a blue three-seater sofa, side view",
-    "image": "images/living_room/sofa.png"
-  },
-  {
-    "id": "living_room_television",
-    "category": "living_room",
-    "greek": "Τηλεόραση",
-    "romanized": "Tileórasi",
-    "translation": "Television",
-    "description": "a flat-screen television on a stand, front view",
-    "image": "images/living_room/television.png"
-  },
-  {
-    "id": "living_room_book",
-    "category": "living_room",
-    "greek": "Βιβλίο",
-    "romanized": "Vivlío",
-    "translation": "Book",
-    "description": "a closed book with a colourful cover, slight angle",
-    "image": "images/living_room/book.png"
-  },
-  {
-    "id": "living_room_lamp",
-    "category": "living_room",
-    "greek": "Λάμπα",
-    "romanized": "Lámba",
-    "translation": "Lamp",
-    "description": "a floor lamp with a round shade, side view",
-    "image": "images/living_room/lamp.png"
-  },
-  {
-    "id": "living_room_window",
-    "category": "living_room",
-    "greek": "Παράθυρο",
-    "romanized": "Paráthiro",
-    "translation": "Window",
-    "description": "a window with four panes and blue curtains on each side",
-    "image": "images/living_room/window.png"
-  },
-  {
-    "id": "living_room_door",
-    "category": "living_room",
-    "greek": "Πόρτα",
-    "romanized": "Pórta",
-    "translation": "Door",
-    "description": "a wooden door with a round handle, front view",
-    "image": "images/living_room/door.png"
-  },
-  {
-    "id": "living_room_ball",
-    "category": "living_room",
-    "greek": "Μπάλα",
-    "romanized": "Bála",
-    "translation": "Ball",
-    "description": "a red and white football",
-    "image": "images/living_room/ball.png"
-  },
-  {
-    "id": "living_room_rug",
-    "category": "living_room",
-    "greek": "Χαλί",
-    "romanized": "Chalí",
-    "translation": "Rug",
-    "description": "a colourful rectangular rug, slight angle view, with a decorative border and simple geometric pattern",
-    "image": "images/living_room/rug.png"
-  },
-  {
-    "id": "bedroom_bed",
-    "category": "bedroom",
-    "greek": "Κρεβάτι",
-    "romanized": "Kreváti",
-    "translation": "Bed",
-    "description": "a single bed with a blue blanket and pillow, side view",
-    "image": "images/bedroom/bed.png"
-  },
-  {
-    "id": "bedroom_pillow",
-    "category": "bedroom",
-    "greek": "Μαξιλάρι",
-    "romanized": "Maxilári",
-    "translation": "Pillow",
-    "description": "a plump white rectangular pillow",
-    "image": "images/bedroom/pillow.png"
-  },
-  {
-    "id": "bedroom_blanket",
-    "category": "bedroom",
-    "greek": "Κουβέρτα",
-    "romanized": "Kouvérta",
-    "translation": "Blanket",
-    "description": "a neatly folded blue blanket",
-    "image": "images/bedroom/blanket.png"
-  },
-  {
-    "id": "bedroom_wardrobe",
-    "category": "bedroom",
-    "greek": "Ντουλάπα",
-    "romanized": "Doulápa",
-    "translation": "Wardrobe",
-    "description": "a tall wooden wardrobe with two doors, front view",
-    "image": "images/bedroom/wardrobe.png"
-  },
-  {
-    "id": "bedroom_teddy_bear",
-    "category": "bedroom",
-    "greek": "Αρκουδάκι",
-    "romanized": "Arkoudáki",
-    "translation": "Teddy Bear",
-    "description": "a brown teddy bear sitting upright, front view, button eyes",
-    "image": "images/bedroom/teddy_bear.png"
-  },
-  {
-    "id": "bedroom_pajamas",
-    "category": "bedroom",
-    "greek": "Πυτζάμες",
-    "romanized": "Pidzámes",
-    "translation": "Pajamas",
-    "description": "a pair of pajamas laid flat, top and bottoms",
-    "image": "images/bedroom/pajamas.png"
-  },
-  {
-    "id": "bathroom_soap",
-    "category": "bathroom",
-    "greek": "Σαπούνι",
-    "romanized": "Sapoúni",
-    "translation": "Soap",
-    "description": "a rectangular bar of white soap with small bubbles around it",
-    "image": "images/bathroom/soap.png"
-  },
-  {
-    "id": "bathroom_toothbrush",
-    "category": "bathroom",
-    "greek": "Οδοντόβουρτσα",
-    "romanized": "Odontóvourtsa",
-    "translation": "Toothbrush",
-    "description": "a blue toothbrush with white bristles, upright",
-    "image": "images/bathroom/toothbrush.png"
-  },
-  {
-    "id": "bathroom_towel",
-    "category": "bathroom",
-    "greek": "Πετσέτα",
-    "romanized": "Petséta",
-    "translation": "Towel",
-    "description": "a folded blue towel with a white stripe",
-    "image": "images/bathroom/towel.png"
-  },
-  {
-    "id": "bathroom_mirror",
-    "category": "bathroom",
-    "greek": "Καθρέφτης",
-    "romanized": "Kathréftis",
-    "translation": "Mirror",
-    "description": "a round bathroom mirror with a silver frame, front view",
-    "image": "images/bathroom/mirror.png"
-  },
-  {
-    "id": "bathroom_bathtub",
-    "category": "bathroom",
-    "greek": "Μπανιέρα",
-    "romanized": "Baniéra",
-    "translation": "Bathtub",
-    "description": "a white bathtub with claw feet, side view",
-    "image": "images/bathroom/bathtub.png"
-  },
-  {
-    "id": "bathroom_shower",
-    "category": "bathroom",
-    "greek": "Ντους",
-    "romanized": "Dous",
-    "translation": "Shower",
-    "description": "a silver shower head with water droplets spraying outward, front view",
-    "image": "images/bathroom/shower.png"
-  },
-  {
-    "id": "bathroom_toilet",
-    "category": "bathroom",
-    "greek": "Τουαλέτα",
-    "romanized": "Toualéta",
-    "translation": "Toilet",
-    "description": "a white toilet with lid down, side view",
-    "image": "images/bathroom/toilet.png"
-  },
-  {
-    "id": "bathroom_shampoo",
-    "category": "bathroom",
-    "greek": "Σαμπουάν",
-    "romanized": "Sambouán",
-    "translation": "Shampoo",
-    "description": "a tall white shampoo bottle with a blue flip cap and a simple label",
-    "image": "images/bathroom/shampoo.png"
-  },
-  {
-    "id": "clothes_t_shirt",
-    "category": "clothes",
-    "greek": "Μπλουζάκι",
-    "romanized": "Blouzáki",
-    "translation": "T-shirt",
-    "description": "a plain red t-shirt, front view, flat lay",
-    "image": "images/clothes/t-shirt.png"
-  },
-  {
-    "id": "clothes_pants",
-    "category": "clothes",
-    "greek": "Παντελόνι",
-    "romanized": "Pantelóni",
-    "translation": "Pants",
-    "description": "a pair of blue jeans, front view, flat lay",
-    "image": "images/clothes/pants.png"
-  },
-  {
-    "id": "clothes_dress",
-    "category": "clothes",
-    "greek": "Φόρεμα",
-    "romanized": "Fórema",
-    "translation": "Dress",
-    "description": "a yellow dress with short sleeves, front view, flat lay",
-    "image": "images/clothes/dress.png"
-  },
-  {
-    "id": "clothes_skirt",
-    "category": "clothes",
-    "greek": "Φούστα",
-    "romanized": "Foústa",
-    "translation": "Skirt",
-    "description": "a pink skirt, front view, flat lay",
-    "image": "images/clothes/skirt.png"
-  },
-  {
-    "id": "clothes_shoes",
-    "category": "clothes",
-    "greek": "Παπούτσια",
-    "romanized": "Papoútsia",
-    "translation": "Shoes",
-    "description": "a pair of red sneakers, side view",
-    "image": "images/clothes/shoes.png"
-  },
-  {
-    "id": "clothes_socks",
-    "category": "clothes",
-    "greek": "Κάλτσες",
-    "romanized": "Káltses",
-    "translation": "Socks",
-    "description": "a pair of striped socks, side by side",
-    "image": "images/clothes/socks.png"
-  },
-  {
-    "id": "clothes_hat",
-    "category": "clothes",
-    "greek": "Καπέλο",
-    "romanized": "Kapélo",
-    "translation": "Hat",
-    "description": "a blue baseball cap, side view",
-    "image": "images/clothes/hat.png"
-  },
-  {
-    "id": "clothes_jacket",
-    "category": "clothes",
-    "greek": "Μπουφάν",
-    "romanized": "Boufán",
-    "translation": "Jacket",
-    "description": "a blue zip-up jacket, front view, flat lay",
-    "image": "images/clothes/jacket.png"
-  },
-  {
-    "id": "clothes_sweater",
-    "category": "clothes",
-    "greek": "Πουλόβερ",
-    "romanized": "Poulóver",
-    "translation": "Sweater",
-    "description": "a green knitted sweater, front view, flat lay",
-    "image": "images/clothes/sweater.png"
-  },
-  {
-    "id": "clothes_scarf",
-    "category": "clothes",
-    "greek": "Κασκόλ",
-    "romanized": "Kaskól",
-    "translation": "Scarf",
-    "description": "a red folded scarf",
-    "image": "images/clothes/scarf.png"
-  },
-  {
-    "id": "clothes_gloves",
-    "category": "clothes",
-    "greek": "Γάντια",
-    "romanized": "Gántia",
-    "translation": "Gloves",
-    "description": "a pair of red gloves laid flat",
-    "image": "images/clothes/gloves.png"
-  },
-  {
-    "id": "clothes_underwear",
-    "category": "clothes",
-    "greek": "Εσώρουχο",
-    "romanized": "Esóroucho",
-    "translation": "Underwear",
-    "description": "a pair of white underwear laid flat",
-    "image": "images/clothes/underwear.png"
-  },
-  {
-    "id": "holidays_christmas",
-    "category": "holidays",
-    "greek": "Χριστούγεννα",
-    "romanized": "Christoúyenna",
-    "translation": "Christmas",
-    "description": "a decorated Christmas tree with wrapped gifts below",
-    "image": "images/holidays/christmas.png"
-  },
-  {
-    "id": "holidays_easter",
-    "category": "holidays",
-    "greek": "Πάσχα",
-    "romanized": "Páscha",
-    "translation": "Easter",
-    "description": "a brightly painted Easter egg",
-    "image": "images/holidays/easter.png"
-  },
-  {
-    "id": "holidays_birthday",
-    "category": "holidays",
-    "greek": "Γενέθλια",
-    "romanized": "Yenéthlia",
-    "translation": "Birthday",
-    "description": "a birthday cake with lit candles",
-    "image": "images/holidays/birthday.png"
-  },
-  {
-    "id": "holidays_new_year",
-    "category": "holidays",
-    "greek": "Πρωτοχρονιά",
-    "romanized": "Protochroniá",
-    "translation": "New Year",
-    "description": "colorful fireworks bursting in a starburst pattern",
-    "image": "images/holidays/new_year.png"
-  },
-  {
-    "id": "holidays_carnival",
-    "category": "holidays",
-    "greek": "Αποκριές",
-    "romanized": "Apokriés",
-    "translation": "Carnival",
-    "description": "a colorful carnival mask with feathers",
-    "image": "images/holidays/carnival.png"
-  },
-  {
-    "id": "holidays_name_day",
-    "category": "holidays",
-    "greek": "Γιορτή",
-    "romanized": "Yiortí",
-    "translation": "Name Day",
-    "description": "a bouquet of flowers tied with a ribbon",
-    "image": "images/holidays/name_day.png",
-    "notes": "Γιορτή means \"celebration/holiday/feast.\" \"Name Day\" reflects the dominant cultural usage — in everyday Greek, η γιορτή μου = my name day."
-  },
-  {
-    "id": "holidays_gift",
-    "category": "holidays",
-    "greek": "Δώρο",
-    "romanized": "Dóro",
-    "translation": "Gift",
-    "description": "a wrapped gift box with colourful paper and a bow on top",
-    "image": "images/holidays/gift.png"
-  },
-  {
-    "id": "holidays_vacation",
-    "category": "holidays",
-    "greek": "Διακοπές",
-    "romanized": "Diakopés",
-    "translation": "Vacation",
-    "description": "a red beach bucket and spade beside a small sandcastle",
-    "image": "images/holidays/vacation.png"
-  },
-  {
-    "id": "body_parts_head",
-    "category": "body_parts",
-    "greek": "Κεφάλι",
-    "romanized": "Kefáli",
-    "translation": "Head",
-    "description": "a cartoon child pointing to their head",
-    "image": "images/body_parts/head.png"
-  },
-  {
-    "id": "body_parts_eyes",
-    "category": "body_parts",
-    "greek": "Μάτια",
-    "romanized": "Mátia",
-    "translation": "Eyes",
-    "description": "a cartoon child pointing to their eyes",
-    "image": "images/body_parts/eyes.png"
-  },
-  {
-    "id": "body_parts_nose",
-    "category": "body_parts",
-    "greek": "Μύτη",
-    "romanized": "Míti",
-    "translation": "Nose",
-    "description": "a cartoon child pointing to their nose",
-    "image": "images/body_parts/nose.png"
-  },
-  {
-    "id": "body_parts_mouth",
-    "category": "body_parts",
-    "greek": "Στόμα",
-    "romanized": "Stóma",
-    "translation": "Mouth",
-    "description": "a cartoon child pointing to their mouth",
-    "image": "images/body_parts/mouth.png"
-  },
-  {
-    "id": "body_parts_ears",
-    "category": "body_parts",
-    "greek": "Αυτιά",
-    "romanized": "Aftiá",
-    "translation": "Ears",
-    "description": "a cartoon child pointing to their ears",
-    "image": "images/body_parts/ears.png"
-  },
-  {
-    "id": "body_parts_hair",
-    "category": "body_parts",
-    "greek": "Μαλλιά",
-    "romanized": "Malliá",
-    "translation": "Hair",
-    "description": "a cartoon child pointing to their hair",
-    "image": "images/body_parts/hair.png"
-  },
-  {
-    "id": "body_parts_hands",
-    "category": "body_parts",
-    "greek": "Χέρια",
-    "romanized": "Chéria",
-    "translation": "Hands",
-    "description": "a cartoon child holding both hands up, palms facing out",
-    "image": "images/body_parts/hands.png"
-  },
-  {
-    "id": "body_parts_feet",
-    "category": "body_parts",
-    "greek": "Πόδια",
-    "romanized": "Pódia",
-    "translation": "Feet",
-    "description": "a cartoon child sitting and pointing to their feet",
-    "image": "images/body_parts/feet.png"
-  },
-  {
-    "id": "body_parts_belly",
-    "category": "body_parts",
-    "greek": "Κοιλιά",
-    "romanized": "Koiliá",
-    "translation": "Belly",
-    "description": "a cartoon child pointing to their belly",
-    "image": "images/body_parts/belly.png"
-  },
-  {
-    "id": "body_parts_knees",
-    "category": "body_parts",
-    "greek": "Γόνατα",
-    "romanized": "Gónata",
-    "translation": "Knees",
-    "description": "a cartoon child pointing to their knees",
-    "image": "images/body_parts/knees.png"
-  },
-  {
-    "id": "family_mom",
-    "category": "family",
-    "greek": "Μαμά",
-    "romanized": "Mamá",
-    "translation": "Mom",
-    "description": "a friendly cartoon mother, full body, front-facing, smiling, wearing a dress",
-    "image": "images/family/mom.png"
-  },
-  {
-    "id": "family_dad",
-    "category": "family",
-    "greek": "Μπαμπάς",
-    "romanized": "Babás",
-    "translation": "Dad",
-    "description": "a friendly cartoon father, full body, front-facing, smiling, wearing a shirt",
-    "image": "images/family/dad.png"
-  },
-  {
-    "id": "family_grandma",
-    "category": "family",
-    "greek": "Γιαγιά",
-    "romanized": "Yiayiá",
-    "translation": "Grandma",
-    "description": "a friendly cartoon grandmother, full body, front-facing, grey hair, smiling",
-    "image": "images/family/grandma.png"
-  },
-  {
-    "id": "family_grandpa",
-    "category": "family",
-    "greek": "Παππούς",
-    "romanized": "Pappoús",
-    "translation": "Grandpa",
-    "description": "a friendly cartoon grandfather, full body, front-facing, grey hair, smiling",
-    "image": "images/family/grandpa.png"
-  },
-  {
-    "id": "family_sister",
-    "category": "family",
-    "greek": "Αδελφή",
-    "romanized": "Adelfí",
-    "translation": "Sister",
-    "description": "a friendly cartoon young girl, full body, front-facing, pigtails, smiling",
-    "image": "images/family/sister.png",
-    "notes": "Standard spelling Αδελφή used; colloquial spoken form is Αδερφή. Greek has many such pairs (cf. Εφτά/Επτά)."
-  },
-  {
-    "id": "family_brother",
-    "category": "family",
-    "greek": "Αδελφός",
-    "romanized": "Adelfós",
-    "translation": "Brother",
-    "description": "a friendly cartoon young boy, full body, front-facing, short hair, smiling",
-    "image": "images/family/brother.png",
-    "notes": "Standard spelling Αδελφός used; colloquial spoken form is Αδερφός."
-  },
-  {
-    "id": "family_baby",
-    "category": "family",
-    "greek": "Μωρό",
-    "romanized": "Moró",
-    "translation": "Baby",
-    "description": "a friendly cartoon baby sitting, full body, front-facing, in a diaper, smiling",
-    "image": "images/family/baby.png"
-  },
-  {
-    "id": "family_aunt",
-    "category": "family",
-    "greek": "Θεία",
-    "romanized": "Theía",
-    "translation": "Aunt",
-    "description": "a friendly cartoon aunt, full body, front-facing, smiling",
-    "image": "images/family/aunt.png"
-  },
-  {
-    "id": "family_uncle",
-    "category": "family",
-    "greek": "Θείος",
-    "romanized": "Theíos",
-    "translation": "Uncle",
-    "description": "a friendly cartoon uncle, full body, front-facing, smiling",
-    "image": "images/family/uncle.png"
-  },
-  {
-    "id": "family_family",
-    "category": "family",
-    "greek": "Οικογένεια",
-    "romanized": "Ikoyénia",
-    "translation": "Family",
-    "description": "two parents and two children standing together smiling",
-    "image": "images/family/family.png"
-  },
-  {
-    "id": "nature_sun",
-    "category": "nature",
-    "greek": "Ήλιος",
-    "romanized": "Ílios",
-    "translation": "Sun",
-    "description": "a bright yellow sun with evenly spaced rays, centred",
-    "image": "images/nature/sun.png"
-  },
-  {
-    "id": "nature_moon",
-    "category": "nature",
-    "greek": "Φεγγάρι",
-    "romanized": "Fengári",
-    "translation": "Moon",
-    "description": "a yellow crescent moon, side view",
-    "image": "images/nature/moon.png"
-  },
-  {
-    "id": "nature_stars",
-    "category": "nature",
-    "greek": "Αστέρια",
-    "romanized": "Astéria",
-    "translation": "Stars",
-    "description": "a cluster of yellow five-pointed stars",
-    "image": "images/nature/stars.png"
-  },
-  {
-    "id": "nature_tree",
-    "category": "nature",
-    "greek": "Δέντρο",
-    "romanized": "Déntro",
-    "translation": "Tree",
-    "description": "a round green tree with a brown trunk, full shape visible",
-    "image": "images/nature/tree.png"
-  },
-  {
-    "id": "nature_flower",
-    "category": "nature",
-    "greek": "Λουλούδι",
-    "romanized": "Louloúdi",
-    "translation": "Flower",
-    "description": "a single red flower with yellow centre and green stem and two leaves",
-    "image": "images/nature/flower.png"
-  },
-  {
-    "id": "nature_sea",
-    "category": "nature",
-    "greek": "Θάλασσα",
-    "romanized": "Thálassa",
-    "translation": "Sea",
-    "description": "large blue ocean waves, close-up view, filling the frame",
-    "image": "images/nature/sea.png"
-  },
-  {
-    "id": "nature_mountain",
-    "category": "nature",
-    "greek": "Βουνό",
-    "romanized": "Vounó",
-    "translation": "Mountain",
-    "description": "a snow-capped grey mountain peak, full shape visible",
-    "image": "images/nature/mountain.png"
-  },
-  {
-    "id": "nature_river",
-    "category": "nature",
-    "greek": "Ποτάμι",
-    "romanized": "Potámi",
-    "translation": "River",
-    "description": "a winding blue river seen from above with green banks",
-    "image": "images/nature/river.png"
-  },
-  {
-    "id": "nature_sand",
-    "category": "nature",
-    "greek": "Άμμος",
-    "romanized": "Ámmos",
-    "translation": "Sand",
-    "description": "a small pile of golden sand with a bucket and spade",
-    "image": "images/nature/sand.png"
-  },
-  {
-    "id": "nature_rock",
-    "category": "nature",
-    "greek": "Πέτρα",
-    "romanized": "Pétra",
-    "translation": "Rock",
-    "description": "a smooth grey rock, slightly rounded",
-    "image": "images/nature/rock.png"
+    "id": "colors_purple",
+    "category": "colors",
+    "greek": "Μωβ",
+    "romanized": "Mov",
+    "color": "#9B59B6",
+    "translation": "Purple"
   },
   {
     "id": "shapes_circle",
@@ -1461,184 +458,112 @@
     "translation": "Diamond"
   },
   {
-    "id": "weather_rain",
-    "category": "weather",
-    "greek": "Βροχή",
-    "romanized": "Vrochí",
-    "translation": "Rain",
-    "description": "raindrops falling from a dark cloud",
-    "image": "images/weather/rain.png"
+    "id": "dinosaurs_stegosaurus",
+    "category": "dinosaurs",
+    "greek": "Στεγόσαυρος",
+    "romanized": "Stegósavros",
+    "translation": "Stegosaurus",
+    "image": "images/dinosaurs/stegosaurus.png",
+    "description": "a brown stegosaurus with large diamond-shaped plates along its back and a spiked tail, full body, side view"
   },
   {
-    "id": "weather_snow",
-    "category": "weather",
-    "greek": "Χιόνι",
-    "romanized": "Chióni",
-    "translation": "Snow",
-    "description": "snowflakes falling from a grey cloud",
-    "image": "images/weather/snow.png"
+    "id": "dinosaurs_tyrannosaurus",
+    "category": "dinosaurs",
+    "greek": "Τυραννόσαυρος",
+    "romanized": "Tirannósavros",
+    "translation": "Tyrannosaurus",
+    "image": "images/dinosaurs/tyrannosaurus.png",
+    "description": "an orange T-Rex standing upright with tiny arms, full body, side view"
   },
   {
-    "id": "weather_cloud",
-    "category": "weather",
-    "greek": "Σύννεφο",
-    "romanized": "Sínefo",
-    "translation": "Cloud",
-    "description": "a fluffy white cloud with a light grey outline and flat bottom",
-    "image": "images/weather/cloud.png"
+    "id": "dinosaurs_triceratops",
+    "category": "dinosaurs",
+    "greek": "Τρικεράτωψ",
+    "romanized": "Trikerátops",
+    "translation": "Triceratops",
+    "image": "images/dinosaurs/triceratops.png",
+    "description": "a green triceratops with three horns, full body, side view"
   },
   {
-    "id": "weather_wind",
-    "category": "weather",
-    "greek": "Αέρας",
-    "romanized": "Aéras",
-    "translation": "Wind",
-    "description": "a cartoon wind gust with curved blue motion lines and swirling leaves",
-    "image": "images/weather/wind.png"
+    "id": "dinosaurs_brontosaurus",
+    "category": "dinosaurs",
+    "greek": "Βροντόσαυρος",
+    "romanized": "Vrontósavros",
+    "translation": "Brontosaurus",
+    "image": "images/dinosaurs/brontosaurus.png",
+    "description": "a green brontosaurus with a very long neck, full body, side view"
   },
   {
-    "id": "weather_rainbow",
-    "category": "weather",
-    "greek": "Ουράνιο τόξο",
-    "romanized": "Ouránio tóxo",
-    "translation": "Rainbow",
-    "description": "a full arc rainbow with six colour bands",
-    "image": "images/weather/rainbow.png"
+    "id": "dinosaurs_pterodactyl",
+    "category": "dinosaurs",
+    "greek": "Πτεροδάκτυλος",
+    "romanized": "Pterodáktilos",
+    "translation": "Pterodactyl",
+    "description": "a pterodactyl with large wings spread wide, side view",
+    "image": "images/dinosaurs/pterodactyl.png"
   },
   {
-    "id": "weather_heat",
-    "category": "weather",
-    "greek": "Ζέστη",
-    "romanized": "Zésti",
-    "translation": "Heat",
-    "description": "a bright sun with wavy heat lines below it",
-    "image": "images/weather/heat.png"
+    "id": "animals_elephant",
+    "category": "animals",
+    "greek": "Ελέφαντας",
+    "romanized": "Eléfantas",
+    "translation": "Elephant",
+    "description": "a large grey elephant, full body, side view, trunk hanging down",
+    "image": "images/animals/elephant.png"
   },
   {
-    "id": "weather_cold",
-    "category": "weather",
-    "greek": "Κρύο",
-    "romanized": "Krío",
-    "translation": "Cold",
-    "description": "a large snowflake with ice crystals",
-    "image": "images/weather/cold.png"
+    "id": "animals_lion",
+    "category": "animals",
+    "greek": "Λιοντάρι",
+    "romanized": "Liontári",
+    "translation": "Lion",
+    "description": "an orange lion with a full mane, sitting, full body, side view",
+    "image": "images/animals/lion.png"
   },
   {
-    "id": "weather_storm",
-    "category": "weather",
-    "greek": "Καταιγίδα",
-    "romanized": "Kataigída",
-    "translation": "Storm",
-    "description": "a dark cloud with a lightning bolt striking down",
-    "image": "images/weather/storm.png"
+    "id": "animals_giraffe",
+    "category": "animals",
+    "greek": "Καμηλοπάρδαλη",
+    "romanized": "Kamilopárdali",
+    "translation": "Giraffe",
+    "description": "a tall giraffe with brown patches on yellow, full body, side view",
+    "image": "images/animals/giraffe.png"
   },
   {
-    "id": "music_music",
-    "category": "music",
-    "greek": "Μουσική",
-    "romanized": "Mousikí",
-    "translation": "Music",
-    "description": "a treble clef with musical notes floating around it",
-    "image": "images/music/music.png"
+    "id": "animals_dolphin",
+    "category": "animals",
+    "greek": "Δελφίνι",
+    "romanized": "Delfíni",
+    "translation": "Dolphin",
+    "description": "a blue-grey dolphin arched mid-leap, full body, side view",
+    "image": "images/animals/dolphin.png"
   },
   {
-    "id": "music_song",
-    "category": "music",
-    "greek": "Τραγούδι",
-    "romanized": "Tragoúdi",
-    "translation": "Song",
-    "description": "a vintage microphone on a stand with two large speakers on either side, musical notes floating around, front view",
-    "image": "images/music/song.png"
+    "id": "animals_fox",
+    "category": "animals",
+    "greek": "Αλεπού",
+    "romanized": "Alepú",
+    "translation": "Fox",
+    "description": "an orange fox sitting upright, full body, side view, bushy tail visible",
+    "image": "images/animals/fox.png"
   },
   {
-    "id": "music_guitar",
-    "category": "music",
-    "greek": "Κιθάρα",
-    "romanized": "Kithára",
-    "translation": "Guitar",
-    "description": "a brown acoustic guitar, front view",
-    "image": "images/music/guitar.png"
+    "id": "animals_dog",
+    "category": "animals",
+    "greek": "Σκύλος",
+    "romanized": "Skílos",
+    "translation": "Dog",
+    "description": "a golden labrador sitting, full body, front-facing, tongue out",
+    "image": "images/animals/dog.png"
   },
   {
-    "id": "music_piano",
-    "category": "music",
-    "greek": "Πιάνο",
-    "romanized": "Piáno",
-    "translation": "Piano",
-    "description": "a black upright piano with white and black keys, front view",
-    "image": "images/music/piano.png"
-  },
-  {
-    "id": "music_drum",
-    "category": "music",
-    "greek": "Τύμπανο",
-    "romanized": "Tímbano",
-    "translation": "Drum",
-    "description": "a red snare drum with drumsticks resting on top",
-    "image": "images/music/drum.png"
-  },
-  {
-    "id": "music_violin",
-    "category": "music",
-    "greek": "Βιολί",
-    "romanized": "Violí",
-    "translation": "Violin",
-    "description": "a brown violin with a bow beside it, front view",
-    "image": "images/music/violin.png"
-  },
-  {
-    "id": "music_trumpet",
-    "category": "music",
-    "greek": "Τρομπέτα",
-    "romanized": "Trombéta",
-    "translation": "Trumpet",
-    "description": "a golden trumpet, side view",
-    "image": "images/music/trumpet.png"
-  },
-  {
-    "id": "music_flute",
-    "category": "music",
-    "greek": "Φλάουτο",
-    "romanized": "Fláouto",
-    "translation": "Flute",
-    "description": "a silver flute, horizontal, side view",
-    "image": "images/music/flute.png"
-  },
-  {
-    "id": "music_microphone",
-    "category": "music",
-    "greek": "Μικρόφωνο",
-    "romanized": "Mikrófono",
-    "translation": "Microphone",
-    "description": "a black handheld microphone, upright",
-    "image": "images/music/microphone.png"
-  },
-  {
-    "id": "music_headphones",
-    "category": "music",
-    "greek": "Ακουστικά",
-    "romanized": "Akoustiká",
-    "translation": "Headphones",
-    "description": "a pair of black over-ear headphones, front view",
-    "image": "images/music/headphones.png"
-  },
-  {
-    "id": "music_dance",
-    "category": "music",
-    "greek": "Χορός",
-    "romanized": "Chorós",
-    "translation": "Dance",
-    "description": "a cartoon child dancing with arms raised",
-    "image": "images/music/dance.png"
-  },
-  {
-    "id": "music_note",
-    "category": "music",
-    "greek": "Νότα",
-    "romanized": "Nóta",
-    "translation": "Note",
-    "description": "a single large musical note symbol",
-    "image": "images/music/note.png"
+    "id": "animals_cat",
+    "category": "animals",
+    "greek": "Γάτα",
+    "romanized": "Gáta",
+    "translation": "Cat",
+    "description": "an orange tabby cat sitting, full body, side view, tail curled around paws",
+    "image": "images/animals/cat.png"
   },
   {
     "id": "animals_cow",
@@ -1873,112 +798,305 @@
     "image": "images/animals/bee.png"
   },
   {
-    "id": "food_carrot",
-    "category": "food",
-    "greek": "Καρότο",
-    "romanized": "Karóto",
-    "translation": "Carrot",
-    "description": "a whole orange carrot with green leafy top",
-    "image": "images/food/carrot.png"
+    "id": "family_mom",
+    "category": "family",
+    "greek": "Μαμά",
+    "romanized": "Mamá",
+    "translation": "Mom",
+    "description": "a friendly cartoon mother, full body, front-facing, smiling, wearing a dress",
+    "image": "images/family/mom.png"
   },
   {
-    "id": "food_tomato",
-    "category": "food",
-    "greek": "Ντομάτα",
-    "romanized": "Domáta",
-    "translation": "Tomato",
-    "description": "a whole round red tomato",
-    "image": "images/food/tomato.png"
+    "id": "family_dad",
+    "category": "family",
+    "greek": "Μπαμπάς",
+    "romanized": "Babás",
+    "translation": "Dad",
+    "description": "a friendly cartoon father, full body, front-facing, smiling, wearing a shirt",
+    "image": "images/family/dad.png"
   },
   {
-    "id": "food_potato",
-    "category": "food",
-    "greek": "Πατάτα",
-    "romanized": "Patáta",
-    "translation": "Potato",
-    "description": "a whole brown potato",
-    "image": "images/food/potato.png"
+    "id": "family_grandma",
+    "category": "family",
+    "greek": "Γιαγιά",
+    "romanized": "Yiayiá",
+    "translation": "Grandma",
+    "description": "a friendly cartoon grandmother, full body, front-facing, grey hair, smiling",
+    "image": "images/family/grandma.png"
   },
   {
-    "id": "food_corn",
-    "category": "food",
-    "greek": "Καλαμπόκι",
-    "romanized": "Kalambóki",
-    "translation": "Corn",
-    "description": "a whole ear of yellow corn with green husk peeled back",
-    "image": "images/food/corn.png"
+    "id": "family_grandpa",
+    "category": "family",
+    "greek": "Παππούς",
+    "romanized": "Pappoús",
+    "translation": "Grandpa",
+    "description": "a friendly cartoon grandfather, full body, front-facing, grey hair, smiling",
+    "image": "images/family/grandpa.png"
   },
   {
-    "id": "food_salad",
-    "category": "food",
-    "greek": "Σαλάτα",
-    "romanized": "Saláta",
-    "translation": "Salad",
-    "description": "a bowl of green salad",
-    "image": "images/food/salad.png"
+    "id": "family_sister",
+    "category": "family",
+    "greek": "Αδελφή",
+    "romanized": "Adelfí",
+    "translation": "Sister",
+    "description": "a friendly cartoon young girl, full body, front-facing, pigtails, smiling",
+    "image": "images/family/sister.png",
+    "notes": "Standard spelling Αδελφή used; colloquial spoken form is Αδερφή. Greek has many such pairs (cf. Εφτά/Επτά)."
   },
   {
-    "id": "food_water",
-    "category": "food",
-    "greek": "Νερό",
-    "romanized": "Neró",
-    "translation": "Water",
-    "description": "a glass of water",
-    "image": "images/food/water.png"
+    "id": "family_brother",
+    "category": "family",
+    "greek": "Αδελφός",
+    "romanized": "Adelfós",
+    "translation": "Brother",
+    "description": "a friendly cartoon young boy, full body, front-facing, short hair, smiling",
+    "image": "images/family/brother.png",
+    "notes": "Standard spelling Αδελφός used; colloquial spoken form is Αδερφός."
   },
   {
-    "id": "food_juice",
-    "category": "food",
-    "greek": "Χυμός",
-    "romanized": "Chimós",
-    "translation": "Juice",
-    "description": "a glass of orange juice",
-    "image": "images/food/juice.png"
+    "id": "family_baby",
+    "category": "family",
+    "greek": "Μωρό",
+    "romanized": "Moró",
+    "translation": "Baby",
+    "description": "a friendly cartoon baby sitting, full body, front-facing, in a diaper, smiling",
+    "image": "images/family/baby.png"
   },
   {
-    "id": "food_rice",
-    "category": "food",
-    "greek": "Ρύζι",
-    "romanized": "Rízi",
-    "translation": "Rice",
-    "description": "a bowl of white rice",
-    "image": "images/food/rice.png"
+    "id": "family_aunt",
+    "category": "family",
+    "greek": "Θεία",
+    "romanized": "Theía",
+    "translation": "Aunt",
+    "description": "a friendly cartoon aunt, full body, front-facing, smiling",
+    "image": "images/family/aunt.png"
   },
   {
-    "id": "food_pasta",
-    "category": "food",
-    "greek": "Μακαρόνια",
-    "romanized": "Makarónia",
-    "translation": "Pasta",
-    "description": "a bowl of pasta with tomato sauce",
-    "image": "images/food/pasta.png"
+    "id": "family_uncle",
+    "category": "family",
+    "greek": "Θείος",
+    "romanized": "Theíos",
+    "translation": "Uncle",
+    "description": "a friendly cartoon uncle, full body, front-facing, smiling",
+    "image": "images/family/uncle.png"
   },
   {
-    "id": "food_fish",
-    "category": "food",
-    "greek": "Ψάρι",
-    "romanized": "Psári",
-    "translation": "Fish",
-    "description": "a whole orange fish, full body, side view",
-    "image": "images/food/fish.png"
+    "id": "family_family",
+    "category": "family",
+    "greek": "Οικογένεια",
+    "romanized": "Ikoyénia",
+    "translation": "Family",
+    "description": "two parents and two children standing together smiling",
+    "image": "images/family/family.png"
   },
   {
-    "id": "food_butter",
-    "category": "food",
-    "greek": "Βούτυρο",
-    "romanized": "Voútiro",
-    "translation": "Butter",
-    "description": "a stick of butter on a small plate",
-    "image": "images/food/butter.png"
+    "id": "body_parts_head",
+    "category": "body_parts",
+    "greek": "Κεφάλι",
+    "romanized": "Kefáli",
+    "translation": "Head",
+    "description": "a cartoon child pointing to their head",
+    "image": "images/body_parts/head.png"
   },
   {
-    "id": "food_yogurt",
-    "category": "food",
-    "greek": "Γιαούρτι",
-    "romanized": "Yaoúrti",
-    "translation": "Yogurt",
-    "description": "a small cup of yogurt with a spoon",
-    "image": "images/food/yogurt.png"
+    "id": "body_parts_eyes",
+    "category": "body_parts",
+    "greek": "Μάτια",
+    "romanized": "Mátia",
+    "translation": "Eyes",
+    "description": "a cartoon child pointing to their eyes",
+    "image": "images/body_parts/eyes.png"
+  },
+  {
+    "id": "body_parts_nose",
+    "category": "body_parts",
+    "greek": "Μύτη",
+    "romanized": "Míti",
+    "translation": "Nose",
+    "description": "a cartoon child pointing to their nose",
+    "image": "images/body_parts/nose.png"
+  },
+  {
+    "id": "body_parts_mouth",
+    "category": "body_parts",
+    "greek": "Στόμα",
+    "romanized": "Stóma",
+    "translation": "Mouth",
+    "description": "a cartoon child pointing to their mouth",
+    "image": "images/body_parts/mouth.png"
+  },
+  {
+    "id": "body_parts_ears",
+    "category": "body_parts",
+    "greek": "Αυτιά",
+    "romanized": "Aftiá",
+    "translation": "Ears",
+    "description": "a cartoon child pointing to their ears",
+    "image": "images/body_parts/ears.png"
+  },
+  {
+    "id": "body_parts_hair",
+    "category": "body_parts",
+    "greek": "Μαλλιά",
+    "romanized": "Malliá",
+    "translation": "Hair",
+    "description": "a cartoon child pointing to their hair",
+    "image": "images/body_parts/hair.png"
+  },
+  {
+    "id": "body_parts_hands",
+    "category": "body_parts",
+    "greek": "Χέρια",
+    "romanized": "Chéria",
+    "translation": "Hands",
+    "description": "a cartoon child holding both hands up, palms facing out",
+    "image": "images/body_parts/hands.png"
+  },
+  {
+    "id": "body_parts_feet",
+    "category": "body_parts",
+    "greek": "Πόδια",
+    "romanized": "Pódia",
+    "translation": "Feet",
+    "description": "a cartoon child sitting and pointing to their feet",
+    "image": "images/body_parts/feet.png"
+  },
+  {
+    "id": "body_parts_belly",
+    "category": "body_parts",
+    "greek": "Κοιλιά",
+    "romanized": "Koiliá",
+    "translation": "Belly",
+    "description": "a cartoon child pointing to their belly",
+    "image": "images/body_parts/belly.png"
+  },
+  {
+    "id": "body_parts_knees",
+    "category": "body_parts",
+    "greek": "Γόνατα",
+    "romanized": "Gónata",
+    "translation": "Knees",
+    "description": "a cartoon child pointing to their knees",
+    "image": "images/body_parts/knees.png"
+  },
+  {
+    "id": "greetings_hello",
+    "category": "greetings",
+    "greek": "Γεια σου",
+    "romanized": "Yia sou",
+    "translation": "Hello",
+    "image": "images/greetings/hello.png",
+    "description": "two children facing each other, one waving hello with a big smile, the other smiling back, cheerful and friendly, full body, white background, coloring-book style with simple outlines"
+  },
+  {
+    "id": "greetings_goodbye",
+    "category": "greetings",
+    "greek": "Αντίο",
+    "romanized": "Adío",
+    "translation": "Goodbye",
+    "image": "images/greetings/goodbye.png",
+    "description": "two children: one standing at an open doorway waving, the other walking away and looking back over their shoulder with a wave and a smile, full body, white background, coloring-book style with simple outlines"
+  },
+  {
+    "id": "greetings_good_morning",
+    "category": "greetings",
+    "greek": "Καλημέρα",
+    "romanized": "Kaliméra",
+    "translation": "Good Morning",
+    "image": "images/greetings/good_morning.png",
+    "description": "a child stretching with both arms raised and yawning, a bright sun rising through a bedroom window behind them, full body, white background, coloring-book style with simple outlines"
+  },
+  {
+    "id": "greetings_good_evening",
+    "category": "greetings",
+    "greek": "Καλησπέρα",
+    "romanized": "Kalispéra",
+    "translation": "Good Evening",
+    "image": "images/greetings/good_evening.png",
+    "description": "two children standing side by side outdoors, a warm orange and pink sunset sky behind them, one waving gently, full body, white background, coloring-book style with simple outlines"
+  },
+  {
+    "id": "greetings_good_night",
+    "category": "greetings",
+    "greek": "Καληνύχτα",
+    "romanized": "Kaliníchta",
+    "translation": "Good Night",
+    "image": "images/greetings/good_night.png",
+    "description": "a young child tucked snugly in bed with a blanket, eyes drooping, a moon and stars visible through the bedroom window, a tall adult parent standing at the doorway waving goodnight, white background, coloring-book style with simple outlines"
+  },
+  {
+    "id": "greetings_thank_you",
+    "category": "greetings",
+    "greek": "Ευχαριστώ",
+    "romanized": "Efcharistó",
+    "translation": "Thank You",
+    "image": "images/greetings/thank_you.png",
+    "description": "two children: one handing a small wrapped gift to the other, the receiving child smiling warmly and holding the gift with both hands, full body, white background, coloring-book style with simple outlines"
+  },
+  {
+    "id": "greetings_please",
+    "category": "greetings",
+    "greek": "Παρακαλώ",
+    "romanized": "Parakaló",
+    "translation": "Please",
+    "notes": "Παρακαλώ means both \"Please\" (request) and \"You're welcome\" (response to Ευχαριστώ).",
+    "image": "images/greetings/please.png",
+    "description": "two children: one child reaching toward something on a shelf and looking at the other child with a polite hopeful expression, the other child smiling and about to help, full body, white background, coloring-book style with simple outlines"
+  },
+  {
+    "id": "greetings_yes",
+    "category": "greetings",
+    "greek": "Ναι",
+    "romanized": "Ne",
+    "translation": "Yes",
+    "image": "images/greetings/yes.png",
+    "description": "a child giving a clear enthusiastic thumbs up, smiling and nodding confidently, full body, white background, coloring-book style with simple outlines"
+  },
+  {
+    "id": "greetings_no",
+    "category": "greetings",
+    "greek": "Όχι",
+    "romanized": "Óchi",
+    "translation": "No",
+    "image": "images/greetings/no.png",
+    "description": "a child shaking their head with both arms crossed in front of them in the universal no gesture, firm but gentle expression, full body, white background, coloring-book style with simple outlines"
+  },
+  {
+    "id": "greetings_sorry",
+    "category": "greetings",
+    "greek": "Συγγνώμη",
+    "romanized": "Singnómi",
+    "translation": "Sorry",
+    "image": "images/greetings/sorry.png",
+    "description": "two children: one looking apologetic and contrite with hands clasped, the other looking slightly surprised, a small toy knocked over on the floor between them, full body, white background, coloring-book style with simple outlines"
+  },
+  {
+    "id": "greetings_i_love_you",
+    "category": "greetings",
+    "greek": "Σ'αγαπώ",
+    "romanized": "S'agapó",
+    "translation": "I Love You",
+    "image": "images/greetings/i_love_you.png",
+    "description": "a child hugging a large fluffy teddy bear tightly with eyes closed and a happy smile, full body, white background, coloring-book style with simple outlines"
+  },
+  {
+    "id": "greetings_help",
+    "category": "greetings",
+    "greek": "Βοήθεια",
+    "romanized": "Voíthia",
+    "translation": "Help",
+    "image": "images/greetings/help.png",
+    "description": "a child looking dismayed as a scoop of ice cream falls off their cone, arms reaching out, mouth open in surprise, slightly comic and child-relatable, full body, white background, coloring-book style with simple outlines"
+  },
+  {
+    "id": "greetings_you_re_welcome",
+    "category": "greetings",
+    "greek": "Παρακαλώ",
+    "romanized": "Parakaló",
+    "translation": "You're welcome",
+    "notes": "Second Παρακαλώ card. 'Please' (gr_245) and 'You're welcome' (gr_251) share the same Greek word — differentiated by context and image.",
+    "image": "images/greetings/youre_welcome.png",
+    "description": "two children: one handing a ball or book to the other with an open-handed warm gesture, both smiling, the giving child relaxed and generous, full body, white background, coloring-book style with simple outlines"
   },
   {
     "id": "verbs_run",
@@ -2125,202 +1243,1084 @@
     "image": "images/verbs/listen.png"
   },
   {
-    "id": "greetings_hello",
-    "category": "greetings",
-    "greek": "Γεια σου",
-    "romanized": "Yia sou",
-    "translation": "Hello",
-    "image": "images/greetings/hello.png",
-    "description": "two children facing each other, one waving hello with a big smile, the other smiling back, cheerful and friendly, full body, white background, coloring-book style with simple outlines"
+    "id": "food_bread",
+    "category": "food",
+    "greek": "Ψωμί",
+    "romanized": "Psomí",
+    "translation": "Bread",
+    "description": "a round golden loaf of bread, whole",
+    "image": "images/food/bread.png"
   },
   {
-    "id": "greetings_goodbye",
-    "category": "greetings",
-    "greek": "Αντίο",
-    "romanized": "Adío",
-    "translation": "Goodbye",
-    "image": "images/greetings/goodbye.png",
-    "description": "two children: one standing at an open doorway waving, the other walking away and looking back over their shoulder with a wave and a smile, full body, white background, coloring-book style with simple outlines"
+    "id": "food_milk",
+    "category": "food",
+    "greek": "Γάλα",
+    "romanized": "Gála",
+    "translation": "Milk",
+    "description": "a glass of milk",
+    "image": "images/food/milk.png"
   },
   {
-    "id": "greetings_good_morning",
-    "category": "greetings",
-    "greek": "Καλημέρα",
-    "romanized": "Kaliméra",
-    "translation": "Good Morning",
-    "image": "images/greetings/good_morning.png",
-    "description": "a child stretching with both arms raised and yawning, a bright sun rising through a bedroom window behind them, full body, white background, coloring-book style with simple outlines"
+    "id": "food_egg",
+    "category": "food",
+    "greek": "Αυγό",
+    "romanized": "Avgó",
+    "translation": "Egg",
+    "description": "a single white egg",
+    "image": "images/food/egg.png"
   },
   {
-    "id": "greetings_good_evening",
-    "category": "greetings",
-    "greek": "Καλησπέρα",
-    "romanized": "Kalispéra",
-    "translation": "Good Evening",
-    "image": "images/greetings/good_evening.png",
-    "description": "two children standing side by side outdoors, a warm orange and pink sunset sky behind them, one waving gently, full body, white background, coloring-book style with simple outlines"
+    "id": "food_cheese",
+    "category": "food",
+    "greek": "Τυρί",
+    "romanized": "Tirí",
+    "translation": "Cheese",
+    "description": "a triangular wedge of yellow cheese with holes",
+    "image": "images/food/cheese.png"
   },
   {
-    "id": "greetings_good_night",
-    "category": "greetings",
-    "greek": "Καληνύχτα",
-    "romanized": "Kaliníchta",
-    "translation": "Good Night",
-    "image": "images/greetings/good_night.png",
-    "description": "a young child tucked snugly in bed with a blanket, eyes drooping, a moon and stars visible through the bedroom window, a tall adult parent standing at the doorway waving goodnight, white background, coloring-book style with simple outlines"
+    "id": "food_honey",
+    "category": "food",
+    "greek": "Μέλι",
+    "romanized": "Méli",
+    "translation": "Honey",
+    "description": "a jar of honey with a honeycomb beside it",
+    "image": "images/food/honey.png"
   },
   {
-    "id": "greetings_thank_you",
-    "category": "greetings",
-    "greek": "Ευχαριστώ",
-    "romanized": "Efcharistó",
-    "translation": "Thank You",
-    "image": "images/greetings/thank_you.png",
-    "description": "two children: one handing a small wrapped gift to the other, the receiving child smiling warmly and holding the gift with both hands, full body, white background, coloring-book style with simple outlines"
+    "id": "food_pizza",
+    "category": "food",
+    "greek": "Πίτσα",
+    "romanized": "Pítsa",
+    "translation": "Pizza",
+    "description": "a whole round pizza with tomato and cheese toppings",
+    "image": "images/food/pizza.png"
   },
   {
-    "id": "greetings_please",
-    "category": "greetings",
-    "greek": "Παρακαλώ",
-    "romanized": "Parakaló",
-    "translation": "Please",
-    "notes": "Παρακαλώ means both \"Please\" (request) and \"You're welcome\" (response to Ευχαριστώ).",
-    "image": "images/greetings/please.png",
-    "description": "two children: one child reaching toward something on a shelf and looking at the other child with a polite hopeful expression, the other child smiling and about to help, full body, white background, coloring-book style with simple outlines"
+    "id": "food_ice_cream",
+    "category": "food",
+    "greek": "Παγωτό",
+    "romanized": "Pagotó",
+    "translation": "Ice Cream",
+    "description": "a single scoop of vanilla ice cream in a cone",
+    "image": "images/food/ice_cream.png"
   },
   {
-    "id": "greetings_yes",
-    "category": "greetings",
-    "greek": "Ναι",
-    "romanized": "Ne",
-    "translation": "Yes",
-    "image": "images/greetings/yes.png",
-    "description": "a child giving a clear enthusiastic thumbs up, smiling and nodding confidently, full body, white background, coloring-book style with simple outlines"
+    "id": "food_cookie",
+    "category": "food",
+    "greek": "Μπισκότο",
+    "romanized": "Biskóto",
+    "translation": "Cookie",
+    "description": "a round chocolate chip cookie",
+    "image": "images/food/cookie.png"
   },
   {
-    "id": "greetings_no",
-    "category": "greetings",
-    "greek": "Όχι",
-    "romanized": "Óchi",
-    "translation": "No",
-    "image": "images/greetings/no.png",
-    "description": "a child shaking their head with both arms crossed in front of them in the universal no gesture, firm but gentle expression, full body, white background, coloring-book style with simple outlines"
+    "id": "food_chocolate",
+    "category": "food",
+    "greek": "Σοκολάτα",
+    "romanized": "Sokoláta",
+    "translation": "Chocolate",
+    "description": "a chocolate bar broken into squares",
+    "image": "images/food/chocolate.png"
   },
   {
-    "id": "greetings_sorry",
-    "category": "greetings",
-    "greek": "Συγγνώμη",
-    "romanized": "Singnómi",
-    "translation": "Sorry",
-    "image": "images/greetings/sorry.png",
-    "description": "two children: one looking apologetic and contrite with hands clasped, the other looking slightly surprised, a small toy knocked over on the floor between them, full body, white background, coloring-book style with simple outlines"
+    "id": "food_soup",
+    "category": "food",
+    "greek": "Σούπα",
+    "romanized": "Soúpa",
+    "translation": "Soup",
+    "description": "a bowl of steaming soup",
+    "image": "images/food/soup.png"
   },
   {
-    "id": "greetings_i_love_you",
-    "category": "greetings",
-    "greek": "Σ'αγαπώ",
-    "romanized": "S'agapó",
-    "translation": "I Love You",
-    "image": "images/greetings/i_love_you.png",
-    "description": "a child hugging a large fluffy teddy bear tightly with eyes closed and a happy smile, full body, white background, coloring-book style with simple outlines"
+    "id": "food_carrot",
+    "category": "food",
+    "greek": "Καρότο",
+    "romanized": "Karóto",
+    "translation": "Carrot",
+    "description": "a whole orange carrot with green leafy top",
+    "image": "images/food/carrot.png"
   },
   {
-    "id": "greetings_help",
-    "category": "greetings",
-    "greek": "Βοήθεια",
-    "romanized": "Voíthia",
-    "translation": "Help",
-    "image": "images/greetings/help.png",
-    "description": "a child looking dismayed as a scoop of ice cream falls off their cone, arms reaching out, mouth open in surprise, slightly comic and child-relatable, full body, white background, coloring-book style with simple outlines"
+    "id": "food_tomato",
+    "category": "food",
+    "greek": "Ντομάτα",
+    "romanized": "Domáta",
+    "translation": "Tomato",
+    "description": "a whole round red tomato",
+    "image": "images/food/tomato.png"
   },
   {
-    "id": "greetings_you_re_welcome",
-    "category": "greetings",
-    "greek": "Παρακαλώ",
-    "romanized": "Parakaló",
-    "translation": "You're welcome",
-    "notes": "Second Παρακαλώ card. 'Please' (gr_245) and 'You're welcome' (gr_251) share the same Greek word — differentiated by context and image.",
-    "image": "images/greetings/youre_welcome.png",
-    "description": "two children: one handing a ball or book to the other with an open-handed warm gesture, both smiling, the giving child relaxed and generous, full body, white background, coloring-book style with simple outlines"
+    "id": "food_potato",
+    "category": "food",
+    "greek": "Πατάτα",
+    "romanized": "Patáta",
+    "translation": "Potato",
+    "description": "a whole brown potato",
+    "image": "images/food/potato.png"
   },
   {
-    "id": "numbers_eleven",
-    "category": "numbers",
-    "greek": "Έντεκα",
-    "romanized": "Éndeka",
-    "translation": "Eleven",
-    "numeral": "11"
+    "id": "food_corn",
+    "category": "food",
+    "greek": "Καλαμπόκι",
+    "romanized": "Kalambóki",
+    "translation": "Corn",
+    "description": "a whole ear of yellow corn with green husk peeled back",
+    "image": "images/food/corn.png"
   },
   {
-    "id": "numbers_twelve",
-    "category": "numbers",
-    "greek": "Δώδεκα",
-    "romanized": "Dódeka",
-    "translation": "Twelve",
-    "numeral": "12"
+    "id": "food_salad",
+    "category": "food",
+    "greek": "Σαλάτα",
+    "romanized": "Saláta",
+    "translation": "Salad",
+    "description": "a bowl of green salad",
+    "image": "images/food/salad.png"
   },
   {
-    "id": "numbers_thirteen",
-    "category": "numbers",
-    "greek": "Δεκατρία",
-    "romanized": "Dekatría",
-    "translation": "Thirteen",
-    "numeral": "13"
+    "id": "food_water",
+    "category": "food",
+    "greek": "Νερό",
+    "romanized": "Neró",
+    "translation": "Water",
+    "description": "a glass of water",
+    "image": "images/food/water.png"
   },
   {
-    "id": "numbers_fourteen",
-    "category": "numbers",
-    "greek": "Δεκατέσσερα",
-    "romanized": "Dekatéssera",
-    "translation": "Fourteen",
-    "numeral": "14"
+    "id": "food_juice",
+    "category": "food",
+    "greek": "Χυμός",
+    "romanized": "Chimós",
+    "translation": "Juice",
+    "description": "a glass of orange juice",
+    "image": "images/food/juice.png"
   },
   {
-    "id": "numbers_fifteen",
-    "category": "numbers",
-    "greek": "Δεκαπέντε",
-    "romanized": "Dekapénte",
-    "translation": "Fifteen",
-    "numeral": "15"
+    "id": "food_rice",
+    "category": "food",
+    "greek": "Ρύζι",
+    "romanized": "Rízi",
+    "translation": "Rice",
+    "description": "a bowl of white rice",
+    "image": "images/food/rice.png"
   },
   {
-    "id": "numbers_sixteen",
-    "category": "numbers",
-    "greek": "Δεκαέξι",
-    "romanized": "Dekaéxi",
-    "translation": "Sixteen",
-    "numeral": "16"
+    "id": "food_pasta",
+    "category": "food",
+    "greek": "Μακαρόνια",
+    "romanized": "Makarónia",
+    "translation": "Pasta",
+    "description": "a bowl of pasta with tomato sauce",
+    "image": "images/food/pasta.png"
   },
   {
-    "id": "numbers_seventeen",
-    "category": "numbers",
-    "greek": "Δεκαεπτά",
-    "romanized": "Dekaeptá",
-    "translation": "Seventeen",
-    "numeral": "17"
+    "id": "food_fish",
+    "category": "food",
+    "greek": "Ψάρι",
+    "romanized": "Psári",
+    "translation": "Fish",
+    "description": "a whole orange fish, full body, side view",
+    "image": "images/food/fish.png"
   },
   {
-    "id": "numbers_eighteen",
-    "category": "numbers",
-    "greek": "Δεκαοκτώ",
-    "romanized": "Dekaoktó",
-    "translation": "Eighteen",
-    "numeral": "18"
+    "id": "food_butter",
+    "category": "food",
+    "greek": "Βούτυρο",
+    "romanized": "Voútiro",
+    "translation": "Butter",
+    "description": "a stick of butter on a small plate",
+    "image": "images/food/butter.png"
   },
   {
-    "id": "numbers_nineteen",
-    "category": "numbers",
-    "greek": "Δεκαεννέα",
-    "romanized": "Dekaennéa",
-    "translation": "Nineteen",
-    "numeral": "19"
+    "id": "food_yogurt",
+    "category": "food",
+    "greek": "Γιαούρτι",
+    "romanized": "Yaoúrti",
+    "translation": "Yogurt",
+    "description": "a small cup of yogurt with a spoon",
+    "image": "images/food/yogurt.png"
   },
   {
-    "id": "numbers_twenty",
-    "category": "numbers",
-    "greek": "Είκοσι",
-    "romanized": "Íkosi",
-    "translation": "Twenty",
-    "numeral": "20"
+    "id": "fruits_apple",
+    "category": "fruits",
+    "greek": "Μήλο",
+    "romanized": "Mílo",
+    "translation": "Apple",
+    "image": "images/fruits/apple.png",
+    "description": "a whole red apple with a short stem and one green leaf"
+  },
+  {
+    "id": "fruits_banana",
+    "category": "fruits",
+    "greek": "Μπανάνα",
+    "romanized": "Banána",
+    "translation": "Banana",
+    "image": "images/fruits/banana.png",
+    "description": "a single yellow banana, slight curve"
+  },
+  {
+    "id": "fruits_orange",
+    "category": "fruits",
+    "greek": "Πορτοκάλι",
+    "romanized": "Portokáli",
+    "translation": "Orange",
+    "image": "images/fruits/orange.png",
+    "description": "a whole orange fruit with a short stem and one leaf"
+  },
+  {
+    "id": "fruits_strawberry",
+    "category": "fruits",
+    "greek": "Φράουλα",
+    "romanized": "Fráoula",
+    "translation": "Strawberry",
+    "image": "images/fruits/strawberry.png",
+    "description": "a whole red strawberry with green leafy top"
+  },
+  {
+    "id": "fruits_grapes",
+    "category": "fruits",
+    "greek": "Σταφύλι",
+    "romanized": "Stafíli",
+    "translation": "Grapes",
+    "description": "a bunch of purple grapes",
+    "image": "images/fruits/grapes.png"
+  },
+  {
+    "id": "fruits_watermelon",
+    "category": "fruits",
+    "greek": "Καρπούζι",
+    "romanized": "Karpoúzi",
+    "translation": "Watermelon",
+    "image": "images/fruits/watermelon.png",
+    "description": "a whole green watermelon with a small slice cut to show red inside"
+  },
+  {
+    "id": "fruits_lemon",
+    "category": "fruits",
+    "greek": "Λεμόνι",
+    "romanized": "Lemóni",
+    "translation": "Lemon",
+    "image": "images/fruits/lemon.png",
+    "description": "a whole yellow lemon with a short stem and one leaf"
+  },
+  {
+    "id": "fruits_peach",
+    "category": "fruits",
+    "greek": "Ροδάκινο",
+    "romanized": "Rodákino",
+    "translation": "Peach",
+    "image": "images/fruits/peach.png",
+    "description": "a whole orange-pink peach with a short stem and one leaf"
+  },
+  {
+    "id": "fruits_cherry",
+    "category": "fruits",
+    "greek": "Κεράσι",
+    "romanized": "Kerási",
+    "translation": "Cherry",
+    "image": "images/fruits/cherry.png",
+    "description": "two red cherries joined by a green stem"
+  },
+  {
+    "id": "fruits_pear",
+    "category": "fruits",
+    "greek": "Αχλάδι",
+    "romanized": "Achládi",
+    "translation": "Pear",
+    "image": "images/fruits/pear.png",
+    "description": "a whole green pear with a short stem"
+  },
+  {
+    "id": "nature_sun",
+    "category": "nature",
+    "greek": "Ήλιος",
+    "romanized": "Ílios",
+    "translation": "Sun",
+    "description": "a bright yellow sun with evenly spaced rays, centred",
+    "image": "images/nature/sun.png"
+  },
+  {
+    "id": "nature_moon",
+    "category": "nature",
+    "greek": "Φεγγάρι",
+    "romanized": "Fengári",
+    "translation": "Moon",
+    "description": "a yellow crescent moon, side view",
+    "image": "images/nature/moon.png"
+  },
+  {
+    "id": "nature_stars",
+    "category": "nature",
+    "greek": "Αστέρια",
+    "romanized": "Astéria",
+    "translation": "Stars",
+    "description": "a cluster of yellow five-pointed stars",
+    "image": "images/nature/stars.png"
+  },
+  {
+    "id": "nature_tree",
+    "category": "nature",
+    "greek": "Δέντρο",
+    "romanized": "Déntro",
+    "translation": "Tree",
+    "description": "a round green tree with a brown trunk, full shape visible",
+    "image": "images/nature/tree.png"
+  },
+  {
+    "id": "nature_flower",
+    "category": "nature",
+    "greek": "Λουλούδι",
+    "romanized": "Louloúdi",
+    "translation": "Flower",
+    "description": "a single red flower with yellow centre and green stem and two leaves",
+    "image": "images/nature/flower.png"
+  },
+  {
+    "id": "nature_sea",
+    "category": "nature",
+    "greek": "Θάλασσα",
+    "romanized": "Thálassa",
+    "translation": "Sea",
+    "description": "large blue ocean waves, close-up view, filling the frame",
+    "image": "images/nature/sea.png"
+  },
+  {
+    "id": "nature_mountain",
+    "category": "nature",
+    "greek": "Βουνό",
+    "romanized": "Vounó",
+    "translation": "Mountain",
+    "description": "a snow-capped grey mountain peak, full shape visible",
+    "image": "images/nature/mountain.png"
+  },
+  {
+    "id": "nature_river",
+    "category": "nature",
+    "greek": "Ποτάμι",
+    "romanized": "Potámi",
+    "translation": "River",
+    "description": "a winding blue river seen from above with green banks",
+    "image": "images/nature/river.png"
+  },
+  {
+    "id": "nature_sand",
+    "category": "nature",
+    "greek": "Άμμος",
+    "romanized": "Ámmos",
+    "translation": "Sand",
+    "description": "a small pile of golden sand with a bucket and spade",
+    "image": "images/nature/sand.png"
+  },
+  {
+    "id": "nature_rock",
+    "category": "nature",
+    "greek": "Πέτρα",
+    "romanized": "Pétra",
+    "translation": "Rock",
+    "description": "a smooth grey rock, slightly rounded",
+    "image": "images/nature/rock.png"
+  },
+  {
+    "id": "weather_rain",
+    "category": "weather",
+    "greek": "Βροχή",
+    "romanized": "Vrochí",
+    "translation": "Rain",
+    "description": "raindrops falling from a dark cloud",
+    "image": "images/weather/rain.png"
+  },
+  {
+    "id": "weather_snow",
+    "category": "weather",
+    "greek": "Χιόνι",
+    "romanized": "Chióni",
+    "translation": "Snow",
+    "description": "snowflakes falling from a grey cloud",
+    "image": "images/weather/snow.png"
+  },
+  {
+    "id": "weather_cloud",
+    "category": "weather",
+    "greek": "Σύννεφο",
+    "romanized": "Sínefo",
+    "translation": "Cloud",
+    "description": "a fluffy white cloud with a light grey outline and flat bottom",
+    "image": "images/weather/cloud.png"
+  },
+  {
+    "id": "weather_wind",
+    "category": "weather",
+    "greek": "Αέρας",
+    "romanized": "Aéras",
+    "translation": "Wind",
+    "description": "a cartoon wind gust with curved blue motion lines and swirling leaves",
+    "image": "images/weather/wind.png"
+  },
+  {
+    "id": "weather_rainbow",
+    "category": "weather",
+    "greek": "Ουράνιο τόξο",
+    "romanized": "Ouránio tóxo",
+    "translation": "Rainbow",
+    "description": "a full arc rainbow with six colour bands",
+    "image": "images/weather/rainbow.png"
+  },
+  {
+    "id": "weather_heat",
+    "category": "weather",
+    "greek": "Ζέστη",
+    "romanized": "Zésti",
+    "translation": "Heat",
+    "description": "a bright sun with wavy heat lines below it",
+    "image": "images/weather/heat.png"
+  },
+  {
+    "id": "weather_cold",
+    "category": "weather",
+    "greek": "Κρύο",
+    "romanized": "Krío",
+    "translation": "Cold",
+    "description": "a large snowflake with ice crystals",
+    "image": "images/weather/cold.png"
+  },
+  {
+    "id": "weather_storm",
+    "category": "weather",
+    "greek": "Καταιγίδα",
+    "romanized": "Kataigída",
+    "translation": "Storm",
+    "description": "a dark cloud with a lightning bolt striking down",
+    "image": "images/weather/storm.png"
+  },
+  {
+    "id": "vehicles_car",
+    "category": "vehicles",
+    "greek": "Αυτοκίνητο",
+    "romanized": "Aftokínito",
+    "translation": "Car",
+    "image": "images/vehicles/car.png",
+    "description": "a red hatchback car, full body, side view"
+  },
+  {
+    "id": "vehicles_truck",
+    "category": "vehicles",
+    "greek": "Φορτηγό",
+    "romanized": "Fortigó",
+    "translation": "Truck",
+    "image": "images/vehicles/truck.png",
+    "description": "a yellow dump truck, full body, side view"
+  },
+  {
+    "id": "vehicles_train",
+    "category": "vehicles",
+    "greek": "Τρένο",
+    "romanized": "Tréno",
+    "translation": "Train",
+    "image": "images/vehicles/train.png",
+    "description": "a red locomotive with two carriages, full body, side view"
+  },
+  {
+    "id": "vehicles_airplane",
+    "category": "vehicles",
+    "greek": "Αεροπλάνο",
+    "romanized": "Aeropláno",
+    "translation": "Airplane",
+    "image": "images/vehicles/airplane.png",
+    "description": "a white passenger airplane, full body, side view"
+  },
+  {
+    "id": "vehicles_ship",
+    "category": "vehicles",
+    "greek": "Πλοίο",
+    "romanized": "Plío",
+    "translation": "Ship",
+    "image": "images/vehicles/ship.png",
+    "description": "a blue cargo ship, full body, side view"
+  },
+  {
+    "id": "vehicles_bicycle",
+    "category": "vehicles",
+    "greek": "Ποδήλατο",
+    "romanized": "Podílato",
+    "translation": "Bicycle",
+    "image": "images/vehicles/bicycle.png",
+    "description": "a blue bicycle, full body, side view"
+  },
+  {
+    "id": "bathroom_soap",
+    "category": "bathroom",
+    "greek": "Σαπούνι",
+    "romanized": "Sapoúni",
+    "translation": "Soap",
+    "description": "a rectangular bar of white soap with small bubbles around it",
+    "image": "images/bathroom/soap.png"
+  },
+  {
+    "id": "bathroom_toothbrush",
+    "category": "bathroom",
+    "greek": "Οδοντόβουρτσα",
+    "romanized": "Odontóvourtsa",
+    "translation": "Toothbrush",
+    "description": "a blue toothbrush with white bristles, upright",
+    "image": "images/bathroom/toothbrush.png"
+  },
+  {
+    "id": "bathroom_towel",
+    "category": "bathroom",
+    "greek": "Πετσέτα",
+    "romanized": "Petséta",
+    "translation": "Towel",
+    "description": "a folded blue towel with a white stripe",
+    "image": "images/bathroom/towel.png"
+  },
+  {
+    "id": "bathroom_mirror",
+    "category": "bathroom",
+    "greek": "Καθρέφτης",
+    "romanized": "Kathréftis",
+    "translation": "Mirror",
+    "description": "a round bathroom mirror with a silver frame, front view",
+    "image": "images/bathroom/mirror.png"
+  },
+  {
+    "id": "bathroom_bathtub",
+    "category": "bathroom",
+    "greek": "Μπανιέρα",
+    "romanized": "Baniéra",
+    "translation": "Bathtub",
+    "description": "a white bathtub with claw feet, side view",
+    "image": "images/bathroom/bathtub.png"
+  },
+  {
+    "id": "bathroom_shower",
+    "category": "bathroom",
+    "greek": "Ντους",
+    "romanized": "Dous",
+    "translation": "Shower",
+    "description": "a silver shower head with water droplets spraying outward, front view",
+    "image": "images/bathroom/shower.png"
+  },
+  {
+    "id": "bathroom_toilet",
+    "category": "bathroom",
+    "greek": "Τουαλέτα",
+    "romanized": "Toualéta",
+    "translation": "Toilet",
+    "description": "a white toilet with lid down, side view",
+    "image": "images/bathroom/toilet.png"
+  },
+  {
+    "id": "bathroom_shampoo",
+    "category": "bathroom",
+    "greek": "Σαμπουάν",
+    "romanized": "Sambouán",
+    "translation": "Shampoo",
+    "description": "a tall white shampoo bottle with a blue flip cap and a simple label",
+    "image": "images/bathroom/shampoo.png"
+  },
+  {
+    "id": "bedroom_bed",
+    "category": "bedroom",
+    "greek": "Κρεβάτι",
+    "romanized": "Kreváti",
+    "translation": "Bed",
+    "description": "a single bed with a blue blanket and pillow, side view",
+    "image": "images/bedroom/bed.png"
+  },
+  {
+    "id": "bedroom_pillow",
+    "category": "bedroom",
+    "greek": "Μαξιλάρι",
+    "romanized": "Maxilári",
+    "translation": "Pillow",
+    "description": "a plump white rectangular pillow",
+    "image": "images/bedroom/pillow.png"
+  },
+  {
+    "id": "bedroom_blanket",
+    "category": "bedroom",
+    "greek": "Κουβέρτα",
+    "romanized": "Kouvérta",
+    "translation": "Blanket",
+    "description": "a neatly folded blue blanket",
+    "image": "images/bedroom/blanket.png"
+  },
+  {
+    "id": "bedroom_wardrobe",
+    "category": "bedroom",
+    "greek": "Ντουλάπα",
+    "romanized": "Doulápa",
+    "translation": "Wardrobe",
+    "description": "a tall wooden wardrobe with two doors, front view",
+    "image": "images/bedroom/wardrobe.png"
+  },
+  {
+    "id": "bedroom_teddy_bear",
+    "category": "bedroom",
+    "greek": "Αρκουδάκι",
+    "romanized": "Arkoudáki",
+    "translation": "Teddy Bear",
+    "description": "a brown teddy bear sitting upright, front view, button eyes",
+    "image": "images/bedroom/teddy_bear.png"
+  },
+  {
+    "id": "bedroom_pajamas",
+    "category": "bedroom",
+    "greek": "Πυτζάμες",
+    "romanized": "Pidzámes",
+    "translation": "Pajamas",
+    "description": "a pair of pajamas laid flat, top and bottoms",
+    "image": "images/bedroom/pajamas.png"
+  },
+  {
+    "id": "kitchen_plate",
+    "category": "kitchen",
+    "greek": "Πιάτο",
+    "romanized": "Piáto",
+    "translation": "Plate",
+    "description": "a round white dinner plate, top-down view",
+    "image": "images/kitchen/plate.png"
+  },
+  {
+    "id": "kitchen_spoon",
+    "category": "kitchen",
+    "greek": "Κουτάλι",
+    "romanized": "Koutáli",
+    "translation": "Spoon",
+    "description": "a silver spoon, side view",
+    "image": "images/kitchen/spoon.png"
+  },
+  {
+    "id": "kitchen_fork",
+    "category": "kitchen",
+    "greek": "Πηρούνι",
+    "romanized": "Piroúni",
+    "translation": "Fork",
+    "description": "a silver fork, side view",
+    "image": "images/kitchen/fork.png"
+  },
+  {
+    "id": "kitchen_knife",
+    "category": "kitchen",
+    "greek": "Μαχαίρι",
+    "romanized": "Machaéri",
+    "translation": "Knife",
+    "description": "a kitchen knife with a silver blade and wooden handle, side view",
+    "image": "images/kitchen/knife.png"
+  },
+  {
+    "id": "kitchen_glass",
+    "category": "kitchen",
+    "greek": "Ποτήρι",
+    "romanized": "Potíri",
+    "translation": "Glass",
+    "description": "a clear drinking glass, half filled with water",
+    "image": "images/kitchen/glass.png"
+  },
+  {
+    "id": "kitchen_pot",
+    "category": "kitchen",
+    "greek": "Κατσαρόλα",
+    "romanized": "Katsaróla",
+    "translation": "Pot",
+    "description": "a silver cooking pot with two handles and a lid",
+    "image": "images/kitchen/pot.png"
+  },
+  {
+    "id": "kitchen_fridge",
+    "category": "kitchen",
+    "greek": "Ψυγείο",
+    "romanized": "Psiyío",
+    "translation": "Fridge",
+    "description": "a white refrigerator with two doors, front view",
+    "image": "images/kitchen/fridge.png"
+  },
+  {
+    "id": "kitchen_frying_pan",
+    "category": "kitchen",
+    "greek": "Τηγάνι",
+    "romanized": "Tigáni",
+    "translation": "Frying Pan",
+    "description": "a black frying pan with a long handle, top-down view",
+    "image": "images/kitchen/frying_pan.png"
+  },
+  {
+    "id": "kitchen_table",
+    "category": "kitchen",
+    "greek": "Τραπέζι",
+    "romanized": "Trapézi",
+    "translation": "Table",
+    "description": "a simple wooden table with four legs, side view",
+    "image": "images/kitchen/table.png"
+  },
+  {
+    "id": "kitchen_chair",
+    "category": "kitchen",
+    "greek": "Καρέκλα",
+    "romanized": "Karékla",
+    "translation": "Chair",
+    "description": "a simple wooden chair with a backrest, side view",
+    "image": "images/kitchen/chair.png"
+  },
+  {
+    "id": "living_room_sofa",
+    "category": "living_room",
+    "greek": "Καναπές",
+    "romanized": "Kanapés",
+    "translation": "Sofa",
+    "description": "a blue three-seater sofa, side view",
+    "image": "images/living_room/sofa.png"
+  },
+  {
+    "id": "living_room_television",
+    "category": "living_room",
+    "greek": "Τηλεόραση",
+    "romanized": "Tileórasi",
+    "translation": "Television",
+    "description": "a flat-screen television on a stand, front view",
+    "image": "images/living_room/television.png"
+  },
+  {
+    "id": "living_room_book",
+    "category": "living_room",
+    "greek": "Βιβλίο",
+    "romanized": "Vivlío",
+    "translation": "Book",
+    "description": "a closed book with a colourful cover, slight angle",
+    "image": "images/living_room/book.png"
+  },
+  {
+    "id": "living_room_lamp",
+    "category": "living_room",
+    "greek": "Λάμπα",
+    "romanized": "Lámba",
+    "translation": "Lamp",
+    "description": "a floor lamp with a round shade, side view",
+    "image": "images/living_room/lamp.png"
+  },
+  {
+    "id": "living_room_window",
+    "category": "living_room",
+    "greek": "Παράθυρο",
+    "romanized": "Paráthiro",
+    "translation": "Window",
+    "description": "a window with four panes and blue curtains on each side",
+    "image": "images/living_room/window.png"
+  },
+  {
+    "id": "living_room_door",
+    "category": "living_room",
+    "greek": "Πόρτα",
+    "romanized": "Pórta",
+    "translation": "Door",
+    "description": "a wooden door with a round handle, front view",
+    "image": "images/living_room/door.png"
+  },
+  {
+    "id": "living_room_ball",
+    "category": "living_room",
+    "greek": "Μπάλα",
+    "romanized": "Bála",
+    "translation": "Ball",
+    "description": "a red and white football",
+    "image": "images/living_room/ball.png"
+  },
+  {
+    "id": "living_room_rug",
+    "category": "living_room",
+    "greek": "Χαλί",
+    "romanized": "Chalí",
+    "translation": "Rug",
+    "description": "a colourful rectangular rug, slight angle view, with a decorative border and simple geometric pattern",
+    "image": "images/living_room/rug.png"
+  },
+  {
+    "id": "clothes_t_shirt",
+    "category": "clothes",
+    "greek": "Μπλουζάκι",
+    "romanized": "Blouzáki",
+    "translation": "T-shirt",
+    "description": "a plain red t-shirt, front view, flat lay",
+    "image": "images/clothes/t-shirt.png"
+  },
+  {
+    "id": "clothes_pants",
+    "category": "clothes",
+    "greek": "Παντελόνι",
+    "romanized": "Pantelóni",
+    "translation": "Pants",
+    "description": "a pair of blue jeans, front view, flat lay",
+    "image": "images/clothes/pants.png"
+  },
+  {
+    "id": "clothes_dress",
+    "category": "clothes",
+    "greek": "Φόρεμα",
+    "romanized": "Fórema",
+    "translation": "Dress",
+    "description": "a yellow dress with short sleeves, front view, flat lay",
+    "image": "images/clothes/dress.png"
+  },
+  {
+    "id": "clothes_skirt",
+    "category": "clothes",
+    "greek": "Φούστα",
+    "romanized": "Foústa",
+    "translation": "Skirt",
+    "description": "a pink skirt, front view, flat lay",
+    "image": "images/clothes/skirt.png"
+  },
+  {
+    "id": "clothes_shoes",
+    "category": "clothes",
+    "greek": "Παπούτσια",
+    "romanized": "Papoútsia",
+    "translation": "Shoes",
+    "description": "a pair of red sneakers, side view",
+    "image": "images/clothes/shoes.png"
+  },
+  {
+    "id": "clothes_socks",
+    "category": "clothes",
+    "greek": "Κάλτσες",
+    "romanized": "Káltses",
+    "translation": "Socks",
+    "description": "a pair of striped socks, side by side",
+    "image": "images/clothes/socks.png"
+  },
+  {
+    "id": "clothes_hat",
+    "category": "clothes",
+    "greek": "Καπέλο",
+    "romanized": "Kapélo",
+    "translation": "Hat",
+    "description": "a blue baseball cap, side view",
+    "image": "images/clothes/hat.png"
+  },
+  {
+    "id": "clothes_jacket",
+    "category": "clothes",
+    "greek": "Μπουφάν",
+    "romanized": "Boufán",
+    "translation": "Jacket",
+    "description": "a blue zip-up jacket, front view, flat lay",
+    "image": "images/clothes/jacket.png"
+  },
+  {
+    "id": "clothes_sweater",
+    "category": "clothes",
+    "greek": "Πουλόβερ",
+    "romanized": "Poulóver",
+    "translation": "Sweater",
+    "description": "a green knitted sweater, front view, flat lay",
+    "image": "images/clothes/sweater.png"
+  },
+  {
+    "id": "clothes_scarf",
+    "category": "clothes",
+    "greek": "Κασκόλ",
+    "romanized": "Kaskól",
+    "translation": "Scarf",
+    "description": "a red folded scarf",
+    "image": "images/clothes/scarf.png"
+  },
+  {
+    "id": "clothes_gloves",
+    "category": "clothes",
+    "greek": "Γάντια",
+    "romanized": "Gántia",
+    "translation": "Gloves",
+    "description": "a pair of red gloves laid flat",
+    "image": "images/clothes/gloves.png"
+  },
+  {
+    "id": "clothes_underwear",
+    "category": "clothes",
+    "greek": "Εσώρουχο",
+    "romanized": "Esóroucho",
+    "translation": "Underwear",
+    "description": "a pair of white underwear laid flat",
+    "image": "images/clothes/underwear.png"
+  },
+  {
+    "id": "music_music",
+    "category": "music",
+    "greek": "Μουσική",
+    "romanized": "Mousikí",
+    "translation": "Music",
+    "description": "a treble clef with musical notes floating around it",
+    "image": "images/music/music.png"
+  },
+  {
+    "id": "music_song",
+    "category": "music",
+    "greek": "Τραγούδι",
+    "romanized": "Tragoúdi",
+    "translation": "Song",
+    "description": "a vintage microphone on a stand with two large speakers on either side, musical notes floating around, front view",
+    "image": "images/music/song.png"
+  },
+  {
+    "id": "music_guitar",
+    "category": "music",
+    "greek": "Κιθάρα",
+    "romanized": "Kithára",
+    "translation": "Guitar",
+    "description": "a brown acoustic guitar, front view",
+    "image": "images/music/guitar.png"
+  },
+  {
+    "id": "music_piano",
+    "category": "music",
+    "greek": "Πιάνο",
+    "romanized": "Piáno",
+    "translation": "Piano",
+    "description": "a black upright piano with white and black keys, front view",
+    "image": "images/music/piano.png"
+  },
+  {
+    "id": "music_drum",
+    "category": "music",
+    "greek": "Τύμπανο",
+    "romanized": "Tímbano",
+    "translation": "Drum",
+    "description": "a red snare drum with drumsticks resting on top",
+    "image": "images/music/drum.png"
+  },
+  {
+    "id": "music_violin",
+    "category": "music",
+    "greek": "Βιολί",
+    "romanized": "Violí",
+    "translation": "Violin",
+    "description": "a brown violin with a bow beside it, front view",
+    "image": "images/music/violin.png"
+  },
+  {
+    "id": "music_trumpet",
+    "category": "music",
+    "greek": "Τρομπέτα",
+    "romanized": "Trombéta",
+    "translation": "Trumpet",
+    "description": "a golden trumpet, side view",
+    "image": "images/music/trumpet.png"
+  },
+  {
+    "id": "music_flute",
+    "category": "music",
+    "greek": "Φλάουτο",
+    "romanized": "Fláouto",
+    "translation": "Flute",
+    "description": "a silver flute, horizontal, side view",
+    "image": "images/music/flute.png"
+  },
+  {
+    "id": "music_microphone",
+    "category": "music",
+    "greek": "Μικρόφωνο",
+    "romanized": "Mikrófono",
+    "translation": "Microphone",
+    "description": "a black handheld microphone, upright",
+    "image": "images/music/microphone.png"
+  },
+  {
+    "id": "music_headphones",
+    "category": "music",
+    "greek": "Ακουστικά",
+    "romanized": "Akoustiká",
+    "translation": "Headphones",
+    "description": "a pair of black over-ear headphones, front view",
+    "image": "images/music/headphones.png"
+  },
+  {
+    "id": "music_dance",
+    "category": "music",
+    "greek": "Χορός",
+    "romanized": "Chorós",
+    "translation": "Dance",
+    "description": "a cartoon child dancing with arms raised",
+    "image": "images/music/dance.png"
+  },
+  {
+    "id": "music_note",
+    "category": "music",
+    "greek": "Νότα",
+    "romanized": "Nóta",
+    "translation": "Note",
+    "description": "a single large musical note symbol",
+    "image": "images/music/note.png"
+  },
+  {
+    "id": "holidays_christmas",
+    "category": "holidays",
+    "greek": "Χριστούγεννα",
+    "romanized": "Christoúyenna",
+    "translation": "Christmas",
+    "description": "a decorated Christmas tree with wrapped gifts below",
+    "image": "images/holidays/christmas.png"
+  },
+  {
+    "id": "holidays_easter",
+    "category": "holidays",
+    "greek": "Πάσχα",
+    "romanized": "Páscha",
+    "translation": "Easter",
+    "description": "a brightly painted Easter egg",
+    "image": "images/holidays/easter.png"
+  },
+  {
+    "id": "holidays_birthday",
+    "category": "holidays",
+    "greek": "Γενέθλια",
+    "romanized": "Yenéthlia",
+    "translation": "Birthday",
+    "description": "a birthday cake with lit candles",
+    "image": "images/holidays/birthday.png"
+  },
+  {
+    "id": "holidays_new_year",
+    "category": "holidays",
+    "greek": "Πρωτοχρονιά",
+    "romanized": "Protochroniá",
+    "translation": "New Year",
+    "description": "colorful fireworks bursting in a starburst pattern",
+    "image": "images/holidays/new_year.png"
+  },
+  {
+    "id": "holidays_carnival",
+    "category": "holidays",
+    "greek": "Αποκριές",
+    "romanized": "Apokriés",
+    "translation": "Carnival",
+    "description": "a colorful carnival mask with feathers",
+    "image": "images/holidays/carnival.png"
+  },
+  {
+    "id": "holidays_name_day",
+    "category": "holidays",
+    "greek": "Γιορτή",
+    "romanized": "Yiortí",
+    "translation": "Name Day",
+    "description": "a bouquet of flowers tied with a ribbon",
+    "image": "images/holidays/name_day.png",
+    "notes": "Γιορτή means \"celebration/holiday/feast.\" \"Name Day\" reflects the dominant cultural usage — in everyday Greek, η γιορτή μου = my name day."
+  },
+  {
+    "id": "holidays_gift",
+    "category": "holidays",
+    "greek": "Δώρο",
+    "romanized": "Dóro",
+    "translation": "Gift",
+    "description": "a wrapped gift box with colourful paper and a bow on top",
+    "image": "images/holidays/gift.png"
+  },
+  {
+    "id": "holidays_vacation",
+    "category": "holidays",
+    "greek": "Διακοπές",
+    "romanized": "Diakopés",
+    "translation": "Vacation",
+    "description": "a red beach bucket and spade beside a small sandcastle",
+    "image": "images/holidays/vacation.png"
   }
 ]

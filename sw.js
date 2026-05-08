@@ -1,4 +1,4 @@
-const CACHE = 'lingocards-v8';
+const CACHE = 'lingocards-v9';
 const SCOPE = self.registration.scope; // works at root or subpath (e.g. /flashcards/)
 
 const PRECACHE = [
@@ -11,6 +11,7 @@ const PRECACHE = [
   SCOPE + 'icon-512.png',
   SCOPE + 'data/manifest.json',
   SCOPE + 'data/decks/greek.json',
+  SCOPE + 'data/decks/albanian.json',
 ];
 
 self.addEventListener('install', event => {

@@ -32,6 +32,30 @@
       ]
     },
     {
+      "key": "albanian",
+      "label": "Shqip",
+      "flag": "🇦🇱",
+      "enabled": true,
+      "user_notes": [
+        {
+          "title": "Reading the pronunciation guide",
+          "body": "The italicised line beneath each Albanian word is a phonetic guide written with familiar letters. The accent mark (´) shows which syllable to stress. Albanian already uses the Latin alphabet, so the guide focuses on sounds that differ from English."
+        },
+        {
+          "title": "Key sounds to know",
+          "body": "'ë' sounds like 'uh' (the vowel in 'the'). 'q' sounds like 'ky' (as in 'backyard' said quickly). 'xh' sounds like 'j' in 'jungle'. 'dh' sounds like 'th' in 'the'. 'th' sounds like 'th' in 'thin'. 'y' sounds like the German ü or French u — shown as 'ü' in the guide. 'rr' is a rolled r, stronger than 'r'."
+        },
+        {
+          "title": "About the alphabet cards",
+          "body": "The Albanian alphabet has 36 letters, including digraphs treated as single letters: Dh, Gj, Ll, Nj, Rr, Sh, Th, Xh, and Zh. Each counts as one letter — so the alphabet is longer than English but all letters look familiar."
+        },
+        {
+          "title": "Aunt and uncle",
+          "body": "Albanian distinguishes paternal and maternal relatives. 'Hallë' is the father's sister; 'tezë' is the mother's sister. 'Xhaxha' is the father's brother; 'dajë' is the mother's brother. The cards use the paternal forms — adjust to whichever fits your family."
+        }
+      ]
+    },
+    {
       "key": "spanish",
       "label": "Español",
       "flag": "🇪🇸",
