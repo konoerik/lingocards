@@ -4,7 +4,7 @@
 - [ ] Review alphabet cards (gr_035–gr_058) — currently shows uppercase letter as the icon and "Α α" as the translation; decide whether to split into separate upper/lowercase cards, show both forms in the visual, or change the translation field
 ## Backlog
 - Add audio paths and run generate_audio.py for gr_059–gr_250
-- Deploy to GitHub Pages (create repo, push, enable Pages)
+- ~~Deploy to GitHub Pages (create repo, push, enable Pages)~~ — live at konoerik.github.io/lingocards
 
 ### Identity & architecture
 - Evaluate language bundle model — what we've built is implicitly an en-el (English→Greek) bundle; consider adopting an open-source localization pattern (e.g. `bundles/en-el/`, `bundles/en-es/`) so the data layer is explicit about base+target language pair, enabling community contributions of new bundles without touching core app code
