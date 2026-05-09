@@ -14,11 +14,11 @@
 
 ### Optimization
 - Image prefetch: prefetch active category images on load (A), then add explicit "Download for offline" to parent settings once audio is ready (C) — pending more testing on real mobile connection
-- Convert generated PNGs to WebP at quality 85 for serving; images are already generated at 512px
 - Self-host Nunito font to enable true offline-from-first-launch (low priority — current CDN load is only a first-visit concern)
 - Audit service worker cache strategy once audio is added — 175 cards × 3 voices could be ~50MB if cached eagerly; consider lazy-only or user-initiated prefetch
 
 ## Done
+- Convert card images to WebP 512px quality 85 — 100MB → 3.5MB (97%); generate_images.py now writes WebP directly; sw.js bumped to v12
 - Greek V1 signed off — content (261 cards), images, romanization, UI all approved
 - Review UI — layout, colors, typography, interaction feel: fixed nav clipping on short viewports (max-height breakpoints); removed image frame; visual QA infra (Playwright screenshots, scorecard)
 - Add welcome popup (first-visit, localStorage) and language notes panel (ℹ️, deck_meta)

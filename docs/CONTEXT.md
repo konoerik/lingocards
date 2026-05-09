@@ -1,8 +1,8 @@
 # Context
 <!-- Updated by /wrap at session end. Edit manually if needed. Keep it under 8 lines. -->
 
-**Current focus:** All three decks ready for native-speaker review; then deploy
-**Last session:** Added Spanish deck (264 cards, 22 categories, LatAm forms, enabled); refreshed goodbye image; Spain vs LatAm decision documented in user_notes
-**Blocking:** Albanian needs native-speaker review (romanization, word forms); Spanish needs native-speaker review pass before publishing
-**Next action:** Native-speaker sign-off on Albanian and Spanish, then deploy all three languages to GitHub Pages
+**Current focus:** Alphabet card upper/lowercase display decision
+**Last session:** Converted all 204 card images to WebP 512px (100MB → 3.5MB, 97% reduction); generate_images.py now writes WebP directly so new images are auto-converted
+**Blocking:** Albanian and Spanish need native-speaker review before publishing
+**Next action:** Decide alphabet card format (split upper/lower, show both forms, or change translation field) and implement
 <!-- wrapped: 2026-05-08 -->
