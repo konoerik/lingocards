@@ -6,6 +6,9 @@
 - Add audio paths to greek.json and run generate_audio.py (naming: audio/<card-id>_v1.mp3)
 - ~~Deploy to GitHub Pages (create repo, push, enable Pages)~~ — live at konoerik.github.io/lingocards
 
+### Quiz / study mode
+- Add a 3-way field-hide toggle to each card: hide target-language word / hide romanization / hide English translation — lets the user quiz themselves; could be a small icon row at the bottom of the card or a persistent topbar toggle; state should probably be per-session (not persisted), and may want to consider how it interacts with the difficulty filter (e.g. hiding romanization is a natural step up in difficulty)
+
 ### Identity & architecture
 - Evaluate language bundle model — what we've built is implicitly an en-el (English→Greek) bundle; consider adopting an open-source localization pattern (e.g. `bundles/en-el/`, `bundles/en-es/`) so the data layer is explicit about base+target language pair, enabling community contributions of new bundles without touching core app code
 
@@ -18,6 +21,9 @@
 - Audit service worker cache strategy once audio is added — 175 cards × 3 voices could be ~50MB if cached eagerly; consider lazy-only or user-initiated prefetch
 
 ## Done
+- Add difficulty levels (level 1–3) to all cards across all three decks; green/yellow/red dot on card; difficulty filter in settings panel with persist; empty-deck fallback bug fix
+- Add days_of_week (7 cards) and months (12 cards) to Greek, Albanian, and Spanish decks
+- Group category tabs with logical ordering and pipe dividers (Fundamentals → Time → People → Animals → Food → Nature → Home → Culture & Tech)
 - Convert card images to WebP 512px quality 85 — 100MB → 3.5MB (97%); generate_images.py now writes WebP directly; sw.js bumped to v12
 - Greek V1 signed off — content (261 cards), images, romanization, UI all approved
 - Review UI — layout, colors, typography, interaction feel: fixed nav clipping on short viewports (max-height breakpoints); removed image frame; visual QA infra (Playwright screenshots, scorecard)

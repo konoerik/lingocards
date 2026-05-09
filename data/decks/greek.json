@@ -5,7 +5,8 @@
     "greek": "Α α",
     "romanized": "Álfa",
     "translation": "Alpha",
-    "letter": "Α"
+    "letter": "Α",
+    "level": 3
   },
   {
     "id": "alphabet_beta",
@@ -13,7 +14,8 @@
     "greek": "Β β",
     "romanized": "Víta",
     "translation": "Beta",
-    "letter": "Β"
+    "letter": "Β",
+    "level": 3
   },
   {
     "id": "alphabet_gamma",
@@ -21,7 +23,8 @@
     "greek": "Γ γ",
     "romanized": "Gámma",
     "translation": "Gamma",
-    "letter": "Γ"
+    "letter": "Γ",
+    "level": 3
   },
   {
     "id": "alphabet_delta",
@@ -29,7 +32,8 @@
     "greek": "Δ δ",
     "romanized": "Délta",
     "translation": "Delta",
-    "letter": "Δ"
+    "letter": "Δ",
+    "level": 3
   },
   {
     "id": "alphabet_epsilon",
@@ -37,7 +41,8 @@
     "greek": "Ε ε",
     "romanized": "Épsilon",
     "translation": "Epsilon",
-    "letter": "Ε"
+    "letter": "Ε",
+    "level": 3
   },
   {
     "id": "alphabet_zeta",
@@ -45,7 +50,8 @@
     "greek": "Ζ ζ",
     "romanized": "Zíta",
     "translation": "Zeta",
-    "letter": "Ζ"
+    "letter": "Ζ",
+    "level": 3
   },
   {
     "id": "alphabet_eta",
@@ -53,7 +59,8 @@
     "greek": "Η η",
     "romanized": "Íta",
     "translation": "Eta",
-    "letter": "Η"
+    "letter": "Η",
+    "level": 3
   },
   {
     "id": "alphabet_theta",
@@ -61,7 +68,8 @@
     "greek": "Θ θ",
     "romanized": "Thíta",
     "translation": "Theta",
-    "letter": "Θ"
+    "letter": "Θ",
+    "level": 3
   },
   {
     "id": "alphabet_iota",
@@ -69,7 +77,8 @@
     "greek": "Ι ι",
     "romanized": "Ióta",
     "translation": "Iota",
-    "letter": "Ι"
+    "letter": "Ι",
+    "level": 3
   },
   {
     "id": "alphabet_kappa",
@@ -77,7 +86,8 @@
     "greek": "Κ κ",
     "romanized": "Kápa",
     "translation": "Kappa",
-    "letter": "Κ"
+    "letter": "Κ",
+    "level": 3
   },
   {
     "id": "alphabet_lambda",
@@ -85,7 +95,8 @@
     "greek": "Λ λ",
     "romanized": "Lámda",
     "translation": "Lambda",
-    "letter": "Λ"
+    "letter": "Λ",
+    "level": 3
   },
   {
     "id": "alphabet_mu",
@@ -93,7 +104,8 @@
     "greek": "Μ μ",
     "romanized": "Mi",
     "translation": "Mu",
-    "letter": "Μ"
+    "letter": "Μ",
+    "level": 3
   },
   {
     "id": "alphabet_nu",
@@ -101,7 +113,8 @@
     "greek": "Ν ν",
     "romanized": "Ni",
     "translation": "Nu",
-    "letter": "Ν"
+    "letter": "Ν",
+    "level": 3
   },
   {
     "id": "alphabet_xi",
@@ -109,7 +122,8 @@
     "greek": "Ξ ξ",
     "romanized": "Xi",
     "translation": "Xi",
-    "letter": "Ξ"
+    "letter": "Ξ",
+    "level": 3
   },
   {
     "id": "alphabet_omicron",
@@ -117,7 +131,8 @@
     "greek": "Ο ο",
     "romanized": "Ómikron",
     "translation": "Omicron",
-    "letter": "Ο"
+    "letter": "Ο",
+    "level": 3
   },
   {
     "id": "alphabet_pi",
@@ -125,7 +140,8 @@
     "greek": "Π π",
     "romanized": "Pi",
     "translation": "Pi",
-    "letter": "Π"
+    "letter": "Π",
+    "level": 3
   },
   {
     "id": "alphabet_rho",
@@ -133,7 +149,8 @@
     "greek": "Ρ ρ",
     "romanized": "Ro",
     "translation": "Rho",
-    "letter": "Ρ"
+    "letter": "Ρ",
+    "level": 3
   },
   {
     "id": "alphabet_sigma",
@@ -141,7 +158,8 @@
     "greek": "Σ σ",
     "romanized": "Sígma",
     "translation": "Sigma",
-    "letter": "Σ"
+    "letter": "Σ",
+    "level": 3
   },
   {
     "id": "alphabet_tau",
@@ -149,7 +167,8 @@
     "greek": "Τ τ",
     "romanized": "Taf",
     "translation": "Tau",
-    "letter": "Τ"
+    "letter": "Τ",
+    "level": 3
   },
   {
     "id": "alphabet_upsilon",
@@ -157,7 +176,8 @@
     "greek": "Υ υ",
     "romanized": "Ípsilon",
     "translation": "Upsilon",
-    "letter": "Υ"
+    "letter": "Υ",
+    "level": 3
   },
   {
     "id": "alphabet_phi",
@@ -165,7 +185,8 @@
     "greek": "Φ φ",
     "romanized": "Fi",
     "translation": "Phi",
-    "letter": "Φ"
+    "letter": "Φ",
+    "level": 3
   },
   {
     "id": "alphabet_chi",
@@ -173,7 +194,8 @@
     "greek": "Χ χ",
     "romanized": "Hi",
     "translation": "Chi",
-    "letter": "Χ"
+    "letter": "Χ",
+    "level": 3
   },
   {
     "id": "alphabet_psi",
@@ -181,7 +203,8 @@
     "greek": "Ψ ψ",
     "romanized": "Psi",
     "translation": "Psi",
-    "letter": "Ψ"
+    "letter": "Ψ",
+    "level": 3
   },
   {
     "id": "alphabet_omega",
@@ -189,7 +212,8 @@
     "greek": "Ω ω",
     "romanized": "Oméga",
     "translation": "Omega",
-    "letter": "Ω"
+    "letter": "Ω",
+    "level": 3
   },
   {
     "id": "numbers_one",
@@ -197,7 +221,8 @@
     "greek": "Ένα",
     "romanized": "Éna",
     "numeral": "1",
-    "translation": "One"
+    "translation": "One",
+    "level": 1
   },
   {
     "id": "numbers_two",
@@ -205,7 +230,8 @@
     "greek": "Δύο",
     "romanized": "Dío",
     "numeral": "2",
-    "translation": "Two"
+    "translation": "Two",
+    "level": 1
   },
   {
     "id": "numbers_three",
@@ -213,7 +239,8 @@
     "greek": "Τρία",
     "romanized": "Tría",
     "numeral": "3",
-    "translation": "Three"
+    "translation": "Three",
+    "level": 1
   },
   {
     "id": "numbers_four",
@@ -221,7 +248,8 @@
     "greek": "Τέσσερα",
     "romanized": "Téssera",
     "numeral": "4",
-    "translation": "Four"
+    "translation": "Four",
+    "level": 1
   },
   {
     "id": "numbers_five",
@@ -229,7 +257,8 @@
     "greek": "Πέντε",
     "romanized": "Pénte",
     "numeral": "5",
-    "translation": "Five"
+    "translation": "Five",
+    "level": 1
   },
   {
     "id": "numbers_six",
@@ -237,7 +266,8 @@
     "greek": "Έξι",
     "romanized": "Éxi",
     "numeral": "6",
-    "translation": "Six"
+    "translation": "Six",
+    "level": 1
   },
   {
     "id": "numbers_seven",
@@ -246,7 +276,8 @@
     "romanized": "Eftá",
     "numeral": "7",
     "translation": "Seven",
-    "notes": "Εφτά is a common colloquial variant; standard dictionary form is Επτά."
+    "notes": "Εφτά is a common colloquial variant; standard dictionary form is Επτά.",
+    "level": 1
   },
   {
     "id": "numbers_eight",
@@ -254,7 +285,8 @@
     "greek": "Οκτώ",
     "romanized": "Októ",
     "numeral": "8",
-    "translation": "Eight"
+    "translation": "Eight",
+    "level": 1
   },
   {
     "id": "numbers_nine",
@@ -262,7 +294,8 @@
     "greek": "Εννιά",
     "romanized": "Enniá",
     "numeral": "9",
-    "translation": "Nine"
+    "translation": "Nine",
+    "level": 1
   },
   {
     "id": "numbers_ten",
@@ -270,7 +303,8 @@
     "greek": "Δέκα",
     "romanized": "Déka",
     "numeral": "10",
-    "translation": "Ten"
+    "translation": "Ten",
+    "level": 1
   },
   {
     "id": "numbers_eleven",
@@ -278,7 +312,8 @@
     "greek": "Έντεκα",
     "romanized": "Éndeka",
     "translation": "Eleven",
-    "numeral": "11"
+    "numeral": "11",
+    "level": 1
   },
   {
     "id": "numbers_twelve",
@@ -286,7 +321,8 @@
     "greek": "Δώδεκα",
     "romanized": "Dódeka",
     "translation": "Twelve",
-    "numeral": "12"
+    "numeral": "12",
+    "level": 1
   },
   {
     "id": "numbers_thirteen",
@@ -294,7 +330,8 @@
     "greek": "Δεκατρία",
     "romanized": "Dekatría",
     "translation": "Thirteen",
-    "numeral": "13"
+    "numeral": "13",
+    "level": 1
   },
   {
     "id": "numbers_fourteen",
@@ -302,7 +339,8 @@
     "greek": "Δεκατέσσερα",
     "romanized": "Dekatéssera",
     "translation": "Fourteen",
-    "numeral": "14"
+    "numeral": "14",
+    "level": 1
   },
   {
     "id": "numbers_fifteen",
@@ -310,7 +348,8 @@
     "greek": "Δεκαπέντε",
     "romanized": "Dekapénte",
     "translation": "Fifteen",
-    "numeral": "15"
+    "numeral": "15",
+    "level": 1
   },
   {
     "id": "numbers_sixteen",
@@ -318,7 +357,8 @@
     "greek": "Δεκαέξι",
     "romanized": "Dekaéxi",
     "translation": "Sixteen",
-    "numeral": "16"
+    "numeral": "16",
+    "level": 1
   },
   {
     "id": "numbers_seventeen",
@@ -326,7 +366,8 @@
     "greek": "Δεκαεπτά",
     "romanized": "Dekaeptá",
     "translation": "Seventeen",
-    "numeral": "17"
+    "numeral": "17",
+    "level": 1
   },
   {
     "id": "numbers_eighteen",
@@ -334,7 +375,8 @@
     "greek": "Δεκαοκτώ",
     "romanized": "Dekaoktó",
     "translation": "Eighteen",
-    "numeral": "18"
+    "numeral": "18",
+    "level": 1
   },
   {
     "id": "numbers_nineteen",
@@ -342,7 +384,8 @@
     "greek": "Δεκαεννέα",
     "romanized": "Dekaennéa",
     "translation": "Nineteen",
-    "numeral": "19"
+    "numeral": "19",
+    "level": 1
   },
   {
     "id": "numbers_twenty",
@@ -350,7 +393,8 @@
     "greek": "Είκοσι",
     "romanized": "Íkosi",
     "translation": "Twenty",
-    "numeral": "20"
+    "numeral": "20",
+    "level": 1
   },
   {
     "id": "colors_red",
@@ -358,7 +402,8 @@
     "greek": "Κόκκινο",
     "romanized": "Kókkino",
     "color": "#FF4040",
-    "translation": "Red"
+    "translation": "Red",
+    "level": 1
   },
   {
     "id": "colors_blue",
@@ -366,7 +411,8 @@
     "greek": "Μπλε",
     "romanized": "Ble",
     "color": "#4169E1",
-    "translation": "Blue"
+    "translation": "Blue",
+    "level": 1
   },
   {
     "id": "colors_yellow",
@@ -374,7 +420,8 @@
     "greek": "Κίτρινο",
     "romanized": "Kítrino",
     "color": "#FFD700",
-    "translation": "Yellow"
+    "translation": "Yellow",
+    "level": 1
   },
   {
     "id": "colors_green",
@@ -382,7 +429,8 @@
     "greek": "Πράσινο",
     "romanized": "Prásino",
     "color": "#32CD32",
-    "translation": "Green"
+    "translation": "Green",
+    "level": 1
   },
   {
     "id": "colors_orange",
@@ -391,7 +439,8 @@
     "romanized": "Portokalí",
     "color": "#FF8C00",
     "translation": "Orange",
-    "description": "a whole orange fruit with a short stem and one leaf"
+    "description": "a whole orange fruit with a short stem and one leaf",
+    "level": 1
   },
   {
     "id": "colors_purple",
@@ -399,7 +448,8 @@
     "greek": "Μωβ",
     "romanized": "Mov",
     "color": "#9B59B6",
-    "translation": "Purple"
+    "translation": "Purple",
+    "level": 1
   },
   {
     "id": "shapes_circle",
@@ -407,7 +457,8 @@
     "greek": "Κύκλος",
     "romanized": "Kíklos",
     "shape": "circle",
-    "translation": "Circle"
+    "translation": "Circle",
+    "level": 1
   },
   {
     "id": "shapes_square",
@@ -415,7 +466,8 @@
     "greek": "Τετράγωνο",
     "romanized": "Tetrágono",
     "shape": "square",
-    "translation": "Square"
+    "translation": "Square",
+    "level": 1
   },
   {
     "id": "shapes_triangle",
@@ -423,7 +475,8 @@
     "greek": "Τρίγωνο",
     "romanized": "Trígono",
     "shape": "triangle",
-    "translation": "Triangle"
+    "translation": "Triangle",
+    "level": 1
   },
   {
     "id": "shapes_heart",
@@ -431,7 +484,8 @@
     "greek": "Καρδιά",
     "romanized": "Kardiá",
     "shape": "heart",
-    "translation": "Heart"
+    "translation": "Heart",
+    "level": 1
   },
   {
     "id": "shapes_star",
@@ -439,7 +493,8 @@
     "greek": "Αστέρι",
     "romanized": "Astéri",
     "shape": "star",
-    "translation": "Star"
+    "translation": "Star",
+    "level": 1
   },
   {
     "id": "shapes_rectangle",
@@ -447,7 +502,8 @@
     "greek": "Ορθογώνιο",
     "romanized": "Orthogónio",
     "shape": "rectangle",
-    "translation": "Rectangle"
+    "translation": "Rectangle",
+    "level": 1
   },
   {
     "id": "shapes_diamond",
@@ -455,7 +511,8 @@
     "greek": "Ρόμβος",
     "romanized": "Rómbos",
     "shape": "diamond",
-    "translation": "Diamond"
+    "translation": "Diamond",
+    "level": 1
   },
   {
     "id": "dinosaurs_stegosaurus",
@@ -464,7 +521,8 @@
     "romanized": "Stegósavros",
     "translation": "Stegosaurus",
     "image": "images/dinosaurs/stegosaurus.webp",
-    "description": "a brown stegosaurus with large diamond-shaped plates along its back and a spiked tail, full body, side view"
+    "description": "a brown stegosaurus with large diamond-shaped plates along its back and a spiked tail, full body, side view",
+    "level": 1
   },
   {
     "id": "dinosaurs_tyrannosaurus",
@@ -473,7 +531,8 @@
     "romanized": "Tirannósavros",
     "translation": "Tyrannosaurus",
     "image": "images/dinosaurs/tyrannosaurus.webp",
-    "description": "an orange T-Rex standing upright with tiny arms, full body, side view"
+    "description": "an orange T-Rex standing upright with tiny arms, full body, side view",
+    "level": 1
   },
   {
     "id": "dinosaurs_triceratops",
@@ -482,7 +541,8 @@
     "romanized": "Trikerátops",
     "translation": "Triceratops",
     "image": "images/dinosaurs/triceratops.webp",
-    "description": "a green triceratops with three horns, full body, side view"
+    "description": "a green triceratops with three horns, full body, side view",
+    "level": 1
   },
   {
     "id": "dinosaurs_brontosaurus",
@@ -491,7 +551,8 @@
     "romanized": "Vrontósavros",
     "translation": "Brontosaurus",
     "image": "images/dinosaurs/brontosaurus.webp",
-    "description": "a green brontosaurus with a very long neck, full body, side view"
+    "description": "a green brontosaurus with a very long neck, full body, side view",
+    "level": 1
   },
   {
     "id": "dinosaurs_pterodactyl",
@@ -500,7 +561,8 @@
     "romanized": "Pterodáktilos",
     "translation": "Pterodactyl",
     "description": "a pterodactyl with large wings spread wide, side view",
-    "image": "images/dinosaurs/pterodactyl.webp"
+    "image": "images/dinosaurs/pterodactyl.webp",
+    "level": 1
   },
   {
     "id": "animals_elephant",
@@ -509,7 +571,8 @@
     "romanized": "Eléfantas",
     "translation": "Elephant",
     "description": "a large grey elephant, full body, side view, trunk hanging down",
-    "image": "images/animals/elephant.webp"
+    "image": "images/animals/elephant.webp",
+    "level": 1
   },
   {
     "id": "animals_lion",
@@ -518,7 +581,8 @@
     "romanized": "Liontári",
     "translation": "Lion",
     "description": "an orange lion with a full mane, sitting, full body, side view",
-    "image": "images/animals/lion.webp"
+    "image": "images/animals/lion.webp",
+    "level": 1
   },
   {
     "id": "animals_giraffe",
@@ -527,7 +591,8 @@
     "romanized": "Kamilopárdali",
     "translation": "Giraffe",
     "description": "a tall giraffe with brown patches on yellow, full body, side view",
-    "image": "images/animals/giraffe.webp"
+    "image": "images/animals/giraffe.webp",
+    "level": 1
   },
   {
     "id": "animals_dolphin",
@@ -536,7 +601,8 @@
     "romanized": "Delfíni",
     "translation": "Dolphin",
     "description": "a blue-grey dolphin arched mid-leap, full body, side view",
-    "image": "images/animals/dolphin.webp"
+    "image": "images/animals/dolphin.webp",
+    "level": 1
   },
   {
     "id": "animals_fox",
@@ -545,7 +611,8 @@
     "romanized": "Alepú",
     "translation": "Fox",
     "description": "an orange fox sitting upright, full body, side view, bushy tail visible",
-    "image": "images/animals/fox.webp"
+    "image": "images/animals/fox.webp",
+    "level": 1
   },
   {
     "id": "animals_dog",
@@ -554,7 +621,8 @@
     "romanized": "Skílos",
     "translation": "Dog",
     "description": "a golden labrador sitting, full body, front-facing, tongue out",
-    "image": "images/animals/dog.webp"
+    "image": "images/animals/dog.webp",
+    "level": 1
   },
   {
     "id": "animals_cat",
@@ -563,7 +631,8 @@
     "romanized": "Gáta",
     "translation": "Cat",
     "description": "an orange tabby cat sitting, full body, side view, tail curled around paws",
-    "image": "images/animals/cat.webp"
+    "image": "images/animals/cat.webp",
+    "level": 1
   },
   {
     "id": "animals_cow",
@@ -573,7 +642,8 @@
     "translation": "Cow",
     "subcategory": "farm",
     "description": "a black and white dairy cow standing, full body, side view",
-    "image": "images/animals/cow.webp"
+    "image": "images/animals/cow.webp",
+    "level": 1
   },
   {
     "id": "animals_pig",
@@ -583,7 +653,8 @@
     "translation": "Pig",
     "subcategory": "farm",
     "description": "a pink pig standing, full body, side view, curly tail visible",
-    "image": "images/animals/pig.webp"
+    "image": "images/animals/pig.webp",
+    "level": 1
   },
   {
     "id": "animals_horse",
@@ -593,7 +664,8 @@
     "translation": "Horse",
     "subcategory": "farm",
     "description": "a brown horse standing, full body, side view",
-    "image": "images/animals/horse.webp"
+    "image": "images/animals/horse.webp",
+    "level": 1
   },
   {
     "id": "animals_chicken",
@@ -603,7 +675,8 @@
     "translation": "Chicken",
     "subcategory": "farm",
     "description": "a white chicken standing, full body, side view, red comb on head",
-    "image": "images/animals/chicken.webp"
+    "image": "images/animals/chicken.webp",
+    "level": 1
   },
   {
     "id": "animals_sheep",
@@ -613,7 +686,8 @@
     "translation": "Sheep",
     "subcategory": "farm",
     "description": "a fluffy white sheep standing, full body, side view",
-    "image": "images/animals/sheep.webp"
+    "image": "images/animals/sheep.webp",
+    "level": 1
   },
   {
     "id": "animals_rabbit",
@@ -623,7 +697,8 @@
     "translation": "Rabbit",
     "subcategory": "farm",
     "description": "a white rabbit sitting upright, full body, front view, long ears up",
-    "image": "images/animals/rabbit.webp"
+    "image": "images/animals/rabbit.webp",
+    "level": 1
   },
   {
     "id": "animals_bear",
@@ -633,7 +708,8 @@
     "translation": "Bear",
     "subcategory": "wild",
     "description": "a brown bear standing on all fours, full body, side view",
-    "image": "images/animals/bear.webp"
+    "image": "images/animals/bear.webp",
+    "level": 1
   },
   {
     "id": "animals_monkey",
@@ -644,7 +720,8 @@
     "subcategory": "wild",
     "description": "a brown monkey sitting, full body, front view, long tail curling beside it",
     "image": "images/animals/monkey.webp",
-    "notes": "ϊ (iota with diaeresis) signals that α and ι are separate syllables: ma-ï-MOU, not mai-MOU."
+    "notes": "ϊ (iota with diaeresis) signals that α and ι are separate syllables: ma-ï-MOU, not mai-MOU.",
+    "level": 1
   },
   {
     "id": "animals_zebra",
@@ -654,7 +731,8 @@
     "translation": "Zebra",
     "subcategory": "wild",
     "description": "a zebra with black and white stripes standing, full body, side view",
-    "image": "images/animals/zebra.webp"
+    "image": "images/animals/zebra.webp",
+    "level": 1
   },
   {
     "id": "animals_tiger",
@@ -664,7 +742,8 @@
     "translation": "Tiger",
     "subcategory": "wild",
     "description": "an orange tiger with black stripes standing, full body, side view",
-    "image": "images/animals/tiger.webp"
+    "image": "images/animals/tiger.webp",
+    "level": 1
   },
   {
     "id": "animals_wolf",
@@ -674,7 +753,8 @@
     "translation": "Wolf",
     "subcategory": "wild",
     "description": "a grey wolf standing alert, full body, side view",
-    "image": "images/animals/wolf.webp"
+    "image": "images/animals/wolf.webp",
+    "level": 1
   },
   {
     "id": "animals_crocodile",
@@ -684,7 +764,8 @@
     "translation": "Crocodile",
     "subcategory": "wild",
     "description": "a green crocodile lying flat, full body, side view, mouth closed",
-    "image": "images/animals/crocodile.webp"
+    "image": "images/animals/crocodile.webp",
+    "level": 1
   },
   {
     "id": "animals_hippo",
@@ -694,7 +775,8 @@
     "translation": "Hippo",
     "subcategory": "wild",
     "description": "a grey hippo standing, full body, side view, mouth closed",
-    "image": "images/animals/hippo.webp"
+    "image": "images/animals/hippo.webp",
+    "level": 1
   },
   {
     "id": "animals_penguin",
@@ -704,7 +786,8 @@
     "translation": "Penguin",
     "subcategory": "bird",
     "description": "a black and white penguin standing upright, full body, front view",
-    "image": "images/animals/penguin.webp"
+    "image": "images/animals/penguin.webp",
+    "level": 1
   },
   {
     "id": "animals_owl",
@@ -714,7 +797,8 @@
     "translation": "Owl",
     "subcategory": "bird",
     "description": "a brown and white owl perched on a branch, full body, front view, big round eyes",
-    "image": "images/animals/owl.webp"
+    "image": "images/animals/owl.webp",
+    "level": 1
   },
   {
     "id": "animals_parrot",
@@ -724,7 +808,8 @@
     "translation": "Parrot",
     "subcategory": "bird",
     "description": "a green and red parrot perched on a branch, full body, side view",
-    "image": "images/animals/parrot.webp"
+    "image": "images/animals/parrot.webp",
+    "level": 1
   },
   {
     "id": "animals_flamingo",
@@ -734,7 +819,8 @@
     "translation": "Flamingo",
     "subcategory": "bird",
     "description": "a pink flamingo standing on one leg, full body, side view",
-    "image": "images/animals/flamingo.webp"
+    "image": "images/animals/flamingo.webp",
+    "level": 1
   },
   {
     "id": "animals_shark",
@@ -744,7 +830,8 @@
     "translation": "Shark",
     "subcategory": "sea",
     "description": "a grey shark, full body, side view, swimming horizontally",
-    "image": "images/animals/shark.webp"
+    "image": "images/animals/shark.webp",
+    "level": 1
   },
   {
     "id": "animals_whale",
@@ -754,7 +841,8 @@
     "translation": "Whale",
     "subcategory": "sea",
     "description": "a blue whale, full body, side view, swimming horizontally",
-    "image": "images/animals/whale.webp"
+    "image": "images/animals/whale.webp",
+    "level": 1
   },
   {
     "id": "animals_turtle",
@@ -764,7 +852,8 @@
     "translation": "Turtle",
     "subcategory": "sea",
     "description": "a green turtle with patterned shell, full body, side view",
-    "image": "images/animals/turtle.webp"
+    "image": "images/animals/turtle.webp",
+    "level": 1
   },
   {
     "id": "animals_frog",
@@ -775,7 +864,8 @@
     "subcategory": "amphibian",
     "description": "a green frog sitting, full body, front view, big round eyes",
     "image": "images/animals/frog.webp",
-    "notes": "Βάτραχος is an amphibian (αμφίβιο), not an insect. Subcategory corrected to amphibian."
+    "notes": "Βάτραχος is an amphibian (αμφίβιο), not an insect. Subcategory corrected to amphibian.",
+    "level": 1
   },
   {
     "id": "animals_butterfly",
@@ -785,7 +875,8 @@
     "translation": "Butterfly",
     "subcategory": "insect",
     "description": "a colourful orange and black butterfly with wings spread open, front view",
-    "image": "images/animals/butterfly.webp"
+    "image": "images/animals/butterfly.webp",
+    "level": 1
   },
   {
     "id": "animals_bee",
@@ -795,7 +886,8 @@
     "translation": "Bee",
     "subcategory": "insect",
     "description": "a yellow and black striped bee, full body, side view, wings spread, hovering",
-    "image": "images/animals/bee.webp"
+    "image": "images/animals/bee.webp",
+    "level": 1
   },
   {
     "id": "family_mom",
@@ -804,7 +896,8 @@
     "romanized": "Mamá",
     "translation": "Mom",
     "description": "a friendly cartoon mother, full body, front-facing, smiling, wearing a dress",
-    "image": "images/family/mom.webp"
+    "image": "images/family/mom.webp",
+    "level": 2
   },
   {
     "id": "family_dad",
@@ -813,7 +906,8 @@
     "romanized": "Babás",
     "translation": "Dad",
     "description": "a friendly cartoon father, full body, front-facing, smiling, wearing a shirt",
-    "image": "images/family/dad.webp"
+    "image": "images/family/dad.webp",
+    "level": 2
   },
   {
     "id": "family_grandma",
@@ -822,7 +916,8 @@
     "romanized": "Yiayiá",
     "translation": "Grandma",
     "description": "a friendly cartoon grandmother, full body, front-facing, grey hair, smiling",
-    "image": "images/family/grandma.webp"
+    "image": "images/family/grandma.webp",
+    "level": 2
   },
   {
     "id": "family_grandpa",
@@ -831,7 +926,8 @@
     "romanized": "Pappoús",
     "translation": "Grandpa",
     "description": "a friendly cartoon grandfather, full body, front-facing, grey hair, smiling",
-    "image": "images/family/grandpa.webp"
+    "image": "images/family/grandpa.webp",
+    "level": 2
   },
   {
     "id": "family_sister",
@@ -841,7 +937,8 @@
     "translation": "Sister",
     "description": "a friendly cartoon young girl, full body, front-facing, pigtails, smiling",
     "image": "images/family/sister.webp",
-    "notes": "Standard spelling Αδελφή used; colloquial spoken form is Αδερφή. Greek has many such pairs (cf. Εφτά/Επτά)."
+    "notes": "Standard spelling Αδελφή used; colloquial spoken form is Αδερφή. Greek has many such pairs (cf. Εφτά/Επτά).",
+    "level": 2
   },
   {
     "id": "family_brother",
@@ -851,7 +948,8 @@
     "translation": "Brother",
     "description": "a friendly cartoon young boy, full body, front-facing, short hair, smiling",
     "image": "images/family/brother.webp",
-    "notes": "Standard spelling Αδελφός used; colloquial spoken form is Αδερφός."
+    "notes": "Standard spelling Αδελφός used; colloquial spoken form is Αδερφός.",
+    "level": 2
   },
   {
     "id": "family_baby",
@@ -860,7 +958,8 @@
     "romanized": "Moró",
     "translation": "Baby",
     "description": "a friendly cartoon baby sitting, full body, front-facing, in a diaper, smiling",
-    "image": "images/family/baby.webp"
+    "image": "images/family/baby.webp",
+    "level": 2
   },
   {
     "id": "family_aunt",
@@ -869,7 +968,8 @@
     "romanized": "Theía",
     "translation": "Aunt",
     "description": "a friendly cartoon aunt, full body, front-facing, smiling",
-    "image": "images/family/aunt.webp"
+    "image": "images/family/aunt.webp",
+    "level": 2
   },
   {
     "id": "family_uncle",
@@ -878,7 +978,8 @@
     "romanized": "Theíos",
     "translation": "Uncle",
     "description": "a friendly cartoon uncle, full body, front-facing, smiling",
-    "image": "images/family/uncle.webp"
+    "image": "images/family/uncle.webp",
+    "level": 2
   },
   {
     "id": "family_family",
@@ -887,7 +988,8 @@
     "romanized": "Ikoyénia",
     "translation": "Family",
     "description": "two parents and two children standing together smiling",
-    "image": "images/family/family.webp"
+    "image": "images/family/family.webp",
+    "level": 2
   },
   {
     "id": "body_parts_head",
@@ -896,7 +998,8 @@
     "romanized": "Kefáli",
     "translation": "Head",
     "description": "a cartoon child pointing to their head",
-    "image": "images/body_parts/head.webp"
+    "image": "images/body_parts/head.webp",
+    "level": 2
   },
   {
     "id": "body_parts_eyes",
@@ -905,7 +1008,8 @@
     "romanized": "Mátia",
     "translation": "Eyes",
     "description": "a cartoon child pointing to their eyes",
-    "image": "images/body_parts/eyes.webp"
+    "image": "images/body_parts/eyes.webp",
+    "level": 2
   },
   {
     "id": "body_parts_nose",
@@ -914,7 +1018,8 @@
     "romanized": "Míti",
     "translation": "Nose",
     "description": "a cartoon child pointing to their nose",
-    "image": "images/body_parts/nose.webp"
+    "image": "images/body_parts/nose.webp",
+    "level": 2
   },
   {
     "id": "body_parts_mouth",
@@ -923,7 +1028,8 @@
     "romanized": "Stóma",
     "translation": "Mouth",
     "description": "a cartoon child pointing to their mouth",
-    "image": "images/body_parts/mouth.webp"
+    "image": "images/body_parts/mouth.webp",
+    "level": 2
   },
   {
     "id": "body_parts_ears",
@@ -932,7 +1038,8 @@
     "romanized": "Aftiá",
     "translation": "Ears",
     "description": "a cartoon child pointing to their ears",
-    "image": "images/body_parts/ears.webp"
+    "image": "images/body_parts/ears.webp",
+    "level": 2
   },
   {
     "id": "body_parts_hair",
@@ -941,7 +1048,8 @@
     "romanized": "Malliá",
     "translation": "Hair",
     "description": "a cartoon child pointing to their hair",
-    "image": "images/body_parts/hair.webp"
+    "image": "images/body_parts/hair.webp",
+    "level": 2
   },
   {
     "id": "body_parts_hands",
@@ -950,7 +1058,8 @@
     "romanized": "Chéria",
     "translation": "Hands",
     "description": "a cartoon child holding both hands up, palms facing out",
-    "image": "images/body_parts/hands.webp"
+    "image": "images/body_parts/hands.webp",
+    "level": 2
   },
   {
     "id": "body_parts_feet",
@@ -959,7 +1068,8 @@
     "romanized": "Pódia",
     "translation": "Feet",
     "description": "a cartoon child sitting and pointing to their feet",
-    "image": "images/body_parts/feet.webp"
+    "image": "images/body_parts/feet.webp",
+    "level": 2
   },
   {
     "id": "body_parts_belly",
@@ -968,7 +1078,8 @@
     "romanized": "Koiliá",
     "translation": "Belly",
     "description": "a cartoon child pointing to their belly",
-    "image": "images/body_parts/belly.webp"
+    "image": "images/body_parts/belly.webp",
+    "level": 2
   },
   {
     "id": "body_parts_knees",
@@ -977,7 +1088,8 @@
     "romanized": "Gónata",
     "translation": "Knees",
     "description": "a cartoon child pointing to their knees",
-    "image": "images/body_parts/knees.webp"
+    "image": "images/body_parts/knees.webp",
+    "level": 2
   },
   {
     "id": "greetings_hello",
@@ -986,7 +1098,8 @@
     "romanized": "Yia sou",
     "translation": "Hello",
     "image": "images/greetings/hello.webp",
-    "description": "two children facing each other, one waving hello with a big smile, the other smiling back, cheerful and friendly, full body, white background, coloring-book style with simple outlines"
+    "description": "two children facing each other, one waving hello with a big smile, the other smiling back, cheerful and friendly, full body, white background, coloring-book style with simple outlines",
+    "level": 2
   },
   {
     "id": "greetings_goodbye",
@@ -995,7 +1108,8 @@
     "romanized": "Adío",
     "translation": "Goodbye",
     "image": "images/greetings/goodbye.webp",
-    "description": "a cheerful child waving goodbye, full body, front view, smiling"
+    "description": "a cheerful child waving goodbye, full body, front view, smiling",
+    "level": 2
   },
   {
     "id": "greetings_good_morning",
@@ -1004,7 +1118,8 @@
     "romanized": "Kaliméra",
     "translation": "Good Morning",
     "image": "images/greetings/good_morning.webp",
-    "description": "a child stretching with both arms raised and yawning, a bright sun rising through a bedroom window behind them, full body, white background, coloring-book style with simple outlines"
+    "description": "a child stretching with both arms raised and yawning, a bright sun rising through a bedroom window behind them, full body, white background, coloring-book style with simple outlines",
+    "level": 2
   },
   {
     "id": "greetings_good_evening",
@@ -1013,7 +1128,8 @@
     "romanized": "Kalispéra",
     "translation": "Good Evening",
     "image": "images/greetings/good_evening.webp",
-    "description": "two children standing side by side outdoors, a warm orange and pink sunset sky behind them, one waving gently, full body, white background, coloring-book style with simple outlines"
+    "description": "two children standing side by side outdoors, a warm orange and pink sunset sky behind them, one waving gently, full body, white background, coloring-book style with simple outlines",
+    "level": 2
   },
   {
     "id": "greetings_good_night",
@@ -1022,7 +1138,8 @@
     "romanized": "Kaliníchta",
     "translation": "Good Night",
     "image": "images/greetings/good_night.webp",
-    "description": "a young child tucked snugly in bed with a blanket, eyes drooping, a moon and stars visible through the bedroom window, a tall adult parent standing at the doorway waving goodnight, white background, coloring-book style with simple outlines"
+    "description": "a young child tucked snugly in bed with a blanket, eyes drooping, a moon and stars visible through the bedroom window, a tall adult parent standing at the doorway waving goodnight, white background, coloring-book style with simple outlines",
+    "level": 2
   },
   {
     "id": "greetings_thank_you",
@@ -1031,7 +1148,8 @@
     "romanized": "Efcharistó",
     "translation": "Thank You",
     "image": "images/greetings/thank_you.webp",
-    "description": "two children: one handing a small wrapped gift to the other, the receiving child smiling warmly and holding the gift with both hands, full body, white background, coloring-book style with simple outlines"
+    "description": "two children: one handing a small wrapped gift to the other, the receiving child smiling warmly and holding the gift with both hands, full body, white background, coloring-book style with simple outlines",
+    "level": 2
   },
   {
     "id": "greetings_please",
@@ -1041,7 +1159,8 @@
     "translation": "Please",
     "notes": "Παρακαλώ means both \"Please\" (request) and \"You're welcome\" (response to Ευχαριστώ).",
     "image": "images/greetings/please.webp",
-    "description": "two children: one child reaching toward something on a shelf and looking at the other child with a polite hopeful expression, the other child smiling and about to help, full body, white background, coloring-book style with simple outlines"
+    "description": "two children: one child reaching toward something on a shelf and looking at the other child with a polite hopeful expression, the other child smiling and about to help, full body, white background, coloring-book style with simple outlines",
+    "level": 2
   },
   {
     "id": "greetings_yes",
@@ -1050,7 +1169,8 @@
     "romanized": "Ne",
     "translation": "Yes",
     "image": "images/greetings/yes.webp",
-    "description": "a child giving a clear enthusiastic thumbs up, smiling and nodding confidently, full body, white background, coloring-book style with simple outlines"
+    "description": "a child giving a clear enthusiastic thumbs up, smiling and nodding confidently, full body, white background, coloring-book style with simple outlines",
+    "level": 2
   },
   {
     "id": "greetings_no",
@@ -1059,7 +1179,8 @@
     "romanized": "Óchi",
     "translation": "No",
     "image": "images/greetings/no.webp",
-    "description": "a child shaking their head with both arms crossed in front of them in the universal no gesture, firm but gentle expression, full body, white background, coloring-book style with simple outlines"
+    "description": "a child shaking their head with both arms crossed in front of them in the universal no gesture, firm but gentle expression, full body, white background, coloring-book style with simple outlines",
+    "level": 2
   },
   {
     "id": "greetings_sorry",
@@ -1068,7 +1189,8 @@
     "romanized": "Singnómi",
     "translation": "Sorry",
     "image": "images/greetings/sorry.webp",
-    "description": "two children: one looking apologetic and contrite with hands clasped, the other looking slightly surprised, a small toy knocked over on the floor between them, full body, white background, coloring-book style with simple outlines"
+    "description": "two children: one looking apologetic and contrite with hands clasped, the other looking slightly surprised, a small toy knocked over on the floor between them, full body, white background, coloring-book style with simple outlines",
+    "level": 2
   },
   {
     "id": "greetings_i_love_you",
@@ -1077,7 +1199,8 @@
     "romanized": "S'agapó",
     "translation": "I Love You",
     "image": "images/greetings/i_love_you.webp",
-    "description": "a child hugging a large fluffy teddy bear tightly with eyes closed and a happy smile, full body, white background, coloring-book style with simple outlines"
+    "description": "a child hugging a large fluffy teddy bear tightly with eyes closed and a happy smile, full body, white background, coloring-book style with simple outlines",
+    "level": 2
   },
   {
     "id": "greetings_help",
@@ -1086,7 +1209,8 @@
     "romanized": "Voíthia",
     "translation": "Help",
     "image": "images/greetings/help.webp",
-    "description": "a child looking dismayed as a scoop of ice cream falls off their cone, arms reaching out, mouth open in surprise, slightly comic and child-relatable, full body, white background, coloring-book style with simple outlines"
+    "description": "a child looking dismayed as a scoop of ice cream falls off their cone, arms reaching out, mouth open in surprise, slightly comic and child-relatable, full body, white background, coloring-book style with simple outlines",
+    "level": 2
   },
   {
     "id": "greetings_you_re_welcome",
@@ -1096,7 +1220,8 @@
     "translation": "You're welcome",
     "notes": "Second Παρακαλώ card. 'Please' (gr_245) and 'You're welcome' (gr_251) share the same Greek word — differentiated by context and image.",
     "image": "images/greetings/youre_welcome.webp",
-    "description": "two children: one handing a ball or book to the other with an open-handed warm gesture, both smiling, the giving child relaxed and generous, full body, white background, coloring-book style with simple outlines"
+    "description": "two children: one handing a ball or book to the other with an open-handed warm gesture, both smiling, the giving child relaxed and generous, full body, white background, coloring-book style with simple outlines",
+    "level": 2
   },
   {
     "id": "verbs_run",
@@ -1105,7 +1230,8 @@
     "romanized": "Trécho",
     "translation": "Run",
     "description": "a cartoon child running fast to the right, side view",
-    "image": "images/verbs/run.webp"
+    "image": "images/verbs/run.webp",
+    "level": 3
   },
   {
     "id": "verbs_jump",
@@ -1114,7 +1240,8 @@
     "romanized": "Pidáo",
     "translation": "Jump",
     "description": "a cartoon child jumping in the air with arms raised",
-    "image": "images/verbs/jump.webp"
+    "image": "images/verbs/jump.webp",
+    "level": 3
   },
   {
     "id": "verbs_sleep",
@@ -1123,7 +1250,8 @@
     "romanized": "Koimámai",
     "translation": "Sleep",
     "description": "a cartoon child sleeping peacefully in bed",
-    "image": "images/verbs/sleep.webp"
+    "image": "images/verbs/sleep.webp",
+    "level": 3
   },
   {
     "id": "verbs_eat",
@@ -1132,7 +1260,8 @@
     "romanized": "Tróo",
     "translation": "Eat",
     "description": "a cartoon child eating from a bowl with a spoon",
-    "image": "images/verbs/eat.webp"
+    "image": "images/verbs/eat.webp",
+    "level": 3
   },
   {
     "id": "verbs_drink",
@@ -1141,7 +1270,8 @@
     "romanized": "Píno",
     "translation": "Drink",
     "description": "a cartoon child drinking from a cup with both hands",
-    "image": "images/verbs/drink.webp"
+    "image": "images/verbs/drink.webp",
+    "level": 3
   },
   {
     "id": "verbs_play",
@@ -1150,7 +1280,8 @@
     "romanized": "Pézo",
     "translation": "Play",
     "description": "a cartoon child kicking a ball",
-    "image": "images/verbs/play.webp"
+    "image": "images/verbs/play.webp",
+    "level": 3
   },
   {
     "id": "verbs_sing",
@@ -1159,7 +1290,8 @@
     "romanized": "Tragoudáo",
     "translation": "Sing",
     "description": "a cartoon child singing with mouth open, musical notes floating",
-    "image": "images/verbs/sing.webp"
+    "image": "images/verbs/sing.webp",
+    "level": 3
   },
   {
     "id": "verbs_dance",
@@ -1168,7 +1300,8 @@
     "romanized": "Chorévo",
     "translation": "Dance",
     "description": "a cartoon child dancing with arms raised",
-    "image": "images/verbs/dance.webp"
+    "image": "images/verbs/dance.webp",
+    "level": 3
   },
   {
     "id": "verbs_read",
@@ -1177,7 +1310,8 @@
     "romanized": "Diavázo",
     "translation": "Read",
     "description": "a cartoon child sitting and reading an open book",
-    "image": "images/verbs/read.webp"
+    "image": "images/verbs/read.webp",
+    "level": 3
   },
   {
     "id": "verbs_draw",
@@ -1186,7 +1320,8 @@
     "romanized": "Zografízo",
     "translation": "Draw",
     "description": "a cartoon child drawing on paper with a crayon",
-    "image": "images/verbs/draw.webp"
+    "image": "images/verbs/draw.webp",
+    "level": 3
   },
   {
     "id": "verbs_swim",
@@ -1195,7 +1330,8 @@
     "romanized": "Kolimbáo",
     "translation": "Swim",
     "description": "a cartoon child doing a swimming stroke, horizontal, side view",
-    "image": "images/verbs/swim.webp"
+    "image": "images/verbs/swim.webp",
+    "level": 3
   },
   {
     "id": "verbs_fly",
@@ -1204,7 +1340,8 @@
     "romanized": "Petáo",
     "translation": "Fly",
     "description": "a cartoon child with arms spread wide, soaring horizontally through the sky, a fluffy white cloud below them and a green hill in the distance, side view",
-    "image": "images/verbs/fly.webp"
+    "image": "images/verbs/fly.webp",
+    "level": 3
   },
   {
     "id": "verbs_laugh",
@@ -1213,7 +1350,8 @@
     "romanized": "Yeláo",
     "translation": "Laugh",
     "description": "a cartoon child laughing with mouth wide open",
-    "image": "images/verbs/laugh.webp"
+    "image": "images/verbs/laugh.webp",
+    "level": 3
   },
   {
     "id": "verbs_cry",
@@ -1222,7 +1360,8 @@
     "romanized": "Kléo",
     "translation": "Cry",
     "description": "a cartoon child with tears streaming down their cheeks",
-    "image": "images/verbs/cry.webp"
+    "image": "images/verbs/cry.webp",
+    "level": 3
   },
   {
     "id": "verbs_hug",
@@ -1231,7 +1370,8 @@
     "romanized": "Angaliázo",
     "translation": "Hug",
     "description": "two cartoon children hugging each other",
-    "image": "images/verbs/hug.webp"
+    "image": "images/verbs/hug.webp",
+    "level": 3
   },
   {
     "id": "verbs_listen",
@@ -1240,7 +1380,8 @@
     "romanized": "Akoúo",
     "translation": "Listen",
     "description": "a cartoon child cupping a hand to their ear",
-    "image": "images/verbs/listen.webp"
+    "image": "images/verbs/listen.webp",
+    "level": 3
   },
   {
     "id": "food_bread",
@@ -1249,7 +1390,8 @@
     "romanized": "Psomí",
     "translation": "Bread",
     "description": "a round golden loaf of bread, whole",
-    "image": "images/food/bread.webp"
+    "image": "images/food/bread.webp",
+    "level": 2
   },
   {
     "id": "food_milk",
@@ -1258,7 +1400,8 @@
     "romanized": "Gála",
     "translation": "Milk",
     "description": "a glass of milk",
-    "image": "images/food/milk.webp"
+    "image": "images/food/milk.webp",
+    "level": 2
   },
   {
     "id": "food_egg",
@@ -1267,7 +1410,8 @@
     "romanized": "Avgó",
     "translation": "Egg",
     "description": "a single white egg",
-    "image": "images/food/egg.webp"
+    "image": "images/food/egg.webp",
+    "level": 2
   },
   {
     "id": "food_cheese",
@@ -1276,7 +1420,8 @@
     "romanized": "Tirí",
     "translation": "Cheese",
     "description": "a triangular wedge of yellow cheese with holes",
-    "image": "images/food/cheese.webp"
+    "image": "images/food/cheese.webp",
+    "level": 2
   },
   {
     "id": "food_honey",
@@ -1285,7 +1430,8 @@
     "romanized": "Méli",
     "translation": "Honey",
     "description": "a jar of honey with a honeycomb beside it",
-    "image": "images/food/honey.webp"
+    "image": "images/food/honey.webp",
+    "level": 2
   },
   {
     "id": "food_pizza",
@@ -1294,7 +1440,8 @@
     "romanized": "Pítsa",
     "translation": "Pizza",
     "description": "a whole round pizza with tomato and cheese toppings",
-    "image": "images/food/pizza.webp"
+    "image": "images/food/pizza.webp",
+    "level": 2
   },
   {
     "id": "food_ice_cream",
@@ -1303,7 +1450,8 @@
     "romanized": "Pagotó",
     "translation": "Ice Cream",
     "description": "a single scoop of vanilla ice cream in a cone",
-    "image": "images/food/ice_cream.webp"
+    "image": "images/food/ice_cream.webp",
+    "level": 2
   },
   {
     "id": "food_cookie",
@@ -1312,7 +1460,8 @@
     "romanized": "Biskóto",
     "translation": "Cookie",
     "description": "a round chocolate chip cookie",
-    "image": "images/food/cookie.webp"
+    "image": "images/food/cookie.webp",
+    "level": 2
   },
   {
     "id": "food_chocolate",
@@ -1321,7 +1470,8 @@
     "romanized": "Sokoláta",
     "translation": "Chocolate",
     "description": "a chocolate bar broken into squares",
-    "image": "images/food/chocolate.webp"
+    "image": "images/food/chocolate.webp",
+    "level": 2
   },
   {
     "id": "food_soup",
@@ -1330,7 +1480,8 @@
     "romanized": "Soúpa",
     "translation": "Soup",
     "description": "a bowl of steaming soup",
-    "image": "images/food/soup.webp"
+    "image": "images/food/soup.webp",
+    "level": 2
   },
   {
     "id": "food_carrot",
@@ -1339,7 +1490,8 @@
     "romanized": "Karóto",
     "translation": "Carrot",
     "description": "a whole orange carrot with green leafy top",
-    "image": "images/food/carrot.webp"
+    "image": "images/food/carrot.webp",
+    "level": 2
   },
   {
     "id": "food_tomato",
@@ -1348,7 +1500,8 @@
     "romanized": "Domáta",
     "translation": "Tomato",
     "description": "a whole round red tomato",
-    "image": "images/food/tomato.webp"
+    "image": "images/food/tomato.webp",
+    "level": 2
   },
   {
     "id": "food_potato",
@@ -1357,7 +1510,8 @@
     "romanized": "Patáta",
     "translation": "Potato",
     "description": "a whole brown potato",
-    "image": "images/food/potato.webp"
+    "image": "images/food/potato.webp",
+    "level": 2
   },
   {
     "id": "food_corn",
@@ -1366,7 +1520,8 @@
     "romanized": "Kalambóki",
     "translation": "Corn",
     "description": "a whole ear of yellow corn with green husk peeled back",
-    "image": "images/food/corn.webp"
+    "image": "images/food/corn.webp",
+    "level": 2
   },
   {
     "id": "food_salad",
@@ -1375,7 +1530,8 @@
     "romanized": "Saláta",
     "translation": "Salad",
     "description": "a bowl of green salad",
-    "image": "images/food/salad.webp"
+    "image": "images/food/salad.webp",
+    "level": 2
   },
   {
     "id": "food_water",
@@ -1384,7 +1540,8 @@
     "romanized": "Neró",
     "translation": "Water",
     "description": "a glass of water",
-    "image": "images/food/water.webp"
+    "image": "images/food/water.webp",
+    "level": 2
   },
   {
     "id": "food_juice",
@@ -1393,7 +1550,8 @@
     "romanized": "Chimós",
     "translation": "Juice",
     "description": "a glass of orange juice",
-    "image": "images/food/juice.webp"
+    "image": "images/food/juice.webp",
+    "level": 2
   },
   {
     "id": "food_rice",
@@ -1402,7 +1560,8 @@
     "romanized": "Rízi",
     "translation": "Rice",
     "description": "a bowl of white rice",
-    "image": "images/food/rice.webp"
+    "image": "images/food/rice.webp",
+    "level": 2
   },
   {
     "id": "food_pasta",
@@ -1411,7 +1570,8 @@
     "romanized": "Makarónia",
     "translation": "Pasta",
     "description": "a bowl of pasta with tomato sauce",
-    "image": "images/food/pasta.webp"
+    "image": "images/food/pasta.webp",
+    "level": 2
   },
   {
     "id": "food_fish",
@@ -1420,7 +1580,8 @@
     "romanized": "Psári",
     "translation": "Fish",
     "description": "a whole orange fish, full body, side view",
-    "image": "images/food/fish.webp"
+    "image": "images/food/fish.webp",
+    "level": 2
   },
   {
     "id": "food_butter",
@@ -1429,7 +1590,8 @@
     "romanized": "Voútiro",
     "translation": "Butter",
     "description": "a stick of butter on a small plate",
-    "image": "images/food/butter.webp"
+    "image": "images/food/butter.webp",
+    "level": 2
   },
   {
     "id": "food_yogurt",
@@ -1438,7 +1600,8 @@
     "romanized": "Yaoúrti",
     "translation": "Yogurt",
     "description": "a small cup of yogurt with a spoon",
-    "image": "images/food/yogurt.webp"
+    "image": "images/food/yogurt.webp",
+    "level": 2
   },
   {
     "id": "fruits_apple",
@@ -1447,7 +1610,8 @@
     "romanized": "Mílo",
     "translation": "Apple",
     "image": "images/fruits/apple.webp",
-    "description": "a whole red apple with a short stem and one green leaf"
+    "description": "a whole red apple with a short stem and one green leaf",
+    "level": 1
   },
   {
     "id": "fruits_banana",
@@ -1456,7 +1620,8 @@
     "romanized": "Banána",
     "translation": "Banana",
     "image": "images/fruits/banana.webp",
-    "description": "a single yellow banana, slight curve"
+    "description": "a single yellow banana, slight curve",
+    "level": 1
   },
   {
     "id": "fruits_orange",
@@ -1465,7 +1630,8 @@
     "romanized": "Portokáli",
     "translation": "Orange",
     "image": "images/fruits/orange.webp",
-    "description": "a whole orange fruit with a short stem and one leaf"
+    "description": "a whole orange fruit with a short stem and one leaf",
+    "level": 1
   },
   {
     "id": "fruits_strawberry",
@@ -1474,7 +1640,8 @@
     "romanized": "Fráoula",
     "translation": "Strawberry",
     "image": "images/fruits/strawberry.webp",
-    "description": "a whole red strawberry with green leafy top"
+    "description": "a whole red strawberry with green leafy top",
+    "level": 1
   },
   {
     "id": "fruits_grapes",
@@ -1483,7 +1650,8 @@
     "romanized": "Stafíli",
     "translation": "Grapes",
     "description": "a bunch of purple grapes",
-    "image": "images/fruits/grapes.webp"
+    "image": "images/fruits/grapes.webp",
+    "level": 1
   },
   {
     "id": "fruits_watermelon",
@@ -1492,7 +1660,8 @@
     "romanized": "Karpoúzi",
     "translation": "Watermelon",
     "image": "images/fruits/watermelon.webp",
-    "description": "a whole green watermelon with a small slice cut to show red inside"
+    "description": "a whole green watermelon with a small slice cut to show red inside",
+    "level": 1
   },
   {
     "id": "fruits_lemon",
@@ -1501,7 +1670,8 @@
     "romanized": "Lemóni",
     "translation": "Lemon",
     "image": "images/fruits/lemon.webp",
-    "description": "a whole yellow lemon with a short stem and one leaf"
+    "description": "a whole yellow lemon with a short stem and one leaf",
+    "level": 1
   },
   {
     "id": "fruits_peach",
@@ -1510,7 +1680,8 @@
     "romanized": "Rodákino",
     "translation": "Peach",
     "image": "images/fruits/peach.webp",
-    "description": "a whole orange-pink peach with a short stem and one leaf"
+    "description": "a whole orange-pink peach with a short stem and one leaf",
+    "level": 1
   },
   {
     "id": "fruits_cherry",
@@ -1519,7 +1690,8 @@
     "romanized": "Kerási",
     "translation": "Cherry",
     "image": "images/fruits/cherry.webp",
-    "description": "two red cherries joined by a green stem"
+    "description": "two red cherries joined by a green stem",
+    "level": 1
   },
   {
     "id": "fruits_pear",
@@ -1528,7 +1700,8 @@
     "romanized": "Achládi",
     "translation": "Pear",
     "image": "images/fruits/pear.webp",
-    "description": "a whole green pear with a short stem"
+    "description": "a whole green pear with a short stem",
+    "level": 1
   },
   {
     "id": "nature_sun",
@@ -1537,7 +1710,8 @@
     "romanized": "Ílios",
     "translation": "Sun",
     "description": "a bright yellow sun with evenly spaced rays, centred",
-    "image": "images/nature/sun.webp"
+    "image": "images/nature/sun.webp",
+    "level": 2
   },
   {
     "id": "nature_moon",
@@ -1546,7 +1720,8 @@
     "romanized": "Fengári",
     "translation": "Moon",
     "description": "a yellow crescent moon, side view",
-    "image": "images/nature/moon.webp"
+    "image": "images/nature/moon.webp",
+    "level": 2
   },
   {
     "id": "nature_stars",
@@ -1555,7 +1730,8 @@
     "romanized": "Astéria",
     "translation": "Stars",
     "description": "a cluster of yellow five-pointed stars",
-    "image": "images/nature/stars.webp"
+    "image": "images/nature/stars.webp",
+    "level": 2
   },
   {
     "id": "nature_tree",
@@ -1564,7 +1740,8 @@
     "romanized": "Déntro",
     "translation": "Tree",
     "description": "a round green tree with a brown trunk, full shape visible",
-    "image": "images/nature/tree.webp"
+    "image": "images/nature/tree.webp",
+    "level": 2
   },
   {
     "id": "nature_flower",
@@ -1573,7 +1750,8 @@
     "romanized": "Louloúdi",
     "translation": "Flower",
     "description": "a single red flower with yellow centre and green stem and two leaves",
-    "image": "images/nature/flower.webp"
+    "image": "images/nature/flower.webp",
+    "level": 2
   },
   {
     "id": "nature_sea",
@@ -1582,7 +1760,8 @@
     "romanized": "Thálassa",
     "translation": "Sea",
     "description": "large blue ocean waves, close-up view, filling the frame",
-    "image": "images/nature/sea.webp"
+    "image": "images/nature/sea.webp",
+    "level": 2
   },
   {
     "id": "nature_mountain",
@@ -1591,7 +1770,8 @@
     "romanized": "Vounó",
     "translation": "Mountain",
     "description": "a snow-capped grey mountain peak, full shape visible",
-    "image": "images/nature/mountain.webp"
+    "image": "images/nature/mountain.webp",
+    "level": 2
   },
   {
     "id": "nature_river",
@@ -1600,7 +1780,8 @@
     "romanized": "Potámi",
     "translation": "River",
     "description": "a winding blue river seen from above with green banks",
-    "image": "images/nature/river.webp"
+    "image": "images/nature/river.webp",
+    "level": 2
   },
   {
     "id": "nature_sand",
@@ -1609,7 +1790,8 @@
     "romanized": "Ámmos",
     "translation": "Sand",
     "description": "a small pile of golden sand with a bucket and spade",
-    "image": "images/nature/sand.webp"
+    "image": "images/nature/sand.webp",
+    "level": 2
   },
   {
     "id": "nature_rock",
@@ -1618,7 +1800,8 @@
     "romanized": "Pétra",
     "translation": "Rock",
     "description": "a smooth grey rock, slightly rounded",
-    "image": "images/nature/rock.webp"
+    "image": "images/nature/rock.webp",
+    "level": 2
   },
   {
     "id": "weather_rain",
@@ -1627,7 +1810,8 @@
     "romanized": "Vrochí",
     "translation": "Rain",
     "description": "raindrops falling from a dark cloud",
-    "image": "images/weather/rain.webp"
+    "image": "images/weather/rain.webp",
+    "level": 2
   },
   {
     "id": "weather_snow",
@@ -1636,7 +1820,8 @@
     "romanized": "Chióni",
     "translation": "Snow",
     "description": "snowflakes falling from a grey cloud",
-    "image": "images/weather/snow.webp"
+    "image": "images/weather/snow.webp",
+    "level": 2
   },
   {
     "id": "weather_cloud",
@@ -1645,7 +1830,8 @@
     "romanized": "Sínefo",
     "translation": "Cloud",
     "description": "a fluffy white cloud with a light grey outline and flat bottom",
-    "image": "images/weather/cloud.webp"
+    "image": "images/weather/cloud.webp",
+    "level": 2
   },
   {
     "id": "weather_wind",
@@ -1654,7 +1840,8 @@
     "romanized": "Aéras",
     "translation": "Wind",
     "description": "a cartoon wind gust with curved blue motion lines and swirling leaves",
-    "image": "images/weather/wind.webp"
+    "image": "images/weather/wind.webp",
+    "level": 2
   },
   {
     "id": "weather_rainbow",
@@ -1663,7 +1850,8 @@
     "romanized": "Ouránio tóxo",
     "translation": "Rainbow",
     "description": "a full arc rainbow with six colour bands",
-    "image": "images/weather/rainbow.webp"
+    "image": "images/weather/rainbow.webp",
+    "level": 2
   },
   {
     "id": "weather_heat",
@@ -1672,7 +1860,8 @@
     "romanized": "Zésti",
     "translation": "Heat",
     "description": "a bright sun with wavy heat lines below it",
-    "image": "images/weather/heat.webp"
+    "image": "images/weather/heat.webp",
+    "level": 2
   },
   {
     "id": "weather_cold",
@@ -1681,7 +1870,8 @@
     "romanized": "Krío",
     "translation": "Cold",
     "description": "a large snowflake with ice crystals",
-    "image": "images/weather/cold.webp"
+    "image": "images/weather/cold.webp",
+    "level": 2
   },
   {
     "id": "weather_storm",
@@ -1690,7 +1880,8 @@
     "romanized": "Kataigída",
     "translation": "Storm",
     "description": "a dark cloud with a lightning bolt striking down",
-    "image": "images/weather/storm.webp"
+    "image": "images/weather/storm.webp",
+    "level": 2
   },
   {
     "id": "vehicles_car",
@@ -1699,7 +1890,8 @@
     "romanized": "Aftokínito",
     "translation": "Car",
     "image": "images/vehicles/car.webp",
-    "description": "a red hatchback car, full body, side view"
+    "description": "a red hatchback car, full body, side view",
+    "level": 2
   },
   {
     "id": "vehicles_truck",
@@ -1708,7 +1900,8 @@
     "romanized": "Fortigó",
     "translation": "Truck",
     "image": "images/vehicles/truck.webp",
-    "description": "a yellow dump truck, full body, side view"
+    "description": "a yellow dump truck, full body, side view",
+    "level": 2
   },
   {
     "id": "vehicles_train",
@@ -1717,7 +1910,8 @@
     "romanized": "Tréno",
     "translation": "Train",
     "image": "images/vehicles/train.webp",
-    "description": "a red locomotive with two carriages, full body, side view"
+    "description": "a red locomotive with two carriages, full body, side view",
+    "level": 2
   },
   {
     "id": "vehicles_airplane",
@@ -1726,7 +1920,8 @@
     "romanized": "Aeropláno",
     "translation": "Airplane",
     "image": "images/vehicles/airplane.webp",
-    "description": "a white passenger airplane, full body, side view"
+    "description": "a white passenger airplane, full body, side view",
+    "level": 2
   },
   {
     "id": "vehicles_ship",
@@ -1735,7 +1930,8 @@
     "romanized": "Plío",
     "translation": "Ship",
     "image": "images/vehicles/ship.webp",
-    "description": "a blue cargo ship, full body, side view"
+    "description": "a blue cargo ship, full body, side view",
+    "level": 2
   },
   {
     "id": "vehicles_bicycle",
@@ -1744,7 +1940,8 @@
     "romanized": "Podílato",
     "translation": "Bicycle",
     "image": "images/vehicles/bicycle.webp",
-    "description": "a blue bicycle, full body, side view"
+    "description": "a blue bicycle, full body, side view",
+    "level": 2
   },
   {
     "id": "bathroom_soap",
@@ -1753,7 +1950,8 @@
     "romanized": "Sapoúni",
     "translation": "Soap",
     "description": "a rectangular bar of white soap with small bubbles around it",
-    "image": "images/bathroom/soap.webp"
+    "image": "images/bathroom/soap.webp",
+    "level": 3
   },
   {
     "id": "bathroom_toothbrush",
@@ -1762,7 +1960,8 @@
     "romanized": "Odontóvourtsa",
     "translation": "Toothbrush",
     "description": "a blue toothbrush with white bristles, upright",
-    "image": "images/bathroom/toothbrush.webp"
+    "image": "images/bathroom/toothbrush.webp",
+    "level": 3
   },
   {
     "id": "bathroom_towel",
@@ -1771,7 +1970,8 @@
     "romanized": "Petséta",
     "translation": "Towel",
     "description": "a folded blue towel with a white stripe",
-    "image": "images/bathroom/towel.webp"
+    "image": "images/bathroom/towel.webp",
+    "level": 3
   },
   {
     "id": "bathroom_mirror",
@@ -1780,7 +1980,8 @@
     "romanized": "Kathréftis",
     "translation": "Mirror",
     "description": "a round bathroom mirror with a silver frame, front view",
-    "image": "images/bathroom/mirror.webp"
+    "image": "images/bathroom/mirror.webp",
+    "level": 3
   },
   {
     "id": "bathroom_bathtub",
@@ -1789,7 +1990,8 @@
     "romanized": "Baniéra",
     "translation": "Bathtub",
     "description": "a white bathtub with claw feet, side view",
-    "image": "images/bathroom/bathtub.webp"
+    "image": "images/bathroom/bathtub.webp",
+    "level": 3
   },
   {
     "id": "bathroom_shower",
@@ -1798,7 +2000,8 @@
     "romanized": "Dous",
     "translation": "Shower",
     "description": "a silver shower head with water droplets spraying outward, front view",
-    "image": "images/bathroom/shower.webp"
+    "image": "images/bathroom/shower.webp",
+    "level": 3
   },
   {
     "id": "bathroom_toilet",
@@ -1807,7 +2010,8 @@
     "romanized": "Toualéta",
     "translation": "Toilet",
     "description": "a white toilet with lid down, side view",
-    "image": "images/bathroom/toilet.webp"
+    "image": "images/bathroom/toilet.webp",
+    "level": 3
   },
   {
     "id": "bathroom_shampoo",
@@ -1816,7 +2020,8 @@
     "romanized": "Sambouán",
     "translation": "Shampoo",
     "description": "a tall white shampoo bottle with a blue flip cap and a simple label",
-    "image": "images/bathroom/shampoo.webp"
+    "image": "images/bathroom/shampoo.webp",
+    "level": 3
   },
   {
     "id": "bedroom_bed",
@@ -1825,7 +2030,8 @@
     "romanized": "Kreváti",
     "translation": "Bed",
     "description": "a single bed with a blue blanket and pillow, side view",
-    "image": "images/bedroom/bed.webp"
+    "image": "images/bedroom/bed.webp",
+    "level": 3
   },
   {
     "id": "bedroom_pillow",
@@ -1834,7 +2040,8 @@
     "romanized": "Maxilári",
     "translation": "Pillow",
     "description": "a plump white rectangular pillow",
-    "image": "images/bedroom/pillow.webp"
+    "image": "images/bedroom/pillow.webp",
+    "level": 3
   },
   {
     "id": "bedroom_blanket",
@@ -1843,7 +2050,8 @@
     "romanized": "Kouvérta",
     "translation": "Blanket",
     "description": "a neatly folded blue blanket",
-    "image": "images/bedroom/blanket.webp"
+    "image": "images/bedroom/blanket.webp",
+    "level": 3
   },
   {
     "id": "bedroom_wardrobe",
@@ -1852,7 +2060,8 @@
     "romanized": "Doulápa",
     "translation": "Wardrobe",
     "description": "a tall wooden wardrobe with two doors, front view",
-    "image": "images/bedroom/wardrobe.webp"
+    "image": "images/bedroom/wardrobe.webp",
+    "level": 3
   },
   {
     "id": "bedroom_teddy_bear",
@@ -1861,7 +2070,8 @@
     "romanized": "Arkoudáki",
     "translation": "Teddy Bear",
     "description": "a brown teddy bear sitting upright, front view, button eyes",
-    "image": "images/bedroom/teddy_bear.webp"
+    "image": "images/bedroom/teddy_bear.webp",
+    "level": 3
   },
   {
     "id": "bedroom_pajamas",
@@ -1870,7 +2080,8 @@
     "romanized": "Pidzámes",
     "translation": "Pajamas",
     "description": "a pair of pajamas laid flat, top and bottoms",
-    "image": "images/bedroom/pajamas.webp"
+    "image": "images/bedroom/pajamas.webp",
+    "level": 3
   },
   {
     "id": "kitchen_plate",
@@ -1879,7 +2090,8 @@
     "romanized": "Piáto",
     "translation": "Plate",
     "description": "a round white dinner plate, top-down view",
-    "image": "images/kitchen/plate.webp"
+    "image": "images/kitchen/plate.webp",
+    "level": 3
   },
   {
     "id": "kitchen_spoon",
@@ -1888,7 +2100,8 @@
     "romanized": "Koutáli",
     "translation": "Spoon",
     "description": "a silver spoon, side view",
-    "image": "images/kitchen/spoon.webp"
+    "image": "images/kitchen/spoon.webp",
+    "level": 3
   },
   {
     "id": "kitchen_fork",
@@ -1897,7 +2110,8 @@
     "romanized": "Piroúni",
     "translation": "Fork",
     "description": "a silver fork, side view",
-    "image": "images/kitchen/fork.webp"
+    "image": "images/kitchen/fork.webp",
+    "level": 3
   },
   {
     "id": "kitchen_knife",
@@ -1906,7 +2120,8 @@
     "romanized": "Machaéri",
     "translation": "Knife",
     "description": "a kitchen knife with a silver blade and wooden handle, side view",
-    "image": "images/kitchen/knife.webp"
+    "image": "images/kitchen/knife.webp",
+    "level": 3
   },
   {
     "id": "kitchen_glass",
@@ -1915,7 +2130,8 @@
     "romanized": "Potíri",
     "translation": "Glass",
     "description": "a clear drinking glass, half filled with water",
-    "image": "images/kitchen/glass.webp"
+    "image": "images/kitchen/glass.webp",
+    "level": 3
   },
   {
     "id": "kitchen_pot",
@@ -1924,7 +2140,8 @@
     "romanized": "Katsaróla",
     "translation": "Pot",
     "description": "a silver cooking pot with two handles and a lid",
-    "image": "images/kitchen/pot.webp"
+    "image": "images/kitchen/pot.webp",
+    "level": 3
   },
   {
     "id": "kitchen_fridge",
@@ -1933,7 +2150,8 @@
     "romanized": "Psiyío",
     "translation": "Fridge",
     "description": "a white refrigerator with two doors, front view",
-    "image": "images/kitchen/fridge.webp"
+    "image": "images/kitchen/fridge.webp",
+    "level": 3
   },
   {
     "id": "kitchen_frying_pan",
@@ -1942,7 +2160,8 @@
     "romanized": "Tigáni",
     "translation": "Frying Pan",
     "description": "a black frying pan with a long handle, top-down view",
-    "image": "images/kitchen/frying_pan.webp"
+    "image": "images/kitchen/frying_pan.webp",
+    "level": 3
   },
   {
     "id": "kitchen_table",
@@ -1951,7 +2170,8 @@
     "romanized": "Trapézi",
     "translation": "Table",
     "description": "a simple wooden table with four legs, side view",
-    "image": "images/kitchen/table.webp"
+    "image": "images/kitchen/table.webp",
+    "level": 3
   },
   {
     "id": "kitchen_chair",
@@ -1960,7 +2180,8 @@
     "romanized": "Karékla",
     "translation": "Chair",
     "description": "a simple wooden chair with a backrest, side view",
-    "image": "images/kitchen/chair.webp"
+    "image": "images/kitchen/chair.webp",
+    "level": 3
   },
   {
     "id": "living_room_sofa",
@@ -1969,7 +2190,8 @@
     "romanized": "Kanapés",
     "translation": "Sofa",
     "description": "a blue three-seater sofa, side view",
-    "image": "images/living_room/sofa.webp"
+    "image": "images/living_room/sofa.webp",
+    "level": 3
   },
   {
     "id": "living_room_television",
@@ -1978,7 +2200,8 @@
     "romanized": "Tileórasi",
     "translation": "Television",
     "description": "a flat-screen television on a stand, front view",
-    "image": "images/living_room/television.webp"
+    "image": "images/living_room/television.webp",
+    "level": 3
   },
   {
     "id": "living_room_book",
@@ -1987,7 +2210,8 @@
     "romanized": "Vivlío",
     "translation": "Book",
     "description": "a closed book with a colourful cover, slight angle",
-    "image": "images/living_room/book.webp"
+    "image": "images/living_room/book.webp",
+    "level": 3
   },
   {
     "id": "living_room_lamp",
@@ -1996,7 +2220,8 @@
     "romanized": "Lámba",
     "translation": "Lamp",
     "description": "a floor lamp with a round shade, side view",
-    "image": "images/living_room/lamp.webp"
+    "image": "images/living_room/lamp.webp",
+    "level": 3
   },
   {
     "id": "living_room_window",
@@ -2005,7 +2230,8 @@
     "romanized": "Paráthiro",
     "translation": "Window",
     "description": "a window with four panes and blue curtains on each side",
-    "image": "images/living_room/window.webp"
+    "image": "images/living_room/window.webp",
+    "level": 3
   },
   {
     "id": "living_room_door",
@@ -2014,7 +2240,8 @@
     "romanized": "Pórta",
     "translation": "Door",
     "description": "a wooden door with a round handle, front view",
-    "image": "images/living_room/door.webp"
+    "image": "images/living_room/door.webp",
+    "level": 3
   },
   {
     "id": "living_room_ball",
@@ -2023,7 +2250,8 @@
     "romanized": "Bála",
     "translation": "Ball",
     "description": "a red and white football",
-    "image": "images/living_room/ball.webp"
+    "image": "images/living_room/ball.webp",
+    "level": 3
   },
   {
     "id": "living_room_rug",
@@ -2032,7 +2260,8 @@
     "romanized": "Chalí",
     "translation": "Rug",
     "description": "a colourful rectangular rug, slight angle view, with a decorative border and simple geometric pattern",
-    "image": "images/living_room/rug.webp"
+    "image": "images/living_room/rug.webp",
+    "level": 3
   },
   {
     "id": "clothes_t_shirt",
@@ -2041,7 +2270,8 @@
     "romanized": "Blouzáki",
     "translation": "T-shirt",
     "description": "a plain red t-shirt, front view, flat lay",
-    "image": "images/clothes/t-shirt.webp"
+    "image": "images/clothes/t-shirt.webp",
+    "level": 3
   },
   {
     "id": "clothes_pants",
@@ -2050,7 +2280,8 @@
     "romanized": "Pantelóni",
     "translation": "Pants",
     "description": "a pair of blue jeans, front view, flat lay",
-    "image": "images/clothes/pants.webp"
+    "image": "images/clothes/pants.webp",
+    "level": 3
   },
   {
     "id": "clothes_dress",
@@ -2059,7 +2290,8 @@
     "romanized": "Fórema",
     "translation": "Dress",
     "description": "a yellow dress with short sleeves, front view, flat lay",
-    "image": "images/clothes/dress.webp"
+    "image": "images/clothes/dress.webp",
+    "level": 3
   },
   {
     "id": "clothes_skirt",
@@ -2068,7 +2300,8 @@
     "romanized": "Foústa",
     "translation": "Skirt",
     "description": "a pink skirt, front view, flat lay",
-    "image": "images/clothes/skirt.webp"
+    "image": "images/clothes/skirt.webp",
+    "level": 3
   },
   {
     "id": "clothes_shoes",
@@ -2077,7 +2310,8 @@
     "romanized": "Papoútsia",
     "translation": "Shoes",
     "description": "a pair of red sneakers, side view",
-    "image": "images/clothes/shoes.webp"
+    "image": "images/clothes/shoes.webp",
+    "level": 3
   },
   {
     "id": "clothes_socks",
@@ -2086,7 +2320,8 @@
     "romanized": "Káltses",
     "translation": "Socks",
     "description": "a pair of striped socks, side by side",
-    "image": "images/clothes/socks.webp"
+    "image": "images/clothes/socks.webp",
+    "level": 3
   },
   {
     "id": "clothes_hat",
@@ -2095,7 +2330,8 @@
     "romanized": "Kapélo",
     "translation": "Hat",
     "description": "a blue baseball cap, side view",
-    "image": "images/clothes/hat.webp"
+    "image": "images/clothes/hat.webp",
+    "level": 3
   },
   {
     "id": "clothes_jacket",
@@ -2104,7 +2340,8 @@
     "romanized": "Boufán",
     "translation": "Jacket",
     "description": "a blue zip-up jacket, front view, flat lay",
-    "image": "images/clothes/jacket.webp"
+    "image": "images/clothes/jacket.webp",
+    "level": 3
   },
   {
     "id": "clothes_sweater",
@@ -2113,7 +2350,8 @@
     "romanized": "Poulóver",
     "translation": "Sweater",
     "description": "a green knitted sweater, front view, flat lay",
-    "image": "images/clothes/sweater.webp"
+    "image": "images/clothes/sweater.webp",
+    "level": 3
   },
   {
     "id": "clothes_scarf",
@@ -2122,7 +2360,8 @@
     "romanized": "Kaskól",
     "translation": "Scarf",
     "description": "a red folded scarf",
-    "image": "images/clothes/scarf.webp"
+    "image": "images/clothes/scarf.webp",
+    "level": 3
   },
   {
     "id": "clothes_gloves",
@@ -2131,7 +2370,8 @@
     "romanized": "Gántia",
     "translation": "Gloves",
     "description": "a pair of red gloves laid flat",
-    "image": "images/clothes/gloves.webp"
+    "image": "images/clothes/gloves.webp",
+    "level": 3
   },
   {
     "id": "clothes_underwear",
@@ -2140,7 +2380,8 @@
     "romanized": "Esóroucho",
     "translation": "Underwear",
     "description": "a pair of white underwear laid flat",
-    "image": "images/clothes/underwear.webp"
+    "image": "images/clothes/underwear.webp",
+    "level": 3
   },
   {
     "id": "music_music",
@@ -2149,7 +2390,8 @@
     "romanized": "Mousikí",
     "translation": "Music",
     "description": "a treble clef with musical notes floating around it",
-    "image": "images/music/music.webp"
+    "image": "images/music/music.webp",
+    "level": 3
   },
   {
     "id": "music_song",
@@ -2158,7 +2400,8 @@
     "romanized": "Tragoúdi",
     "translation": "Song",
     "description": "a vintage microphone on a stand with two large speakers on either side, musical notes floating around, front view",
-    "image": "images/music/song.webp"
+    "image": "images/music/song.webp",
+    "level": 3
   },
   {
     "id": "music_guitar",
@@ -2167,7 +2410,8 @@
     "romanized": "Kithára",
     "translation": "Guitar",
     "description": "a brown acoustic guitar, front view",
-    "image": "images/music/guitar.webp"
+    "image": "images/music/guitar.webp",
+    "level": 3
   },
   {
     "id": "music_piano",
@@ -2176,7 +2420,8 @@
     "romanized": "Piáno",
     "translation": "Piano",
     "description": "a black upright piano with white and black keys, front view",
-    "image": "images/music/piano.webp"
+    "image": "images/music/piano.webp",
+    "level": 3
   },
   {
     "id": "music_drum",
@@ -2185,7 +2430,8 @@
     "romanized": "Tímbano",
     "translation": "Drum",
     "description": "a red snare drum with drumsticks resting on top",
-    "image": "images/music/drum.webp"
+    "image": "images/music/drum.webp",
+    "level": 3
   },
   {
     "id": "music_violin",
@@ -2194,7 +2440,8 @@
     "romanized": "Violí",
     "translation": "Violin",
     "description": "a brown violin with a bow beside it, front view",
-    "image": "images/music/violin.webp"
+    "image": "images/music/violin.webp",
+    "level": 3
   },
   {
     "id": "music_trumpet",
@@ -2203,7 +2450,8 @@
     "romanized": "Trombéta",
     "translation": "Trumpet",
     "description": "a golden trumpet, side view",
-    "image": "images/music/trumpet.webp"
+    "image": "images/music/trumpet.webp",
+    "level": 3
   },
   {
     "id": "music_flute",
@@ -2212,7 +2460,8 @@
     "romanized": "Fláouto",
     "translation": "Flute",
     "description": "a silver flute, horizontal, side view",
-    "image": "images/music/flute.webp"
+    "image": "images/music/flute.webp",
+    "level": 3
   },
   {
     "id": "music_microphone",
@@ -2221,7 +2470,8 @@
     "romanized": "Mikrófono",
     "translation": "Microphone",
     "description": "a black handheld microphone, upright",
-    "image": "images/music/microphone.webp"
+    "image": "images/music/microphone.webp",
+    "level": 3
   },
   {
     "id": "music_headphones",
@@ -2230,7 +2480,8 @@
     "romanized": "Akoustiká",
     "translation": "Headphones",
     "description": "a pair of black over-ear headphones, front view",
-    "image": "images/music/headphones.webp"
+    "image": "images/music/headphones.webp",
+    "level": 3
   },
   {
     "id": "music_dance",
@@ -2239,7 +2490,8 @@
     "romanized": "Chorós",
     "translation": "Dance",
     "description": "a cartoon child dancing with arms raised",
-    "image": "images/music/dance.webp"
+    "image": "images/music/dance.webp",
+    "level": 3
   },
   {
     "id": "music_note",
@@ -2248,7 +2500,8 @@
     "romanized": "Nóta",
     "translation": "Note",
     "description": "a single large musical note symbol",
-    "image": "images/music/note.webp"
+    "image": "images/music/note.webp",
+    "level": 3
   },
   {
     "id": "holidays_christmas",
@@ -2257,7 +2510,8 @@
     "romanized": "Christoúyenna",
     "translation": "Christmas",
     "description": "a decorated Christmas tree with wrapped gifts below",
-    "image": "images/holidays/christmas.webp"
+    "image": "images/holidays/christmas.webp",
+    "level": 3
   },
   {
     "id": "holidays_easter",
@@ -2266,7 +2520,8 @@
     "romanized": "Páscha",
     "translation": "Easter",
     "description": "a brightly painted Easter egg",
-    "image": "images/holidays/easter.webp"
+    "image": "images/holidays/easter.webp",
+    "level": 3
   },
   {
     "id": "holidays_birthday",
@@ -2275,7 +2530,8 @@
     "romanized": "Yenéthlia",
     "translation": "Birthday",
     "description": "a birthday cake with lit candles",
-    "image": "images/holidays/birthday.webp"
+    "image": "images/holidays/birthday.webp",
+    "level": 3
   },
   {
     "id": "holidays_new_year",
@@ -2284,7 +2540,8 @@
     "romanized": "Protochroniá",
     "translation": "New Year",
     "description": "colorful fireworks bursting in a starburst pattern",
-    "image": "images/holidays/new_year.webp"
+    "image": "images/holidays/new_year.webp",
+    "level": 3
   },
   {
     "id": "holidays_carnival",
@@ -2293,7 +2550,8 @@
     "romanized": "Apokriés",
     "translation": "Carnival",
     "description": "a colorful carnival mask with feathers",
-    "image": "images/holidays/carnival.webp"
+    "image": "images/holidays/carnival.webp",
+    "level": 3
   },
   {
     "id": "holidays_name_day",
@@ -2303,7 +2561,8 @@
     "translation": "Name Day",
     "description": "a bouquet of flowers tied with a ribbon",
     "image": "images/holidays/name_day.webp",
-    "notes": "Γιορτή means \"celebration/holiday/feast.\" \"Name Day\" reflects the dominant cultural usage — in everyday Greek, η γιορτή μου = my name day."
+    "notes": "Γιορτή means \"celebration/holiday/feast.\" \"Name Day\" reflects the dominant cultural usage — in everyday Greek, η γιορτή μου = my name day.",
+    "level": 3
   },
   {
     "id": "holidays_gift",
@@ -2312,7 +2571,8 @@
     "romanized": "Dóro",
     "translation": "Gift",
     "description": "a wrapped gift box with colourful paper and a bow on top",
-    "image": "images/holidays/gift.webp"
+    "image": "images/holidays/gift.webp",
+    "level": 3
   },
   {
     "id": "holidays_vacation",
@@ -2321,6 +2581,223 @@
     "romanized": "Diakopés",
     "translation": "Vacation",
     "description": "a red beach bucket and spade beside a small sandcastle",
-    "image": "images/holidays/vacation.webp"
+    "image": "images/holidays/vacation.webp",
+    "level": 3
+  },
+  {
+    "id": "days_monday",
+    "category": "days_of_week",
+    "greek": "Δευτέρα",
+    "romanized": "Deftéra",
+    "translation": "Monday",
+    "level": 2
+  },
+  {
+    "id": "days_tuesday",
+    "category": "days_of_week",
+    "greek": "Τρίτη",
+    "romanized": "Tríti",
+    "translation": "Tuesday",
+    "level": 2
+  },
+  {
+    "id": "days_wednesday",
+    "category": "days_of_week",
+    "greek": "Τετάρτη",
+    "romanized": "Tetárti",
+    "translation": "Wednesday",
+    "level": 2
+  },
+  {
+    "id": "days_thursday",
+    "category": "days_of_week",
+    "greek": "Πέμπτη",
+    "romanized": "Pémpti",
+    "translation": "Thursday",
+    "level": 2
+  },
+  {
+    "id": "days_friday",
+    "category": "days_of_week",
+    "greek": "Παρασκευή",
+    "romanized": "Paraskeví",
+    "translation": "Friday",
+    "level": 2
+  },
+  {
+    "id": "days_saturday",
+    "category": "days_of_week",
+    "greek": "Σάββατο",
+    "romanized": "Sávvato",
+    "translation": "Saturday",
+    "level": 2
+  },
+  {
+    "id": "days_sunday",
+    "category": "days_of_week",
+    "greek": "Κυριακή",
+    "romanized": "Kyriakí",
+    "translation": "Sunday",
+    "level": 2
+  },
+  {
+    "id": "tech_phone",
+    "category": "technology",
+    "greek": "Τηλέφωνο",
+    "romanized": "Tiléfono",
+    "translation": "Phone",
+    "level": 2
+  },
+  {
+    "id": "tech_tablet",
+    "category": "technology",
+    "greek": "Τάμπλετ",
+    "romanized": "Támblet",
+    "translation": "Tablet",
+    "level": 2
+  },
+  {
+    "id": "tech_computer",
+    "category": "technology",
+    "greek": "Υπολογιστής",
+    "romanized": "Ypoloyistís",
+    "translation": "Computer",
+    "level": 2
+  },
+  {
+    "id": "tech_television",
+    "category": "technology",
+    "greek": "Τηλεόραση",
+    "romanized": "Tileórasi",
+    "translation": "Television",
+    "level": 2
+  },
+  {
+    "id": "tech_camera",
+    "category": "technology",
+    "greek": "Κάμερα",
+    "romanized": "Kámera",
+    "translation": "Camera",
+    "level": 2
+  },
+  {
+    "id": "tech_headphones",
+    "category": "technology",
+    "greek": "Ακουστικά",
+    "romanized": "Akustiká",
+    "translation": "Headphones",
+    "level": 2
+  },
+  {
+    "id": "tech_remote",
+    "category": "technology",
+    "greek": "Τηλεκοντρόλ",
+    "romanized": "Tilekontrόl",
+    "translation": "Remote",
+    "level": 2
+  },
+  {
+    "id": "tech_keyboard",
+    "category": "technology",
+    "greek": "Πληκτρολόγιο",
+    "romanized": "Pliktrológio",
+    "translation": "Keyboard",
+    "level": 2
+  },
+  {
+    "id": "months_january",
+    "category": "months",
+    "greek": "Ιανουάριος",
+    "romanized": "Ya-nou-á-ri-os",
+    "translation": "January",
+    "level": 2
+  },
+  {
+    "id": "months_february",
+    "category": "months",
+    "greek": "Φεβρουάριος",
+    "romanized": "Fev-rou-á-ri-os",
+    "translation": "February",
+    "level": 2
+  },
+  {
+    "id": "months_march",
+    "category": "months",
+    "greek": "Μάρτιος",
+    "romanized": "Már-ti-os",
+    "translation": "March",
+    "level": 2
+  },
+  {
+    "id": "months_april",
+    "category": "months",
+    "greek": "Απρίλιος",
+    "romanized": "Ap-rí-li-os",
+    "translation": "April",
+    "level": 2
+  },
+  {
+    "id": "months_may",
+    "category": "months",
+    "greek": "Μάιος",
+    "romanized": "Má-i-os",
+    "translation": "May",
+    "level": 2
+  },
+  {
+    "id": "months_june",
+    "category": "months",
+    "greek": "Ιούνιος",
+    "romanized": "Yóo-ni-os",
+    "translation": "June",
+    "level": 2
+  },
+  {
+    "id": "months_july",
+    "category": "months",
+    "greek": "Ιούλιος",
+    "romanized": "Yóo-li-os",
+    "translation": "July",
+    "level": 2
+  },
+  {
+    "id": "months_august",
+    "category": "months",
+    "greek": "Αύγουστος",
+    "romanized": "Áv-gou-stos",
+    "translation": "August",
+    "level": 2
+  },
+  {
+    "id": "months_september",
+    "category": "months",
+    "greek": "Σεπτέμβριος",
+    "romanized": "Sep-tém-vri-os",
+    "translation": "September",
+    "level": 2
+  },
+  {
+    "id": "months_october",
+    "category": "months",
+    "greek": "Οκτώβριος",
+    "romanized": "Ok-tό-vri-os",
+    "translation": "October",
+    "level": 2
+  },
+  {
+    "id": "months_november",
+    "category": "months",
+    "greek": "Νοέμβριος",
+    "romanized": "No-ém-vri-os",
+    "translation": "November",
+    "level": 2
+  },
+  {
+    "id": "months_december",
+    "category": "months",
+    "greek": "Δεκέμβριος",
+    "romanized": "De-kém-vri-os",
+    "translation": "December",
+    "level": 2
   }
 ]

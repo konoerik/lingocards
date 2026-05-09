@@ -27,7 +27,28 @@ const CATEGORY_META = {
   clothes:     { label: 'Clothes',      emoji: '👕' },
   music:       { label: 'Music',        emoji: '🎵' },
   holidays:    { label: 'Holidays',     emoji: '🎄' },
+  days_of_week:{ label: 'Days',         emoji: '📅' },
+  months:      { label: 'Months',       emoji: '🗓️' },
+  technology:  { label: 'Technology',   emoji: '📱' },
 };
+
+const CATEGORY_ORDER = [
+  'alphabet', 'numbers', 'colors', 'shapes',
+  null,
+  'days_of_week', 'months',
+  null,
+  'family', 'greetings', 'body_parts', 'verbs',
+  null,
+  'animals', 'dinosaurs',
+  null,
+  'food', 'fruits',
+  null,
+  'nature', 'weather', 'vehicles',
+  null,
+  'bathroom', 'bedroom', 'kitchen', 'living_room', 'clothes',
+  null,
+  'music', 'holidays', 'technology',
+];
 
 // ── State ──────────────────────────────────────────────────────────────────
 
@@ -39,7 +60,7 @@ let position  = 0;        // index into queue
 let language  = 'greek';
 let category  = 'all';
 let shuffled  = false;
-let settings  = { autoplay: true, enabledCategories: null, category: 'all', language: 'greek' };
+let settings  = { autoplay: true, enabledCategories: null, category: 'all', language: 'greek', levelFilter: null };
 let currentAudio = null;
 
 // Swipe tracking
@@ -63,6 +84,7 @@ const elCardLetter      = document.getElementById('card-letter');
 const elCardWord        = document.getElementById('card-word');
 const elCardRomanized   = document.getElementById('card-romanized');
 const elCardTranslation = document.getElementById('card-translation');
+const elCardLevelDot    = document.getElementById('card-level-dot');
 const elAudioBtn        = document.getElementById('audio-btn');
 const elProgressBar     = document.getElementById('progress-bar');
 const elProgressLabel   = document.getElementById('progress-label');
@@ -84,6 +106,7 @@ const elSettingsCategoryList = document.getElementById('settings-category-list')
 const elSettingsDone         = document.getElementById('settings-done');
 const elSettingsSelectAll    = document.getElementById('settings-select-all');
 const elSettingsSelectNone   = document.getElementById('settings-select-none');
+const elSettingsLevelBtns    = document.querySelectorAll('.settings-level-btn');
 
 // ── Bootstrap ──────────────────────────────────────────────────────────────
 
@@ -172,7 +195,9 @@ function switchCategory(cat) {
 function getActiveCards() {
   const all = allDecks[language] || [];
   const enabled = settings.enabledCategories;
-  return enabled ? all.filter(c => enabled.includes(c.category)) : all;
+  let cards = enabled ? all.filter(c => enabled.includes(c.category)) : all;
+  if (settings.levelFilter) cards = cards.filter(c => c.level === settings.levelFilter);
+  return cards;
 }
 
 function buildDeck() {
@@ -239,6 +264,7 @@ function renderCard(direction = 'next') {
     elCardImageWrap.classList.add('no-image');
   }
 
+  elCardLevelDot.className = 'level-dot' + (card.level ? ` level-${card.level}` : '');
   elAudioBtn.classList.toggle('hidden', !card.audio);
   const wordText = card[language] || card.greek;
   elCardWord.textContent = wordText;
@@ -286,25 +312,56 @@ function toggleShuffle() {
 
 // ── Category tabs ──────────────────────────────────────────────────────────
 
+function buildCategoryEntries(activeCatSet) {
+  const result = [];
+  let lastWasCat = false;
+  let pendingDivider = false;
+  for (const entry of CATEGORY_ORDER) {
+    if (entry === null) {
+      if (lastWasCat) pendingDivider = true;
+      lastWasCat = false;
+    } else if (activeCatSet.has(entry)) {
+      if (pendingDivider) { result.push(null); pendingDivider = false; }
+      result.push(entry);
+      lastWasCat = true;
+    }
+  }
+  const known = new Set(CATEGORY_ORDER.filter(Boolean));
+  for (const cat of activeCatSet) {
+    if (!known.has(cat)) result.push(cat);
+  }
+  return result;
+}
+
+function makeTabBtn(cat) {
+  const meta = CATEGORY_META[cat];
+  const emoji = cat === 'all' ? '⭐' : (meta ? meta.emoji : '');
+  const label = cat === 'all' ? 'All' : (meta ? meta.label : cat);
+  const btn = document.createElement('button');
+  btn.className = 'tab-btn';
+  btn.setAttribute('role', 'tab');
+  btn.dataset.category = cat;
+  btn.innerHTML = `<span class="tab-emoji">${emoji}</span><span class="tab-label${cat === 'all' ? ' tab-label--always' : ''}">${label}</span>`;
+  btn.setAttribute('title', label);
+  btn.setAttribute('aria-selected', cat === category ? 'true' : 'false');
+  btn.addEventListener('click', () => switchCategory(cat));
+  return btn;
+}
+
 function renderCategoryTabs() {
   elCategoryTabs.innerHTML = '';
+  elCategoryTabs.appendChild(makeTabBtn('all'));
 
-  const categories = ['all', ...new Set(getActiveCards().map(c => c.category))];
-
-  categories.forEach(cat => {
-    const meta = CATEGORY_META[cat];
-    const btn = document.createElement('button');
-    btn.className = 'tab-btn';
-    btn.setAttribute('role', 'tab');
-    btn.dataset.category = cat;
-    const emoji = cat === 'all' ? '⭐' : (meta ? meta.emoji : '');
-    const label = cat === 'all' ? 'All' : (meta ? meta.label : cat);
-    const labelClass = cat === 'all' ? 'tab-label tab-label--always' : 'tab-label';
-    btn.innerHTML = `<span class="tab-emoji">${emoji}</span><span class="${labelClass}">${label}</span>`;
-    btn.setAttribute('title', label);
-    btn.setAttribute('aria-selected', cat === category ? 'true' : 'false');
-    btn.addEventListener('click', () => switchCategory(cat));
-    elCategoryTabs.appendChild(btn);
+  const activeCatSet = new Set(getActiveCards().map(c => c.category));
+  buildCategoryEntries(activeCatSet).forEach(entry => {
+    if (entry === null) {
+      const div = document.createElement('span');
+      div.className = 'tab-divider';
+      div.setAttribute('aria-hidden', 'true');
+      elCategoryTabs.appendChild(div);
+    } else {
+      elCategoryTabs.appendChild(makeTabBtn(entry));
+    }
   });
 }
 
@@ -378,6 +435,12 @@ function openSettings() {
   updateDoneBtn();
 
   elSettingAutoplay.checked = settings.autoplay;
+
+  elSettingsLevelBtns.forEach(btn => {
+    const val = btn.dataset.level ? Number(btn.dataset.level) : null;
+    btn.setAttribute('aria-pressed', String(val === settings.levelFilter));
+  });
+
   elSettingsOverlay.classList.remove('hidden');
 }
 
@@ -389,13 +452,24 @@ function applySettings() {
     .map(cb => cb.dataset.cat);
 
   settings.enabledCategories = checked.length === availableCats.length ? null : checked;
-  saveSettings();
+
+  const activeLevel = [...elSettingsLevelBtns].find(b => b.getAttribute('aria-pressed') === 'true');
+  settings.levelFilter = activeLevel?.dataset.level ? Number(activeLevel.dataset.level) : null;
 
   if (settings.enabledCategories && !settings.enabledCategories.includes(category)) {
     category = 'all';
   }
 
   buildDeck();
+
+  if (deck.length === 0) {
+    category = 'all';
+    buildDeck();
+  }
+
+  settings.category = category;
+  saveSettings();
+
   renderCategoryTabs();
   buildQueue();
   renderCard();
@@ -521,6 +595,19 @@ function attachListeners() {
   elSettingsSelectNone.addEventListener('click', () => {
     elSettingsCategoryList.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
     updateDoneBtn();
+  });
+
+  elSettingsLevelBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const isLevel = !!btn.dataset.level;
+      const wasActive = btn.getAttribute('aria-pressed') === 'true';
+      elSettingsLevelBtns.forEach(b => b.setAttribute('aria-pressed', 'false'));
+      if (!wasActive || !isLevel) {
+        btn.setAttribute('aria-pressed', 'true');
+      } else {
+        elSettingsLevelBtns[0].setAttribute('aria-pressed', 'true'); // back to All
+      }
+    });
   });
 }
 

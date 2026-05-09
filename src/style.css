@@ -130,6 +130,15 @@ body {
 
 .tab-btn:active { opacity: 0.8; }
 
+.tab-divider {
+  width: 1px;
+  align-self: stretch;
+  background: rgba(255,255,255,0.18);
+  flex-shrink: 0;
+  margin: 6px 2px;
+  border-radius: 1px;
+}
+
 /* ── Main layout ── */
 .main {
   flex: 1;
@@ -178,6 +187,21 @@ body {
 }
 
 .card.from-prev { animation-name: card-in-rev; }
+
+/* Level dot — top-left of card */
+.level-dot {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+  transition: background 0.2s;
+}
+.level-dot.level-1 { background: #4caf50; }
+.level-dot.level-2 { background: #ff9800; }
+.level-dot.level-3 { background: #f44336; }
 
 /* Audio button — top-right of card */
 .audio-btn {
@@ -256,10 +280,10 @@ body {
 .card-shape.shape-heart     { clip-path: path('M 60 102 C 24 78 0 54 0 36 A 30 30 0 0 1 60 36 A 30 30 0 0 1 120 36 C 120 54 96 78 60 102 Z'); background: #FF69B4; }
 
 /* Visibility: show only the active visual element */
-.card-image-wrap:not(.has-image)  .card-image        { display: none; }
-.card-image-wrap:not(.has-swatch) .card-color-swatch { display: none; }
-.card-image-wrap:not(.has-shape)  .card-shape        { display: none; }
-.card-image-wrap:not(.has-letter) .card-letter       { display: none; }
+.card-image-wrap:not(.has-image)    .card-image        { display: none; }
+.card-image-wrap:not(.has-swatch)   .card-color-swatch { display: none; }
+.card-image-wrap:not(.has-shape)    .card-shape        { display: none; }
+.card-image-wrap:not(.has-letter)   .card-letter       { display: none; }
 
 /* Speech bubble — greetings category */
 .card-image-wrap.has-speech {
@@ -489,6 +513,44 @@ body {
   letter-spacing: 0.08em;
   flex-shrink: 0;
 }
+
+.settings-level-row {
+  display: flex;
+  gap: 8px;
+  padding: 0 20px 14px;
+  flex-wrap: wrap;
+}
+
+.settings-level-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 2px solid #e0e0e0;
+  background: #fff;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.settings-level-btn[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: #e8f0fe;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.dot-1 { background: #4caf50; }
+.dot-2 { background: #ff9800; }
+.dot-3 { background: #f44336; }
 
 .settings-category-list {
   flex: 1;
