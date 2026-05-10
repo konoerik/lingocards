@@ -2646,7 +2646,8 @@
     "greek": "Τηλέφωνο",
     "romanized": "Tiléfono",
     "translation": "Phone",
-    "level": 2
+    "level": 2,
+    "image": "images/technology/phone.webp"
   },
   {
     "id": "tech_tablet",
@@ -2654,7 +2655,8 @@
     "greek": "Τάμπλετ",
     "romanized": "Támblet",
     "translation": "Tablet",
-    "level": 2
+    "level": 2,
+    "image": "images/technology/tablet.webp"
   },
   {
     "id": "tech_computer",
@@ -2662,7 +2664,8 @@
     "greek": "Υπολογιστής",
     "romanized": "Ypoloyistís",
     "translation": "Computer",
-    "level": 2
+    "level": 2,
+    "image": "images/technology/computer.webp"
   },
   {
     "id": "tech_television",
@@ -2670,7 +2673,8 @@
     "greek": "Τηλεόραση",
     "romanized": "Tileórasi",
     "translation": "Television",
-    "level": 2
+    "level": 2,
+    "image": "images/technology/television.webp"
   },
   {
     "id": "tech_camera",
@@ -2678,7 +2682,8 @@
     "greek": "Κάμερα",
     "romanized": "Kámera",
     "translation": "Camera",
-    "level": 2
+    "level": 2,
+    "image": "images/technology/camera.webp"
   },
   {
     "id": "tech_headphones",
@@ -2686,7 +2691,8 @@
     "greek": "Ακουστικά",
     "romanized": "Akustiká",
     "translation": "Headphones",
-    "level": 2
+    "level": 2,
+    "image": "images/technology/headphones.webp"
   },
   {
     "id": "tech_remote",
@@ -2694,7 +2700,8 @@
     "greek": "Τηλεκοντρόλ",
     "romanized": "Tilekontrόl",
     "translation": "Remote",
-    "level": 2
+    "level": 2,
+    "image": "images/technology/remote.webp"
   },
   {
     "id": "tech_keyboard",
@@ -2702,7 +2709,9 @@
     "greek": "Πληκτρολόγιο",
     "romanized": "Pliktrológio",
     "translation": "Keyboard",
-    "level": 2
+    "description": "a QWERTY computer keyboard for typing",
+    "level": 2,
+    "image": "images/technology/keyboard.webp"
   },
   {
     "id": "months_january",

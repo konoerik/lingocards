@@ -81,6 +81,10 @@ const elCardImage       = document.getElementById('card-image');
 const elCardColorSwatch = document.getElementById('card-color-swatch');
 const elCardShape       = document.getElementById('card-shape');
 const elCardLetter      = document.getElementById('card-letter');
+const elCardCalendar    = document.getElementById('card-calendar');
+const elCalendarHeader  = elCardCalendar.querySelector('.calendar-header');
+const elCalendarBody    = elCardCalendar.querySelector('.calendar-body');
+const elCalendarProgress = document.getElementById('calendar-progress');
 const elCardWord        = document.getElementById('card-word');
 const elCardRomanized   = document.getElementById('card-romanized');
 const elCardTranslation = document.getElementById('card-translation');
@@ -96,8 +100,10 @@ const elNotesOverlay         = document.getElementById('notes-overlay');
 const elNotesTitle           = document.getElementById('notes-title');
 const elNotesBody            = document.getElementById('notes-body');
 const elNotesClose           = document.getElementById('notes-close');
-const elWelcomeOverlay       = document.getElementById('welcome-overlay');
-const elWelcomeStart         = document.getElementById('welcome-start');
+const elHelpOverlay          = document.getElementById('help-overlay');
+const elHelpBtn              = document.getElementById('help-btn');
+const elHelpClose            = document.getElementById('help-close');
+const elHelpCloseBtn         = document.getElementById('help-close-btn');
 const elSettingsBtn          = document.getElementById('settings-btn');
 const elSettingsOverlay      = document.getElementById('settings-overlay');
 const elSettingAutoplay      = document.getElementById('setting-autoplay');
@@ -139,7 +145,7 @@ async function init() {
   switchLanguage(language);
   attachListeners();
   initInstallPrompt();
-  showWelcomeIfNeeded();
+  showHelpIfFirstVisit();
 }
 
 // ── Language & category ────────────────────────────────────────────────────
@@ -235,11 +241,14 @@ function renderCard(direction = 'next') {
   if (direction === 'prev') elCard.classList.add('from-prev');
 
   // Image / color swatch / letter / placeholder
-  elCardImageWrap.classList.remove('has-image', 'has-swatch', 'has-shape', 'has-letter', 'has-speech', 'no-image');
+  elCardImageWrap.classList.remove('has-image', 'has-swatch', 'has-shape', 'has-letter', 'has-speech', 'has-calendar', 'no-image');
   elCardColorSwatch.style.background = '';
   elCardShape.className = 'card-shape';
   elCardLetter.textContent = '';
   elCardLetter.className = 'card-letter';
+  elCalendarHeader.innerHTML = '';
+  elCalendarBody.innerHTML = '';
+  elCalendarProgress.innerHTML = '';
   if (card.color) {
     elCardImageWrap.classList.add('has-swatch');
     elCardColorSwatch.style.background = card.color;
@@ -256,8 +265,33 @@ function renderCard(direction = 'next') {
     elCardLetter.className = 'card-letter number';
   } else if (card.category === 'alphabet') {
     elCardImageWrap.classList.add('has-letter');
-    elCardLetter.textContent = card.letter;
+    const parts = (card[language] || card.greek).split(' ');
+    elCardLetter.innerHTML = parts.length === 2
+      ? `<span class="letter-upper">${parts[0]}</span><span class="letter-lower">${parts[1]}</span>`
+      : (card[language] || card.greek);
     elCardLetter.className = 'card-letter letter';
+  } else if (card.category === 'days_of_week' || card.category === 'months') {
+    elCardImageWrap.classList.add('has-calendar');
+    const DAY_NUM   = {monday:1,tuesday:2,wednesday:3,thursday:4,friday:5,saturday:6,sunday:7};
+    const MONTH_NUM = {january:1,february:2,march:3,april:4,may:5,june:6,july:7,august:8,september:9,october:10,november:11,december:12};
+    const key   = card.id.replace(/^(days|months)_/, '');
+    const total = card.category === 'days_of_week' ? 7 : 12;
+    const pos   = card.category === 'days_of_week' ? DAY_NUM[key] : MONTH_NUM[key];
+    const native = card[language] || card.greek;
+    const stripAccents = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '');
+    const isDay = card.category === 'days_of_week';
+    const abbr  = isDay
+      ? native.trim().split(/\s+/).pop().slice(0, 1).toUpperCase()
+      : stripAccents(native.replace(/\s+/g, '')).slice(0, 3).toUpperCase();
+    elCalendarHeader.innerHTML =
+      `<span class="cal-arrow">${pos > 1 ? '←' : ''}</span>` +
+      `<span class="cal-dot"></span><span class="cal-dot"></span>` +
+      `<span class="cal-arrow">${pos < total ? '→' : ''}</span>`;
+    elCalendarBody.innerHTML = `<span class="cal-abbr ${isDay ? 'cal-abbr--day' : ''}">${abbr}</span>` +
+      (!isDay ? `<span class="cal-num">${pos}</span>` : '');
+    elCalendarProgress.innerHTML = Array.from({length: total}, (_, i) =>
+      `<span class="cal-seg${i + 1 === pos ? ' cal-seg--active' : ''}"></span>`
+    ).join('');
   } else if (card.category === 'greetings') {
     elCardImageWrap.classList.add('has-speech');
   } else {
@@ -270,6 +304,7 @@ function renderCard(direction = 'next') {
   elCardWord.textContent = wordText;
   elCardWord.classList.toggle('word-long',      wordText.length >= 10 && wordText.length < 13);
   elCardWord.classList.toggle('word-very-long', wordText.length >= 13);
+  elCardWord.classList.toggle('word-hidden', card.category === 'alphabet');
   elCardRomanized.textContent = card.romanized || '';
   elCardTranslation.textContent = card.translation;
 
@@ -509,17 +544,19 @@ function onTouchEnd(e) {
   }
 }
 
-// ── Welcome ────────────────────────────────────────────────────────────────
+// ── Help ───────────────────────────────────────────────────────────────────
 
-function showWelcomeIfNeeded() {
-  if (!localStorage.getItem('lingocards_welcomed')) {
-    elWelcomeOverlay.classList.remove('hidden');
-  }
+function openHelp() {
+  elHelpOverlay.classList.remove('hidden');
 }
 
-function closeWelcome() {
+function closeHelp() {
   localStorage.setItem('lingocards_welcomed', '1');
-  elWelcomeOverlay.classList.add('hidden');
+  elHelpOverlay.classList.add('hidden');
+}
+
+function showHelpIfFirstVisit() {
+  if (!localStorage.getItem('lingocards_welcomed')) openHelp();
 }
 
 // ── Language notes ─────────────────────────────────────────────────────────
@@ -554,15 +591,17 @@ function attachListeners() {
 
   elNotesBtn.addEventListener('click', openNotes);
   elNotesClose.addEventListener('click', closeNotes);
-  elWelcomeStart.addEventListener('click', closeWelcome);
+  elHelpBtn.addEventListener('click', openHelp);
+  elHelpClose.addEventListener('click', closeHelp);
+  elHelpCloseBtn.addEventListener('click', closeHelp);
 
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
-      if (!elWelcomeOverlay.classList.contains('hidden')) { closeWelcome(); return; }
+      if (!elHelpOverlay.classList.contains('hidden'))    { closeHelp();    return; }
       if (!elNotesOverlay.classList.contains('hidden'))   { closeNotes();   return; }
       if (!elSettingsOverlay.classList.contains('hidden')){ closeSettings(); return; }
     }
-    if (!elWelcomeOverlay.classList.contains('hidden')) return;
+    if (!elHelpOverlay.classList.contains('hidden')) return;
     if (!elSettingsOverlay.classList.contains('hidden')) return;
     if (!elNotesOverlay.classList.contains('hidden')) return;
     if (e.key === 'ArrowLeft')  { e.preventDefault(); goPrev(); }

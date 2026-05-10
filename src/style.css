@@ -252,6 +252,17 @@ body {
   font-size: 120px;
 }
 
+.card-letter.letter {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 16px;
+  font-size: 90px;
+}
+
+.letter-upper { color: var(--navy); }
+.letter-lower { color: var(--navy); opacity: 0.55; }
+
 .card-color-swatch {
   width: 100%;
   height: 100%;
@@ -284,6 +295,92 @@ body {
 .card-image-wrap:not(.has-swatch)   .card-color-swatch { display: none; }
 .card-image-wrap:not(.has-shape)    .card-shape        { display: none; }
 .card-image-wrap:not(.has-letter)   .card-letter       { display: none; }
+.card-image-wrap:not(.has-calendar) .card-calendar     { display: none; }
+
+/* Calendar tile — days_of_week and months categories */
+.card-calendar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 3px solid var(--navy);
+}
+
+.calendar-header {
+  background: var(--navy);
+  height: 36px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.cal-arrow {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  min-width: 16px;
+  text-align: center;
+}
+
+.cal-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.5;
+}
+
+.calendar-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  background: white;
+}
+
+.cal-abbr {
+  font-size: 52px;
+  font-weight: 900;
+  color: var(--navy);
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.cal-abbr--day { font-size: 76px; }
+
+.cal-num {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--navy);
+  opacity: 0.5;
+  line-height: 1;
+}
+
+.calendar-progress {
+  display: flex;
+  gap: 3px;
+  padding: 0 8px 8px;
+  background: white;
+  flex-shrink: 0;
+}
+
+.cal-seg {
+  flex: 1;
+  height: 5px;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.cal-seg--active {
+  background: var(--navy);
+}
 
 /* Speech bubble — greetings category */
 .card-image-wrap.has-speech {
@@ -338,7 +435,13 @@ body {
   font-weight: 900;
   line-height: 1.1;
   text-align: center;
+  min-height: 58px; /* 52px × 1.1 — prevents smaller font variants from shrinking the card */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.card-word.word-hidden { visibility: hidden; }
 
 .card-word.word-long      { font-size: 40px; }
 .card-word.word-very-long { font-size: 32px; }
@@ -631,58 +734,62 @@ body {
 .settings-done-btn:disabled { opacity: 0.35; pointer-events: none; }
 
 /* ── Welcome overlay ── */
-.welcome-overlay {
+/* ── Help button ── */
+.help-btn {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: white;
+}
+
+/* ── Help overlay ── */
+.help-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(26,58,107,.75);
+  background: rgba(0,0,0,.5);
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
-  z-index: 300;
-  padding: 24px 16px;
+  z-index: 200;
 }
-.welcome-overlay.hidden { display: none; }
+.help-overlay.hidden { display: none; }
 
-.welcome-card {
-  background: var(--card-bg);
-  border-radius: 24px;
-  padding: 32px 28px;
-  max-width: 420px;
+.help-panel {
+  background: #fff;
   width: 100%;
-  box-shadow: 0 12px 48px rgba(26,58,107,.3);
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
-.welcome-title {
-  font-size: 1.6rem;
-  font-weight: 900;
-  color: var(--navy);
-  margin-bottom: 12px;
+.help-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px 20px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
-.welcome-body {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  color: var(--text);
-}
-
-.welcome-hints {
+.help-hints {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-bottom: 28px;
+  gap: 14px;
+  flex: 1;
 }
 
-.welcome-hints li {
+.help-hints li {
   font-size: 0.95rem;
-  line-height: 1.5;
+  line-height: 1.6;
   color: var(--text);
-  padding-left: 20px;
+  padding-left: 22px;
   position: relative;
 }
 
-.welcome-hints li::before {
+.help-hints li::before {
   content: '→';
   position: absolute;
   left: 0;
@@ -702,6 +809,7 @@ body {
   font-weight: 900;
   cursor: pointer;
   transition: background 0.15s;
+  flex-shrink: 0;
 }
 .welcome-start-btn:active { background: var(--navy-light); }
 
@@ -817,7 +925,7 @@ body {
 
 /* ── Responsive — larger screens ── */
 @media (min-width: 520px) {
-  .card-word            { font-size: 60px; }
+  .card-word            { font-size: 60px; min-height: 66px; }
   .card-word.word-long      { font-size: 46px; }
   .card-word.word-very-long { font-size: 36px; }
   .card-image-wrap { width: 200px; height: 200px; }
@@ -829,7 +937,7 @@ body {
 
   .card-wrapper { max-width: 600px; }
   .card-image-wrap { width: 260px; height: 260px; }
-  .card-word { font-size: 72px; }
+  .card-word { font-size: 72px; min-height: 80px; }
   .card-romanized { font-size: 1.4rem; }
   .card-translation { font-size: 1.25rem; }
 

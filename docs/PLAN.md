@@ -1,7 +1,6 @@
 # Plan
 
 ## Active
-- [ ] Review alphabet cards (alphabet_alpha–alphabet_omega) — currently shows uppercase letter as the icon and "Α α" as the translation; decide whether to split into separate upper/lowercase cards, show both forms in the visual, or change the translation field
 ## Backlog
 - Add audio paths to greek.json and run generate_audio.py (naming: audio/<card-id>_v1.mp3)
 - ~~Deploy to GitHub Pages (create repo, push, enable Pages)~~ — live at konoerik.github.io/lingocards
@@ -21,6 +20,10 @@
 - Audit service worker cache strategy once audio is added — 175 cards × 3 voices could be ~50MB if cached eagerly; consider lazy-only or user-initiated prefetch
 
 ## Done
+- Alphabet cards show both upper and lowercase letters side-by-side in the visual; word field hidden (visibility:hidden) to avoid duplicate; card height stabilised with min-height on card-word across breakpoints
+- Days-of-week and months replaced no-image placeholder with CSS calendar tile: native-language abbreviation (first letter for days, 3-letter for months with accent stripping), progression segments, ←/→ arrows in header
+- Technology category images generated (8 cards); keyboard and Mom card regenerated to fix text/subject issues
+- Welcome popup replaced with persistent `?` help button in topbar; auto-opens on first visit, reopenable anytime; content updated to cover all current features
 - Add difficulty levels (level 1–3) to all cards across all three decks; green/yellow/red dot on card; difficulty filter in settings panel with persist; empty-deck fallback bug fix
 - Add days_of_week (7 cards) and months (12 cards) to Greek, Albanian, and Spanish decks
 - Group category tabs with logical ordering and pipe dividers (Fundamentals → Time → People → Animals → Food → Nature → Home → Culture & Tech)

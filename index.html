@@ -23,6 +23,7 @@
     </div>
     <div class="topbar-right">
       <button id="shuffle-btn" class="icon-btn" aria-label="Shuffle cards" aria-pressed="false">🔀</button>
+      <button id="help-btn" class="icon-btn help-btn" aria-label="Help">?</button>
       <button id="notes-btn" class="icon-btn" aria-label="Language notes">ℹ️</button>
       <button id="settings-btn" class="icon-btn" aria-label="Settings">⚙️</button>
     </div>
@@ -46,6 +47,11 @@
           <div class="card-color-swatch" id="card-color-swatch"></div>
           <div class="card-shape" id="card-shape"></div>
           <span class="card-letter" id="card-letter" aria-hidden="true"></span>
+          <div class="card-calendar" id="card-calendar" aria-hidden="true">
+            <div class="calendar-header"></div>
+            <div class="calendar-body"></div>
+            <div class="calendar-progress" id="calendar-progress"></div>
+          </div>
         </div>
         <div class="card-word" id="card-word" lang="el"></div>
         <div class="card-romanized" id="card-romanized"></div>
@@ -75,16 +81,24 @@
   </div>
 
   <!-- Welcome overlay (first visit) -->
-  <div class="welcome-overlay hidden" id="welcome-overlay" role="dialog" aria-modal="true" aria-label="Welcome to LingoCards">
-    <div class="welcome-card">
-      <h1 class="welcome-title">Welcome to LingoCards</h1>
-      <p class="welcome-body">Illustrated flashcards to help young children build vocabulary in a new language.</p>
-      <ul class="welcome-hints">
-        <li>Use the arrow buttons, arrow keys, or swipe to move between cards</li>
-        <li>Tap the category tabs to explore topics like animals, food, or numbers</li>
-        <li>Tap the settings gear (5 quick taps) to access parent options</li>
-      </ul>
-      <button class="welcome-start-btn" id="welcome-start">Start exploring</button>
+  <!-- Help overlay -->
+  <div class="help-overlay hidden" id="help-overlay" role="dialog" aria-modal="true" aria-label="How to use LingoCards">
+    <div class="help-panel">
+      <div class="notes-header">
+        <span class="notes-title">How to use LingoCards</span>
+        <button class="settings-x" id="help-close" aria-label="Close">✕</button>
+      </div>
+      <div class="help-body">
+        <ul class="help-hints">
+          <li>Swipe, tap the arrows, or use keyboard arrow keys to move between cards</li>
+          <li>Tap the category tabs at the top to explore topics like animals, food, or numbers</li>
+          <li>Alphabet cards show both upper and lowercase letters</li>
+          <li>Days and months show a calendar tile — the small segments at the bottom mark its position in the sequence</li>
+          <li>Tap the speaker button to hear the word pronounced</li>
+          <li>Tap <strong>⚙️</strong> five times quickly to open parent settings — filter cards by difficulty level or change language</li>
+        </ul>
+        <button class="welcome-start-btn" id="help-close-btn">Got it</button>
+      </div>
     </div>
   </div>
 

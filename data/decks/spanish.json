@@ -2493,7 +2493,8 @@
     "spanish": "Teclado",
     "romanized": "Tek-lá-do",
     "translation": "Keyboard",
-    "level": 2
+    "level": 2,
+    "image": "images/technology/keyboard.webp"
   },
   {
     "id": "months_january",
