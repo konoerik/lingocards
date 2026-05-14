@@ -5,7 +5,7 @@
 **Entry point:** `index.html`
 **Styles:** `src/style.css`
 **Logic:** `src/app.js`
-**Libraries:** Nunito font (Google Fonts CDN only)
+**Libraries:** Nunito font (Google Fonts CDN); GoatCounter analytics (`gc.zgo.at/count.js`, async, no cookies)
 **Script deps (requirements.txt):** Pillow, numpy, gtts
 **Dev deps (requirements-dev.txt):** playwright (Chromium + WebKit for visual QA screenshots)
 **Data:** `data/manifest.json` + `data/decks/<lang>.json` fetched at runtime; no persistent progress state
@@ -89,6 +89,13 @@ flashcards/
 **Decision:** Add a standalone `scripts/resize_images.py` script (Pillow, already in the stack) that reads existing PNGs from `images/` and writes 512px and 256px derivatives alongside the 1024px originals. `app.js` is updated to use `srcset` so the browser picks the appropriate size. API generation (`generate_images.py`) is not modified — it remains the source-of-truth image producer at 1024px (gpt-image-1 default); resizing is a separate, offline, idempotent step.
 **Alternatives considered:** Generating multiple sizes at API call time (rejected — triples API cost and complicates the generation script); serving a single size for all screens (current state — acceptable short-term but wasteful on mobile); CSS `image-set()` (less browser support than `srcset`).
 **Consequences:** Adds `resize_images.py` to the scripts directory; `app.js` `<img>` tags gain `srcset` and `sizes` attributes; service worker cache size triples for images (250 cards × 3 sizes) — cache strategy should be reviewed at implementation time (lazy caching or user-initiated prefetch preferred over eager precache). Deferred until after Greek V1 sign-off.
+
+### ADR-5: GoatCounter for analytics
+**Date:** 2026-05-13
+**Context:** Wanted basic page-view analytics across two GitHub Pages projects (lingocards and prompted-wisdom) without introducing cookies, GDPR complexity, or a paid tier.
+**Decision:** Use GoatCounter (single site, `konoerik.goatcounter.com`). One snippet covers both projects; GoatCounter records the full URL path, so `/lingocards/` and `/prompted-wisdom/` are naturally separated by path filtering in the dashboard. Snippet added just before `</body>` in each project's `index.html`.
+**Alternatives considered:** Two separate GoatCounter sites (rejected — path filtering is sufficient and avoids having to maintain unique subdomains); Google Analytics / Plausible (rejected — overkill or paid for this scale).
+**Consequences:** One external script loaded async on page load (`gc.zgo.at/count.js`). No cookies set; no GDPR banner needed. Tracks page views only — no custom event tracking unless `window.goatcounter.count()` is called explicitly.
 
 ## Detail
 
