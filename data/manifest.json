@@ -78,6 +78,38 @@
           "body": "The Spanish alphabet has 27 letters — the same as English plus Ñ. The pronunciation guide shows how each letter's name is said in Spanish. A few letter names may surprise you: 'j' is called 'hota', 'y' is 'i griega' (Greek i), and 'w' is 'doble u'."
         }
       ]
+    },
+    {
+      "key": "french",
+      "label": "Français",
+      "flag": "🇫🇷",
+      "enabled": true,
+      "user_notes": [
+        {
+          "title": "Reading the pronunciation guide",
+          "body": "The italicised line beneath each French word is a phonetic guide written with familiar letters. French has no strong stressed syllable — give every syllable roughly equal weight, with a slight lift on the last one. Many final letters are silent (the 't' in 'chat', the 'x' in 'deux'), so the guide only shows what you actually say."
+        },
+        {
+          "title": "Key sounds to know",
+          "body": "When the guide shows 'n' closing a sound — 'ahn', 'ohn', 'an', 'uhn' — it's a nasal vowel: let the vowel go through your nose and don't really say the 'n' (as in 'croissant'). 'ü' is the French 'u': say 'ee' with your lips rounded into an 'oo'. 'zh' is the 's' in 'measure'. The French 'r' is made at the back of the throat, a little like a soft gargle."
+        },
+        {
+          "title": "Le, la, l' and les",
+          "body": "Every French noun is masculine or feminine, and the ending rarely tells you which — so the cards show each noun with its article: 'le' (masculine), 'la' (feminine), 'les' (plural). Before a vowel or silent h both become l' (l'éléphant, l'eau), which hides the gender. Learning the word together with its article is how French children learn it too. Days, months, colours, numbers, verbs and family names like 'Maman' are shown without an article, as they're normally said."
+        },
+        {
+          "title": "Linking words together",
+          "body": "French often links a normally silent final letter to a following vowel — 'les yeux' is said 'lay-zyuh', and 'les étoiles' is 'lay-zay-twahl'. The guide shows these links where they happen."
+        },
+        {
+          "title": "About the alphabet cards",
+          "body": "The French alphabet has the same 26 letters as English, but the names differ: 'e' sounds like 'uh', 'i' is 'ee', 'g' is 'zhay', 'j' is 'zhee', 'w' is 'doo-bluh-vay' (double v) and 'y' is 'ee-grek' (Greek i). Accents (é, è, ê, ç…) change a letter's sound but are not separate letters."
+        },
+        {
+          "title": "June and July",
+          "body": "On the calendar tile both 'juin' and 'juillet' start with JUI — the word on the card tells them apart. French usually writes days and months in lowercase; the cards capitalise them only because they start the card."
+        }
+      ]
     }
   ]
 }

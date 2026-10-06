@@ -45,6 +45,7 @@ ELEVENLABS_VOICES = {
 GTTS_LANG = {
     'greek':   'el',
     'spanish': 'es',
+    'french':  'fr',
 }
 
 

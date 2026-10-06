@@ -2,7 +2,7 @@
 
 A Progressive Web App (PWA) flashcard app for young children learning a new language. Cards show an illustration (or CSS-rendered visual), the target-language word, a romanized pronunciation guide, and the English translation.
 
-Greek is the first deck (250 cards). The architecture supports adding additional languages — Spanish, French, etc. — by adding a new deck to `data/words.json` without touching any code.
+Decks are available for Greek, Albanian, Spanish and French. Adding another language needs no code changes: add an entry to `data/manifest.json` and a `data/decks/<lang>.json` file.
 
 ## Features
 

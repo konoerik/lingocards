@@ -2437,6 +2437,7 @@
     "spanish": "Teléfono",
     "romanized": "Te-lé-fo-no",
     "translation": "Phone",
+    "image": "images/technology/phone.webp",
     "level": 2
   },
   {
@@ -2445,6 +2446,7 @@
     "spanish": "Tableta",
     "romanized": "Tab-lé-ta",
     "translation": "Tablet",
+    "image": "images/technology/tablet.webp",
     "level": 2
   },
   {
@@ -2453,6 +2455,7 @@
     "spanish": "Computadora",
     "romanized": "Kom-pu-ta-dó-ra",
     "translation": "Computer",
+    "image": "images/technology/computer.webp",
     "level": 2
   },
   {
@@ -2461,6 +2464,7 @@
     "spanish": "Televisión",
     "romanized": "Te-le-bi-syón",
     "translation": "Television",
+    "image": "images/technology/television.webp",
     "level": 2
   },
   {
@@ -2469,6 +2473,7 @@
     "spanish": "Cámara",
     "romanized": "Ká-ma-ra",
     "translation": "Camera",
+    "image": "images/technology/camera.webp",
     "level": 2
   },
   {
@@ -2477,6 +2482,7 @@
     "spanish": "Auriculares",
     "romanized": "Ow-ri-ku-lá-res",
     "translation": "Headphones",
+    "image": "images/technology/headphones.webp",
     "level": 2
   },
   {
@@ -2485,6 +2491,7 @@
     "spanish": "Control remoto",
     "romanized": "Kon-trόl Re-mó-to",
     "translation": "Remote",
+    "image": "images/technology/remote.webp",
     "level": 2
   },
   {

@@ -25,8 +25,10 @@ flashcards/
 ├── data/
 │   ├── manifest.json       # deck registry: key, label, flag, enabled, user_notes per deck
 │   ├── decks/
-│   │   ├── greek.json      # Greek card array (261 cards)
-│   │   └── spanish.json    # Spanish card array (empty; placeholder)
+│   │   ├── greek.json      # Greek card array (288 cards)
+│   │   ├── albanian.json   # Albanian card array (300 cards)
+│   │   ├── spanish.json    # Spanish card array (291 cards)
+│   │   └── french.json     # French card array (290 cards; nouns carry le/la/l'/les)
 │   └── notes.json          # romanization conventions and editorial notes
 ├── src/
 │   ├── app.js              # all runtime JS
@@ -49,7 +51,7 @@ flashcards/
 ## Decisions (ADRs)
 <!-- Append new ADRs with /log -->
 - **No framework** — vanilla JS sufficient for this scope; eliminates build step and maintenance overhead
-- **Multi-language** — Greek and Albanian are enabled; Spanish is scaffolded (`"enabled": false`). Language dropdown renders from `manifest.json`; decks load on demand from `data/decks/<lang>.json`. Category tab order matches JSON card order (first-occurrence via `new Set`); both decks share the same category sequence.
+- **Multi-language** — Greek, Albanian, Spanish and French are enabled. Language dropdown renders from `manifest.json`; decks load on demand from `data/decks/<lang>.json`. Category tab order matches JSON card order (first-occurrence via `new Set`); all decks share the same category sequence.
 - **Visual hierarchy per category** — colors use CSS-rendered swatches (`color` hex field); shapes use CSS-drawn shapes (`shape` field); numbers display as large bold numerals (`numeral` field); alphabet displays as large bold letters (`letter` field, works for any script); all other categories use PNG illustrations
 - **Image-optional** — every card has an emoji fallback; `image` field is optional; `.has-image` / `.has-swatch` CSS classes control which visual is shown
 - **Image generation via gpt-image-1** — `scripts/generate_images.py` calls `gpt-image-1` (default) via OpenAI `/v1/images/generations`; also supports DALL-E 3/2 and OpenRouter/Gemini via `--model` flag. API response (PNG bytes) is converted in-memory via Pillow to WebP 512px quality 85 before hitting disk; skips existing files; updates the deck JSON with `.webp` paths. Switched from Gemini (OpenRouter) → DALL-E 3 → gpt-image-1 after quality comparison; gpt-image-1 matches duck.ai output without prompt rewriting.
@@ -96,6 +98,13 @@ flashcards/
 **Decision:** Use GoatCounter (single site, `konoerik.goatcounter.com`). One snippet covers both projects; GoatCounter records the full URL path, so `/lingocards/` and `/prompted-wisdom/` are naturally separated by path filtering in the dashboard. Snippet added just before `</body>` in each project's `index.html`.
 **Alternatives considered:** Two separate GoatCounter sites (rejected — path filtering is sufficient and avoids having to maintain unique subdomains); Google Analytics / Plausible (rejected — overkill or paid for this scale).
 **Consequences:** One external script loaded async on page load (`gc.zgo.at/count.js`). No cookies set; no GDPR banner needed. Tracks page views only — no custom event tracking unless `window.goatcounter.count()` is called explicitly.
+
+### ADR-6: Definite articles are a per-deck content convention (French uses them; others don't)
+**Date:** 2026-10-06
+**Context:** Adding the French deck raised whether nouns should be shown with their article. French noun gender is mostly unpredictable from the word's ending, and French children learn nouns together with *le/la*. The existing decks show bare nouns.
+**Decision:** French nouns include the definite article in the word field (`Le chat`, `La pomme`, `L'éléphant`, `Les yeux`), and the romanized guide includes it too (`Luh shah`). Exclusions: numbers, colours, verbs, greetings, days, months, Noël/Pâques, and family terms of address (Maman, Papa, Mamie, Papi). Greek, Spanish and Albanian stay bare. Articles are deck content only — no new card field and no code change.
+**Alternatives considered:** Articles in every deck (rejected — in Albanian, "the" is a suffix, *qen → qeni*, so a separate article would be wrong; in Spanish and Greek the ending usually signals gender, so the benefit is small). A separate `article`/`gender` field rendered by the app (rejected — needs code and per-language rendering rules for a benefit only French needs today). Bare nouns in French (rejected — loses gender, which French learners need from the start).
+**Consequences:** Before a vowel or silent h, *l'* hides the gender (`L'éléphant`). A French manifest note explains *le/la/l'/les*. Words get longer: "Les sous-vêtements" and "La pomme de terre" wrap at phone widths (≤375px). Future decks decide case by case; languages with unpredictable gender (e.g. German) should probably follow the French convention.
 
 ## Detail
 
